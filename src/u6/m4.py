@@ -517,3 +517,24 @@ def stage_check(n: int = 50, seed: int = 9, cap_usd: float = 1.5) -> None:
                "topic_ok": sum(r["topic_ok"] for r in rows), "spend_usd": round(total, 3)}
     (M4 / "check.json").write_text(json.dumps({"summary": summary, "rows": rows}, ensure_ascii=False, indent=1) + "\n")
     print(json.dumps(summary, indent=1))
+
+
+def stage_fallback(batch_id: str) -> None:
+    """Hadith still untranslated after the singles pass: keep the (already paid) translation
+    from `batch_id` and drop per-segment italics, as sample.translate does on misalignment."""
+    tr, reps = load_translations(), representatives()
+    left = {h["id"]: h for h in reps if h["id"] not in tr}
+    manifest = json.loads((M4 / f"batch-{batch_id}.json").read_text())
+    rows = []
+    for res in llm._client().messages.batches.results(batch_id):
+        h_id = manifest[res.custom_id][0]
+        if h_id not in left or res.result.type != "succeeded" or res.result.message.stop_reason != "end_turn":
+            continue
+        text = next((b.text for b in res.result.message.content if b.type == "text"), "")
+        en = [s for s in json.loads(text)["hadith"][0]["segments"] if s.strip()]
+        if en:
+            rows.append({"id": h_id, "segments_en": [" ".join(en)] + [""] * (len(left[h_id]["segments"]) - 1),
+                         "model": TRANSLATE_MODEL, "effort": TRANSLATE_EFFORT,
+                         "label": "machine translation", "italics_dropped": True})
+    _append(rows)
+    print(f"fallback: {len(rows)} of {len(left)}; translated {len(tr) + len(rows)}/{len(reps)}")

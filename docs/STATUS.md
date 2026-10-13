@@ -2,12 +2,12 @@
 
 *Pickup file for any session. Update at the end of every stage.*
 
-**Last updated:** 2026-10-13 · **Current milestone:** M2 + M3 done → M4 next (not started) · **Branch:** `claude/nifty-faraday-ptd4qw`
+**Last updated:** 2026-10-13 · **Current milestone:** M4 done → M5 next (not started) · **Branch:** `claude/blissful-franklin-z0z0m6`
 
 ## Budget
 
-**≈ $31 of API credit left, no refill.** Spent $68.68: M1 $50.05 (≈ $22 of it a cancelled
-batch that was billed anyway), M2 + M3 $18.63. Every step projected above $5 needs the
+**≈ $15.43 of API credit left, no refill.** Spent $84.57: M1 $50.05 (≈ $22 of it a cancelled
+batch that was billed anyway), M2 + M3 $18.63, M4 $15.89. Every step projected above $5 needs the
 owner's go-ahead.
 Spend log: `data/m1/spend.jsonl`. Batch IDs: `data/batches.json`.
 
@@ -37,9 +37,18 @@ Spend log: `data/m1/spend.jsonl`. Batch IDs: `data/batches.json`.
   - Quality: 96.3 % merge precision on new-book gold (79/82), just under the 97 % gate,
     accepted by the owner for budget. `docs/reports/m23-eval.md`
 
+- **M4: translation and topics** (`docs/reports/m4.md`, bake-off `docs/reports/m4-bakeoff.md`)
+  - All 13,021 representatives translated by Sonnet 5.5 (medium, packed, Batch API), $14.40;
+    segments aligned except 9 long texts (italics dropped); every record labelled machine translation.
+    `data/m4/translations.jsonl`
+  - Bake-off: Haiku 5.5 high rejected (meaning errors in 16/45 vs 1/45 for Sonnet)
+  - 33-topic taxonomy; every hadith tagged by Haiku 5.5 ($0.39). `data/m4/topics.jsonl`
+  - Opus spot-check of 50: accuracy 4.78/5, 3 meaning-changing errors, topics 49/50 right
+  - Found: 98 representatives of ≤ 3 words (split leftovers such as بِهَذَا) → M5 cleanup
+
 ## Next
 
-**M4 — translation (Sonnet, ≈ $20, fits) and topics.** Brief: `docs/handoff/M4.md`.
+**M5 — release v1.0** (12 PDF builds + dataset). Brief: `docs/handoff/M5.md`.
 
 ## Owner decisions on record
 
@@ -47,7 +56,8 @@ Spend log: `data/m1/spend.jsonl`. Batch IDs: `data/batches.json`.
 - Muslim's Muqaddima (almost empty upstream) is out of v1.
 - No human gold review; Opus adjudicates. Hard cases get an "ambiguous" tag, not more spend.
 - M2 + M3 Sonnet labelling at medium effort to save cost, accepting 96.3 % vs the 97 % gate (small sample).
-- Translation with Sonnet, if it fits the budget (measured ≈ $20: it fits).
+- Translation with Sonnet, if it fits the budget (it did: $14.40). Haiku high was tried and rejected on quality.
+- Topic taxonomy: 33 top-level topics (`m4.TOPICS`).
 
 ## How to rebuild
 
@@ -60,6 +70,9 @@ python -m u6 m1 calibrate && python -m u6 m1 label    # label = Batch API spend 
 python -m u6 m1 cluster && python -m u6 m1 sample && python -m u6 m1 evaluate
 python -m u6 six pairs && python -m u6 six gold && python -m u6 six label   # label ≈ $15 Batch API
 python -m u6 six cluster && python -m u6 six evaluate
+python -m u6 m4 bakeoff && python -m u6 m4 translate && python -m u6 m4 translate --singles
+python -c "from u6 import m4; m4.stage_fallback('<singles batch id>')"   # italics-dropped fallback, no spend
+python -m u6 m4 topics && python -m u6 m4 check     # M4 ≈ $16 in all
 python -m pytest -q
 ```
 LLM stages need `ANTHROPIC_API_KEY` in the environment (never commit it).
