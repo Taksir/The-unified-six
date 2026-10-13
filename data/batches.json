@@ -504,7 +504,7 @@
   "model": "claude-sonnet-5-5",
   "requests": 500,
   "created": "2026-10-13T23:17:24",
-  "collected": false
+  "collected": true
  },
  {
   "id": "msgbatch_014W6doc1SqnATsw39aM15cS",
@@ -512,6 +512,14 @@
   "model": "claude-haiku-5-5",
   "requests": 521,
   "created": "2026-10-13T23:18:12",
+  "collected": true
+ },
+ {
+  "id": "msgbatch_018RUW66XrtXuoeqSRMCsLmw",
+  "stage": "m4-tr-w2",
+  "model": "claude-sonnet-5-5",
+  "requests": 500,
+  "created": "2026-10-13T23:24:28",
   "collected": false
  }
 ]
