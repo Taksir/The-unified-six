@@ -31,3 +31,7 @@
 {"t": "2026-10-13T19:26:57", "stage": "sample-topics", "model": "claude-haiku-5-5", "usd": 0.0016, "requests": 1}
 {"t": "2026-10-13T19:29:26", "stage": "sample-translate", "model": "claude-sonnet-5-5", "usd": 0.17517, "requests": 46}
 {"t": "2026-10-13T19:30:06", "stage": "sample-translate", "model": "claude-sonnet-5-5", "usd": 0.0, "requests": 46}
+{"t": "2026-10-13T20:22:42", "stage": "six-gold-opus", "model": "claude-opus-5-5", "usd": 0.52549, "requests": 35}
+{"t": "2026-10-13T20:23:26", "stage": "six-gold-sonnet_grouped", "model": "claude-sonnet-5-5", "usd": 0.28052, "requests": 170}
+{"t": "2026-10-13T20:24:13", "stage": "six-gold-haiku_grouped", "model": "claude-haiku-5-5", "usd": 0.02954, "requests": 170}
+{"t": "2026-10-13T20:24:32", "stage": "six-gold-adjudicate", "model": "claude-opus-5-5", "usd": 0.12298, "requests": 14}
