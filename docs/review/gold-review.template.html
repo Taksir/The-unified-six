@@ -1,0 +1,159 @@
+<title>Unified Six Gold Review</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one review column; each pair is a card with A and B side by side (stacked on phones), verdict bar beneath. */
+:root{
+  --bg:#f3f5f4; --surface:#ffffff; --ink:#1b2422; --muted:#5d6b67; --line:#d5dcd9;
+  --accent:#1f6f62; --accent-soft:#dcefeb; --warn:#a2581a; --warn-soft:#f6e7d8; --ok:#2e7d4a;
+  --f-ar:"Amiri","Noto Naskh Arabic","Traditional Arabic",serif;
+  --f-ui:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#121816; --surface:#1a2220; --ink:#e3ebe8; --muted:#97a6a1; --line:#2c3835;
+  --accent:#5fbfae; --accent-soft:#1d3a35; --warn:#e3a066; --warn-soft:#3a2a1c; --ok:#6cc58c; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#121816; --surface:#1a2220; --ink:#e3ebe8; --muted:#97a6a1; --line:#2c3835;
+  --accent:#5fbfae; --accent-soft:#1d3a35; --warn:#e3a066; --warn-soft:#3a2a1c; --ok:#6cc58c; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-ui);font-size:15px;line-height:1.5}
+.wrap{max-width:1100px;margin:0 auto;padding-inline:16px;padding-block:20px 60px;display:grid;gap:18px}
+header{display:grid;gap:10px}
+h1{font-size:1.45rem;margin:0;text-wrap:balance;font-weight:600}
+.lede{margin:0;color:var(--muted);max-width:68ch}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:10px;border-bottom:1px solid var(--line);display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center}
+.prog{font-variant-numeric:tabular-nums;font-family:var(--f-mono);font-size:.85rem;color:var(--muted)}
+.prog b{color:var(--ink);font-weight:500}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:4px 12px;font:inherit;font-size:.85rem;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+.status{font-size:.82rem;color:var(--muted);margin-left:auto}
+.status.err{color:var(--warn)}
+.list{display:grid;gap:14px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px;display:grid;gap:12px}
+.card.conflict{border-left:4px solid var(--warn)}
+.meta{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.8rem;color:var(--muted);align-items:center}
+.meta .id{font-family:var(--f-mono);color:var(--ink)}
+.tag{font-family:var(--f-mono);font-size:.75rem;padding:1px 7px;border-radius:5px;background:var(--accent-soft);color:var(--ink)}
+.tag.warn{background:var(--warn-soft)}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:720px){.pair{grid-template-columns:1fr}}
+.side{min-width:0;display:grid;gap:4px;align-content:start}
+.side h3{margin:0;font-size:.8rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);display:flex;gap:8px;flex-wrap:wrap}
+.side h3 span{text-transform:none;letter-spacing:0;font-weight:400}
+.ar{font-family:var(--f-ar);font-size:1.18rem;line-height:1.95;direction:rtl;text-align:right;margin:0;max-height:22em;overflow:auto;overflow-wrap:anywhere}
+.narr{font-family:var(--f-ar);direction:rtl;font-size:.95rem}
+.verdicts{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.v{border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:7px;padding:6px 11px;font:inherit;font-size:.86rem;cursor:pointer}
+.v:hover{border-color:var(--accent)}
+.v[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+.v:focus-visible,.chip:focus-visible,.more:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.note{flex:1 1 220px;min-width:0;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:7px;padding:6px 10px;font:inherit;font-size:.86rem}
+.saved{font-size:.78rem;color:var(--ok)}
+.more{justify-self:center;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:8px;padding:8px 18px;font:inherit;cursor:pointer}
+.empty{color:var(--muted);text-align:center;padding:30px}
+dl.key{display:grid;grid-template-columns:auto 1fr;gap:2px 12px;margin:0;font-size:.85rem;max-width:80ch}
+dl.key dt{font-family:var(--f-mono);font-weight:500}
+dl.key dd{margin:0;color:var(--muted)}
+</style>
+<div class="wrap">
+<header>
+  <h1>Gold set review: Bukhārī + Muslim pairs</h1>
+  <p class="lede">350 narration pairs used to check the merge decisions. Opus 5.5 labelled them as the reference; Sonnet 5.5 and the pipeline's own rules were scored against it. Your verdict is the final word. Pairs where the models or the pipeline disagree come first. Verdicts save as you click.</p>
+  <dl class="key">
+    <dt>Same</dt><dd>Same Prophetic statement or event; wording may differ.</dd>
+    <dt>A⊂B</dt><dd>A is a fragment of B (B adds substantial content).</dd>
+    <dt>B⊂A</dt><dd>B is a fragment of A.</dd>
+    <dt>Related</dt><dd>Same topic or occasion, materially different content. Must not merge.</dd>
+    <dt>Different</dt><dd>Unrelated.</dd>
+  </dl>
+</header>
+<div class="bar">
+  <div class="prog" id="prog">Loading…</div>
+  <div class="chips" role="group" aria-label="Filter">
+    <button class="chip" id="f-conflict" data-f="conflict" aria-pressed="true">Disputed</button>
+    <button class="chip" id="f-open" data-f="open" aria-pressed="false">Not reviewed</button>
+    <button class="chip" id="f-all" data-f="all" aria-pressed="false">All</button>
+  </div>
+  <div class="status" id="status">Connecting to saved verdicts…</div>
+</div>
+<div class="list" id="list"></div>
+<button class="more" id="more" hidden>Show more</button>
+</div>
+<script>
+const DATA = /*DATA*/[];
+const LABEL = {same:"Same",a_in_b:"A⊂B",b_in_a:"B⊂A",related:"Related",different:"Different",partial:"Fragment",unsure:"Unsure"};
+const OPTS = ["same","a_in_b","b_in_a","related","different","unsure"];
+const MERGE = new Set(["same","a_in_b","b_in_a","partial"]);
+let verdicts = {}; let filter = "conflict"; let shown = 20; let db = null; let canWrite = false;
+const $ = s => document.querySelector(s);
+
+function el(tag, attrs, ...kids){ const e=document.createElement(tag); for(const [k,v] of Object.entries(attrs||{})){ if(k==="class") e.className=v; else if(k==="text") e.textContent=v; else e.setAttribute(k,v);} for(const c of kids) if(c!=null) e.append(c); return e; }
+
+function visible(){
+  return DATA.filter(p => filter==="all" ? true : filter==="conflict" ? p.flag==="conflict" : !verdicts[p.k]);
+}
+function progress(){
+  const n=Object.keys(verdicts).length, c=DATA.filter(p=>p.flag==="conflict"), cn=c.filter(p=>verdicts[p.k]).length;
+  const agree = DATA.filter(p=>verdicts[p.k] && verdicts[p.k].verdict!=="unsure");
+  const sysOk = agree.filter(p => MERGE.has(p.system)===MERGE.has(verdicts[p.k].verdict)).length;
+  $("#prog").innerHTML = `<b>${n}</b> / ${DATA.length} reviewed · disputed <b>${cn}</b> / ${c.length}` + (agree.length? ` · pipeline agrees with you on <b>${sysOk}</b> / ${agree.length}`:"");
+}
+function card(p){
+  const v = verdicts[p.k];
+  const meta = el("div",{class:"meta"},
+    el("span",{class:"id",text:p.k}),
+    el("span",{text:"score band "+p.stratum.replace("_"," ")}),
+    el("span",{class:"tag"+(MERGE.has(p.opus)!==MERGE.has(p.sonnet)?" warn":""),text:"Opus: "+LABEL[p.opus]}),
+    el("span",{class:"tag",text:"Sonnet: "+LABEL[p.sonnet]}),
+    el("span",{class:"tag"+(MERGE.has(p.system)!==MERGE.has(p.opus)?" warn":""),text:"Pipeline ("+p.by+"): "+(LABEL[p.system]||p.system)}));
+  const side=(lab,ref,txt,nar)=>el("div",{class:"side"},
+    el("h3",{},lab, el("span",{text:ref})),
+    nar? el("div",{class:"narr",text:"الراوي: "+nar}) : null,
+    el("p",{class:"ar",lang:"ar",text:txt}));
+  const bar = el("div",{class:"verdicts"});
+  for(const o of OPTS){
+    const b=el("button",{class:"v",type:"button",id:`v-${p.k}-${o}`,"aria-pressed":String(!!v && v.verdict===o),text:LABEL[o]});
+    b.disabled=!canWrite; b.addEventListener("click",()=>save(p,o));
+    bar.append(b);
+  }
+  const note=el("input",{class:"note",id:`n-${p.k}`,placeholder:"Note (optional)",value:(v&&v.note)||""});
+  note.disabled=!canWrite;
+  note.addEventListener("change",()=>{ const cur=verdicts[p.k]; if(cur) save(p,cur.verdict,note.value); });
+  bar.append(note);
+  if(v) bar.append(el("span",{class:"saved",text:"Saved"}));
+  return el("article",{class:"card"+(p.flag?" conflict":""),id:"c-"+p.k}, meta,
+    el("div",{class:"pair"}, side("A",p.a,p.at,p.an), side("B",p.b,p.bt,p.bn)), bar);
+}
+function render(){
+  const list=$("#list"); const items=visible(); list.replaceChildren();
+  if(!items.length){ list.append(el("p",{class:"empty",text: filter==="open"?"Every pair has a verdict.":"No pairs in this view."})); }
+  for(const p of items.slice(0,shown)) list.append(card(p));
+  $("#more").hidden = items.length<=shown;
+  progress();
+}
+async function save(p, verdict, note){
+  if(!db) return;
+  const body={pid:p.pid, verdict, note: note ?? (verdicts[p.k]?.note||""), opus:p.opus, sonnet:p.sonnet, system:p.system, at:new Date().toISOString()};
+  verdicts[p.k]=body; render();
+  try{ await db.collection("verdicts").doc(p.k).set(body); setStatus("Saved"); }
+  catch(e){ setStatus("Not saved: "+(e&&e.message||"the store refused the write")+". Reload and try again.",true); }
+}
+function setStatus(t,err){ const s=$("#status"); s.textContent=t; s.classList.toggle("err",!!err); }
+document.querySelectorAll(".chip").forEach(c=>c.addEventListener("click",()=>{
+  filter=c.dataset.f; shown=20; document.querySelectorAll(".chip").forEach(x=>x.setAttribute("aria-pressed",String(x===c))); render();
+}));
+$("#more").addEventListener("click",()=>{ shown+=20; render(); });
+render();
+(async()=>{
+  const c = window.claude;
+  db = c ? await c.use("db") : null;
+  const user = c ? await c.use("user") : null;
+  if(!db){ setStatus("Saving is unavailable in this view. Open the page signed in to record verdicts.",true); return; }
+  canWrite = user ? (await user.can("data.write")) !== false : true;
+  if(!canWrite) setStatus("You can read this review but not record verdicts.",true); else setStatus("Ready");
+  db.collection("verdicts").onSnapshot(snap=>{
+    const next={}; for(const d of snap.docs){ next[d.id]=d.data(); } verdicts=next; render();
+  }, e=>setStatus("Could not load saved verdicts: "+(e&&e.message||"error"),true));
+})();
+</script>
