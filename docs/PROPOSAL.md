@@ -161,10 +161,9 @@ Code does most of the work. The LLM sees only what code cannot decide. We never 
 - **Topic tagging:** Haiku assigns each merged hadith one primary topic (plus optional secondary topics) from the fixed taxonomy.
 
 ### 4.4 Translation
-Priority order, as agreed:
-1. **Openly licensed existing translation** per book, if research confirms one exists.
-2. **LLM translation**, clearly labelled as machine translation, with community correction via GitHub issues.
-3. Arabic-only (last resort).
+Research (`docs/research/data-sources.md`) found **no openly licensed English translation for any of the six books**: the standard translations (Darussalam, Siddiqui) are copyrighted, and the English in every dataset is those same translations. So we use the agreed fallback:
+
+**LLM translation**, clearly labelled as machine translation, with community correction via GitHub issues. (Requesting permission from the copyright holders remains an optional parallel track.)
 
 For LLM translation, we translate only the ~10k representatives, not all 35k narrations. Segment markers are kept through translation so the English italics match the Arabic. A fixed glossary (ṣalāh, zakāh, ﷺ → "ﷺ", Companion names) keeps terms consistent.
 
@@ -213,7 +212,7 @@ This fits within the $100 credit. Each stage has a hard spend cap in config and 
 ### 5.4 Evaluation (gold set)
 
 - **Gold set:** ~300 candidate pairs stratified across score bands, plus ~50 known-different "hard negatives" on the same topic. Annotated by Sonnet, then verified by the owner.
-- **External ground truth:** cross-references from al-Mizzi's *Tuhfat al-Ashraf* and the zawāʾid literature (e.g. al-Busiri's *Misbah al-Zujajah* for Ibn Majah), where machine-readable copies exist.
+- **External ground truth:** research found no machine-readable *Tuhfat al-Ashraf*, *Jami' al-Usul* or *Misbah al-Zujajah*. Instead: per-book unique-count checks against scholarly figures, and owner spot-checks of samples against a printed edition or Shamela. If a digital Tuhfa turns up later, it gets plugged in.
 - **Metrics:** precision and recall for `same` and `partial`; cluster purity.
 - **Quality gate:** **≥ 97% precision on `same`** before scaling past the MVP. A false merge hides a hadith, which is worse than leaving a duplicate.
 - **Sanity checks:** every narration ID appears in exactly one merged hadith; per-book unique counts are compared with scholarly estimates (e.g. Bukhari ≈ 2,600 unique).
@@ -230,7 +229,7 @@ The cloud session can end at any time, so:
 
 | # | Milestone | Exit criteria |
 |---|---|---|
-| **M0** | Data foundation | Sources chosen and licence-cleared; all six books ingested to a common schema; numbering concordance built |
+| **M0** | Data foundation | Source: `fawazahmed0/hadith-api` Arabic with tashkeel (Unlicense; provenance to be confirmed, see §6); rule-based isnad/matn split; all six books ingested to a common schema; numbering concordance built |
 | **M1** | **MVP: Bukhari + Muslim** | Within- and cross-book merge; gold set and evaluation pass the quality gate; 30-page sample PDF (both editions, EN+AR) for owner review of format |
 | **M2** | + Abu Dawud, Tirmidhi | Merged; Tirmidhi grades attached; gate re-checked |
 | **M3** | + Nasa'i, Ibn Majah | All six merged; zawāʾid validation; human review queue cleared |
@@ -245,7 +244,10 @@ The cloud session can end at any time, so:
 
 | Risk | Mitigation |
 |---|---|
-| No openly licensed English translation | Labelled LLM translation (agreed fallback) |
+| No openly licensed English translation (**confirmed**) | Labelled LLM translation (agreed fallback) |
+| Arabic source provenance: the Unlicense dataset is likely a sunnah.com scrape | The classical text itself is public domain, but modern editorial layers (tashkeel, numbering) may not be. Develop on it now; before the **public** v1.0 release, seek written permission from sunnah.com or switch to an independently sourced edition |
+| No source splits isnad from matn | Rule-based split, validated against LK-Hadith-Corpus and Sanadset (used for validation only, not shipped) |
+| Numbering schemes disagree (e.g. Bukhari 7,563 vs 7,277 numbers) | Numbering crosswalk built in M0 |
 | False merges hide distinct hadith | Precision-first threshold; anti-chaining guard; review queue; public issue reporting |
 | Isnad/matn split errors corrupt matching | Prefer sources with a native split; measure split accuracy on the gold set |
 | Clause alignment noisy for italics | Clause-level (not word-level) alignment; uncertain cases fall back to no italics, with variants in the appendix |
