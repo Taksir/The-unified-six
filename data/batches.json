@@ -489,5 +489,13 @@
   "requests": 1,
   "created": "2026-10-13T21:39:30",
   "collected": false
+ },
+ {
+  "id": "msgbatch_01QyQbos6K2mSC8jfCo9ZBq4",
+  "stage": "m4-tr-w0",
+  "model": "claude-sonnet-5-5",
+  "requests": 100,
+  "created": "2026-10-13T23:09:11",
+  "collected": false
  }
 ]
