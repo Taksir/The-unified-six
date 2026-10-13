@@ -320,3 +320,134 @@ def stage_translate(pilot: int = 100, cap_usd: float = TRANSLATE_CAP_USD, single
     have = load_translations()
     print(f"done: {len(have)}/{len(reps)} translated; leftovers {len(reps) - len(have)} "
           f"(re-run with singles=True); stage spend ${stage_spend():.2f}")
+
+
+# ---------------------------------------------------------------- topics
+
+# Final M4 taxonomy (owner-approved, 33 topics): the 27 provisional topics after Ibn
+# al-Athir's Jami' al-Usul, plus tafsir, sirah, sacrifice, emancipation, blood money (split
+# from crimes) and greetings (split from manners).
+TOPICS = [
+    "Faith and belief", "Knowledge and the Sunnah", "The Qur'an and its recitation",
+    "Qur'anic commentary (tafsir)", "Purification", "Prayer", "Funerals", "Zakat and charity",
+    "Fasting", "Hajj and Umrah", "Sacrifice, slaughter and aqiqah", "Trade and transactions",
+    "Marriage and divorce", "Inheritance and bequests", "Emancipation of slaves",
+    "Food, drink and hunting", "Dress and adornment", "Manners and good character",
+    "Greetings, seeking permission and gatherings", "Supplication and remembrance",
+    "Medicine and dreams", "Oaths, vows and expiation", "Crimes and punishments",
+    "Blood money and retaliation", "Judgments and testimony", "Government and leadership",
+    "Jihad and expeditions", "Biography and campaigns of the Prophet",
+    "Virtues of the Prophet and Companions", "Prophets and creation",
+    "Signs of the Hour and tribulations", "Resurrection, Paradise and Hell", "Softening of hearts",
+]
+TOPICS_FILE = M4 / "topics.jsonl"
+TOPIC_MODEL, TOPIC_EFFORT = llm.HAIKU, "medium"
+TOPIC_PACK = 25
+TOPIC_WORDS = 120   # Arabic words shown per hadith: the opening carries the subject
+
+TOPIC_SYSTEM = """You file hadith into a fixed list of topics for a printed edition arranged \
+by subject. For each hadith choose exactly one primary topic: the subject a reader would look \
+it up under. Judge by what the hadith is about, not by a passing mention. The chapter titles \
+under which the six books place it are given as a hint; they are usually right about the \
+subject but some books use broad or idiosyncratic chapters. Optionally add up to two \
+secondary topics when the hadith substantially treats them too.
+Topics: """ + "; ".join(TOPICS)
+
+TOPIC_SCHEMA = {
+    "type": "object",
+    "properties": {"results": {"type": "array", "items": {
+        "type": "object",
+        "properties": {"id": {"type": "string"},
+                       "topic": {"type": "string", "enum": TOPICS},
+                       "secondary": {"type": "array", "items": {"type": "string", "enum": TOPICS}}},
+        "required": ["id", "topic", "secondary"], "additionalProperties": False}}},
+    "required": ["results"], "additionalProperties": False,
+}
+
+
+def _chapter_titles() -> dict:
+    books = json.loads((DATA / "books.json").read_text())["books"]
+    return {(b["slug"], c["chapter"]): c["title_en"] for b in books for c in b["chapters"]}
+
+
+def _narr_chapters() -> dict:
+    out = {}
+    for f in (DATA / "narrations").glob("*.jsonl"):
+        for l in f.open(encoding="utf-8"):
+            r = json.loads(l)
+            out[r["id"]] = (r["book"], r["chapter"])
+    return out
+
+
+def topic_params(hs: list[dict], titles: dict, nch: dict) -> dict:
+    parts = []
+    for h in hs:
+        chs = sorted({f"{nch[m['id']][0]}: {titles.get(nch[m['id']], '')}" for m in h["members"]
+                      if m["id"] in nch and titles.get(nch[m["id"]])})
+        w = " ".join(letters(s["ar"]) for s in h["segments"]).split()
+        parts.append(f"<hadith id=\"{h['id']}\">\n<chapters>{'; '.join(chs)}</chapters>\n"
+                     f"{' '.join(w[:TOPIC_WORDS])}{' …' if len(w) > TOPIC_WORDS else ''}\n</hadith>")
+    return {
+        "model": TOPIC_MODEL, "max_tokens": 6000 + 80 * len(hs),
+        "system": [{"type": "text", "text": TOPIC_SYSTEM, "cache_control": {"type": "ephemeral"}}],
+        "output_config": {"effort": TOPIC_EFFORT, "format": {"type": "json_schema", "schema": TOPIC_SCHEMA}},
+        "messages": [{"role": "user", "content": "\n".join(parts)}],
+    }
+
+
+def parse_topics(msg, hs: list[dict]) -> dict:
+    if msg.stop_reason != "end_turn":
+        return {}
+    text = next((b.text for b in msg.content if b.type == "text"), "")
+    try:
+        got = {r["id"]: r for r in json.loads(text)["results"]}
+    except (json.JSONDecodeError, KeyError, TypeError):
+        return {}
+    return {h["id"]: {"topic": got[h["id"]]["topic"],
+                      "secondary": [t for t in got[h["id"]]["secondary"] if t != got[h["id"]]["topic"]][:2]}
+            for h in hs if h["id"] in got}
+
+
+def stage_topics(cap_usd: float = 3.0) -> None:
+    """One Haiku batch over every hadith with text (resumable; leftovers re-sent singly)."""
+    from anthropic.types.message_create_params import MessageCreateParamsNonStreaming
+    from anthropic.types.messages.batch_create_params import Request
+    llm.require_key()
+    titles, nch = _chapter_titles(), _narr_chapters()
+    reps = representatives()
+    by_id = {h["id"]: h for h in reps}
+    client = llm._client()
+    for attempt in range(3):
+        have = {r["id"] for r in map(json.loads, TOPICS_FILE.open())} if TOPICS_FILE.exists() else set()
+        todo = [h for h in reps if h["id"] not in have]
+        if not todo:
+            break
+        if llm.spent("m4-topics") > cap_usd:
+            raise SystemExit(f"m4-topics: spend cap ${cap_usd} reached")
+        size = TOPIC_PACK if attempt == 0 else 1
+        packs = [todo[i:i + size] for i in range(0, len(todo), size)]
+        stage = f"m4-topics-{attempt}"
+        reqs = [Request(custom_id=f"{stage}-{k}", params=MessageCreateParamsNonStreaming(
+            **topic_params(p, titles, nch))) for k, p in enumerate(packs)]
+        batch = client.messages.batches.create(requests=reqs)
+        llm._record_batch(batch.id, "m4-topics", TOPIC_MODEL, len(reqs))
+        manifest = {f"{stage}-{k}": [h["id"] for h in p] for k, p in enumerate(packs)}
+        (M4 / f"batch-{batch.id}.json").write_text(json.dumps(manifest))
+        print(f"{stage}: {len(reqs)} requests, batch {batch.id}", flush=True)
+        while client.messages.batches.retrieve(batch.id).processing_status != "ended":
+            time.sleep(60)
+        usd, rows = 0.0, []
+        for res in client.messages.batches.results(batch.id):
+            if res.result.type != "succeeded":
+                continue
+            usd += llm.cost(TOPIC_MODEL, res.result.message.usage, batch=True)
+            for h_id, t in parse_topics(res.result.message, [by_id[i] for i in manifest[res.custom_id]]).items():
+                rows.append({"id": h_id, **t, "model": TOPIC_MODEL})
+        with TOPICS_FILE.open("a", encoding="utf-8") as f:
+            for r in rows:
+                f.write(json.dumps(r, ensure_ascii=False) + "\n")
+        llm.log_spend("m4-topics", TOPIC_MODEL, usd, len(reqs))
+        meta = json.loads(llm.BATCHES.read_text())
+        next(r for r in meta if r["id"] == batch.id)["collected"] = True
+        llm.BATCHES.write_text(json.dumps(meta, indent=1) + "\n")
+        print(f"  ${usd:.3f}; tagged {len(have) + len(rows)}/{len(reps)}", flush=True)

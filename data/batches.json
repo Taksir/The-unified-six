@@ -497,5 +497,21 @@
   "requests": 100,
   "created": "2026-10-13T23:09:11",
   "collected": true
+ },
+ {
+  "id": "msgbatch_01X5jNaZpfj7eY3y7V3AESHc",
+  "stage": "m4-tr-w1",
+  "model": "claude-sonnet-5-5",
+  "requests": 500,
+  "created": "2026-10-13T23:17:24",
+  "collected": false
+ },
+ {
+  "id": "msgbatch_014W6doc1SqnATsw39aM15cS",
+  "stage": "m4-topics",
+  "model": "claude-haiku-5-5",
+  "requests": 521,
+  "created": "2026-10-13T23:18:12",
+  "collected": false
  }
 ]
