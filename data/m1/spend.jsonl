@@ -80,3 +80,7 @@
 {"t": "2026-10-13T21:31:55", "stage": "six-sonnet-w2", "model": "claude-sonnet-5-5", "usd": 0.35608, "requests": 500}
 {"t": "2026-10-13T21:39:16", "stage": "six-sonnet-w3", "model": "claude-sonnet-5-5", "usd": 0.35477, "requests": 500}
 {"t": "2026-10-13T21:39:17", "stage": "six-sonnet-w3", "model": "claude-sonnet-5-5", "usd": 0.1392, "requests": 205}
+{"t": "2026-10-13T23:06:32", "stage": "m4-bakeoff-haiku-high", "model": "claude-haiku-5-5", "usd": 0.02392, "requests": 5}
+{"t": "2026-10-13T23:07:02", "stage": "m4-bakeoff-judge", "model": "claude-opus-5-5", "usd": 0.3661, "requests": 9}
+{"t": "2026-10-13T23:07:36", "stage": "m4-bakeoff-sonnet-medium", "model": "claude-sonnet-5-5", "usd": 0.12849, "requests": 5}
+{"t": "2026-10-13T23:08:01", "stage": "m4-bakeoff-judge", "model": "claude-opus-5-5", "usd": 0.32364, "requests": 10}

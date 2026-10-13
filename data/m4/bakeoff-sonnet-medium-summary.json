@@ -1,0 +1,502 @@
+{
+ "summary": {
+  "candidate": "claude-sonnet-5-5 (medium)",
+  "reference": "claude-sonnet-5-5 (medium), M1 sample",
+  "judged": 46,
+  "missing_translations": 0,
+  "accuracy": {
+   "candidate": 4.8,
+   "sonnet": 4.8
+  },
+  "fluency": {
+   "candidate": 4.54,
+   "sonnet": 4.54
+  },
+  "hadith_with_major_errors": {
+   "candidate": 3,
+   "sonnet": 2
+  },
+  "better": {
+   "cand": 14,
+   "sonnet": 17,
+   "tie": 15
+  },
+  "spend_usd": {
+   "translate": 0.1285,
+   "judge": 0.6897
+  }
+ },
+ "rows": [
+  {
+   "id": "U6-00582",
+   "acc_c": 5,
+   "acc_s": 5,
+   "flu_c": 5,
+   "flu_s": 4,
+   "err_c": [],
+   "err_s": [],
+   "better": "cand"
+  },
+  {
+   "id": "U6-01446",
+   "acc_c": 5,
+   "acc_s": 5,
+   "flu_c": 5,
+   "flu_s": 5,
+   "err_c": [],
+   "err_s": [],
+   "better": "tie"
+  },
+  {
+   "id": "U6-01323",
+   "acc_c": 5,
+   "acc_s": 5,
+   "flu_c": 3,
+   "flu_s": 5,
+   "err_c": [],
+   "err_s": [],
+   "better": "sonnet"
+  },
+  {
+   "id": "U6-00321",
+   "acc_c": 5,
+   "acc_s": 5,
+   "flu_c": 5,
+   "flu_s": 5,
+   "err_c": [],
+   "err_s": [],
+   "better": "sonnet"
+  },
+  {
+   "id": "U6-00895",
+   "acc_c": 5,
+   "acc_s": 5,
+   "flu_c": 5,
+   "flu_s": 4,
+   "err_c": [],
+   "err_s": [],
+   "better": "cand"
+  },
+  {
+   "id": "U6-01474",
+   "acc_c": 4,
+   "acc_s": 5,
+   "flu_c": 5,
+   "flu_s": 4,
+   "err_c": [
+    "Softens 'بما استحللت من فرجها' to 'having made her lawful to you', losing the explicit reference to conjugal relations that justifies the dower"
+   ],
+   "err_s": [],
+   "better": "sonnet"
+  },
+  {
+   "id": "U6-01149",
+   "acc_c": 5,
+   "acc_s": 5,
+   "flu_c": 5,
+   "flu_s": 5,
+   "err_c": [],
+   "err_s": [],
+   "better": "tie"
+  },
+  {
+   "id": "U6-01524",
+   "acc_c": 5,
+   "acc_s": 5,
+   "flu_c": 4,
+   "flu_s": 5,
+   "err_c": [],
+   "err_s": [],
+   "better": "sonnet"
+  },
+  {
+   "id": "U6-01421",
+   "acc_c": 4,
+   "acc_s": 5,
+   "flu_c": 5,
+   "flu_s": 4,
+   "err_c": [
+    "'pray at night forever' weakens 'أصلي الليل أبدا' (praying the whole night, always)"
+   ],
+   "err_s": [],
+   "better": "sonnet"
+  },
+  {
+   "id": "U6-00145",
+   "acc_c": 5,
+   "acc_s": 5,
+   "flu_c": 4,
+   "flu_s": 5,
+   "err_c": [],
+   "err_s": [],
+   "better": "sonnet"
+  },
+  {
+   "id": "U6-01342",
+   "acc_c": 5,
+   "acc_s": 5,
+   "flu_c": 5,
+   "flu_s": 5,
+   "err_c": [],
+   "err_s": [],
+   "better": "tie"
+  },
+  {
+   "id": "U6-00029",
+   "acc_c": 5,
+   "acc_s": 4,
+   "flu_c": 4,
+   "flu_s": 5,
+   "err_c": [],
+   "err_s": [],
+   "better": "cand"
+  },
+  {
+   "id": "U6-01032",
+   "acc_c": 5,
+   "acc_s": 5,
+   "flu_c": 4,
+   "flu_s": 5,
+   "err_c": [],
+   "err_s": [],
+   "better": "tie"
+  },
+  {
+   "id": "U6-00570",
+   "acc_c": 5,
+   "acc_s": 4,
+   "flu_c": 5,
+   "flu_s": 5,
+   "err_c": [],
+   "err_s": [],
+   "better": "cand"
+  },
+  {
+   "id": "U6-01217",
+   "acc_c": 5,
+   "acc_s": 5,
+   "flu_c": 5,
+   "flu_s": 3,
+   "err_c": [],
+   "err_s": [],
+   "better": "cand"
+  },
+  {
+   "id": "U6-00515",
+   "acc_c": 5,
+   "acc_s": 5,
+   "flu_c": 4,
+   "flu_s": 5,
+   "err_c": [],
+   "err_s": [],
+   "better": "sonnet"
+  },
+  {
+   "id": "U6-00421",
+   "acc_c": 5,
+   "acc_s": 5,
+   "flu_c": 5,
+   "flu_s": 5,
+   "err_c": [],
+   "err_s": [],
+   "better": "tie"
+  },
+  {
+   "id": "U6-01583",
+   "acc_c": 5,
+   "acc_s": 5,
+   "flu_c": 4,
+   "flu_s": 5,
+   "err_c": [],
+   "err_s": [],
+   "better": "sonnet"
+  },
+  {
+   "id": "U6-01927",
+   "acc_c": 5,
+   "acc_s": 4,
+   "flu_c": 4,
+   "flu_s": 3,
+   "err_c": [],
+   "err_s": [],
+   "better": "cand"
+  },
+  {
+   "id": "U6-01944",
+   "acc_c": 5,
+   "acc_s": 5,
+   "flu_c": 4,
+   "flu_s": 3,
+   "err_c": [],
+   "err_s": [],
+   "better": "cand"
+  },
+  {
+   "id": "U6-01945",
+   "acc_c": 5,
+   "acc_s": 4,
+   "flu_c": 4,
+   "flu_s": 5,
+   "err_c": [],
+   "err_s": [
+    "Renders دعوت as 'prayed', which blurs it with ṣalāh.",
+    "'Not seen it answered for me' loosens 'not seen Him answer me'."
+   ],
+   "better": "cand"
+  },
+  {
+   "id": "U6-01892",
+   "acc_c": 5,
+   "acc_s": 5,
+   "flu_c": 5,
+   "flu_s": 5,
+   "err_c": [],
+   "err_s": [],
+   "better": "tie"
+  },
+  {
+   "id": "U6-01810",
+   "acc_c": 4,
+   "acc_s": 5,
+   "flu_c": 4,
+   "flu_s": 5,
+   "err_c": [
+    "'but that kept us' misrenders the causal fa' ('so')."
+   ],
+   "err_s": [],
+   "better": "sonnet"
+  },
+  {
+   "id": "U6-01828",
+   "acc_c": 5,
+   "acc_s": 5,
+   "flu_c": 5,
+   "flu_s": 3,
+   "err_c": [],
+   "err_s": [],
+   "better": "cand"
+  },
+  {
+   "id": "U6-01942",
+   "acc_c": 5,
+   "acc_s": 5,
+   "flu_c": 5,
+   "flu_s": 5,
+   "err_c": [],
+   "err_s": [],
+   "better": "sonnet"
+  },
+  {
+   "id": "U6-01804",
+   "acc_c": 5,
+   "acc_s": 5,
+   "flu_c": 4,
+   "flu_s": 5,
+   "err_c": [],
+   "err_s": [],
+   "better": "sonnet"
+  },
+  {
+   "id": "U6-01910",
+   "acc_c": 4,
+   "acc_s": 5,
+   "flu_c": 5,
+   "flu_s": 5,
+   "err_c": [],
+   "err_s": [],
+   "better": "sonnet"
+  },
+  {
+   "id": "U6-01871",
+   "acc_c": 5,
+   "acc_s": 5,
+   "flu_c": 4,
+   "flu_s": 5,
+   "err_c": [],
+   "err_s": [],
+   "better": "tie"
+  },
+  {
+   "id": "U6-05497",
+   "acc_c": 5,
+   "acc_s": 4,
+   "flu_c": 4,
+   "flu_s": 4,
+   "err_c": [],
+   "err_s": [],
+   "better": "cand"
+  },
+  {
+   "id": "U6-02007",
+   "acc_c": 5,
+   "acc_s": 5,
+   "flu_c": 5,
+   "flu_s": 4,
+   "err_c": [],
+   "err_s": [],
+   "better": "cand"
+  },
+  {
+   "id": "U6-05152",
+   "acc_c": 5,
+   "acc_s": 5,
+   "flu_c": 3,
+   "flu_s": 4,
+   "err_c": [],
+   "err_s": [],
+   "better": "sonnet"
+  },
+  {
+   "id": "U6-02184",
+   "acc_c": 4,
+   "acc_s": 5,
+   "flu_c": 5,
+   "flu_s": 4,
+   "err_c": [],
+   "err_s": [],
+   "better": "cand"
+  },
+  {
+   "id": "U6-02549",
+   "acc_c": 5,
+   "acc_s": 5,
+   "flu_c": 5,
+   "flu_s": 5,
+   "err_c": [],
+   "err_s": [],
+   "better": "tie"
+  },
+  {
+   "id": "U6-04808",
+   "acc_c": 4,
+   "acc_s": 3,
+   "flu_c": 5,
+   "flu_s": 4,
+   "err_c": [],
+   "err_s": [
+    "'received in advance two-thirds of their reward in the Hereafter' is ambiguous: it can be read as receiving the reward in the Hereafter, when the sense is an advance on their Hereafter reward, received in this world"
+   ],
+   "better": "cand"
+  },
+  {
+   "id": "U6-02108",
+   "acc_c": 5,
+   "acc_s": 5,
+   "flu_c": 5,
+   "flu_s": 5,
+   "err_c": [],
+   "err_s": [],
+   "better": "tie"
+  },
+  {
+   "id": "U6-03315",
+   "acc_c": 4,
+   "acc_s": 5,
+   "flu_c": 5,
+   "flu_s": 5,
+   "err_c": [],
+   "err_s": [],
+   "better": "sonnet"
+  },
+  {
+   "id": "U6-02059",
+   "acc_c": 5,
+   "acc_s": 5,
+   "flu_c": 5,
+   "flu_s": 4,
+   "err_c": [],
+   "err_s": [],
+   "better": "tie"
+  },
+  {
+   "id": "U6-03219",
+   "acc_c": 5,
+   "acc_s": 4,
+   "flu_c": 5,
+   "flu_s": 5,
+   "err_c": [],
+   "err_s": [],
+   "better": "cand"
+  },
+  {
+   "id": "U6-04117",
+   "acc_c": 5,
+   "acc_s": 4,
+   "flu_c": 4,
+   "flu_s": 4,
+   "err_c": [],
+   "err_s": [],
+   "better": "tie"
+  },
+  {
+   "id": "U6-04668",
+   "acc_c": 4,
+   "acc_s": 5,
+   "flu_c": 4,
+   "flu_s": 5,
+   "err_c": [],
+   "err_s": [],
+   "better": "sonnet"
+  },
+  {
+   "id": "U6-05232",
+   "acc_c": 4,
+   "acc_s": 5,
+   "flu_c": 5,
+   "flu_s": 4,
+   "err_c": [],
+   "err_s": [],
+   "better": "sonnet"
+  },
+  {
+   "id": "U6-03752",
+   "acc_c": 5,
+   "acc_s": 5,
+   "flu_c": 5,
+   "flu_s": 5,
+   "err_c": [],
+   "err_s": [],
+   "better": "tie"
+  },
+  {
+   "id": "U6-05208",
+   "acc_c": 5,
+   "acc_s": 5,
+   "flu_c": 4,
+   "flu_s": 5,
+   "err_c": [],
+   "err_s": [],
+   "better": "sonnet"
+  },
+  {
+   "id": "U6-05538",
+   "acc_c": 5,
+   "acc_s": 5,
+   "flu_c": 5,
+   "flu_s": 5,
+   "err_c": [],
+   "err_s": [],
+   "better": "tie"
+  },
+  {
+   "id": "U6-03922",
+   "acc_c": 5,
+   "acc_s": 5,
+   "flu_c": 5,
+   "flu_s": 5,
+   "err_c": [],
+   "err_s": [],
+   "better": "tie"
+  },
+  {
+   "id": "U6-03784",
+   "acc_c": 5,
+   "acc_s": 5,
+   "flu_c": 4,
+   "flu_s": 4,
+   "err_c": [],
+   "err_s": [],
+   "better": "tie"
+  }
+ ]
+}

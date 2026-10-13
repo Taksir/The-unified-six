@@ -1,0 +1,494 @@
+{
+ "U6-00582": {
+  "id": "U6-00582",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 4,
+  "fluency_y": 4,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-01446": {
+  "id": "U6-01446",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "tie"
+ },
+ "U6-01323": {
+  "id": "U6-01323",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "tie"
+ },
+ "U6-00321": {
+  "id": "U6-00321",
+  "accuracy_x": 3,
+  "accuracy_y": 5,
+  "fluency_x": 4,
+  "fluency_y": 5,
+  "major_errors_x": [
+   "Omits فسلم: the man gave the salām, formally leaving the congregational prayer, before praying alone"
+  ],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-00895": {
+  "id": "U6-00895",
+  "accuracy_x": 3,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 4,
+  "major_errors_x": [
+   "Omits فحمله عليه: the tallest man was mounted on the tallest camel before passing under the rib"
+  ],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-01474": {
+  "id": "U6-01474",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 4,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "X"
+ },
+ "U6-01149": {
+  "id": "U6-01149",
+  "accuracy_x": 5,
+  "accuracy_y": 4,
+  "fluency_x": 5,
+  "fluency_y": 3,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "X"
+ },
+ "U6-01524": {
+  "id": "U6-01524",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "tie"
+ },
+ "U6-01421": {
+  "id": "U6-01421",
+  "accuracy_x": 4,
+  "accuracy_y": 5,
+  "fluency_x": 3,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-00145": {
+  "id": "U6-00145",
+  "accuracy_x": 4,
+  "accuracy_y": 5,
+  "fluency_x": 4,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-01342": {
+  "id": "U6-01342",
+  "accuracy_x": 4,
+  "accuracy_y": 5,
+  "fluency_x": 3,
+  "fluency_y": 4,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-00029": {
+  "id": "U6-00029",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 4,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "tie"
+ },
+ "U6-01032": {
+  "id": "U6-01032",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 3,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "X"
+ },
+ "U6-00570": {
+  "id": "U6-00570",
+  "accuracy_x": 4,
+  "accuracy_y": 3,
+  "fluency_x": 5,
+  "fluency_y": 3,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "X"
+ },
+ "U6-01217": {
+  "id": "U6-01217",
+  "accuracy_x": 3,
+  "accuracy_y": 5,
+  "fluency_x": 4,
+  "fluency_y": 4,
+  "major_errors_x": [
+   "Omits بمثل عمله: ʿAlī wishes to meet Allah with deeds like ʿUmar's, not with ʿUmar's own deeds"
+  ],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-00515": {
+  "id": "U6-00515",
+  "accuracy_x": 4,
+  "accuracy_y": 5,
+  "fluency_x": 4,
+  "fluency_y": 5,
+  "major_errors_x": [
+   "Renders the Prophet's question 'Has he passed away?' (قد قضى) as a statement, 'He has died.'",
+   "Merges 'ألا تسمعون' into 'Do you not hear that Allah…'. In the Arabic it is a separate call to listen."
+  ],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-00421": {
+  "id": "U6-00421",
+  "accuracy_x": 5,
+  "accuracy_y": 4,
+  "fluency_x": 5,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [
+   "'Turned his cloak inside out' narrows حول رداءه (turned/reversed his cloak) to one specific interpretation."
+  ],
+  "better": "X"
+ },
+ "U6-01583": {
+  "id": "U6-01583",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 4,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "X"
+ },
+ "U6-01927": {
+  "id": "U6-01927",
+  "accuracy_x": 4,
+  "accuracy_y": 5,
+  "fluency_x": 3,
+  "fluency_y": 5,
+  "major_errors_x": [
+   "The chain is garbled: the two transmission terms are split so that 'Ismāʿīl' attaches only to the others' wording."
+  ],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-01944": {
+  "id": "U6-01944",
+  "accuracy_x": 4,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 3,
+  "major_errors_x": [
+   "'Kaʿb al-Aḥbār was told' obscures that it was Abū Hurayrah who said this to Kaʿb.",
+   "Uses 'God willing' instead of the glossary term 'Allah'."
+  ],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-01945": {
+  "id": "U6-01945",
+  "accuracy_x": 5,
+  "accuracy_y": 4,
+  "fluency_x": 4,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "X"
+ },
+ "U6-01892": {
+  "id": "U6-01892",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "tie"
+ },
+ "U6-01810": {
+  "id": "U6-01810",
+  "accuracy_x": 4,
+  "accuracy_y": 5,
+  "fluency_x": 3,
+  "fluency_y": 5,
+  "major_errors_x": [
+   "'but that prevented us' reverses the logic: their certainty was the reason they did not ask"
+  ],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-01828": {
+  "id": "U6-01828",
+  "accuracy_x": 5,
+  "accuracy_y": 2,
+  "fluency_x": 3,
+  "fluency_y": 4,
+  "major_errors_x": [],
+  "major_errors_y": [
+   "Renders سعى as the ritual 'sa'y' around the House, which misstates the ritual and implies the sa'y itself was only a show of strength; the sense is hastening (ramal)"
+  ],
+  "better": "X"
+ },
+ "U6-01942": {
+  "id": "U6-01942",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 4,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "X"
+ },
+ "U6-01804": {
+  "id": "U6-01804",
+  "accuracy_x": 5,
+  "accuracy_y": 4,
+  "fluency_x": 5,
+  "fluency_y": 3,
+  "major_errors_x": [],
+  "major_errors_y": [
+   "Quotation marks close after the vocative, leaving both speeches outside quotes",
+   "Adds 'in the midst of the sky' to the basin simile, which is not in the Arabic"
+  ],
+  "better": "X"
+ },
+ "U6-01910": {
+  "id": "U6-01910",
+  "accuracy_x": 5,
+  "accuracy_y": 4,
+  "fluency_x": 5,
+  "fluency_y": 3,
+  "major_errors_x": [],
+  "major_errors_y": [
+   "Duplicated 'for us for us'",
+   "Omits لهن ('for them'), the interpolated gloss in the verse"
+  ],
+  "better": "X"
+ },
+ "U6-01871": {
+  "id": "U6-01871",
+  "accuracy_x": 3,
+  "accuracy_y": 5,
+  "fluency_x": 4,
+  "fluency_y": 5,
+  "major_errors_x": [
+   "Renders خبيث مخبث as 'a vile and rotting carcass'; in the Arabic the phrase describes the well, not a carcass",
+   "'Umar' is missing the ʿayn required by the glossary"
+  ],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-05497": {
+  "id": "U6-05497",
+  "accuracy_x": 5,
+  "accuracy_y": 4,
+  "fluency_x": 5,
+  "fluency_y": 4,
+  "major_errors_x": [],
+  "major_errors_y": [
+   "'Qays said' drops the feminine قالت, so the narrator is presented as male",
+   "'As for me' misreads أما إنه",
+   "'Dajjal' lacks the macron"
+  ],
+  "better": "X"
+ },
+ "U6-02007": {
+  "id": "U6-02007",
+  "accuracy_x": 5,
+  "accuracy_y": 4,
+  "fluency_x": 5,
+  "fluency_y": 4,
+  "major_errors_x": [],
+  "major_errors_y": [
+   "'Moistened' mistranslates لكناه, which means 'we chewed it'",
+   "Lowercase 'so' begins a new sentence"
+  ],
+  "better": "X"
+ },
+ "U6-05152": {
+  "id": "U6-05152",
+  "accuracy_x": 4,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 4,
+  "major_errors_x": [
+   "Narrator's name هداب is mistransliterated as 'Hudhāb'; it should be Haddāb."
+  ],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-02549": {
+  "id": "U6-02549",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 4,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-04808": {
+  "id": "U6-04808",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 4,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "tie"
+ },
+ "U6-02108": {
+  "id": "U6-02108",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "tie"
+ },
+ "U6-03315": {
+  "id": "U6-03315",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "tie"
+ },
+ "U6-02059": {
+  "id": "U6-02059",
+  "accuracy_x": 4,
+  "accuracy_y": 5,
+  "fluency_x": 3,
+  "fluency_y": 4,
+  "major_errors_x": [
+   "'the light went with them' loses the sense that the light divided between them (فتفرق النور معهما)"
+  ],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-03219": {
+  "id": "U6-03219",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 3,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "X"
+ },
+ "U6-04117": {
+  "id": "U6-04117",
+  "accuracy_x": 4,
+  "accuracy_y": 5,
+  "fluency_x": 4,
+  "fluency_y": 4,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-04668": {
+  "id": "U6-04668",
+  "accuracy_x": 4,
+  "accuracy_y": 5,
+  "fluency_x": 4,
+  "fluency_y": 5,
+  "major_errors_x": [
+   "'Take from me' is repeated, but the Arabic says it only once"
+  ],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-05232": {
+  "id": "U6-05232",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 4,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "tie"
+ },
+ "U6-03752": {
+  "id": "U6-03752",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 4,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "tie"
+ },
+ "U6-05208": {
+  "id": "U6-05208",
+  "accuracy_x": 5,
+  "accuracy_y": 4,
+  "fluency_x": 5,
+  "fluency_y": 4,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "X"
+ },
+ "U6-05538": {
+  "id": "U6-05538",
+  "accuracy_x": 5,
+  "accuracy_y": 4,
+  "fluency_x": 5,
+  "fluency_y": 3,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "X"
+ },
+ "U6-03922": {
+  "id": "U6-03922",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 4,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "X"
+ },
+ "U6-03784": {
+  "id": "U6-03784",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 4,
+  "fluency_y": 4,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "tie"
+ }
+}

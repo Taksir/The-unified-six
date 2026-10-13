@@ -1,0 +1,473 @@
+{
+ "U6-00582": {
+  "id": "U6-00582",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 4,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "X"
+ },
+ "U6-01446": {
+  "id": "U6-01446",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "tie"
+ },
+ "U6-01323": {
+  "id": "U6-01323",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 3,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-00321": {
+  "id": "U6-00321",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-00895": {
+  "id": "U6-00895",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 4,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "X"
+ },
+ "U6-01474": {
+  "id": "U6-01474",
+  "accuracy_x": 4,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 4,
+  "major_errors_x": [
+   "Softens 'بما استحللت من فرجها' to 'having made her lawful to you', losing the explicit reference to conjugal relations that justifies the dower"
+  ],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-01149": {
+  "id": "U6-01149",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "tie"
+ },
+ "U6-01524": {
+  "id": "U6-01524",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 4,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "X"
+ },
+ "U6-01421": {
+  "id": "U6-01421",
+  "accuracy_x": 4,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 4,
+  "major_errors_x": [
+   "'pray at night forever' weakens 'أصلي الليل أبدا' (praying the whole night, always)"
+  ],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-00145": {
+  "id": "U6-00145",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 4,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-01342": {
+  "id": "U6-01342",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "tie"
+ },
+ "U6-00029": {
+  "id": "U6-00029",
+  "accuracy_x": 4,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 4,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-01032": {
+  "id": "U6-01032",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 4,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "tie"
+ },
+ "U6-00570": {
+  "id": "U6-00570",
+  "accuracy_x": 4,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-01217": {
+  "id": "U6-01217",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 3,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "X"
+ },
+ "U6-00515": {
+  "id": "U6-00515",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 4,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-00421": {
+  "id": "U6-00421",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "tie"
+ },
+ "U6-01583": {
+  "id": "U6-01583",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 4,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "X"
+ },
+ "U6-01927": {
+  "id": "U6-01927",
+  "accuracy_x": 4,
+  "accuracy_y": 5,
+  "fluency_x": 3,
+  "fluency_y": 4,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-01944": {
+  "id": "U6-01944",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 4,
+  "fluency_y": 3,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "X"
+ },
+ "U6-01945": {
+  "id": "U6-01945",
+  "accuracy_x": 5,
+  "accuracy_y": 4,
+  "fluency_x": 4,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [
+   "Renders دعوت as 'prayed', which blurs it with ṣalāh.",
+   "'Not seen it answered for me' loosens 'not seen Him answer me'."
+  ],
+  "better": "X"
+ },
+ "U6-01892": {
+  "id": "U6-01892",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "tie"
+ },
+ "U6-01810": {
+  "id": "U6-01810",
+  "accuracy_x": 4,
+  "accuracy_y": 5,
+  "fluency_x": 4,
+  "fluency_y": 5,
+  "major_errors_x": [
+   "'but that kept us' misrenders the causal fa' ('so')."
+  ],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-01828": {
+  "id": "U6-01828",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 3,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-01942": {
+  "id": "U6-01942",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-01804": {
+  "id": "U6-01804",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 4,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "X"
+ },
+ "U6-01910": {
+  "id": "U6-01910",
+  "accuracy_x": 5,
+  "accuracy_y": 4,
+  "fluency_x": 5,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "X"
+ },
+ "U6-01871": {
+  "id": "U6-01871",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 4,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "tie"
+ },
+ "U6-05497": {
+  "id": "U6-05497",
+  "accuracy_x": 4,
+  "accuracy_y": 5,
+  "fluency_x": 4,
+  "fluency_y": 4,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-02007": {
+  "id": "U6-02007",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 4,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-05152": {
+  "id": "U6-05152",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 3,
+  "fluency_y": 4,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-02184": {
+  "id": "U6-02184",
+  "accuracy_x": 4,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 4,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "X"
+ },
+ "U6-02549": {
+  "id": "U6-02549",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "tie"
+ },
+ "U6-04808": {
+  "id": "U6-04808",
+  "accuracy_x": 4,
+  "accuracy_y": 3,
+  "fluency_x": 5,
+  "fluency_y": 4,
+  "major_errors_x": [],
+  "major_errors_y": [
+   "'received in advance two-thirds of their reward in the Hereafter' is ambiguous: it can be read as receiving the reward in the Hereafter, when the sense is an advance on their Hereafter reward, received in this world"
+  ],
+  "better": "X"
+ },
+ "U6-02108": {
+  "id": "U6-02108",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "tie"
+ },
+ "U6-03315": {
+  "id": "U6-03315",
+  "accuracy_x": 4,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-02059": {
+  "id": "U6-02059",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 4,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "tie"
+ },
+ "U6-03219": {
+  "id": "U6-03219",
+  "accuracy_x": 5,
+  "accuracy_y": 4,
+  "fluency_x": 5,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "X"
+ },
+ "U6-04117": {
+  "id": "U6-04117",
+  "accuracy_x": 5,
+  "accuracy_y": 4,
+  "fluency_x": 4,
+  "fluency_y": 4,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "tie"
+ },
+ "U6-04668": {
+  "id": "U6-04668",
+  "accuracy_x": 4,
+  "accuracy_y": 5,
+  "fluency_x": 4,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-05232": {
+  "id": "U6-05232",
+  "accuracy_x": 4,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 4,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "Y"
+ },
+ "U6-03752": {
+  "id": "U6-03752",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "tie"
+ },
+ "U6-05208": {
+  "id": "U6-05208",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 4,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "X"
+ },
+ "U6-05538": {
+  "id": "U6-05538",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "tie"
+ },
+ "U6-03922": {
+  "id": "U6-03922",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 5,
+  "fluency_y": 5,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "tie"
+ },
+ "U6-03784": {
+  "id": "U6-03784",
+  "accuracy_x": 5,
+  "accuracy_y": 5,
+  "fluency_x": 4,
+  "fluency_y": 4,
+  "major_errors_x": [],
+  "major_errors_y": [],
+  "better": "tie"
+ }
+}

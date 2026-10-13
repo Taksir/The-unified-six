@@ -23,6 +23,10 @@ def main() -> None:
     m.add_argument("--no-embeddings", action="store_true")
     x = sub.add_parser("six", help="M2+M3 stage (all six books, incremental on M1)")
     x.add_argument("stage", choices=["pairs", "gold", "label", "cluster", "evaluate"])
+    q = sub.add_parser("m4", help="M4 stage (translation and topics)")
+    q.add_argument("stage", choices=["bakeoff", "translate"])
+    q.add_argument("--pilot", type=int, default=100)
+    q.add_argument("--singles", action="store_true")
     a = p.parse_args()
 
     if a.cmd == "fetch":
@@ -40,6 +44,12 @@ def main() -> None:
     elif a.cmd == "six":
         from . import six
         getattr(six, "stage_" + a.stage)()
+    elif a.cmd == "m4":
+        from . import m4
+        if a.stage == "translate":
+            m4.stage_translate(pilot=a.pilot, singles=a.singles)
+        else:
+            m4.stage_bakeoff()
     elif a.cmd == "eval-split":
         from .evalsplit import evaluate, write_report
         r = evaluate(a.lk, a.data / "raw" / "ara-bukhari.json", a.misses)
