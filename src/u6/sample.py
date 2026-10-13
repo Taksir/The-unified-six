@@ -66,7 +66,8 @@ def select(hadith: list[dict], n: int = 60, seed: int = 3) -> list[dict]:
     by = {}
     for h in hadith:
         words = sum(len(s["ar"].split()) for s in h["segments"])
-        if not h["segments"] or words > 160:
+        rep_kind = next(m["kind"] for m in h["members"] if m["id"] == h["representative"])
+        if not h["segments"] or words > 160 or words < 8 or rep_kind != "full":
             continue
         by.setdefault(h["stars_display"], []).append(h)
     quotas = {"★★": 18, "★⯪": 10, "⯪★": 0, "⯪⯪": 4, "★": 18, "⯪": 0}
@@ -131,6 +132,10 @@ def build_data(sample: list[dict]) -> dict:
         p = line.rstrip("\n").split(",")
         conc[p[0]] = p[-1]
     entries = []
+    for h in sample:  # same no-italics fallback as cluster.assemble, for cached samples
+        if h["segments"] and sum(s["core"] for s in h["segments"]) < 0.5 * len(h["segments"]):
+            for s in h["segments"]:
+                s["core"] = True
     for k, h in enumerate(sample, 1):
         members = []
         for m in h["members"]:

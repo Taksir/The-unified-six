@@ -6,7 +6,8 @@
   "requests": 8961,
   "created": "2026-10-13T16:37:21",
   "collected": true,
-  "note": "canceled unprocessed after 2h18m in queue; resubmitted in chunks"
+  "note": "cancel raced: 8960/8961 processed and billed; results used to fill gaps",
+  "recovered": true
  },
  {
   "id": "msgbatch_01V7heZsrHU5sMsLgckC285f",
@@ -142,7 +143,8 @@
   "model": "claude-sonnet-5-5",
   "requests": 500,
   "created": "2026-10-13T19:02:28",
-  "collected": false
+  "collected": true,
+  "note": "canceled: covered by the big batch"
  },
  {
   "id": "msgbatch_01Huxmq3eiG1TjheiiJ3vtd8",

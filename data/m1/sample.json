@@ -1,0 +1,4387 @@
+[
+ {
+  "id": "U6-00582",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "bukhari:1492",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:2221",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "partial"
+   },
+   {
+    "id": "bukhari:5531",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "partial"
+   },
+   {
+    "id": "muslim:806",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "muslim:806",
+  "books_full": [
+   "bukhari",
+   "muslim"
+  ],
+  "books_partial": [],
+  "stars": 2,
+  "stars_display": "★★",
+  "badge": "muttafaq",
+  "segments": [
+   {
+    "ar": "تُصُدِّقَ عَلَى مَوْلاَةٍ لِمَيْمُونَةَ بِشَاةٍ فَمَاتَتْ فَمَرَّ بِهَا رَسُولُ اللَّهِ صلى الله عليه وسلم فَقَالَ \"",
+    "core": false,
+    "in": [
+     "muslim:806"
+    ]
+   },
+   {
+    "ar": "هَلاَّ أَخَذْتُمْ إِهَابَهَا فَدَبَغْتُمُوهُ فَانْتَفَعْتُمْ بِهِ \".",
+    "core": false,
+    "in": [
+     "muslim:806"
+    ]
+   },
+   {
+    "ar": "فَقَالُوا إِنَّهَا مَيْتَةٌ. فَقَالَ \"",
+    "core": true,
+    "in": [
+     "muslim:806",
+     "bukhari:1492"
+    ]
+   },
+   {
+    "ar": "إِنَّمَا حَرُمَ أَكْلُهَا \".",
+    "core": true,
+    "in": [
+     "muslim:806",
+     "bukhari:1492"
+    ]
+   },
+   {
+    "ar": "قَالَ أَبُو بَكْرٍ وَابْنُ أَبِي عُمَرَ فِي حَدِيثِهِمَا عَنْ مَيْمُونَةَ رضى الله عنها",
+    "core": false,
+    "in": [
+     "muslim:806"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "ابن عباس",
+   "ان عبد الله بن عباس"
+  ],
+  "chapter": {
+   "book": "muslim",
+   "chapter": 3
+  },
+  "see_also": [
+   "U6-01501",
+   "U6-03732"
+  ],
+  "topic": "Food, drink and hunting",
+  "segments_en": [
+   "A freed slave woman of Maymūnah was given a sheep as charity (ṣadaqah), and it died. The Messenger of Allah ﷺ passed by it and said: \"",
+   "Why did you not take its hide, tan it, and benefit from it?\"",
+   "They said, \"It is carrion.\" He said: \"",
+   "Only eating it has been forbidden.\"",
+   "Abū Bakr and Ibn Abī ʿUmar said in their narration, on the authority of Maymūnah, may Allah be pleased with her."
+  ]
+ },
+ {
+  "id": "U6-01446",
+  "uncertain": true,
+  "members": [
+   {
+    "id": "bukhari:5179",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:3512",
+    "book": "muslim",
+    "kind": "full",
+    "role": "partial"
+   },
+   {
+    "id": "muslim:3515",
+    "book": "muslim",
+    "kind": "full",
+    "role": "partial"
+   },
+   {
+    "id": "muslim:3516",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "muslim:3516",
+  "books_full": [
+   "bukhari",
+   "muslim"
+  ],
+  "books_partial": [],
+  "stars": 2,
+  "stars_display": "★★",
+  "badge": "muttafaq",
+  "segments": [
+   {
+    "ar": "قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم \"",
+    "core": false,
+    "in": [
+     "muslim:3516"
+    ]
+   },
+   {
+    "ar": "أَجِيبُوا هَذِهِ الدَّعْوَةَ إِذَا دُعِيتُمْ لَهَا \".",
+    "core": true,
+    "in": [
+     "muslim:3516",
+     "bukhari:5179"
+    ]
+   },
+   {
+    "ar": "قَالَ وَكَانَ عَبْدُ اللَّهِ بْنُ عُمَرَ يَأْتِي الدَّعْوَةَ فِي الْعُرْسِ وَغَيْرِ الْعُرْسِ وَيَأْتِيهَا وَهُوَ صَائِمٌ",
+    "core": true,
+    "in": [
+     "muslim:3516",
+     "bukhari:5179"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "ابن عمر",
+   "عبد الله بن عمر"
+  ],
+  "chapter": {
+   "book": "muslim",
+   "chapter": 16
+  },
+  "see_also": [
+   "U6-04445"
+  ],
+  "topic": "Manners and good character",
+  "segments_en": [
+   "The Messenger of Allah ﷺ said:",
+   "\"Respond to this invitation when you are invited to it.\"",
+   "He said: ʿAbdullāh ibn ʿUmar would attend invitations, whether to a wedding feast or otherwise, and he would attend them even while he was fasting."
+  ]
+ },
+ {
+  "id": "U6-01323",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "bukhari:4396",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:3020",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "muslim:3020",
+  "books_full": [
+   "bukhari",
+   "muslim"
+  ],
+  "books_partial": [],
+  "stars": 2,
+  "stars_display": "★★",
+  "badge": "muttafaq",
+  "segments": [
+   {
+    "ar": "كَانَ ابْنُ عَبَّاسٍ يَقُولُ لاَ يَطُوفُ بِالْبَيْتِ حَاجٌّ وَلاَ غَيْرُ حَاجٍّ إِلاَّ حَلَّ.",
+    "core": false,
+    "in": [
+     "muslim:3020"
+    ]
+   },
+   {
+    "ar": "قُلْتُ لِعَطَاءٍ مِنْ أَيْنَ يَقُولُ ذَلِكَ قَالَ مِنْ قَوْلِ اللَّهِ تَعَالَى { ثُمَّ مَحِلُّهَا إِلَى الْبَيْتِ الْعَتِيقِ} قَالَ قُلْتُ فَإِنَّ ذَلِكَ بَعْدَ الْمُعَرَّفِ.",
+    "core": true,
+    "in": [
+     "muslim:3020",
+     "bukhari:4396"
+    ]
+   },
+   {
+    "ar": "فَقَالَ كَانَ ابْنُ عَبَّاسٍ يَقُولُ هُوَ بَعْدَ الْمُعَرَّفِ وَقَبْلَهُ.",
+    "core": true,
+    "in": [
+     "muslim:3020",
+     "bukhari:4396"
+    ]
+   },
+   {
+    "ar": "وَكَانَ يَأْخُذُ ذَلِكَ مِنْ أَمْرِ النَّبِيِّ صلى الله عليه وسلم حِينَ أَمَرَهُمْ أَنْ يَحِلُّوا فِي حَجَّةِ الْوَدَاعِ",
+    "core": true,
+    "in": [
+     "muslim:3020",
+     "bukhari:4396"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "ابن عباس",
+   "عطاء"
+  ],
+  "chapter": {
+   "book": "muslim",
+   "chapter": 15
+  },
+  "see_also": [],
+  "topic": "Hajj and Umrah",
+  "segments_en": [
+   "Ibn ʿAbbās used to say: \"No one performs ṭawāf around the House, whether a pilgrim or not, except that he becomes released from ihrām.\"",
+   "I said to ʿAṭāʾ: \"From where did he derive that?\" He said: \"From the saying of Allah, the Exalted: {Then its place of sacrifice is at the Ancient House.}\" I said: \"But that is after [standing at] ʿArafah.\"",
+   "He said: \"Ibn ʿAbbās used to say: It is after ʿArafah and before it.\"",
+   "And he used to take that from the command of the Prophet ﷺ when he ordered them to leave the state of ihrām during the Farewell Hajj."
+  ]
+ },
+ {
+  "id": "U6-00321",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "bukhari:701",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:705",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:6106",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:1040",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:1041",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "muslim:1040",
+  "books_full": [
+   "bukhari",
+   "muslim"
+  ],
+  "books_partial": [],
+  "stars": 2,
+  "stars_display": "★★",
+  "badge": "muttafaq",
+  "segments": [
+   {
+    "ar": "كَانَ مُعَاذٌ يُصَلِّي مَعَ النَّبِيِّ صلى الله عليه وسلم ثُمَّ يَأْتِي فَيَؤُمُّ قَوْمَهُ فَصَلَّى لَيْلَةً مَعَ النَّبِيِّ صلى الله عليه وسلم الْعِشَاءَ ثُمَّ أَتَى قَوْمَهُ فَأَمَّهُمْ فَافْتَتَحَ بِسُورَةِ الْبَقَرَةِ فَانْحَرَفَ رَجُلٌ فَسَلَّمَ ثُمَّ صَلَّى وَحْدَهُ وَانْصَرَفَ فَقَالُوا لَهُ أَنَافَقْتَ يَا فُلاَنُ قَالَ لاَ وَاللَّهِ وَلآتِيَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم فَلأُخْبِرَنَّهُ.",
+    "core": false,
+    "in": [
+     "muslim:1040"
+    ]
+   },
+   {
+    "ar": "فَأَتَى رَسُولَ اللَّهِ صلى الله عليه وسلم فَقَالَ يَا رَسُولَ اللَّهِ إِنَّا أَصْحَابُ نَوَاضِحَ نَعْمَلُ بِالنَّهَارِ وَإِنَّ مُعَاذًا صَلَّى مَعَكَ الْعِشَاءَ ثُمَّ أَتَى فَافْتَتَحَ بِسُورَةِ الْبَقَرَةِ.",
+    "core": false,
+    "in": [
+     "muslim:1040",
+     "bukhari:6106"
+    ]
+   },
+   {
+    "ar": "فَأَقْبَلَ رَسُولُ اللَّهِ صلى الله عليه وسلم عَلَى مُعَاذٍ فَقَالَ \"",
+    "core": false,
+    "in": [
+     "muslim:1040",
+     "muslim:1041",
+     "bukhari:6106",
+     "bukhari:705"
+    ]
+   },
+   {
+    "ar": "يَا مُعَاذُ أَفَتَّانٌ أَنْتَ اقْرَأْ بِكَذَا وَاقْرَأْ بِكَذَا \".",
+    "core": false,
+    "in": [
+     "muslim:1040",
+     "bukhari:6106",
+     "bukhari:705"
+    ]
+   },
+   {
+    "ar": "قَالَ سُفْيَانُ فَقُلْتُ لِعَمْرٍو إِنَّ أَبَا الزُّبَيْرِ حَدَّثَنَا عَنْ جَابِرٍ أَنَّهُ قَالَ \"",
+    "core": false,
+    "in": [
+     "muslim:1040"
+    ]
+   },
+   {
+    "ar": "اقْرَأْ وَالشَّمْسِ وَضُحَاهَا. وَالضُّحَى.",
+    "core": false,
+    "in": [
+     "muslim:1040",
+     "muslim:1041",
+     "bukhari:6106",
+     "bukhari:705"
+    ]
+   },
+   {
+    "ar": "وَاللَّيْلِ إِذَا يَغْشَى.",
+    "core": false,
+    "in": [
+     "muslim:1040",
+     "muslim:1041",
+     "bukhari:705"
+    ]
+   },
+   {
+    "ar": "وَسَبِّحِ اسْمَ رَبِّكَ الأَعْلَى \".",
+    "core": false,
+    "in": [
+     "muslim:1040",
+     "muslim:1041",
+     "bukhari:6106",
+     "bukhari:705"
+    ]
+   },
+   {
+    "ar": "فَقَالَ عَمْرٌو نَحْوَ هَذَا",
+    "core": false,
+    "in": [
+     "muslim:1040",
+     "bukhari:701"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "جابر",
+   "جابر بن عبد الله",
+   "جابر بن عبد الله الانصاري"
+  ],
+  "chapter": {
+   "book": "muslim",
+   "chapter": 4
+  },
+  "see_also": [],
+  "topic": "Prayer",
+  "segments_en": [
+   "Muʿādh used to pray with the Prophet ﷺ and then go back and lead his own people in prayer. One night he prayed the ʿIshāʾ prayer with the Prophet ﷺ, then came to his people and led them, and he began with Sūrat al-Baqarah. A man turned away, gave the salām, then prayed by himself and left. They said to him, \"Have you become a hypocrite, so-and-so?\" He said, \"No, by Allah! I will certainly go to the Messenger of Allah ﷺ and tell him.\"",
+   "So he went to the Messenger of Allah ﷺ and said, \"O Messenger of Allah, we are people who work with water-carrying camels, labouring during the day, and Muʿādh prayed ʿIshāʾ with you, then came and began with Sūrat al-Baqarah.\"",
+   "The Messenger of Allah ﷺ turned to Muʿādh and said:",
+   "\"O Muʿādh, are you a cause of trial? Recite such-and-such, and recite such-and-such.\"",
+   "Sufyān said: I said to ʿAmr, \"Abū al-Zubayr narrated to us from Jābir that he said [the Prophet ﷺ said]:",
+   "'Recite: By the sun and its brightness; and by the morning brightness;",
+   "and by the night when it covers;",
+   "and Glorify the name of your Lord, the Most High.'\"",
+   "ʿAmr said something similar to this."
+  ]
+ },
+ {
+  "id": "U6-00895",
+  "uncertain": true,
+  "members": [
+   {
+    "id": "bukhari:2483",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:2983",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:4360",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:4999",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "muslim:4999",
+  "books_full": [
+   "bukhari",
+   "muslim"
+  ],
+  "books_partial": [],
+  "stars": 2,
+  "stars_display": "★★",
+  "badge": "muttafaq",
+  "segments": [
+   {
+    "ar": "بَعَثَنَا رَسُولُ اللَّهِ صلى الله عليه وسلم وَنَحْنُ ثَلاَثُمِائَةِ رَاكِبٍ وَأَمِيرُنَا أَبُو عُبَيْدَةَ بْنُ الْجَرَّاحِ نَرْصُدُ عِيرًا لِقُرَيْشٍ فَأَقَمْنَا بِالسَّاحِلِ نِصْفَ شَهْرٍ فَأَصَابَنَا جُوعٌ شَدِيدٌ حَتَّى أَكَلْنَا الْخَبَطَ فَسُمِّيَ جَيْشَ الْخَبَطِ فَأَلْقَى لَنَا الْبَحْرُ دَابَّةً يُقَالُ لَهَا الْعَنْبَرُ فَأَكَلْنَا مِنْهَا نِصْفَ شَهْرٍ وَادَّهَنَّا مِنْ وَدَكِهَا حَتَّى ثَابَتْ أَجْسَامُنَا - قَالَ - فَأَخَذَ أَبُو عُبَيْدَةَ ضِلَعًا مِنْ أَضْلاَعِهِ فَنَصَبَهُ ثُمَّ نَظَرَ إِلَى أَطْوَلِ رَجُلٍ فِي الْجَيْشِ وَأَطْوَلِ جَمَلٍ فَحَمَلَهُ عَلَيْهِ فَمَرَّ تَحْتَهُ قَالَ وَجَلَسَ فِي حَجَاجِ عَيْنِهِ نَفَرٌ قَالَ وَأَخْرَجْنَا مِنْ وَقْبِ عَيْنِهِ كَذَا وَكَذَا قُلَّةَ وَدَكٍ - قَالَ - وَكَانَ مَعَنَا جِرَابٌ مِنْ تَمْرٍ فَكَانَ أَبُو عُبَيْدَةَ يُعْطِي كُلَّ رَجُلٍ مِنَّا قَبْضَةً قَبْضَةً ثُمَّ أَعْطَانَا تَمْرَةً تَمْرَةً فَلَمَّا فَنِيَ وَجَدْنَا فَقْدَهُ",
+    "core": false,
+    "in": [
+     "muslim:4999"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "جابر",
+   "جابر بن عبد الله",
+   "عمرو جابر بن عبد الله"
+  ],
+  "chapter": {
+   "book": "muslim",
+   "chapter": 34
+  },
+  "see_also": [
+   "U6-02993",
+   "U6-04831",
+   "U6-04833",
+   "U6-04834"
+  ],
+  "topic": "Jihad and expeditions",
+  "segments_en": [
+   "The Messenger of Allah ﷺ sent us out, three hundred riders, with Abū ʿUbaydah ibn al-Jarrāḥ as our commander, to watch for a caravan of Quraysh. We stayed on the coast for half a month, and we were struck by severe hunger, so much so that we ate khabṭ (leaves). So it was called the Army of the Khabṭ. Then the sea cast up for us an animal called al-ʿAnbar, and we ate from it for half a month and rubbed ourselves with its fat until our bodies recovered. He said: Abū ʿUbaydah took one of its ribs and set it upright, then looked for the tallest man in the army and the tallest camel, and loaded him on it, and he passed beneath it. He said: A group of men sat in the socket of its eye, and he said: we took out of the hollow of its eye so many jars of fat. He said: We had with us a bag of dates, and Abū ʿUbaydah would give each man among us a handful, then he gave us a single date each, and when it ran out, we felt its loss."
+  ]
+ },
+ {
+  "id": "U6-01474",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "bukhari:5312",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:5350",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:3748",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "muslim:3748",
+  "books_full": [
+   "bukhari",
+   "muslim"
+  ],
+  "books_partial": [],
+  "stars": 2,
+  "stars_display": "★★",
+  "badge": "muttafaq",
+  "segments": [
+   {
+    "ar": "قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم لِلْمُتَلاَعِنَيْنِ \"",
+    "core": true,
+    "in": [
+     "muslim:3748",
+     "bukhari:5350",
+     "bukhari:5312"
+    ]
+   },
+   {
+    "ar": "حِسَابُكُمَا عَلَى اللَّهِ أَحَدُكُمَا كَاذِبٌ لاَ سَبِيلَ لَكَ عَلَيْهَا \".",
+    "core": true,
+    "in": [
+     "muslim:3748",
+     "bukhari:5350",
+     "bukhari:5312"
+    ]
+   },
+   {
+    "ar": "قَالَ يَا رَسُولَ اللَّهِ مَالِي قَالَ \"",
+    "core": true,
+    "in": [
+     "muslim:3748",
+     "bukhari:5350",
+     "bukhari:5312"
+    ]
+   },
+   {
+    "ar": "لاَ مَالَ لَكَ إِنْ كُنْتَ صَدَقْتَ عَلَيْهَا فَهْوَ بِمَا اسْتَحْلَلْتَ مِنْ فَرْجِهَا وَإِنْ كُنْتَ كَذَبْتَ عَلَيْهَا فَذَاكَ أَبْعَدُ لَكَ مِنْهَا \".",
+    "core": true,
+    "in": [
+     "muslim:3748",
+     "bukhari:5350",
+     "bukhari:5312"
+    ]
+   },
+   {
+    "ar": "قَالَ زُهَيْرٌ فِي رِوَايَتِهِ حَدَّثَنَا سُفْيَانُ عَنْ عَمْرٍو سَمِعَ سَعِيدَ بْنَ جُبَيْرٍ يَقُولُ سَمِعْتُ ابْنَ عُمَرَ يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم",
+    "core": false,
+    "in": [
+     "muslim:3748"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "ابن عمر",
+   "سعيد بن جبير"
+  ],
+  "chapter": {
+   "book": "muslim",
+   "chapter": 19
+  },
+  "see_also": [
+   "U6-01473"
+  ],
+  "topic": "Marriage and divorce",
+  "segments_en": [
+   "The Messenger of Allah ﷺ said to the couple who had exchanged oaths of condemnation (li'ān): \"",
+   "Your reckoning is with Allah; one of you is lying. You have no claim over her.\"",
+   "The man said, \"O Messenger of Allah, what about my property?\" He said: \"",
+   "You have no property [to reclaim]. If you spoke the truth about her, it is in return for what you made lawful of her private part; and if you lied about her, then that is even further from you.\"",
+   "Zuhayr said in his narration: Sufyān narrated to us from ʿAmr, who heard Saʿīd ibn Jubayr say: I heard Ibn ʿUmar say: The Messenger of Allah ﷺ said"
+  ]
+ },
+ {
+  "id": "U6-01149",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "bukhari:3455",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:4773",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:4774",
+    "book": "muslim",
+    "kind": "ref",
+    "role": "full"
+   }
+  ],
+  "representative": "bukhari:3455",
+  "books_full": [
+   "bukhari",
+   "muslim"
+  ],
+  "books_partial": [],
+  "stars": 2,
+  "stars_display": "★★",
+  "badge": "muttafaq",
+  "segments": [
+   {
+    "ar": "قَاعَدْتُ أَبَا هُرَيْرَةَ خَمْسَ سِنِينَ، فَسَمِعْتُهُ يُحَدِّثُ،",
+    "core": true,
+    "in": [
+     "bukhari:3455",
+     "muslim:4773"
+    ]
+   },
+   {
+    "ar": "عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ \"",
+    "core": true,
+    "in": [
+     "bukhari:3455",
+     "muslim:4773"
+    ]
+   },
+   {
+    "ar": "كَانَتْ بَنُو إِسْرَائِيلَ تَسُوسُهُمُ الأَنْبِيَاءُ،",
+    "core": true,
+    "in": [
+     "bukhari:3455",
+     "muslim:4773"
+    ]
+   },
+   {
+    "ar": "كُلَّمَا هَلَكَ نَبِيٌّ خَلَفَهُ نَبِيٌّ،",
+    "core": true,
+    "in": [
+     "bukhari:3455",
+     "muslim:4773"
+    ]
+   },
+   {
+    "ar": "وَإِنَّهُ لاَ نَبِيَّ بَعْدِي،",
+    "core": true,
+    "in": [
+     "bukhari:3455",
+     "muslim:4773"
+    ]
+   },
+   {
+    "ar": "وَسَيَكُونُ خُلَفَاءُ فَيَكْثُرُونَ.",
+    "core": false,
+    "in": [
+     "bukhari:3455"
+    ]
+   },
+   {
+    "ar": "قَالُوا فَمَا تَأْمُرُنَا قَالَ فُوا بِبَيْعَةِ الأَوَّلِ فَالأَوَّلِ، أَعْطُوهُمْ حَقَّهُمْ،",
+    "core": true,
+    "in": [
+     "bukhari:3455",
+     "muslim:4773"
+    ]
+   },
+   {
+    "ar": "فَإِنَّ اللَّهَ سَائِلُهُمْ عَمَّا اسْتَرْعَاهُمْ \"",
+    "core": true,
+    "in": [
+     "bukhari:3455",
+     "muslim:4773"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "ابا حازم",
+   "ابي حازم",
+   "ابيه"
+  ],
+  "chapter": {
+   "book": "bukhari",
+   "chapter": 60
+  },
+  "see_also": [],
+  "topic": "Government and leadership",
+  "segments_en": [
+   "I sat with Abū Hurayrah for five years, and I heard him narrate",
+   "from the Prophet ﷺ, who said:",
+   "\"The Children of Israel were governed by prophets;",
+   "whenever one prophet died, another prophet succeeded him.",
+   "But there will be no prophet after me,",
+   "and there will be caliphs, and they will be many.\"",
+   "They said, \"What do you command us [to do]?\" He said, \"Fulfil the pledge of allegiance to the first, then the next in order, and give them their due,",
+   "for Allah will question them about those whom He placed under their care.\""
+  ]
+ },
+ {
+  "id": "U6-01524",
+  "uncertain": true,
+  "members": [
+   {
+    "id": "bukhari:5684",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:5716",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "partial"
+   },
+   {
+    "id": "muslim:5770",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:5771",
+    "book": "muslim",
+    "kind": "full",
+    "role": "partial"
+   }
+  ],
+  "representative": "muslim:5770",
+  "books_full": [
+   "bukhari",
+   "muslim"
+  ],
+  "books_partial": [],
+  "stars": 2,
+  "stars_display": "★★",
+  "badge": "muttafaq",
+  "segments": [
+   {
+    "ar": "جَاءَ رَجُلٌ إِلَى النَّبِيِّ صلى الله عليه وسلم فَقَالَ إِنَّ أَخِي اسْتَطْلَقَ بَطْنُهُ.",
+    "core": false,
+    "in": [
+     "muslim:5770"
+    ]
+   },
+   {
+    "ar": "فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم \" اسْقِهِ عَسَلاً \".",
+    "core": true,
+    "in": [
+     "muslim:5770",
+     "bukhari:5684"
+    ]
+   },
+   {
+    "ar": "فَسَقَاهُ ثُمَّ جَاءَهُ فَقَالَ إِنِّي سَقَيْت��هُ عَسَلاً فَلَمْ يَزِدْهُ إِلاَّ اسْتِطْلاَقًا.",
+    "core": false,
+    "in": [
+     "muslim:5770"
+    ]
+   },
+   {
+    "ar": "فَقَالَ لَهُ ثَلاَثَ مَرَّاتٍ ثُمَّ جَاءَ الرَّابِعَةَ فَقَالَ \" اسْقِهِ عَسَلاً \".",
+    "core": false,
+    "in": [
+     "muslim:5770"
+    ]
+   },
+   {
+    "ar": "فَقَالَ لَقَدْ سَقَيْتُهُ فَلَمْ يَزِدْهُ إِلاَّ اسْتِطْلاَقًا.",
+    "core": false,
+    "in": [
+     "muslim:5770"
+    ]
+   },
+   {
+    "ar": "فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم \"",
+    "core": false,
+    "in": [
+     "muslim:5770"
+    ]
+   },
+   {
+    "ar": "صَدَقَ اللَّهُ وَكَذَبَ بَطْنُ أَخِيكَ \". فَسَقَاهُ فَبَرَأَ",
+    "core": true,
+    "in": [
+     "muslim:5770",
+     "bukhari:5684"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "ابي سعيد",
+   "ابي سعيد الخدري"
+  ],
+  "chapter": {
+   "book": "muslim",
+   "chapter": 39
+  },
+  "see_also": [],
+  "topic": "Medicine and dreams",
+  "segments_en": [
+   "A man came to the Prophet ﷺ and said, \"My brother has loose bowels.\"",
+   "The Messenger of Allah ﷺ said, \"Give him honey to drink.\"",
+   "So he gave it to him, then came back and said, \"I gave him honey to drink, but it only made his diarrhea worse.\"",
+   "[The Prophet ﷺ] told him [the same] three times. Then he came a fourth time, and he said, \"Give him honey to drink.\"",
+   "The man said, \"I did give it to him, but it only made his diarrhea worse.\"",
+   "The Messenger of Allah ﷺ said,",
+   "\"Allah has spoken the truth, and your brother's stomach has lied.\" So he gave him [the honey] to drink, and he recovered."
+  ]
+ },
+ {
+  "id": "U6-01421",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "bukhari:5063",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:3403",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "bukhari:5063",
+  "books_full": [
+   "bukhari",
+   "muslim"
+  ],
+  "books_partial": [],
+  "stars": 2,
+  "stars_display": "★★",
+  "badge": "muttafaq",
+  "segments": [
+   {
+    "ar": "جَاءَ ثَلاَثَةُ رَهْطٍ إِلَى بُيُوتِ أَزْوَاجِ النَّبِيِّ صلى الله عليه وسلم يَسْأَلُونَ عَنْ عِبَادَةِ النَّبِيِّ صلى الله عليه وسلم فَلَمَّا أُخْبِرُوا كَأَنَّهُمْ تَقَالُّوهَا فَقَالُوا وَأَيْنَ نَحْنُ مِنَ النَّبِيِّ صلى الله عليه وسلم قَدْ غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ وَمَا تَأَخَّرَ.",
+    "core": false,
+    "in": [
+     "bukhari:5063"
+    ]
+   },
+   {
+    "ar": "قَالَ أَحَدُهُمْ أَمَّا أَنَا فَإِنِّي أُصَلِّي اللَّيْلَ أَبَدًا.",
+    "core": false,
+    "in": [
+     "bukhari:5063"
+    ]
+   },
+   {
+    "ar": "وَقَالَ آخَرُ أَنَا أَصُومُ الدَّهْرَ وَلاَ أُفْطِرُ.",
+    "core": false,
+    "in": [
+     "bukhari:5063"
+    ]
+   },
+   {
+    "ar": "وَقَالَ آخَرُ أَنَا أَعْتَزِلُ النِّسَاءَ فَلاَ أَتَزَوَّجُ أَبَدًا.",
+    "core": false,
+    "in": [
+     "bukhari:5063"
+    ]
+   },
+   {
+    "ar": "فَجَاءَ رَسُولُ اللَّهِ صلى الله عليه وسلم فَقَالَ \"",
+    "core": true,
+    "in": [
+     "bukhari:5063",
+     "muslim:3403"
+    ]
+   },
+   {
+    "ar": "أَنْتُمُ الَّذِينَ قُلْتُمْ كَذَا وَكَذَا أَمَا وَاللَّهِ إِنِّي لأَخْشَاكُمْ لِلَّهِ وَأَتْقَاكُمْ لَهُ،",
+    "core": false,
+    "in": [
+     "bukhari:5063"
+    ]
+   },
+   {
+    "ar": "لَكِنِّي أَصُومُ وَأُفْطِرُ،",
+    "core": true,
+    "in": [
+     "bukhari:5063",
+     "muslim:3403"
+    ]
+   },
+   {
+    "ar": "وَأُصَلِّي وَأَرْقُدُ وَأَتَزَوَّجُ النِّسَاءَ،",
+    "core": true,
+    "in": [
+     "bukhari:5063",
+     "muslim:3403"
+    ]
+   },
+   {
+    "ar": "فَمَنْ رَغِبَ عَنْ سُنَّتِي فَلَيْسَ مِنِّي \"",
+    "core": true,
+    "in": [
+     "bukhari:5063",
+     "muslim:3403"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "انس",
+   "انس بن مالك"
+  ],
+  "chapter": {
+   "book": "bukhari",
+   "chapter": 67
+  },
+  "see_also": [],
+  "topic": "Softening of hearts",
+  "segments_en": [
+   "Three men came to the houses of the wives of the Prophet ﷺ asking about the worship of the Prophet ﷺ. When they were informed of it, they seemed to consider it too little, and said, \"Where are we compared to the Prophet ﷺ? Allah has forgiven him his earlier and later sins.\"",
+   "One of them said, \"As for me, I will pray all night, always.\"",
+   "Another said, \"I will fast every day and never break my fast.\"",
+   "And another said, \"I will keep away from women and never marry.\"",
+   "Then the Messenger of Allah ﷺ came and said, \"",
+   "Are you the ones who said such and such? By Allah, I am the most fearful of Allah among you and the most mindful of Him,",
+   "but I fast and I break my fast,",
+   "I pray and I sleep, and I marry women.",
+   "So whoever turns away from my sunnah is not of me.\""
+  ]
+ },
+ {
+  "id": "U6-00145",
+  "uncertain": true,
+  "members": [
+   {
+    "id": "bukhari:268",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:284",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "partial"
+   },
+   {
+    "id": "bukhari:5068",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:5215",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "partial"
+   },
+   {
+    "id": "muslim:708",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "bukhari:268",
+  "books_full": [
+   "bukhari",
+   "muslim"
+  ],
+  "books_partial": [],
+  "stars": 2,
+  "stars_display": "★★",
+  "badge": "muttafaq",
+  "segments": [
+   {
+    "ar": "كَانَ النَّبِيُّ صلى الله عليه وسلم يَدُورُ عَلَى نِسَائِهِ فِي السَّاعَةِ الْوَاحِدَةِ مِنَ اللَّيْلِ وَالنَّهَارِ،",
+    "core": false,
+    "in": [
+     "bukhari:268"
+    ]
+   },
+   {
+    "ar": "وَهُنَّ إِحْدَى عَشْرَةَ.",
+    "core": false,
+    "in": [
+     "bukhari:268"
+    ]
+   },
+   {
+    "ar": "قَالَ قُلْتُ لأَنَسٍ أَوَكَانَ يُطِيقُهُ قَالَ كُنَّا نَتَحَدَّثُ أَنَّهُ أُعْطِيَ قُوَّةَ ثَلاَثِينَ.",
+    "core": false,
+    "in": [
+     "bukhari:268"
+    ]
+   },
+   {
+    "ar": "وَقَالَ سَعِيدٌ عَنْ قَتَادَةَ إِنَّ أَنَسًا حَدَّثَهُمْ تِسْعُ نِسْوَةٍ",
+    "core": false,
+    "in": [
+     "bukhari:268"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "انس",
+   "انس بن مالك",
+   "قتادة ان انس بن مالك"
+  ],
+  "chapter": {
+   "book": "bukhari",
+   "chapter": 5
+  },
+  "see_also": [],
+  "topic": "Marriage and divorce",
+  "segments_en": [
+   "The Prophet ﷺ used to go round to his wives in a single hour of the night or day,",
+   "and they were eleven.",
+   "[Qatādah] said: I asked Anas, \"Was he able to do that?\" He said, \"We used to say that he had been given the strength of thirty [men].\"",
+   "And Saʿīd reported from Qatādah that Anas narrated to them [that they were] nine wives."
+  ]
+ },
+ {
+  "id": "U6-01342",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "bukhari:4567",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:7033",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "muslim:7033",
+  "books_full": [
+   "bukhari",
+   "muslim"
+  ],
+  "books_partial": [],
+  "stars": 2,
+  "stars_display": "★★",
+  "badge": "muttafaq",
+  "segments": [
+   {
+    "ar": "الْخُدْرِيِّ أَنَّ رِجَالاً،",
+    "core": true,
+    "in": [
+     "muslim:7033",
+     "bukhari:4567"
+    ]
+   },
+   {
+    "ar": "مِنَ الْمُنَافِقِينَ فِي عَهْدِ رَسُولِ اللَّهِ صلى الله عليه وسلم كَانُوا إِذَا خَرَجَ النَّبِيُّ صلى الله عليه وسلم إِلَى الْغَزْوِ تَخَلَّفُوا عَنْهُ وَفَرِحُوا بِمَقْعَدِهِمْ خِلاَفَ رَسُولِ اللَّهِ صلى الله عليه وسلم فَإِذَا قَدِمَ النَّبِيُّ صلى الله عليه وسلم اعْتَذَرُوا إِلَيْهِ وَحَلَفُوا وَأَحَبُّوا أَنْ يُحْمَدُوا بِمَا لَمْ يَفْعَلُوا فَنَزَلَتْ { لاَ تَحْسَبَنَّ الَّذِينَ يَفْرَحُونَ بِمَا أَتَوْا وَيُحِبُّونَ أَنْ يُحْمَدُوا بِمَا لَمْ يَفْعَلُوا فَلاَ تَحْسَبَنَّهُمْ بِمَفَازَةٍ مِنَ الْعَذَابِ}",
+    "core": true,
+    "in": [
+     "muslim:7033",
+     "bukhari:4567"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "ابي سعيد",
+   "ابي سعيد الخدري"
+  ],
+  "chapter": {
+   "book": "muslim",
+   "chapter": 51
+  },
+  "see_also": [],
+  "topic": "Faith and belief",
+  "segments_en": [
+   "Al-Khudrī [Abū Saʿīd] reported that some men",
+   "from among the hypocrites, in the time of the Messenger of Allah ﷺ, would stay behind whenever the Prophet ﷺ went out on a military expedition, and they would rejoice in their staying behind, in opposition to the Messenger of Allah ﷺ. Then when the Prophet ﷺ returned, they would make excuses to him and swear oaths, and they loved to be praised for what they had not done. So it was revealed: {Do not think that those who rejoice in what they have done and love to be praised for what they have not done—do not think they are in safety from the punishment.}"
+  ]
+ },
+ {
+  "id": "U6-00029",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "bukhari:45",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:4407",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:4606",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:7268",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:7525",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:7526",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:7527",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "muslim:7527",
+  "books_full": [
+   "bukhari",
+   "muslim"
+  ],
+  "books_partial": [],
+  "stars": 2,
+  "stars_display": "★★",
+  "badge": "muttafaq",
+  "segments": [
+   {
+    "ar": "جَاءَ رَجُلٌ مِنَ الْيَهُودِ إِلَى عُمَرَ فَقَالَ يَا أَمِيرَ الْمُؤْمِنِينَ آيَةٌ فِي كِتَابِكُمْ تَقْرَءُونَهَا لَوْ عَلَيْنَا نَزَلَتْ مَعْشَرَ الْيَهُودِ لاَتَّخَذْنَا ذَلِكَ الْيَوْمَ عِيدًا.",
+    "core": false,
+    "in": [
+     "muslim:7527",
+     "bukhari:45",
+     "bukhari:7268"
+    ]
+   },
+   {
+    "ar": "قَالَ وَأَىُّ آيَةٍ قَالَ { الْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِي وَرَضِيتُ لَكُمُ الإِسْلاَمَ دِينًا} فَقَالَ عُمَرُ إِنِّي لأَعْلَمُ الْيَوْمَ الَّذِي نَزَلَتْ فِيهِ وَالْمَكَانَ الَّذِي نَزَلَتْ فِيهِ نَزَلَتْ عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم بِعَرَفَاتٍ فِي يَوْمِ جُمُعَةٍ",
+    "core": false,
+    "in": [
+     "muslim:7527",
+     "muslim:7526",
+     "bukhari:45",
+     "bukhari:7268",
+     "muslim:7525",
+     "bukhari:4407"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "طارق بن شهاب",
+   "طارق بن شهاب ان اليهود",
+   "عمر بن الخطاب"
+  ],
+  "chapter": {
+   "book": "muslim",
+   "chapter": 56
+  },
+  "see_also": [],
+  "topic": "Virtues of the Prophet and Companions",
+  "segments_en": [
+   "A man from among the Jews came to ʿUmar and said, \"O Commander of the Faithful, there is a verse in your Book which you recite; had it been revealed to us, the company of the Jews, we would have taken that day as a festival.\"",
+   "He said, \"Which verse?\" He said, \"{This day I have perfected for you your religion, completed My favor upon you, and approved Islam as your religion.}\" ʿUmar said, \"I know the day on which it was revealed and the place where it was revealed. It was revealed to the Messenger of Allah ﷺ at ʿArafāt, on a Friday.\""
+  ]
+ },
+ {
+  "id": "U6-01032",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "bukhari:3035",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:3036",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:3822",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "partial"
+   },
+   {
+    "id": "bukhari:6089",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:6090",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:6363",
+    "book": "muslim",
+    "kind": "full",
+    "role": "partial"
+   },
+   {
+    "id": "muslim:6364",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "muslim:6364",
+  "books_full": [
+   "bukhari",
+   "muslim"
+  ],
+  "books_partial": [],
+  "stars": 2,
+  "stars_display": "★★",
+  "badge": "muttafaq",
+  "segments": [
+   {
+    "ar": "مَا حَجَبَنِي رَسُولُ اللَّهِ صلى الله عليه وسلم مُنْذُ أَسْلَمْتُ وَلاَ رَآنِي إِلاَّ تَبَسَّمَ فِي وَجْهِي.",
+    "core": true,
+    "in": [
+     "muslim:6364",
+     "bukhari:3036",
+     "bukhari:3035",
+     "bukhari:6090",
+     "bukhari:6089"
+    ]
+   },
+   {
+    "ar": "زَادَ ابْنُ نُمَيْرٍ فِي حَدِيثِهِ عَنِ ابْنِ إِدْرِيسَ وَلَقَدْ شَكَوْتُ إِلَيْهِ أَنِّي لاَ أَثْبُتُ عَلَى الْخَيْلِ فَضَرَبَ بِيَدِهِ فِي صَدْرِي وَقَالَ \"",
+    "core": true,
+    "in": [
+     "muslim:6364",
+     "bukhari:3036",
+     "bukhari:3035",
+     "bukhari:6090",
+     "bukhari:6089"
+    ]
+   },
+   {
+    "ar": "اللَّهُمَّ ثَبِّتْهُ وَاجْعَلْهُ هَادِيًا مَهْدِيًّا \"",
+    "core": true,
+    "in": [
+     "muslim:6364",
+     "bukhari:3036",
+     "bukhari:3035",
+     "bukhari:6090",
+     "bukhari:6089"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "جرير",
+   "قيس بن ابي",
+   "قيس قال سمعته"
+  ],
+  "chapter": {
+   "book": "muslim",
+   "chapter": 44
+  },
+  "see_also": [
+   "U6-01318",
+   "U6-02642"
+  ],
+  "topic": "Virtues of the Prophet and Companions",
+  "segments_en": [
+   "The Messenger of Allah ﷺ never refused me [entry] since I accepted Islam, and he never looked at me except that he smiled in my face.",
+   "Ibn Numayr added in his narration from Ibn Idrīs: \"I complained to him that I could not stay steady on horses, so he struck my chest with his hand and said:",
+   "'O Allah, make him steadfast, and make him one who guides and is rightly guided.'\""
+  ]
+ },
+ {
+  "id": "U6-00570",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "bukhari:1469",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:6470",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:2424",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:2425",
+    "book": "muslim",
+    "kind": "ref",
+    "role": "full"
+   }
+  ],
+  "representative": "bukhari:6470",
+  "books_full": [
+   "bukhari",
+   "muslim"
+  ],
+  "books_partial": [],
+  "stars": 2,
+  "stars_display": "★★",
+  "badge": "muttafaq",
+  "segments": [
+   {
+    "ar": "أَنَّ أُنَاسًا مِنَ الأَنْصَارِ سَأَلُوا رَسُولَ اللَّهِ صلى الله عليه وسلم فَلَمْ يَسْأَلْهُ أَحَدٌ مِنْهُمْ إِلاَّ أَعْطَاهُ حَتَّى نَفِدَ مَا عِنْدَهُ فَقَالَ لَهُمْ حِينَ نَفِدَ كُلُّ شَىْءٍ أَنْفَقَ بِيَدَيْهِ \"",
+    "core": false,
+    "in": [
+     "bukhari:6470",
+     "bukhari:1469"
+    ]
+   },
+   {
+    "ar": "مَا يَكُنْ عِنْدِي مِنْ خَيْرٍ لاَ أَدَّخِرْهُ عَنْكُمْ،",
+    "core": true,
+    "in": [
+     "bukhari:6470",
+     "muslim:2424",
+     "bukhari:1469"
+    ]
+   },
+   {
+    "ar": "وَإِنَّهُ مَنْ يَسْتَعِفَّ يُعِفُّهُ اللَّهُ،",
+    "core": true,
+    "in": [
+     "bukhari:6470",
+     "muslim:2424",
+     "bukhari:1469"
+    ]
+   },
+   {
+    "ar": "وَمَنْ يَتَصَبَّرْ يُصَبِّرْهُ اللَّهُ،",
+    "core": true,
+    "in": [
+     "bukhari:6470",
+     "muslim:2424",
+     "bukhari:1469"
+    ]
+   },
+   {
+    "ar": "وَمَنْ يَسْتَغْنِ يُغْنِهِ اللَّهُ،",
+    "core": true,
+    "in": [
+     "bukhari:6470",
+     "muslim:2424",
+     "bukhari:1469"
+    ]
+   },
+   {
+    "ar": "وَلَنْ تُعْطَوْا عَطَاءً خَيْرًا وَأَوْسَعَ مِنَ الصَّبْرِ \"",
+    "core": true,
+    "in": [
+     "bukhari:6470",
+     "muslim:2424",
+     "bukhari:1469"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "ابي سعيد الخدري",
+   "الزهري",
+   "عطاء بن يزيد ان ابا سعيد"
+  ],
+  "chapter": {
+   "book": "bukhari",
+   "chapter": 81
+  },
+  "see_also": [],
+  "topic": "Zakat and charity",
+  "segments_en": [
+   "Some people from the Anṣār asked the Messenger of Allah ﷺ [for something], and he gave to each one who asked, until what he had was exhausted. Then, when everything he had in his hands had been spent, he said to them:",
+   "\"Whatever good I have, I will never withhold it from you.",
+   "Whoever seeks to be chaste, Allah will make him chaste;",
+   "whoever strives to be patient, Allah will grant him patience;",
+   "and whoever seeks to be self-sufficient, Allah will make him self-sufficient.",
+   "And no one has ever been given a gift better and more expansive than patience.\""
+  ]
+ },
+ {
+  "id": "U6-01217",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "bukhari:3677",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:3685",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:6187",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:6188",
+    "book": "muslim",
+    "kind": "ref",
+    "role": "full"
+   }
+  ],
+  "representative": "muslim:6187",
+  "books_full": [
+   "bukhari",
+   "muslim"
+  ],
+  "books_partial": [],
+  "stars": 2,
+  "stars_display": "★★",
+  "badge": "muttafaq",
+  "segments": [
+   {
+    "ar": "وُضِعَ عُمَرُ بْنُ الْخَطَّابِ عَلَى سَرِيرِهِ فَتَكَنَّفَهُ النَّاسُ يَدْعُونَ وَيُثْنُونَ وَيُصَلُّونَ عَلَيْهِ قَبْلَ أَنْ يُرْفَعَ وَأَنَا فِيهِمْ - قَالَ - فَلَمْ يَرُعْنِي إِلاَّ بِرَجُلٍ قَدْ أَخَذَ بِمَنْكِبِي مِنْ وَرَائِي فَالْتَفَتُّ إِلَيْهِ فَإِذَا هُوَ عَلِيُّ فَتَرَحَّمَ عَلَى عُمَرَ وَقَالَ مَا خَلَّفْتَ أَحَدًا أَحَبَّ إِلَىَّ أَنْ أَلْقَى اللَّهَ بِمِثْلِ عَمَلِهِ مِنْكَ وَايْمُ اللَّهِ إِنْ كُنْتُ لأَظُنُّ أَنْ يَجْعَلَكَ اللَّهُ مَعَ صَاحِبَيْكَ وَذَاكَ أَنِّي كُنْتُ أُكَثِّرُ أَسْمَعُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ \"",
+    "core": false,
+    "in": [
+     "muslim:6187",
+     "bukhari:3685"
+    ]
+   },
+   {
+    "ar": "جِئْتُ أَنَا وَأَبُو بَكْرٍ وَعُمَرُ وَدَخَلْتُ أَنَا وَأَبُو بَكْرٍ وَعُمَرُ وَخَرَجْتُ أَنَا وَأَبُو بَكْرٍ وَعُمَرُ \".",
+    "core": false,
+    "in": [
+     "muslim:6187",
+     "bukhari:3685"
+    ]
+   },
+   {
+    "ar": "فَإِنْ كُنْتُ لأَرْجُو أَوْ لأَظُنُّ أَنْ يَجْعَلَكَ اللَّهُ مَعَهُمَا",
+    "core": true,
+    "in": [
+     "muslim:6187",
+     "bukhari:3685",
+     "bukhari:3677"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "ابن عباس",
+   "عمر بن سعيد"
+  ],
+  "chapter": {
+   "book": "muslim",
+   "chapter": 44
+  },
+  "see_also": [],
+  "topic": "Virtues of the Prophet and Companions",
+  "segments_en": [
+   "When ʿUmar ibn al-Khaṭṭāb was laid on his bier, the people gathered around him, supplicating, praising him, and praying over him before he was lifted up, and I was among them. [The narrator] said: Nothing startled me except a man who took hold of my shoulder from behind. I turned to him, and it was ʿAlī. He asked Allah to have mercy on ʿUmar and said: \"You have left behind no one whom I would love more to meet Allah with the like of his deeds than you. By Allah, I always thought that Allah would place you with your two companions, because I often used to hear the Messenger of Allah ﷺ say: \"",
+   "\"I came, and Abū Bakr and ʿUmar; I entered, and Abū Bakr and ʿUmar; and I went out, and Abū Bakr and ʿUmar.\"",
+   "So I truly hoped, or thought, that Allah would place you with them both.\""
+  ]
+ },
+ {
+  "id": "U6-00515",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "bukhari:1304",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:2137",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "bukhari:1304",
+  "books_full": [
+   "bukhari",
+   "muslim"
+  ],
+  "books_partial": [],
+  "stars": 2,
+  "stars_display": "★★",
+  "badge": "muttafaq",
+  "segments": [
+   {
+    "ar": "اشْتَكَى سَعْدُ بْنُ عُبَادَةَ شَكْوَى لَهُ فَأَتَاهُ النَّبِيُّ صلى الله عليه وسلم يَعُودُهُ مَعَ عَبْدِ الرَّحْمَنِ بْنِ عَوْفٍ وَسَعْدِ بْنِ أَبِي وَقَّاصٍ وَعَبْدِ اللَّهِ بْنِ مَسْعُودٍ ـ رضى الله عنهم ـ فَلَمَّا دَخَلَ عَلَيْهِ فَوَجَدَهُ فِي غَاشِيَةِ أَهْلِهِ فَقَالَ \" قَدْ قَضَى \".",
+    "core": true,
+    "in": [
+     "bukhari:1304",
+     "muslim:2137"
+    ]
+   },
+   {
+    "ar": "قَالُوا لاَ يَا رَسُولَ اللَّهِ.",
+    "core": true,
+    "in": [
+     "bukhari:1304",
+     "muslim:2137"
+    ]
+   },
+   {
+    "ar": "فَبَكَى النَّبِيُّ صلى الله عليه وسلم فَلَمَّا رَأَى الْقَوْمُ بُكَاءَ النَّبِيِّ صلى الله عليه وسلم بَكَوْا فَقَالَ \"",
+    "core": true,
+    "in": [
+     "bukhari:1304",
+     "muslim:2137"
+    ]
+   },
+   {
+    "ar": "أَلاَ تَسْمَعُونَ إِنَّ اللَّهَ لاَ يُعَذِّبُ بِدَمْعِ الْعَيْنِ،",
+    "core": true,
+    "in": [
+     "bukhari:1304",
+     "muslim:2137"
+    ]
+   },
+   {
+    "ar": "وَلاَ بِحُزْنِ الْقَلْبِ،",
+    "core": true,
+    "in": [
+     "bukhari:1304",
+     "muslim:2137"
+    ]
+   },
+   {
+    "ar": "وَلَكِنْ يُعَذِّبُ بِهَذَا ـ وَأَشَارَ إِلَى لِسَانِهِ ـ أَوْ يَرْحَمُ وَإِنَّ الْمَيِّتَ يُعَذَّبُ بِبُكَاءِ أَهْلِهِ عَلَيْهِ \".",
+    "core": true,
+    "in": [
+     "bukhari:1304",
+     "muslim:2137"
+    ]
+   },
+   {
+    "ar": "وَكَانَ عُمَرُ ـ رضى الله عنه ـ يَضْرِبُ فِيهِ بِالْعَصَا،",
+    "core": false,
+    "in": [
+     "bukhari:1304"
+    ]
+   },
+   {
+    "ar": "وَيَرْمِي بِالْحِجَارَةِ وَيَحْثِي بِالتُّرَابِ",
+    "core": false,
+    "in": [
+     "bukhari:1304"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "عبد الله بن عمر"
+  ],
+  "chapter": {
+   "book": "bukhari",
+   "chapter": 23
+  },
+  "see_also": [
+   "U6-00506",
+   "U6-00507"
+  ],
+  "topic": "Funerals",
+  "segments_en": [
+   "Saʿd ibn ʿUbādah fell ill, so the Prophet ﷺ came to visit him, together with ʿAbd al-Raḥmān ibn ʿAwf, Saʿd ibn Abī Waqqāṣ, and ʿAbdullāh ibn Masʿūd, may Allah be pleased with them. When he entered and found him surrounded by his family, he said, \"Has he passed away?\"",
+   "They said, \"No, O Messenger of Allah.\"",
+   "The Prophet ﷺ wept, and when the people saw the Prophet ﷺ weeping, they wept too. Then he said,",
+   "\"Do you not listen? Indeed Allah does not punish for the tears of the eye,",
+   "nor for the grief of the heart,",
+   "but He punishes for this\"—and he pointed to his tongue—\"or He shows mercy. And indeed the dead person is punished because of his family's weeping over him.\"",
+   "ʿUmar, may Allah be pleased with him, used to strike with a stick over this,",
+   "throw stones, and throw dust [at those who wailed]."
+  ]
+ },
+ {
+  "id": "U6-00421",
+  "uncertain": true,
+  "members": [
+   {
+    "id": "bukhari:1005",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "partial"
+   },
+   {
+    "id": "bukhari:1012",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "partial"
+   },
+   {
+    "id": "bukhari:1024",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:1025",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:1026",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:1027",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:2071",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:2073",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "muslim:2073",
+  "books_full": [
+   "bukhari",
+   "muslim"
+  ],
+  "books_partial": [],
+  "stars": 2,
+  "stars_display": "★★",
+  "badge": "muttafaq",
+  "segments": [
+   {
+    "ar": "وَكَانَ،",
+    "core": false,
+    "in": [
+     "muslim:2073"
+    ]
+   },
+   {
+    "ar": "مِنْ أَصْحَابِ رَسُولِ اللَّهِ صلى الله عليه وسلم يَقُولُ خَرَجَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَوْمًا يَسْتَسْقِي فَجَعَلَ إِلَى النَّاسِ ظَهْرَهُ يَدْعُو اللَّهَ وَاسْتَقْبَلَ الْقِبْلَةَ وَحَوَّلَ رِدَاءَهُ ثُمَّ صَلَّى رَكْعَتَيْنِ",
+    "core": false,
+    "in": [
+     "muslim:2073",
+     "bukhari:1025"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "عمه",
+   "عمه عبد الله بن زيد"
+  ],
+  "chapter": {
+   "book": "muslim",
+   "chapter": 9
+  },
+  "see_also": [
+   "U6-00425",
+   "U6-00437",
+   "U6-01267"
+  ],
+  "topic": "Prayer",
+  "segments_en": [
+   "And he was",
+   "one of the Companions of the Messenger of Allah ﷺ. He said: The Messenger of Allah ﷺ went out one day to pray for rain. He turned his back to the people, supplicating to Allah, and faced the qiblah, and he turned his cloak around. Then he prayed two rakʿahs."
+  ]
+ },
+ {
+  "id": "U6-01583",
+  "uncertain": true,
+  "members": [
+   {
+    "id": "bukhari:6032",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:6054",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:6131",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:6596",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:6597",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "bukhari:6032",
+  "books_full": [
+   "bukhari",
+   "muslim"
+  ],
+  "books_partial": [],
+  "stars": 2,
+  "stars_display": "★★",
+  "badge": "muttafaq",
+  "segments": [
+   {
+    "ar": "أَنَّ رَجُلاً،",
+    "core": false,
+    "in": [
+     "bukhari:6032",
+     "bukhari:6054",
+     "muslim:6596"
+    ]
+   },
+   {
+    "ar": "اسْتَأْذَنَ عَلَى النَّبِيِّ صلى الله عليه وسلم فَلَمَّا رَآهُ قَالَ \"",
+    "core": false,
+    "in": [
+     "bukhari:6032",
+     "muslim:6596",
+     "bukhari:6131"
+    ]
+   },
+   {
+    "ar": "بِئْسَ أَخُو الْعَشِيرَةِ،",
+    "core": true,
+    "in": [
+     "bukhari:6032",
+     "bukhari:6054",
+     "muslim:6597",
+     "muslim:6596",
+     "bukhari:6131"
+    ]
+   },
+   {
+    "ar": "وَبِئْسَ ابْنُ الْعَشِيرَةِ \".",
+    "core": true,
+    "in": [
+     "bukhari:6032",
+     "bukhari:6054",
+     "muslim:6597",
+     "muslim:6596",
+     "bukhari:6131"
+    ]
+   },
+   {
+    "ar": "فَلَمَّا جَلَسَ تَطَلَّقَ النَّبِيُّ صلى الله عليه وسلم فِي وَجْهِهِ وَانْبَسَطَ إِلَيْهِ،",
+    "core": false,
+    "in": [
+     "bukhari:6032"
+    ]
+   },
+   {
+    "ar": "فَلَمَّا انْطَلَقَ الرَّجُلُ قَالَتْ لَهُ عَائِشَةُ يَا رَسُولَ اللَّهِ حِينَ رَأَيْتَ الرَّجُلَ قُلْتَ لَهُ كَذَا وَكَذَا،",
+    "core": false,
+    "in": [
+     "bukhari:6032"
+    ]
+   },
+   {
+    "ar": "ثُمَّ تَطَلَّقْتَ فِي وَجْهِهِ وَانْبَسَطْتَ إِلَيْهِ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم \"",
+    "core": false,
+    "in": [
+     "bukhari:6032"
+    ]
+   },
+   {
+    "ar": "يَا عَائِشَةُ مَتَى عَهِدْتِنِي فَحَّاشًا،",
+    "core": false,
+    "in": [
+     "bukhari:6032"
+    ]
+   },
+   {
+    "ar": "إِنَّ شَرَّ النَّاسِ عِنْدَ اللَّهِ مَنْزِلَةً يَوْمَ الْقِيَامَةِ مَنْ تَرَكَهُ النَّاسُ اتِّقَاءَ شَرِّهِ \"",
+    "core": false,
+    "in": [
+     "bukhari:6032",
+     "bukhari:6054",
+     "muslim:6596",
+     "bukhari:6131"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "ابن المنكدر",
+   "عائشة",
+   "عروة بن الزبير ان عائشة"
+  ],
+  "chapter": {
+   "book": "bukhari",
+   "chapter": 78
+  },
+  "see_also": [
+   "U6-03917"
+  ],
+  "topic": "Manners and good character",
+  "segments_en": [
+   "A man",
+   "asked permission to see the Prophet ﷺ, and when [the Prophet ﷺ] saw him, he said: \"",
+   "What an evil brother of the clan,",
+   "and what an evil son of the clan!\"",
+   "Then when the man sat down, the Prophet ﷺ showed him a cheerful face and was at ease with him.",
+   "When the man left, ʿĀʾishah said to him, \"O Messenger of Allah, when you saw the man you said such and such about him,",
+   "and then you showed him a cheerful face and were at ease with him?\" The Messenger of Allah ﷺ said: \"",
+   "O ʿĀʾishah, when have you ever known me to be obscene?",
+   "Indeed, the worst of people in position with Allah on the Day of Resurrection is the one whom people leave alone out of fear of his evil.\""
+  ]
+ },
+ {
+  "id": "U6-01927",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "bukhari:5480",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "partial"
+   },
+   {
+    "id": "bukhari:5481",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "partial"
+   },
+   {
+    "id": "bukhari:5482",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "partial"
+   },
+   {
+    "id": "muslim:4023",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:4024",
+    "book": "muslim",
+    "kind": "full",
+    "role": "partial"
+   },
+   {
+    "id": "muslim:4025",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:4027",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:4028",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:4030",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:4031",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "muslim:4025",
+  "books_full": [
+   "muslim"
+  ],
+  "books_partial": [
+   "bukhari"
+  ],
+  "stars": 2,
+  "stars_display": "★⯪",
+  "badge": "muttafaq",
+  "segments": [
+   {
+    "ar": "وَقُتَيْبَةُ، وَابْنُ،",
+    "core": false,
+    "in": [
+     "muslim:4025"
+    ]
+   },
+   {
+    "ar": "حُجْرٍ - قَالَ يَحْيَى بْنُ يَحْيَى أَخْبَرَنَا وَقَالَ الآخَرُونَ، حَدَّثَنَا إِسْمَاعِيلُ،",
+    "core": false,
+    "in": [
+     "muslim:4025"
+    ]
+   },
+   {
+    "ar": "- وَهْوَ ابْنُ جَعْفَرٍ - عَنْ عَبْدِ اللَّهِ بْنِ دِينَارٍ،",
+    "core": false,
+    "in": [
+     "muslim:4025"
+    ]
+   },
+   {
+    "ar": "أَنَّهُ سَمِعَ ابْنَ عُمَرَ،",
+    "core": false,
+    "in": [
+     "muslim:4025"
+    ]
+   },
+   {
+    "ar": "قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم \"",
+    "core": false,
+    "in": [
+     "muslim:4025",
+     "muslim:4023",
+     "muslim:4031"
+    ]
+   },
+   {
+    "ar": "مَنِ اقْتَنَى كَلْبًا إِلاَّ كَلْبَ ضَارِيَةٍ أَوْ مَاشِيَةٍ نَقَصَ مِنْ عَمَلِهِ كُلَّ يَوْمٍ قِيرَاطَانِ \"",
+    "core": true,
+    "in": [
+     "muslim:4025",
+     "muslim:4027",
+     "muslim:4030",
+     "muslim:4023",
+     "muslim:4028",
+     "muslim:4031"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "ابن عمر",
+   "ابي هريرة",
+   "ابيه",
+   "عبد الله بن عمر",
+   "يحيي بن يحيي",
+   "يحيي بن يحيي ويحيي بن ايوب"
+  ],
+  "chapter": {
+   "book": "muslim",
+   "chapter": 22
+  },
+  "see_also": [
+   "U6-00845"
+  ],
+  "topic": "Food, drink and hunting",
+  "segments_en": [
+   "And Qutaybah and Ibn",
+   "Ḥujr — Yaḥyā ibn Yaḥyā said: \"Informed us,\" and the others said: \"Ismāʿīl narrated to us,\"",
+   "— he is Ibn Jaʿfar — from ʿAbdullāh ibn Dīnār,",
+   "that he heard Ibn ʿUmar",
+   "say: The Messenger of Allah ﷺ said:",
+   "\"Whoever keeps a dog, other than a hunting dog or a dog for herding livestock, two qīrāṭs will be deducted from his deeds every day.\""
+  ]
+ },
+ {
+  "id": "U6-01944",
+  "uncertain": true,
+  "members": [
+   {
+    "id": "bukhari:6304",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "partial"
+   },
+   {
+    "id": "muslim:490",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:491",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "muslim:490",
+  "books_full": [
+   "muslim"
+  ],
+  "books_partial": [
+   "bukhari"
+  ],
+  "stars": 2,
+  "stars_display": "★⯪",
+  "badge": "muttafaq",
+  "segments": [
+   {
+    "ar": "لِكَعْبِ الأَحْبَارِ إِنَّ نَبِيَّ اللَّهِ صلى الله عليه وسلم قَالَ \"",
+    "core": false,
+    "in": [
+     "muslim:490"
+    ]
+   },
+   {
+    "ar": "لِكُلِّ نَبِيٍّ دَعْوَةٌ يَدْعُوهَا فَأَنَا أُرِيدُ إِنْ شَاءَ اللَّهُ أَنْ أَخْتَبِئَ دَعْوَتِي شَفَاعَةً لأُمَّتِي يَوْمَ الْقِيَامَةِ \".",
+    "core": true,
+    "in": [
+     "muslim:490",
+     "muslim:491"
+    ]
+   },
+   {
+    "ar": "فَقَالَ كَعْبٌ لأَبِي هُرَيْرَةَ أَنْتَ سَمِعْتَ هَذَا مِنْ رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ أَبُو هُرَيْرَةَ نَعَمْ",
+    "core": false,
+    "in": [
+     "muslim:490"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "ابي هريرة",
+   "ان ابا هريرة"
+  ],
+  "chapter": {
+   "book": "muslim",
+   "chapter": 1
+  },
+  "see_also": [],
+  "topic": "Supplication and remembrance",
+  "segments_en": [
+   "[1] [Abū Hurayrah said] to Kaʿb al-Aḥbār that the Prophet of Allah ﷺ said:",
+   "[2] \"Every prophet has a supplication that he makes, and I wish, if Allah wills, to keep my supplication in reserve as an intercession for my nation on the Day of Resurrection.\"",
+   "[3] Then Kaʿb said to Abū Hurayrah, \"Did you hear this from the Messenger of Allah ﷺ?\" Abū Hurayrah said, \"Yes.\""
+  ]
+ },
+ {
+  "id": "U6-01945",
+  "uncertain": true,
+  "members": [
+   {
+    "id": "bukhari:6340",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "partial"
+   },
+   {
+    "id": "muslim:6934",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:6935",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:6936",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "muslim:6936",
+  "books_full": [
+   "muslim"
+  ],
+  "books_partial": [
+   "bukhari"
+  ],
+  "stars": 2,
+  "stars_display": "★⯪",
+  "badge": "muttafaq",
+  "segments": [
+   {
+    "ar": "عَنِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ قَالَ \"",
+    "core": false,
+    "in": [
+     "muslim:6936"
+    ]
+   },
+   {
+    "ar": "لاَ يَزَالُ يُسْتَجَابُ لِلْعَبْدِ مَا لَمْ يَدْعُ بِإِثْمٍ أَوْ قَطِيعَةِ رَحِمٍ مَا لَمْ يَسْتَعْجِلْ \".",
+    "core": false,
+    "in": [
+     "muslim:6936"
+    ]
+   },
+   {
+    "ar": "قِيلَ يَا رَسُولَ اللَّهِ مَا الاِسْتِعْجَالُ قَالَ \"",
+    "core": false,
+    "in": [
+     "muslim:6936"
+    ]
+   },
+   {
+    "ar": "يَقُولُ قَدْ دَعَوْتُ وَقَدْ دَعَوْتُ فَلَمْ أَرَ يَسْتَجِيبُ لِي فَيَسْتَحْسِرُ عِنْدَ ذَلِكَ وَيَدَعُ الدُّعَاءَ \"",
+    "core": false,
+    "in": [
+     "muslim:6936"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "ابا هريرة",
+   "ابي هريرة",
+   "يحيي بن يحيي"
+  ],
+  "chapter": {
+   "book": "muslim",
+   "chapter": 48
+  },
+  "see_also": [
+   "U6-00468"
+  ],
+  "topic": "Supplication and remembrance",
+  "segments_en": [
+   "From the Prophet ﷺ, who said:",
+   "\"A servant's supplication continues to be answered as long as he does not pray for something sinful or for the severing of family ties, and as long as he does not become impatient.\"",
+   "It was asked, \"O Messenger of Allah, what is impatience?\" He ﷺ said:",
+   "\"It is when he says, 'I have prayed and prayed, but I have not seen it answered for me,' and so at that point he becomes despondent and gives up supplication.\""
+  ]
+ },
+ {
+  "id": "U6-01892",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "bukhari:3673",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "partial"
+   },
+   {
+    "id": "muslim:6487",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:6488",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:6489",
+    "book": "muslim",
+    "kind": "ref_variant",
+    "role": "full"
+   }
+  ],
+  "representative": "muslim:6488",
+  "books_full": [
+   "muslim"
+  ],
+  "books_partial": [
+   "bukhari"
+  ],
+  "stars": 2,
+  "stars_display": "★⯪",
+  "badge": "muttafaq",
+  "segments": [
+   {
+    "ar": "سَعِيدٍ قَالَ كَانَ بَيْنَ خَالِدِ بْنِ الْوَلِيدِ وَبَيْنَ عَبْدِ الرَّحْمَنِ بْنِ عَوْفٍ شَىْءٌ فَسَبَّهُ خَالِدٌ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم \"",
+    "core": false,
+    "in": [
+     "muslim:6488"
+    ]
+   },
+   {
+    "ar": "لاَ تَسُبُّوا أَحَدًا مِنْ أَصْحَابِي فَإِنَّ أَحَدَكُمْ لَوْ أَنْفَقَ مِثْلَ أُحُدٍ ذَهَبًا مَا أَدْرَكَ مُدَّ أَحَدِهِمْ وَلاَ نَصِيفَهُ \"",
+    "core": false,
+    "in": [
+     "muslim:6488",
+     "muslim:6487"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "ابي",
+   "ابي سعيد الخدري",
+   "الاعمش"
+  ],
+  "chapter": {
+   "book": "muslim",
+   "chapter": 44
+  },
+  "see_also": [],
+  "topic": "Virtues of the Prophet and Companions",
+  "segments_en": [
+   "Saʿīd said: There was some dispute between Khālid ibn al-Walīd and ʿAbd al-Raḥmān ibn ʿAwf, and Khālid insulted him. So the Messenger of Allah ﷺ said:",
+   "\"Do not insult any of my Companions, for if one of you were to spend gold equal to Uhud, he would not reach a mudd of any one of them, nor even half of it.\""
+  ]
+ },
+ {
+  "id": "U6-01810",
+  "uncertain": true,
+  "members": [
+   {
+    "id": "bukhari:1190",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "partial"
+   },
+   {
+    "id": "muslim:3374",
+    "book": "muslim",
+    "kind": "full",
+    "role": "partial"
+   },
+   {
+    "id": "muslim:3375",
+    "book": "muslim",
+    "kind": "full",
+    "role": "partial"
+   },
+   {
+    "id": "muslim:3376",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:3377",
+    "book": "muslim",
+    "kind": "full",
+    "role": "partial"
+   },
+   {
+    "id": "muslim:3383",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "muslim:3376",
+  "books_full": [
+   "muslim"
+  ],
+  "books_partial": [
+   "bukhari"
+  ],
+  "stars": 2,
+  "stars_display": "★⯪",
+  "badge": "muttafaq",
+  "segments": [
+   {
+    "ar": "صَلاَةٌ فِي مَسْجِدِ رَسُولِ اللَّهِ صلى الله عليه وسلم أَفْضَلُ مِنْ أَلْفِ صَلاَةٍ فِيمَا سِوَاهُ مِنَ الْمَسَاجِدِ إِلاَّ الْمَسْجِدَ الْحَرَامَ فَإِنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم آخِرُ الأَنْبِيَاءِ وَإِنَّ مَسْجِدَهُ آخِرُ الْمَسَاجِدِ.",
+    "core": true,
+    "in": [
+     "muslim:3376",
+     "muslim:3383"
+    ]
+   },
+   {
+    "ar": "قَالَ أَبُو سَلَمَةَ وَأَبُو عَبْدِ اللَّهِ لَمْ نَشُكَّ أَنَّ أَبَا هُرَيْرَةَ كَانَ يَقُولُ عَنْ حَدِيثِ رَسُولِ اللَّهِ صلى الله عليه وسلم فَمَنَعَنَا ذَلِكَ أَنْ نَسْتَثْبِتَ أَبَا هُرَيْرَةَ عَنْ ذَلِكَ الْحَدِيثِ حَتَّى إِذَا تُوُفِّيَ أَبُو هُرَيْرَةَ تَذَاكَرْنَا ذَلِكَ وَتَلاَوَمْنَا أَنْ لاَ نَكُونَ كَلَّمْنَا أَبَا هُرَيْرَةَ فِي ذَلِكَ حَتَّى يُسْنِدَهُ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم إِنْ كَانَ سَمِعَهُ مِنْهُ فَبَيْنَا نَحْنُ عَلَى ذَلِكَ جَالَسَنَا عَبْدُ اللَّهِ بْنُ إِبْرَاهِيمَ بْنِ قَارِظٍ فَذَكَرْنَا ذَلِكَ الْحَدِيثَ وَالَّذِي فَرَّطْنَا فِيهِ مِنْ نَصِّ أَبِي هُرَيْرَةَ عَنْهُ فَقَالَ لَنَا عَبْدُ اللَّهِ بْنُ إِبْرَاهِيمَ أَشْهَدُ أَنِّي سَمِعْتُ أَبَا هُرَيْرَةَ يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم \"",
+    "core": false,
+    "in": [
+     "muslim:3376"
+    ]
+   },
+   {
+    "ar": "فَإِنِّي آخِرُ الأَنْبِيَاءِ وَإِنَّ مَسْجِدِي آخِرُ الْمَسَاجِدِ \"",
+    "core": false,
+    "in": [
+     "muslim:3376"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "ابا هريرة",
+   "ابن عباس",
+   "ابي هريرة",
+   "زيد بن رباح",
+   "يحيي بن سعيد"
+  ],
+  "chapter": {
+   "book": "muslim",
+   "chapter": 15
+  },
+  "see_also": [
+   "U6-02694",
+   "U6-04383",
+   "U6-04683"
+  ],
+  "topic": "Virtues of the Prophet and Companions",
+  "segments_en": [
+   "A prayer in the mosque of the Messenger of Allah ﷺ is better than a thousand prayers in any other mosque, except the Sacred Mosque (al-Masjid al-Ḥarām); for the Messenger of Allah ﷺ is the last of the prophets, and his mosque is the last of the mosques.",
+   "Abū Salamah and Abū ʿAbd Allāh said: We had no doubt that Abū Hurayrah was saying this from the hadith of the Messenger of Allah ﷺ, and that kept us from asking Abū Hurayrah to confirm that hadith. Then, when Abū Hurayrah died, we discussed it and blamed one another for not having spoken to Abū Hurayrah about it, so that he might trace it back to the Messenger of Allah ﷺ if he had heard it from him. While we were in that state, we sat with ʿAbd Allāh ibn Ibrāhīm ibn Qāriẓ, and we mentioned that hadith and how we had fallen short in getting Abū Hurayrah's explicit statement about it. ʿAbd Allāh ibn Ibrāhīm said to us: I bear witness that I heard Abū Hurayrah say: The Messenger of Allah ﷺ said:",
+   "\"I am the last of the prophets, and my mosque is the last of the mosques.\""
+  ]
+ },
+ {
+  "id": "U6-01828",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "bukhari:1649",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:4257",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "partial"
+   },
+   {
+    "id": "muslim:3060",
+    "book": "muslim",
+    "kind": "full",
+    "role": "partial"
+   }
+  ],
+  "representative": "bukhari:1649",
+  "books_full": [
+   "bukhari"
+  ],
+  "books_partial": [
+   "muslim"
+  ],
+  "stars": 2,
+  "stars_display": "★⯪",
+  "badge": "muttafaq",
+  "segments": [
+   {
+    "ar": "إِنَّمَا سَعَى رَسُولُ اللَّهِ صلى الله عليه وسلم بِالْبَيْتِ وَبَيْنَ الصَّفَا وَالْمَرْوَةِ لِيُرِيَ الْمُشْرِكِينَ قُوَّتَهُ.",
+    "core": true,
+    "in": [
+     "bukhari:1649"
+    ]
+   },
+   {
+    "ar": "زَادَ الْحُمَيْدِيُّ حَدَّثَنَا سُفْيَانُ، حَدَّثَنَا عَمْرٌو، سَمِعْتُ عَطَاءً،",
+    "core": true,
+    "in": [
+     "bukhari:1649"
+    ]
+   },
+   {
+    "ar": "عَنِ ابْنِ عَبَّاسٍ، مِثْلَهُ",
+    "core": true,
+    "in": [
+     "bukhari:1649"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "ابن عباس"
+  ],
+  "chapter": {
+   "book": "bukhari",
+   "chapter": 25
+  },
+  "see_also": [
+   "U6-00627"
+  ],
+  "topic": "Hajj and Umrah",
+  "segments_en": [
+   "[1] The Messenger of Allah ﷺ only hastened [in ramal] around the House and between Aṣ-Ṣafā and Al-Marwah in order to show the polytheists his strength.",
+   "[2] Al-Ḥumaydī added: Sufyān narrated to us, ʿAmr narrated to us, [saying]: I heard ʿAṭāʾ,",
+   "[3] from Ibn ʿAbbās, the like of it."
+  ]
+ },
+ {
+  "id": "U6-01942",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "bukhari:6154",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "partial"
+   },
+   {
+    "id": "bukhari:6155",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "partial"
+   },
+   {
+    "id": "muslim:5893",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:5894",
+    "book": "muslim",
+    "kind": "full",
+    "role": "partial"
+   },
+   {
+    "id": "muslim:5895",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "muslim:5895",
+  "books_full": [
+   "muslim"
+  ],
+  "books_partial": [
+   "bukhari"
+  ],
+  "stars": 2,
+  "stars_display": "★⯪",
+  "badge": "muttafaq",
+  "segments": [
+   {
+    "ar": "بَيْنَا نَحْنُ نَسِيرُ مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم بِالْعَرْجِ إِذْ عَرَضَ شَاعِرٌ يُنْشِدُ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم \"",
+    "core": false,
+    "in": [
+     "muslim:5895"
+    ]
+   },
+   {
+    "ar": "خُذُوا الشَّيْطَانَ أَوْ أَمْسِكُوا الشَّيْطَانَ لأَنْ يَمْتَلِئَ جَوْفُ رَجُلٍ قَيْحًا خَيْرٌ لَهُ مِنْ أَنْ يَمْتَلِئَ شِعْرًا \"",
+    "core": false,
+    "in": [
+     "muslim:5895"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "ابن عمر",
+   "ابي سعيد الخدري",
+   "ابي هريرة",
+   "سعد"
+  ],
+  "chapter": {
+   "book": "muslim",
+   "chapter": 41
+  },
+  "see_also": [],
+  "topic": "Manners and good character",
+  "segments_en": [
+   "While we were travelling with the Messenger of Allah ﷺ at al-ʿArj, a poet appeared, reciting verses. So the Messenger of Allah ﷺ said:",
+   "\"Seize the devil,\" or \"Hold back the devil. For a man's belly to be filled with pus is better for him than for it to be filled with poetry.\""
+  ]
+ },
+ {
+  "id": "U6-01804",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "bukhari:932",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:933",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:1015",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:1021",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:1033",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:3582",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:6093",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:6342",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:2079",
+    "book": "muslim",
+    "kind": "full",
+    "role": "partial"
+   }
+  ],
+  "representative": "bukhari:1033",
+  "books_full": [
+   "bukhari"
+  ],
+  "books_partial": [
+   "muslim"
+  ],
+  "stars": 2,
+  "stars_display": "★⯪",
+  "badge": "muttafaq",
+  "segments": [
+   {
+    "ar": "أَصَابَتِ النَّاسَ سَنَةٌ عَلَى عَهْدِ رَسُولِ اللَّهِ صلى الله عليه وسلم فَبَيْنَا رَسُولُ اللَّهِ صلى الله عليه وسلم يَخْطُبُ عَلَى الْمِنْبَرِ يَوْمَ الْجُمُعَةِ قَامَ أَعْرَابِيٌّ فَقَالَ يَا رَسُولَ اللَّهِ،",
+    "core": false,
+    "in": [
+     "bukhari:1033",
+     "bukhari:933",
+     "bukhari:3582",
+     "bukhari:1021"
+    ]
+   },
+   {
+    "ar": "هَلَكَ الْمَالُ وَجَاعَ الْعِيَالُ،",
+    "core": false,
+    "in": [
+     "bukhari:1033",
+     "bukhari:933"
+    ]
+   },
+   {
+    "ar": "فَادْعُ اللَّهَ لَنَا أَنْ يَسْقِيَنَا.",
+    "core": false,
+    "in": [
+     "bukhari:1033",
+     "bukhari:933",
+     "bukhari:1015",
+     "bukhari:932",
+     "bukhari:3582",
+     "bukhari:1021",
+     "bukhari:6342"
+    ]
+   },
+   {
+    "ar": "قَالَ فَرَفَعَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَدَيْهِ،",
+    "core": false,
+    "in": [
+     "bukhari:1033",
+     "bukhari:933",
+     "bukhari:1015",
+     "bukhari:932",
+     "bukhari:3582",
+     "bukhari:1021"
+    ]
+   },
+   {
+    "ar": "وَمَا فِي السَّمَاءِ قَزَعَةٌ،",
+    "core": false,
+    "in": [
+     "bukhari:1033",
+     "bukhari:933",
+     "bukhari:1021"
+    ]
+   },
+   {
+    "ar": "قَالَ فَثَارَ سَحَابٌ أَمْثَالُ الْجِبَالِ،",
+    "core": false,
+    "in": [
+     "bukhari:1033",
+     "bukhari:933"
+    ]
+   },
+   {
+    "ar": "ثُمَّ لَمْ يَنْزِلْ عَنْ مِنْبَرِهِ حَتَّى رَأَيْتُ الْمَطَرَ يَتَحَادَرُ عَلَى لِحْيَتِهِ،",
+    "core": false,
+    "in": [
+     "bukhari:1033",
+     "bukhari:933"
+    ]
+   },
+   {
+    "ar": "قَالَ فَمُطِرْنَا يَوْمَنَا ذَلِكَ،",
+    "core": false,
+    "in": [
+     "bukhari:1033",
+     "bukhari:933",
+     "bukhari:1015"
+    ]
+   },
+   {
+    "ar": "وَفِي الْغَدِ وَمِنْ بَعْدِ الْغَدِ وَالَّذِي يَلِيهِ إِلَى الْجُمُعَةِ الأُخْرَى،",
+    "core": false,
+    "in": [
+     "bukhari:1033",
+     "bukhari:933"
+    ]
+   },
+   {
+    "ar": "فَقَامَ ذَلِكَ الأَعْرَابِيُّ أَوْ رَجُلٌ غَيْرُهُ فَقَالَ يَا رَسُولَ اللَّهِ،",
+    "core": false,
+    "in": [
+     "bukhari:1033",
+     "bukhari:933",
+     "bukhari:1015",
+     "bukhari:3582",
+     "bukhari:6342"
+    ]
+   },
+   {
+    "ar": "تَهَدَّمَ الْبِنَاءُ وَغَرِقَ الْمَالُ،",
+    "core": false,
+    "in": [
+     "bukhari:1033",
+     "bukhari:933"
+    ]
+   },
+   {
+    "ar": "فَادْعُ اللَّهَ لَنَا.",
+    "core": true,
+    "in": [
+     "bukhari:1033",
+     "bukhari:933",
+     "bukhari:1015",
+     "bukhari:6093",
+     "bukhari:932",
+     "bukhari:3582",
+     "bukhari:1021",
+     "bukhari:6342"
+    ]
+   },
+   {
+    "ar": "فَرَفَعَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَدَيْهِ وَقَالَ \"",
+    "core": false,
+    "in": [
+     "bukhari:1033",
+     "bukhari:933",
+     "bukhari:932",
+     "bukhari:3582"
+    ]
+   },
+   {
+    "ar": "اللَّهُمَّ حَوَالَيْنَا وَلاَ عَلَيْنَا \".",
+    "core": false,
+    "in": [
+     "bukhari:1033",
+     "bukhari:933",
+     "bukhari:1015",
+     "bukhari:6093",
+     "bukhari:3582",
+     "bukhari:1021",
+     "bukhari:6342"
+    ]
+   },
+   {
+    "ar": "قَالَ فَمَا جَعَلَ يُشِيرُ بِيَدِهِ إِلَى نَاحِيَةٍ مِنَ السَّمَاءِ إِلاَّ تَفَرَّجَتْ حَتَّى صَارَتِ الْمَدِينَةُ فِي مِثْلِ الْجَوْبَةِ،",
+    "core": false,
+    "in": [
+     "bukhari:1033",
+     "bukhari:933"
+    ]
+   },
+   {
+    "ar": "حَتَّى سَالَ الْوَادِي ـ وَادِي قَنَاةَ ـ شَهْرًا.",
+    "core": false,
+    "in": [
+     "bukhari:1033",
+     "bukhari:933"
+    ]
+   },
+   {
+    "ar": "قَالَ فَلَمْ يَجِئْ أَحَدٌ مِنْ نَاحِيَةٍ إِلاَّ حَدَّثَ بِالْجَوْدِ",
+    "core": false,
+    "in": [
+     "bukhari:1033",
+     "bukhari:933"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "انس",
+   "انس بن مالك"
+  ],
+  "chapter": {
+   "book": "bukhari",
+   "chapter": 15
+  },
+  "see_also": [
+   "U6-00424",
+   "U6-02182"
+  ],
+  "topic": "Supplication and remembrance",
+  "segments_en": [
+   "A drought afflicted the people in the time of the Messenger of Allah ﷺ. While the Messenger of Allah ﷺ was delivering the sermon from the pulpit on Friday, a Bedouin stood up and said, \"O Messenger of Allah,",
+   "the livestock have perished and the families are starving,",
+   "so supplicate Allah for us that He may send us rain.\"",
+   "He said: So the Messenger of Allah ﷺ raised his hands,",
+   "though there was not a trace of cloud in the sky.",
+   "He said: Then clouds rose up like mountains,",
+   "and he did not descend from his pulpit until I saw the rain dripping down his beard.",
+   "He said: So it rained on us that day,",
+   "and the next day, and the day after that, and the one following it, until the next Friday.",
+   "Then that Bedouin, or another man, stood up and said, \"O Messenger of Allah,",
+   "the buildings have collapsed and the livestock have drowned,",
+   "so supplicate Allah for us.\"",
+   "So the Messenger of Allah ﷺ raised his hands and said:",
+   "\"O Allah, around us and not upon us.\"",
+   "He said: Whenever he pointed with his hand toward a region of the sky, it cleared, until Medina became like an open basin,",
+   "and the valley, the valley of Qanāh, flowed for a month.",
+   "He said: And no one came from any direction except that he spoke of the abundant rain."
+  ]
+ },
+ {
+  "id": "U6-01910",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "bukhari:4749",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "partial"
+   },
+   {
+    "id": "muslim:7552",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:7553",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "muslim:7552",
+  "books_full": [
+   "muslim"
+  ],
+  "books_partial": [
+   "bukhari"
+  ],
+  "stars": 2,
+  "stars_display": "★⯪",
+  "badge": "muttafaq",
+  "segments": [
+   {
+    "ar": "كَانَ عَبْدُ اللَّهِ بْنُ أُبَىٍّ ابْنُ سَلُولَ يَقُولُ لِجَارِيَةٍ لَهُ اذْهَبِي فَابْغِينَا شَيْئًا فَأَنْزَلَ اللَّهُ عَزَّ وَجَلَّ { وَلاَ تُكْرِهُوا فَتَيَاتِكُمْ عَلَى الْبِغَاءِ إِنْ أَرَدْنَ تَحَصُّنًا لِتَبْتَغُوا عَرَضَ الْحَيَاةِ الدُّنْيَا وَمَنْ يُكْرِهْهُنَّ فَإِنَّ اللَّهَ مِنْ بَعْدِ إِكْرَاهِهِنَّ} لَهُنَّ { غَفُورٌ رَحِيمٌ}",
+    "core": false,
+    "in": [
+     "muslim:7552"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "جابر",
+   "عائشة والذي تولي كبره"
+  ],
+  "chapter": {
+   "book": "muslim",
+   "chapter": 56
+  },
+  "see_also": [],
+  "topic": "Crimes and punishments",
+  "segments_en": [
+   "ʿAbd Allāh ibn Ubayy ibn Salūl used to say to a slave girl of his, \"Go and earn something for us [through prostitution].\" So Allah, the Mighty and Majestic, revealed: {Do not compel your slave girls to prostitution, if they desire chastity, in order to seek the goods of worldly life. And whoever compels them, then indeed Allah, after their compulsion,} is, for them, {Forgiving and Merciful.}"
+  ]
+ },
+ {
+  "id": "U6-01871",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "bukhari:3065",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "partial"
+   },
+   {
+    "id": "bukhari:3976",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:7224",
+    "book": "muslim",
+    "kind": "full",
+    "role": "partial"
+   }
+  ],
+  "representative": "bukhari:3976",
+  "books_full": [
+   "bukhari"
+  ],
+  "books_partial": [
+   "muslim"
+  ],
+  "stars": 2,
+  "stars_display": "★⯪",
+  "badge": "muttafaq",
+  "segments": [
+   {
+    "ar": "ذَكَرَ لَنَا أَنَسُ بْنُ مَالِكٍ عَنْ أَبِي طَلْحَةَ،",
+    "core": true,
+    "in": [
+     "bukhari:3976"
+    ]
+   },
+   {
+    "ar": "أَنَّ نَبِيَّ اللَّهِ صلى الله عليه وسلم أَمَرَ يَوْمَ بَدْرٍ بِأَرْبَعَةٍ وَعِشْرِينَ رَجُلاً مِنْ صَنَادِيدِ قُرَيْشٍ فَقُذِفُوا فِي طَوِيٍّ مِنْ أَطْوَاءِ بَدْرٍ خَبِيثٍ مُخْبِثٍ،",
+    "core": true,
+    "in": [
+     "bukhari:3976"
+    ]
+   },
+   {
+    "ar": "وَكَانَ إِذَا ظَهَرَ عَلَى قَوْمٍ أَقَامَ بِالْعَرْصَةِ ثَلاَثَ لَيَالٍ،",
+    "core": true,
+    "in": [
+     "bukhari:3976"
+    ]
+   },
+   {
+    "ar": "فَلَمَّا كَانَ بِبَدْرٍ الْيَوْمَ الثَّالِثَ،",
+    "core": true,
+    "in": [
+     "bukhari:3976"
+    ]
+   },
+   {
+    "ar": "أَمَرَ بِرَاحِلَتِهِ فَشُدَّ عَلَيْهَا رَحْلُهَا،",
+    "core": true,
+    "in": [
+     "bukhari:3976"
+    ]
+   },
+   {
+    "ar": "ثُمَّ مَشَى وَاتَّبَعَهُ أَصْحَابُهُ وَقَالُوا مَا نُرَى يَنْطَلِقُ إِلاَّ لِبَعْضِ حَاجَتِهِ،",
+    "core": true,
+    "in": [
+     "bukhari:3976"
+    ]
+   },
+   {
+    "ar": "حَتَّى قَامَ عَلَى شَفَةِ الرَّكِيِّ،",
+    "core": true,
+    "in": [
+     "bukhari:3976"
+    ]
+   },
+   {
+    "ar": "فَجَعَلَ يُنَادِيهِمْ بِأَسْمَائِهِمْ وَأَسْمَاءِ آبَائِهِمْ \"",
+    "core": true,
+    "in": [
+     "bukhari:3976"
+    ]
+   },
+   {
+    "ar": "يَا فُلاَنُ بْنَ فُلاَنٍ،",
+    "core": true,
+    "in": [
+     "bukhari:3976"
+    ]
+   },
+   {
+    "ar": "وَيَا فُلاَنُ بْنَ فُلاَنٍ،",
+    "core": true,
+    "in": [
+     "bukhari:3976"
+    ]
+   },
+   {
+    "ar": "أَيَسُرُّكُمْ أَنَّكُمْ أَطَعْتُمُ اللَّهَ وَرَسُولَهُ فَإِنَّا قَدْ وَجَدْنَا مَا وَعَدَنَا رَبُّنَا حَقًّا،",
+    "core": true,
+    "in": [
+     "bukhari:3976"
+    ]
+   },
+   {
+    "ar": "فَهَلْ وَجَدْتُمْ مَا وَعَدَ رَبُّكُمْ حَقًّا \".",
+    "core": true,
+    "in": [
+     "bukhari:3976"
+    ]
+   },
+   {
+    "ar": "قَالَ فَقَالَ عُمَرُ يَا رَسُولَ اللَّهِ،",
+    "core": true,
+    "in": [
+     "bukhari:3976"
+    ]
+   },
+   {
+    "ar": "مَا تُكَلِّمُ مِنْ أَجْسَادٍ لاَ أَرْوَاحَ لَهَا فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم \"",
+    "core": true,
+    "in": [
+     "bukhari:3976"
+    ]
+   },
+   {
+    "ar": "وَالَّذِي نَفْسُ مُحَمَّدٍ بِيَدِهِ،",
+    "core": true,
+    "in": [
+     "bukhari:3976"
+    ]
+   },
+   {
+    "ar": "مَا أَنْتُمْ بِأَسْمَعَ لِمَا أَقُولُ مِنْهُمْ \".",
+    "core": true,
+    "in": [
+     "bukhari:3976"
+    ]
+   },
+   {
+    "ar": "قَالَ قَتَادَةُ أَحْيَاهُمُ اللَّهُ حَتَّى أَسْمَعَهُمْ قَوْلَهُ تَوْبِيخًا وَتَصْغِيرًا وَنَقِيمَةً وَحَسْرَةً وَنَدَمًا",
+    "core": true,
+    "in": [
+     "bukhari:3976"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "قتادة"
+  ],
+  "chapter": {
+   "book": "bukhari",
+   "chapter": 64
+  },
+  "see_also": [
+   "U6-05446"
+  ],
+  "topic": "Jihad and expeditions",
+  "segments_en": [
+   "Anas ibn Mālik narrated to us from Abū Ṭalḥah:",
+   "that on the day of Badr the Prophet of Allah ﷺ ordered that twenty-four men from the leaders of Quraysh be thrown into one of the wells of Badr, a foul, filthy pit.",
+   "And whenever he gained victory over a people, he would stay at the battlefield for three nights.",
+   "So when he was at Badr on the third day,",
+   "he ordered that his riding camel be saddled,",
+   "then he set off walking, and his Companions followed him, saying, \"We think he is going only for some need of his,\"",
+   "until he stood at the edge of the well.",
+   "Then he began to call them by their names and their fathers' names, saying:",
+   "\"O so-and-so, son of so-and-so,",
+   "and O so-and-so, son of so-and-so,",
+   "would it please you that you had obeyed Allah and His Messenger? For we have found what our Lord promised us to be true,",
+   "so have you found what your Lord promised you to be true?\"",
+   "He said: ʿUmar said, \"O Messenger of Allah,",
+   "how can you speak to bodies that have no souls?\" The Messenger of Allah ﷺ said:",
+   "\"By the One in whose hand is the soul of Muḥammad,",
+   "you do not hear what I say any better than they do.\"",
+   "Qatādah said: Allah revived them so that they would hear his words, as a rebuke, a humiliation, a retribution, and as regret and remorse."
+  ]
+ },
+ {
+  "id": "U6-05497",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "muslim:7388",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:7389",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "muslim:7388",
+  "books_full": [
+   "muslim"
+  ],
+  "books_partial": [],
+  "stars": 1,
+  "stars_display": "★",
+  "badge": "sahih_one",
+  "segments": [
+   {
+    "ar": "قَيْسٍ قَالَتْ قَدِمَ عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم تَمِيمٌ الدَّارِيُّ فَأَخْبَرَ رَسُولَ اللَّهِ صلى الله عليه وسلم أَنَّهُ رَكِبَ الْبَحْرَ فَتَاهَتْ بِهِ سَفِينَتُهُ فَسَقَطَ إِلَى جَزِيرَةٍ فَخَرَجَ إِلَيْهَا يَلْتَمِسُ الْمَاءَ فَلَقِيَ إِنْسَانًا يَجُرُّ شَعَرَهُ.",
+    "core": false,
+    "in": [
+     "muslim:7388"
+    ]
+   },
+   {
+    "ar": "وَاقْتَصَّ الْحَدِيثَ وَقَالَ فِيهِ ثُمَّ قَالَ أَمَا إِنَّهُ لَوْ قَدْ أُذِنَ لِي فِي الْخُرُوجِ قَدْ وَطِئْتُ الْبِلاَدَ كُلَّهَا غَيْرَ طَيْبَةَ.",
+    "core": false,
+    "in": [
+     "muslim:7388"
+    ]
+   },
+   {
+    "ar": "فَأَخْرَجَهُ رَسُولُ اللَّهِ صلى الله عليه وسلم إِلَى النَّاسِ فَحَدَّثَهُمْ قَالَ \"",
+    "core": false,
+    "in": [
+     "muslim:7388"
+    ]
+   },
+   {
+    "ar": "هَذِهِ طَيْبَةُ وَذَاكَ الدَّجَّالُ \"",
+    "core": false,
+    "in": [
+     "muslim:7388"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "فاطمة بنت",
+   "فاطمة بنت قيس"
+  ],
+  "chapter": {
+   "book": "muslim",
+   "chapter": 54
+  },
+  "see_also": [],
+  "topic": "Signs of the Hour and tribulations",
+  "segments_en": [
+   "Qays reported that she said: Tamīm al-Dārī came to the Messenger of Allah ﷺ and told the Messenger of Allah ﷺ that he had sailed on the sea, and his ship was lost, so he was cast up onto an island. He went out onto it looking for water, and he met a person dragging his hair.",
+   "He then related the rest of the hadith, in which [the figure] said: \"Were I permitted to go out, I would have trodden all lands except Ṭaybah.\"",
+   "So the Messenger of Allah ﷺ brought him out to the people and he told them. He said:",
+   "\"This is Ṭaybah, and that is the Dajjāl.\""
+  ]
+ },
+ {
+  "id": "U6-02007",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "bukhari:209",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:215",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:2981",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:4195",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:5384",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:5390",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:5454",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "partial"
+   },
+   {
+    "id": "bukhari:5455",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "bukhari:5455",
+  "books_full": [
+   "bukhari"
+  ],
+  "books_partial": [],
+  "stars": 1,
+  "stars_display": "★",
+  "badge": "sahih_one",
+  "segments": [
+   {
+    "ar": "خَرَجْنَا مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم إِلَى خَيْبَرَ،",
+    "core": false,
+    "in": [
+     "bukhari:5455",
+     "bukhari:209",
+     "bukhari:5384",
+     "bukhari:215"
+    ]
+   },
+   {
+    "ar": "فَلَمَّا كُنَّا بِالصَّهْبَاءِ ـ قَالَ يَحْيَى وَهْىَ مِنْ خَيْبَرَ عَلَى رَوْحَةٍ ـ دَعَا بِطَعَامٍ فَمَا أُتِيَ إِلاَّ بِسَوِيقٍ،",
+    "core": false,
+    "in": [
+     "bukhari:5455",
+     "bukhari:5384"
+    ]
+   },
+   {
+    "ar": "فَلُكْنَاهُ فَأَكَلْنَا مَعَهُ،",
+    "core": false,
+    "in": [
+     "bukhari:5455",
+     "bukhari:5390",
+     "bukhari:5384",
+     "bukhari:2981"
+    ]
+   },
+   {
+    "ar": "ثُمَّ دَعَا بِمَاءٍ فَمَضْمَضَ وَمَضْمَضْنَا مَعَهُ،",
+    "core": false,
+    "in": [
+     "bukhari:5455",
+     "bukhari:5390",
+     "bukhari:4195",
+     "bukhari:209",
+     "bukhari:5384"
+    ]
+   },
+   {
+    "ar": "ثُمَّ صَلَّى بِنَا الْمَغْرِبَ وَلَمْ يَتَوَضَّأْ.",
+    "core": false,
+    "in": [
+     "bukhari:5455",
+     "bukhari:5390",
+     "bukhari:4195",
+     "bukhari:209",
+     "bukhari:5384",
+     "bukhari:215"
+    ]
+   },
+   {
+    "ar": "وَقَالَ سُفْيَانُ كَأَنَّكَ تَسْمَعُهُ مِنْ يَحْيَى",
+    "core": false,
+    "in": [
+     "bukhari:5455"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "بشير بن يسار ان سويد بن",
+   "بشير بن يسار مولي بني حارثة",
+   "سويد",
+   "سويد بن النعمان"
+  ],
+  "chapter": {
+   "book": "bukhari",
+   "chapter": 70
+  },
+  "see_also": [],
+  "topic": "Purification",
+  "segments_en": [
+   "We set out with the Messenger of Allah ﷺ to Khaybar,",
+   "and when we reached aṣ-Ṣahbāʾ—Yahyā said: it is about an afternoon's journey from Khaybar—he called for food, but nothing was brought except sawīq (barley meal),",
+   "so we chewed it and ate with him.",
+   "Then he called for water and rinsed his mouth, and we rinsed our mouths with him,",
+   "then he led us in the Maghrib prayer without performing ablution again.",
+   "And Sufyān said: It is as if you were hearing it from Yahyā."
+  ]
+ },
+ {
+  "id": "U6-05152",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "muslim:6157",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:6158",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "muslim:6157",
+  "books_full": [
+   "muslim"
+  ],
+  "books_partial": [],
+  "stars": 1,
+  "stars_display": "★",
+  "badge": "sahih_one",
+  "segments": [
+   {
+    "ar": "الْبُنَانِيِّ وَسُلَيْمَانَ التَّيْمِيِّ عَنْ أَنَسِ بْنِ مَالِكٍ،",
+    "core": false,
+    "in": [
+     "muslim:6157"
+    ]
+   },
+   {
+    "ar": "أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ \"",
+    "core": false,
+    "in": [
+     "muslim:6157"
+    ]
+   },
+   {
+    "ar": "أَتَيْتُ - وَفِي رِوَايَةِ هَدَّابٍ مَرَرْتُ - عَلَى مُوسَى لَيْلَةَ أُسْرِيَ بِي عِنْدَ الْكَثِيبِ الأَحْمَرِ وَهُوَ قَائِمٌ يُصَلِّي فِي قَبْرِهِ \"",
+    "core": false,
+    "in": [
+     "muslim:6157"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "انسا",
+   "ثابت"
+  ],
+  "chapter": {
+   "book": "muslim",
+   "chapter": 43
+  },
+  "see_also": [],
+  "topic": "Prophets and creation",
+  "segments_en": [
+   "Al-Bunānī and Sulaymān al-Taymī, from Anas ibn Mālik,",
+   "that the Messenger of Allah ﷺ said:",
+   "\"I came upon—and in the narration of Haddāb, 'I passed by'—Mūsā on the night I was taken on the Night Journey, at the red sand dune, while he was standing in prayer in his grave.\""
+  ]
+ },
+ {
+  "id": "U6-02184",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "bukhari:1037",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:7094",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "bukhari:7094",
+  "books_full": [
+   "bukhari"
+  ],
+  "books_partial": [],
+  "stars": 1,
+  "stars_display": "★",
+  "badge": "sahih_one",
+  "segments": [
+   {
+    "ar": "ذَكَرَ النَّبِيُّ صلى الله عليه وسلم \"",
+    "core": false,
+    "in": [
+     "bukhari:7094"
+    ]
+   },
+   {
+    "ar": "اللَّهُمَّ بَارِكْ لَنَا فِي شَأْمِنَا،",
+    "core": true,
+    "in": [
+     "bukhari:7094",
+     "bukhari:1037"
+    ]
+   },
+   {
+    "ar": "اللَّهُمَّ بَارِكْ لَنَا فِي يَمَنِنَا \".",
+    "core": true,
+    "in": [
+     "bukhari:7094",
+     "bukhari:1037"
+    ]
+   },
+   {
+    "ar": "قَالُوا وَفِي نَجْدِنَا. قَالَ \"",
+    "core": true,
+    "in": [
+     "bukhari:7094",
+     "bukhari:1037"
+    ]
+   },
+   {
+    "ar": "اللَّهُمَّ بَارِكْ لَنَا فِي شَأْمِنَا،",
+    "core": true,
+    "in": [
+     "bukhari:7094",
+     "bukhari:1037"
+    ]
+   },
+   {
+    "ar": "اللَّهُمَّ بَارِكْ لَنَا فِي يَمَنِنَا \".",
+    "core": true,
+    "in": [
+     "bukhari:7094",
+     "bukhari:1037"
+    ]
+   },
+   {
+    "ar": "قَالُوا يَا رَسُولَ اللَّهِ وَفِي نَجْدِنَا فَأَظُنُّهُ قَالَ فِي الثَّالِثَةَ \"",
+    "core": false,
+    "in": [
+     "bukhari:7094"
+    ]
+   },
+   {
+    "ar": "هُنَاكَ الزَّلاَزِلُ وَالْفِتَنُ،",
+    "core": true,
+    "in": [
+     "bukhari:7094",
+     "bukhari:1037"
+    ]
+   },
+   {
+    "ar": "وَبِهَا يَطْلُعُ قَرْنُ الشَّيْطَانِ \"",
+    "core": true,
+    "in": [
+     "bukhari:7094",
+     "bukhari:1037"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "ابن عمر"
+  ],
+  "chapter": {
+   "book": "bukhari",
+   "chapter": 92
+  },
+  "see_also": [],
+  "topic": "Signs of the Hour and tribulations",
+  "segments_en": [
+   "The Prophet ﷺ mentioned: \"",
+   "O Allah, bless us in our Shām,",
+   "O Allah, bless us in our Yemen.\"",
+   "They said, \"And in our Najd.\" He said: \"",
+   "O Allah, bless us in our Shām,",
+   "O Allah, bless us in our Yemen.\"",
+   "They said, \"O Messenger of Allah, and in our Najd?\" I think that the third time he said: \"",
+   "There are the earthquakes and the trials,",
+   "and from it the horn of Satan will rise.\""
+  ]
+ },
+ {
+  "id": "U6-02549",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "bukhari:2651",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:3650",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:6428",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:6695",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "bukhari:2651",
+  "books_full": [
+   "bukhari"
+  ],
+  "books_partial": [],
+  "stars": 1,
+  "stars_display": "★",
+  "badge": "sahih_one",
+  "segments": [
+   {
+    "ar": "قَالَ النَّبِيُّ صلى الله عليه وسلم \" خَيْرُكُمْ قَرْنِي،",
+    "core": false,
+    "in": [
+     "bukhari:2651",
+     "bukhari:6428",
+     "bukhari:6695"
+    ]
+   },
+   {
+    "ar": "ثُمَّ الَّذِينَ يَلُونَهُمْ،",
+    "core": true,
+    "in": [
+     "bukhari:2651",
+     "bukhari:6428",
+     "bukhari:6695",
+     "bukhari:3650"
+    ]
+   },
+   {
+    "ar": "ثُمَّ الَّذِينَ يَلُونَهُمْ \".",
+    "core": true,
+    "in": [
+     "bukhari:2651",
+     "bukhari:6428",
+     "bukhari:6695",
+     "bukhari:3650"
+    ]
+   },
+   {
+    "ar": "قَالَ عِمْرَانُ لاَ أَدْرِي أَذَكَرَ النَّبِيُّ صلى الله عليه وسلم بَعْدُ قَرْنَيْنِ أَوْ ثَلاَثَةً. قَالَ النَّبِيُّ صلى الله عليه وسلم \"",
+    "core": true,
+    "in": [
+     "bukhari:2651",
+     "bukhari:6428",
+     "bukhari:6695",
+     "bukhari:3650"
+    ]
+   },
+   {
+    "ar": "إِنَّ بَعْدَكُمْ قَوْمًا يَخُونُونَ وَلاَ يُؤْتَمَنُونَ، وَيَشْهَدُونَ،",
+    "core": true,
+    "in": [
+     "bukhari:2651",
+     "bukhari:6428",
+     "bukhari:6695",
+     "bukhari:3650"
+    ]
+   },
+   {
+    "ar": "وَلاَ يُسْتَشْهَدُونَ وَيَنْذِرُونَ وَلاَ يَفُونَ،",
+    "core": true,
+    "in": [
+     "bukhari:2651",
+     "bukhari:6428",
+     "bukhari:6695",
+     "bukhari:3650"
+    ]
+   },
+   {
+    "ar": "وَيَظْهَرُ فِيهِمُ السِّمَنُ \"",
+    "core": true,
+    "in": [
+     "bukhari:2651",
+     "bukhari:6428",
+     "bukhari:6695",
+     "bukhari:3650"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "عمران بن حصين"
+  ],
+  "chapter": {
+   "book": "bukhari",
+   "chapter": 52
+  },
+  "see_also": [],
+  "topic": "Virtues of the Prophet and Companions",
+  "segments_en": [
+   "The Prophet ﷺ said, \"The best of you are my generation,",
+   "then those who come after them,",
+   "then those who come after them.\"",
+   "ʿImrān said, \"I do not know whether the Prophet ﷺ mentioned two generations or three after his own.\" The Prophet ﷺ said,",
+   "\"After you there will be a people who betray and are not trusted, and who give testimony",
+   "without being asked to testify, and who make vows and do not fulfil them,",
+   "and obesity will appear among them.\""
+  ]
+ },
+ {
+  "id": "U6-04808",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "muslim:4925",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:4926",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "muslim:4925",
+  "books_full": [
+   "muslim"
+  ],
+  "books_partial": [],
+  "stars": 1,
+  "stars_display": "★",
+  "badge": "sahih_one",
+  "segments": [
+   {
+    "ar": "أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ \"",
+    "core": false,
+    "in": [
+     "muslim:4925"
+    ]
+   },
+   {
+    "ar": "مَا مِنْ غَازِيَةٍ تَغْزُو فِي سَبِيلِ اللَّهِ فَيُصِيبُونَ الْغَنِيمَةَ إِلاَّ تَعَجَّلُوا ثُلُثَىْ أَجْرِهِمْ مِنَ الآخِرَةِ وَيَبْقَى لَهُمُ الثُّلُثُ وَإِنْ لَمْ يُصِيبُوا غَنِيمَةً تَمَّ لَهُمْ أَجْرُهُمْ \"",
+    "core": false,
+    "in": [
+     "muslim:4925"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "عبد الله بن عمرو"
+  ],
+  "chapter": {
+   "book": "muslim",
+   "chapter": 33
+  },
+  "see_also": [],
+  "topic": "Jihad and expeditions",
+  "segments_en": [
+   "The Messenger of Allah ﷺ said: \"",
+   "There is no raiding party that fights in the cause of Allah and takes spoils, except that they have received in advance two-thirds of their reward in the Hereafter, and one-third remains for them. And if they do not take any spoils, their reward is complete for them.\""
+  ]
+ },
+ {
+  "id": "U6-02108",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "bukhari:693",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:696",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:7142",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "bukhari:7142",
+  "books_full": [
+   "bukhari"
+  ],
+  "books_partial": [],
+  "stars": 1,
+  "stars_display": "★",
+  "badge": "sahih_one",
+  "segments": [
+   {
+    "ar": "قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم \"",
+    "core": false,
+    "in": [
+     "bukhari:7142"
+    ]
+   },
+   {
+    "ar": "اسْمَعُوا وَأَطِيعُوا وَإِنِ اسْتُعْمِلَ عَلَيْكُمْ عَبْدٌ حَبَشِيٌّ كَأَنَّ رَأْسَهُ زَبِيبَةٌ \"",
+    "core": false,
+    "in": [
+     "bukhari:7142",
+     "bukhari:693"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "انس",
+   "انس بن مالك"
+  ],
+  "chapter": {
+   "book": "bukhari",
+   "chapter": 93
+  },
+  "see_also": [
+   "U6-04344"
+  ],
+  "topic": "Government and leadership",
+  "segments_en": [
+   "The Messenger of Allah ﷺ said:",
+   "\"Listen and obey, even if an Abyssinian slave whose head is like a raisin is appointed over you.\""
+  ]
+ },
+ {
+  "id": "U6-03315",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "bukhari:6067",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:6068",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "bukhari:6068",
+  "books_full": [
+   "bukhari"
+  ],
+  "books_partial": [],
+  "stars": 1,
+  "stars_display": "★",
+  "badge": "sahih_one",
+  "segments": [
+   {
+    "ar": "بِهَذَا وَقَالَتْ دَخَلَ عَلَىَّ النَّبِيُّ صلى الله عليه وسلم يَوْمًا وَقَالَ \"",
+    "core": false,
+    "in": [
+     "bukhari:6068"
+    ]
+   },
+   {
+    "ar": "يَا عَائِشَةُ مَا أَظُنُّ فُلاَنًا وَفُلاَنًا يَعْرِفَانِ دِينَنَا الَّذِي نَحْنُ عَلَيْهِ \"",
+    "core": true,
+    "in": [
+     "bukhari:6068",
+     "bukhari:6067"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "الليث",
+   "عائشة"
+  ],
+  "chapter": {
+   "book": "bukhari",
+   "chapter": 78
+  },
+  "see_also": [],
+  "topic": "Faith and belief",
+  "segments_en": [
+   "With this [chain], and she said: \"The Prophet ﷺ came to me one day and said,",
+   "'ʿĀʾishah, I do not think that so-and-so and so-and-so know our religion, the one we follow.'\""
+  ]
+ },
+ {
+  "id": "U6-02059",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "bukhari:465",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:3639",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:3805",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "bukhari:3805",
+  "books_full": [
+   "bukhari"
+  ],
+  "books_partial": [],
+  "stars": 1,
+  "stars_display": "★",
+  "badge": "sahih_one",
+  "segments": [
+   {
+    "ar": "أَنَّ رَجُلَيْنِ،",
+    "core": true,
+    "in": [
+     "bukhari:3805",
+     "bukhari:465",
+     "bukhari:3639"
+    ]
+   },
+   {
+    "ar": "خَرَجَا مِنْ عِنْدِ النَّبِيِّ صلى الله عليه وسلم فِي لَيْلَةٍ مُظْلِمَةٍ،",
+    "core": true,
+    "in": [
+     "bukhari:3805",
+     "bukhari:465",
+     "bukhari:3639"
+    ]
+   },
+   {
+    "ar": "وَإِذَا نُورٌ بَيْنَ أَيْدِيهِمَا حَتَّى تَفَرَّقَا،",
+    "core": false,
+    "in": [
+     "bukhari:3805"
+    ]
+   },
+   {
+    "ar": "فَتَفَرَّقَ النُّورُ مَعَهُمَا.",
+    "core": false,
+    "in": [
+     "bukhari:3805"
+    ]
+   },
+   {
+    "ar": "وَقَالَ مَعْمَرٌ عَنْ ثَابِتٍ عَنْ أَنَسٍ أَنَّ أُسَيْدَ بْنَ حُضَيْرٍ وَرَجُلاً مِنَ الأَنْصَارِ",
+    "core": false,
+    "in": [
+     "bukhari:3805"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "انس"
+  ],
+  "chapter": {
+   "book": "bukhari",
+   "chapter": 63
+  },
+  "see_also": [],
+  "topic": "Virtues of the Prophet and Companions",
+  "segments_en": [
+   "Two men",
+   "left the Prophet ﷺ on a dark night,",
+   "and behold, a light was before them until they parted,",
+   "and the light parted with them.",
+   "And Maʿmar said, from Thābit, from Anas, that Usayd ibn Ḥuḍayr and a man from the Anṣār"
+  ]
+ },
+ {
+  "id": "U6-03219",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "bukhari:5411",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "bukhari:5441",
+    "book": "bukhari",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "bukhari:5441",
+  "books_full": [
+   "bukhari"
+  ],
+  "books_partial": [],
+  "stars": 1,
+  "stars_display": "★",
+  "badge": "sahih_one",
+  "segments": [
+   {
+    "ar": "تَضَيَّفْتُ أَبَا هُرَيْرَةَ سَبْعًا،",
+    "core": false,
+    "in": [
+     "bukhari:5441"
+    ]
+   },
+   {
+    "ar": "فَكَانَ هُوَ وَامْرَأَتُهُ وَخَادِمُهُ يَعْتَقِبُونَ اللَّيْلَ أَثْلاَثًا، يُصَلِّي هَذَا،",
+    "core": false,
+    "in": [
+     "bukhari:5441"
+    ]
+   },
+   {
+    "ar": "ثُمَّ يُوقِظُ هَذَا.",
+    "core": false,
+    "in": [
+     "bukhari:5441"
+    ]
+   },
+   {
+    "ar": "وَسَمِعْتُهُ يَقُولُ قَسَمَ رَسُولُ اللَّهِ صلى الله عليه وسلم بَيْنِ أَصْحَابِهِ تَمْرًا،",
+    "core": false,
+    "in": [
+     "bukhari:5441"
+    ]
+   },
+   {
+    "ar": "فَأَصَابَنِي سَبْعُ تَمَرَاتٍ إِحْدَاهُنَّ حَشَفَةٌ",
+    "core": true,
+    "in": [
+     "bukhari:5441",
+     "bukhari:5411"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "ابي عثمان",
+   "ابي هريرة"
+  ],
+  "chapter": {
+   "book": "bukhari",
+   "chapter": 70
+  },
+  "see_also": [],
+  "topic": "Manners and good character",
+  "segments_en": [
+   "I was a guest of Abū Hurayrah for seven days,",
+   "and I saw that he, his wife, and his servant would divide the night into three parts among themselves; one would pray,",
+   "then wake the next.",
+   "And I heard him say: The Messenger of Allah ﷺ distributed dates among his Companions,",
+   "and I received seven dates, one of which was a hard, dried-up date."
+  ]
+ },
+ {
+  "id": "U6-04117",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "muslim:2199",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "muslim:2199",
+  "books_full": [
+   "muslim"
+  ],
+  "books_partial": [],
+  "stars": 1,
+  "stars_display": "★",
+  "badge": "sahih_one",
+  "segments": [
+   {
+    "ar": "أَنَّهُ مَاتَ ابْنٌ لَهُ بِقُدَيْدٍ أَوْ بِعُسْفَانَ فَقَالَ يَا كُرَيْبُ انْظُرْ مَا اجْتَمَعَ لَهُ مِنَ النَّاسِ.",
+    "core": true,
+    "in": [
+     "muslim:2199"
+    ]
+   },
+   {
+    "ar": "قَالَ فَخَرَجْتُ فَإِذَا نَاسٌ قَدِ اجْتَمَعُوا لَهُ فَأَخْبَرْتُهُ فَقَالَ تَقُولُ هُمْ أَرْبَعُونَ قَالَ نَعَمْ",
+    "core": true,
+    "in": [
+     "muslim:2199"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "عبد الله بن عباس"
+  ],
+  "chapter": {
+   "book": "muslim",
+   "chapter": 11
+  },
+  "see_also": [],
+  "topic": "Funerals",
+  "segments_en": [
+   "that a son of his died at Qudayd or at ʿUsfān, and he said, \"O Kurayb, see how many people have gathered for him.\"",
+   "He said: So I went out, and there were people who had gathered for him, and I informed him. He said, \"Do you say they are forty?\" I said, \"Yes.\""
+  ]
+ },
+ {
+  "id": "U6-04668",
+  "uncertain": true,
+  "members": [
+   {
+    "id": "muslim:4414",
+    "book": "muslim",
+    "kind": "full",
+    "role": "partial"
+   },
+   {
+    "id": "muslim:4415",
+    "book": "muslim",
+    "kind": "ref",
+    "role": "partial"
+   },
+   {
+    "id": "muslim:4416",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:4417",
+    "book": "muslim",
+    "kind": "ref_variant",
+    "role": "full"
+   },
+   {
+    "id": "muslim:6060",
+    "book": "muslim",
+    "kind": "full",
+    "role": "partial"
+   }
+  ],
+  "representative": "muslim:4416",
+  "books_full": [
+   "muslim"
+  ],
+  "books_partial": [],
+  "stars": 1,
+  "stars_display": "★",
+  "badge": "sahih_one",
+  "segments": [
+   {
+    "ar": "كَانَ نَبِيُّ اللَّهِ صلى الله عليه وسلم إِذَا أُنْزِلَ عَلَيْهِ كُرِبَ لِذَلِكَ وَتَرَبَّدَ لَهُ وَجْهُهُ - قَالَ - فَأُنْزِلَ عَلَيْهِ ذَاتَ يَوْمٍ فَلُقِيَ كَذَلِكَ فَلَمَّا سُرِّيَ عَنْهُ قَالَ \"",
+    "core": false,
+    "in": [
+     "muslim:4416"
+    ]
+   },
+   {
+    "ar": "خُذُوا عَنِّي فَقَدْ جَعَلَ اللَّهُ لَهُنَّ سَبِيلاً الثَّيِّبُ بِالثَّيِّبِ وَالْبِكْرُ بِالْبِكْرِ الثَّيِّبُ جَلْدُ مِائَةٍ ثُمَّ رَجْمٌ بِالْحِجَارَةِ وَالْبِكْرُ جَلْدُ مِائَةٍ ثُمَّ نَفْىُ سَنَةٍ \"",
+    "core": false,
+    "in": [
+     "muslim:4416"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "عبادة بن الصامت",
+   "قتادة",
+   "منصور"
+  ],
+  "chapter": {
+   "book": "muslim",
+   "chapter": 29
+  },
+  "see_also": [],
+  "topic": "Crimes and punishments",
+  "segments_en": [
+   "When revelation was sent down upon the Prophet of Allah ﷺ, he would be distressed by it and his face would darken. He said: One day it was revealed to him, and he was affected in the same way. Then, when it lifted from him, he said:",
+   "\"Take it from me: Allah has made a way for them. The previously married man with the previously married woman, and the unmarried man with the unmarried woman. For the previously married, one hundred lashes and then stoning with stones; and for the unmarried, one hundred lashes and then banishment for a year.\""
+  ]
+ },
+ {
+  "id": "U6-05232",
+  "uncertain": true,
+  "members": [
+   {
+    "id": "muslim:6481",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:6482",
+    "book": "muslim",
+    "kind": "ref",
+    "role": "full"
+   },
+   {
+    "id": "muslim:6483",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:6484",
+    "book": "muslim",
+    "kind": "ref",
+    "role": "full"
+   },
+   {
+    "id": "muslim:6486",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "muslim:6483",
+  "books_full": [
+   "muslim"
+  ],
+  "books_partial": [],
+  "stars": 1,
+  "stars_display": "★",
+  "badge": "sahih_one",
+  "segments": [
+   {
+    "ar": "عَنِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ قَالَ ذَلِكَ قَبْلَ مَوْتِهِ بِشَهْرٍ أَوْ نَحْوِ ذَلِكَ \"",
+    "core": false,
+    "in": [
+     "muslim:6483"
+    ]
+   },
+   {
+    "ar": "مَا مِنْ نَفْسٍ مَنْفُوسَةٍ الْيَوْمَ تَأْتِي عَلَيْهَا مِائَةُ سَنَةٍ وَهْىَ حَيَّةٌ يَوْمَئِذٍ \".",
+    "core": false,
+    "in": [
+     "muslim:6483",
+     "muslim:6481"
+    ]
+   },
+   {
+    "ar": "وَعَنْ عَبْدِ الرَّحْمَنِ،",
+    "core": false,
+    "in": [
+     "muslim:6483"
+    ]
+   },
+   {
+    "ar": "صَاحِبِ السِّقَايَةِ عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ،",
+    "core": false,
+    "in": [
+     "muslim:6483"
+    ]
+   },
+   {
+    "ar": "عَنِ النَّبِيِّ صلى الله عليه وسلم بِمِثْلِ ذَلِكَ وَفَسَّرَهَا عَبْدُ الرَّحْمَنِ قَالَ نَقْصُ الْعُمُرِ",
+    "core": false,
+    "in": [
+     "muslim:6483"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "ابن جريج",
+   "جابر بن عبد الله",
+   "سليمان التيمي"
+  ],
+  "chapter": {
+   "book": "muslim",
+   "chapter": 44
+  },
+  "see_also": [
+   "U6-05233"
+  ],
+  "topic": "Resurrection, Paradise and Hell",
+  "segments_en": [
+   "From the Prophet ﷺ, that he said this a month or so before his death: \"",
+   "There is no soul born [and living] today that will reach one hundred years while still alive on that day.\"",
+   "And from ʿAbd al-Raḥmān,",
+   "the keeper of the water supply (al-siqāyah), from Jābir ibn ʿAbd Allāh,",
+   "from the Prophet ﷺ, with similar wording. ʿAbd al-Raḥmān explained it, saying: the shortening of lifespan."
+  ]
+ },
+ {
+  "id": "U6-03752",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "muslim:890",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "muslim:890",
+  "books_full": [
+   "muslim"
+  ],
+  "books_partial": [],
+  "stars": 1,
+  "stars_display": "★",
+  "badge": "sahih_one",
+  "segments": [
+   {
+    "ar": "صَلَّيْتُ مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم وَأَبِي بَكْرٍ وَعُمَرَ وَعُثْمَانَ فَلَمْ أَسْمَعْ أَحَدًا مِنْهُمْ يَقْرَأُ { بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ}",
+    "core": true,
+    "in": [
+     "muslim:890"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "انس"
+  ],
+  "chapter": {
+   "book": "muslim",
+   "chapter": 4
+  },
+  "see_also": [
+   "U6-02118",
+   "U6-03754"
+  ],
+  "topic": "Prayer",
+  "segments_en": [
+   "I prayed with the Messenger of Allah ﷺ, and with Abū Bakr, ʿUmar, and ʿUthmān, and I did not hear any of them recite {In the name of Allah, the Entirely Merciful, the Especially Merciful}."
+  ]
+ },
+ {
+  "id": "U6-05208",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "muslim:6395",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "muslim:6395",
+  "books_full": [
+   "muslim"
+  ],
+  "books_partial": [],
+  "stars": 1,
+  "stars_display": "★",
+  "badge": "sahih_one",
+  "segments": [
+   {
+    "ar": "أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ \"",
+    "core": true,
+    "in": [
+     "muslim:6395"
+    ]
+   },
+   {
+    "ar": "اهْجُوا قُرَيْشًا فَإِنَّهُ أَشَدُّ عَلَيْهَا مِنْ رَشْقٍ بِالنَّبْلِ \".",
+    "core": true,
+    "in": [
+     "muslim:6395"
+    ]
+   },
+   {
+    "ar": "فَأَرْسَلَ إِلَى ابْنِ رَوَاحَةَ فَقَالَ \" اهْجُهُمْ \".",
+    "core": true,
+    "in": [
+     "muslim:6395"
+    ]
+   },
+   {
+    "ar": "فَهَجَاهُمْ فَلَمْ يُرْضِ فَأَرْسَلَ إِلَى كَعْبِ بْنِ مَالِكٍ ثُمَّ أَرْسَلَ إِلَى حَسَّانَ بْنِ ثَابِتٍ فَلَمَّا دَخَلَ عَلَيْهِ قَالَ حَسَّانُ قَدْ آنَ لَكُمْ أَنْ تُرْسِلُوا إِلَى هَذَا الأَسَدِ الضَّارِبِ بِذَنَبِهِ ثُمَّ أَدْلَعَ لِسَانَهُ فَجَعَلَ يُحَرِّكُهُ فَقَالَ وَالَّذِي بَعَثَكَ بِالْحَقِّ لأَفْرِيَنَّهُمْ بِلِسَانِي فَرْىَ الأَدِيمِ.",
+    "core": true,
+    "in": [
+     "muslim:6395"
+    ]
+   },
+   {
+    "ar": "فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم \"",
+    "core": true,
+    "in": [
+     "muslim:6395"
+    ]
+   },
+   {
+    "ar": "لاَ تَعْجَلْ فَإِنَّ أَبَا بَكْرٍ أَعْلَمُ قُرَيْشٍ بِأَنْسَابِهَا - وَإِنَّ لِي فِيهِمْ نَسَبًا - حَتَّى يُلَخِّصَ لَكَ نَسَبِي \".",
+    "core": true,
+    "in": [
+     "muslim:6395"
+    ]
+   },
+   {
+    "ar": "فَأَتَاهُ حَسَّانُ ثُمَّ رَجَعَ فَقَالَ يَا رَسُولَ اللَّهِ قَدْ لَخَّصَ لِي نَسَبَكَ وَالَّذِي بَعَثَكَ بِالْحَقِّ لأَسُلَّنَّكَ مِنْهُمْ كَمَا تُسَلُّ الشَّعَرَةُ مِنَ الْعَجِينِ",
+    "core": true,
+    "in": [
+     "muslim:6395"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "عائشة"
+  ],
+  "chapter": {
+   "book": "muslim",
+   "chapter": 44
+  },
+  "see_also": [
+   "U6-01177"
+  ],
+  "topic": "Virtues of the Prophet and Companions",
+  "segments_en": [
+   "The Messenger of Allah ﷺ said:",
+   "\"Satirize Quraysh, for it is harsher on them than a shower of arrows.\"",
+   "So he sent for Ibn Rawāḥah and said, \"Satirize them.\"",
+   "He satirized them, but [the Prophet ﷺ] was not pleased. Then he sent for Kaʿb ibn Mālik, and then he sent for Ḥassān ibn Thābit. When [Ḥassān] came to him, he said, \"The time has come for you to send for this lion who strikes with his tail.\" Then he stuck out his tongue and began to move it, and said, \"By the One who sent you with the truth, I will tear them apart with my tongue as leather is torn.\"",
+   "The Messenger of Allah ﷺ said:",
+   "\"Do not be hasty, for Abū Bakr is the most knowledgeable of Quraysh about their lineages, and I have kinship among them, so wait until he has distinguished my lineage for you.\"",
+   "So Ḥassān went to him, then returned and said, \"O Messenger of Allah, he has distinguished your lineage for me. By the One who sent you with the truth, I will pull you out from among them as a hair is pulled out of dough.\""
+  ]
+ },
+ {
+  "id": "U6-05538",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "muslim:7539",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   },
+   {
+    "id": "muslim:7540",
+    "book": "muslim",
+    "kind": "ref",
+    "role": "full"
+   }
+  ],
+  "representative": "muslim:7539",
+  "books_full": [
+   "muslim"
+  ],
+  "books_partial": [],
+  "stars": 1,
+  "stars_display": "★",
+  "badge": "sahih_one",
+  "segments": [
+   {
+    "ar": "قَالَتْ لِي عَائِشَةُ يَا ابْنَ أُخْتِي أُمِرُوا أَنْ يَسْتَغْفِرُوا،",
+    "core": true,
+    "in": [
+     "muslim:7539"
+    ]
+   },
+   {
+    "ar": "لأَصْحَابِ النَّبِيِّ صلى الله عليه وسلم فَسَبُّوهُمْ",
+    "core": true,
+    "in": [
+     "muslim:7539"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "ابيه",
+   "هشام"
+  ],
+  "chapter": {
+   "book": "muslim",
+   "chapter": 56
+  },
+  "see_also": [],
+  "topic": "Virtues of the Prophet and Companions",
+  "segments_en": [
+   "ʿĀʾishah said to me, \"O son of my sister, they were commanded to seek forgiveness",
+   "for the Companions of the Prophet ﷺ, yet they insulted them.\""
+  ]
+ },
+ {
+  "id": "U6-03922",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "muslim:1518",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "muslim:1518",
+  "books_full": [
+   "muslim"
+  ],
+  "books_partial": [],
+  "stars": 1,
+  "stars_display": "★",
+  "badge": "sahih_one",
+  "segments": [
+   {
+    "ar": "كَانَتْ دِيَارُنَا نَائِيَةً عَنِ الْمَسْجِدِ،",
+    "core": true,
+    "in": [
+     "muslim:1518"
+    ]
+   },
+   {
+    "ar": "فَأَرَدْنَا أَنْ نَبِيعَ،",
+    "core": true,
+    "in": [
+     "muslim:1518"
+    ]
+   },
+   {
+    "ar": "بُيُوتَنَا فَنَقْتَرِبَ مِنَ الْمَسْجِدِ فَنَهَانَا رَسُولُ اللَّهِ صلى الله عليه وسلم فَقَالَ \"",
+    "core": true,
+    "in": [
+     "muslim:1518"
+    ]
+   },
+   {
+    "ar": "إِنَّ لَكُمْ بِكُلِّ خُطْوَةٍ دَرَجَةً \"",
+    "core": true,
+    "in": [
+     "muslim:1518"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "جابر بن عبد الله"
+  ],
+  "chapter": {
+   "book": "muslim",
+   "chapter": 5
+  },
+  "see_also": [],
+  "topic": "Prayer",
+  "segments_en": [
+   "Our homes were far from the mosque,",
+   "so we wanted to sell",
+   "our houses and move closer to the mosque, but the Messenger of Allah ﷺ forbade us and said:",
+   "\"Indeed, for every step you take you have a degree [of reward].\""
+  ]
+ },
+ {
+  "id": "U6-03784",
+  "uncertain": false,
+  "members": [
+   {
+    "id": "muslim:1022",
+    "book": "muslim",
+    "kind": "full",
+    "role": "full"
+   }
+  ],
+  "representative": "muslim:1022",
+  "books_full": [
+   "muslim"
+  ],
+  "books_partial": [],
+  "stars": 1,
+  "stars_display": "★",
+  "badge": "sahih_one",
+  "segments": [
+   {
+    "ar": "صَلَّى لَنَا النَّبِيُّ صلى الله عليه وسلم الصُّبْحَ بِمَكَّةَ فَاسْتَفْتَحَ سُورَةَ الْمُؤْمِنِينَ حَتَّى جَاءَ ذِكْرُ مُوسَى وَهَارُونَ أَوْ ذِكْرُ عِيسَى - مُحَمَّدُ بْنُ عَبَّادٍ يَشُكُّ أَوِ اخْتَلَفُوا عَلَيْهِ - أَخَذَتِ النَّبِيَّ صلى الله عليه وسلم سَعْلَةٌ فَرَكَعَ وَعَبْدُ اللَّهِ بْنُ السَّائِبِ حَاضِرٌ ذَلِكَ.",
+    "core": true,
+    "in": [
+     "muslim:1022"
+    ]
+   },
+   {
+    "ar": "وَفِي حَدِيثِ عَبْدِ الرَّزَّاقِ فَحَذَفَ فَرَكَعَ.",
+    "core": true,
+    "in": [
+     "muslim:1022"
+    ]
+   },
+   {
+    "ar": "وَفِي حَدِيثِهِ وَعَبْدُ اللَّهِ بْنُ عَمْرٍو.",
+    "core": true,
+    "in": [
+     "muslim:1022"
+    ]
+   },
+   {
+    "ar": "وَلَمْ يَقُلِ ابْنِ الْعَاصِ",
+    "core": true,
+    "in": [
+     "muslim:1022"
+    ]
+   }
+  ],
+  "isnad_last": [
+   "عبد الله بن السائب"
+  ],
+  "chapter": {
+   "book": "muslim",
+   "chapter": 4
+  },
+  "see_also": [],
+  "topic": "Prayer",
+  "segments_en": [
+   "The Prophet ﷺ led us in the dawn prayer in Makkah and began reciting Sūrat al-Muʾminūn, until he reached the mention of Moses and Aaron, or the mention of Jesus—Muḥammad ibn ʿAbbād was unsure, or they differed in reporting it from him—whereupon the Prophet ﷺ was seized by a cough, so he bowed. And ʿAbd Allāh ibn al-Sāʾib was present at that.",
+   "And in the narration of ʿAbd al-Razzāq, [the wording is] \"so he left off [the recitation]; then he bowed.\"",
+   "And in his narration, [it says] \"and ʿAbd Allāh ibn ʿAmr.\"",
+   "And he did not say \"Ibn al-ʿĀṣ.\""
+  ]
+ }
+]

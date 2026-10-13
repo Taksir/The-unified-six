@@ -19,7 +19,9 @@ from .textnorm import normalize
 BOOK_ORDER = ["bukhari", "muslim", "abudawud", "tirmidhi", "nasai", "ibnmajah"]
 LETTER = {"bukhari": "B", "muslim": "M", "abudawud": "D", "tirmidhi": "T", "nasai": "N", "ibnmajah": "J"}
 MERGE = {"same", "a_in_b", "b_in_a", "variant"}
-UNCERTAIN_BELOW = 0.7  # LLM confidence under which a merge decision counts as uncertain
+UNCERTAIN_BELOW = 0.7
+COMMUNITY_MIN = 8          # clusters above this size are checked for chaining
+COMMUNITY_DENSITY = 0.5    # ... and split into communities when sparser than this  # LLM confidence under which a merge decision counts as uncertain
 
 
 def _sim(a: Doc, b: Doc) -> float:
@@ -34,8 +36,9 @@ def build_graph(docs: dict[str, Doc], edges: list[dict]) -> nx.Graph:
     g.add_nodes_from(docs)
     for e in edges:
         if e["label"] in MERGE and e["a"] in docs and e["b"] in docs:
+            w = 1.0 if e.get("source") in ("backref", "exact") else max(0.05, float(e.get("score") or 0.5))
             g.add_edge(e["a"], e["b"], label=e["label"], source=e.get("source", ""),
-                       confidence=e.get("confidence"))
+                       confidence=e.get("confidence"), weight=w)
     return g
 
 
@@ -76,7 +79,27 @@ def guard(g: nx.Graph, docs: dict[str, Doc], bridge_sim: float = 0.35) -> tuple[
             break
         if not split_done:
             clusters.append(comp)
-    return clusters, review
+    # Second pass: large clusters held together by many weak links (compound narrations
+    # that bundle several hadith) are split into weighted communities. Dense families of
+    # near-identical narrations keep high modularity and stay whole.
+    out = []
+    for comp in clusters:
+        if len(comp) <= COMMUNITY_MIN:
+            out.append(comp)
+            continue
+        sub = g.subgraph(comp)
+        n = len(comp)
+        density = sub.number_of_edges() / (n * (n - 1) / 2)
+        if density >= COMMUNITY_DENSITY:
+            out.append(comp)
+            continue
+        comms = nx.community.louvain_communities(sub, weight="weight", resolution=1.0, seed=1)
+        if len(comms) == 1:
+            out.append(comp)
+            continue
+        review.append({"community_split": sorted(comp)[:5], "size": n, "parts": [len(c) for c in comms]})
+        out.extend(set(c) for c in comms)
+    return out, review
 
 
 def _clauses(matn: str) -> list[str]:
@@ -102,7 +125,8 @@ def _present(clause_norm: str, member_norm: str, thresh: float = 0.5) -> bool:
 def assemble(cluster: set, docs: dict[str, Doc], g: nx.Graph) -> dict:
     members = [docs[i] for i in cluster]
     order = {b: k for k, b in enumerate(BOOK_ORDER)}
-    texted = [d for d in members if d.kind != "ref" and d.match]
+    texted = ([d for d in members if d.kind == "full" and d.match]
+              or [d for d in members if d.kind != "ref" and d.match])
     # Representative: the fullest version; ties go to the earlier book (B before M).
     rep = max(texted or members, key=lambda d: (d.words, -order[d.book], -d.seq))
     rep_sh = shingles(rep.match)
@@ -140,6 +164,11 @@ def assemble(cluster: set, docs: dict[str, Doc], g: nx.Graph) -> dict:
             segs.append({"ar": c, "core": len(inside) == len(onorm), "in": [rep.id] + inside})
     elif clauses:
         segs = [{"ar": c, "core": True, "in": [rep.id]} for c in clauses]
+    # Paraphrased versions share few clauses; italicising most of the text would mislead,
+    # so alignment that finds under half the clauses shared falls back to no italics.
+    if segs and sum(s["core"] for s in segs) < 0.5 * len(segs):
+        for s in segs:
+            s["core"] = True
 
     # Uncertain grouping: the cluster falls apart without its low-confidence merge edges.
     sub = g.subgraph(cluster)
@@ -164,3 +193,49 @@ def assemble(cluster: set, docs: dict[str, Doc], g: nx.Graph) -> dict:
         "isnad_last": sorted({d.isnad_last for d in members if d.isnad_last}),
         "chapter": {"book": rep.book, "chapter": rep.chapter},
     }
+
+
+def containment_edges(docs: dict[str, Doc], edges: list[dict]) -> tuple[list[dict], list[dict]]:
+    """Keep "same"-type edges; turn fragment edges into a forest so that a compound
+    narration (one report bundling several hadith) never chains its parts together.
+
+    Returns (edges to cluster on, compound notes). A fragment component attaches to
+    exactly one container component: the most specific one (fewest words). A container
+    that would receive two or more fragment components with no merge edge between them
+    is a compound: it absorbs none of them."""
+    same = [e for e in edges if e["label"] in ("same", "variant") and e["a"] in docs and e["b"] in docs]
+    part = [e for e in edges if e["label"] in ("a_in_b", "b_in_a") and e["a"] in docs and e["b"] in docs]
+    g = nx.Graph()
+    g.add_nodes_from(docs)
+    g.add_edges_from((e["a"], e["b"]) for e in same)
+    comp_of = {}
+    for k, c in enumerate(nx.connected_components(g)):
+        for n in c:
+            comp_of[n] = k
+    size = defaultdict(int)
+    for n, k in comp_of.items():
+        size[k] = max(size[k], docs[n].words)
+    best = {}  # child comp -> (container words, edge)
+    for e in part:
+        child, parent = (e["a"], e["b"]) if e["label"] == "a_in_b" else (e["b"], e["a"])
+        cc, pc = comp_of[child], comp_of[parent]
+        if cc == pc:
+            continue
+        key = (docs[parent].words, -(e.get("confidence") or 0))
+        if cc not in best or key < best[cc][0]:
+            best[cc] = (key, e, pc)
+    children = defaultdict(list)
+    for cc, (_, e, pc) in best.items():
+        children[pc].append((cc, e))
+    linked = {(comp_of[e["a"]], comp_of[e["b"]]) for e in part} | {(comp_of[e["b"]], comp_of[e["a"]]) for e in part}
+    keep, notes = list(same), []
+    for pc, kids in children.items():
+        if len(kids) >= 2:
+            ks = [k for k, _ in kids]
+            related = all((x, y) in linked for i, x in enumerate(ks) for y in ks[i + 1:])
+            if not related:
+                notes.append({"compound_component": pc, "fragments": len(kids),
+                              "pairs": [(e["a"], e["b"]) for _, e in kids]})
+                continue
+        keep.extend(e for _, e in kids)
+    return keep, notes

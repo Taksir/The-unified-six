@@ -23,3 +23,11 @@
 {"t": "2026-10-13T19:11:01", "stage": "label-sonnet", "model": "claude-sonnet-5-5", "usd": 0.78708, "requests": 500}
 {"t": "2026-10-13T19:11:03", "stage": "label-sonnet", "model": "claude-sonnet-5-5", "usd": 0.47471, "requests": 461}
 {"t": "2026-10-13T19:13:06", "stage": "label-sonnet", "model": "claude-sonnet-5-5", "usd": 1.4675, "requests": 500}
+{"t": "2026-10-13T19:18:56", "stage": "label-sonnet", "model": "claude-sonnet-5-5", "usd": 0.68393, "requests": 500}
+{"t": "2026-10-13T19:18:58", "stage": "label-sonnet", "model": "claude-sonnet-5-5", "usd": 23.31166, "requests": 8961}
+{"t": "2026-10-13T19:20:12", "stage": "label-sonnet-retry", "model": "claude-sonnet-5-5", "usd": 0.10035, "requests": 5}
+{"t": "2026-10-13T19:23:20", "stage": "sample-topics", "model": "claude-haiku-5-5", "usd": 0.00156, "requests": 1}
+{"t": "2026-10-13T19:25:44", "stage": "sample-translate", "model": "claude-sonnet-5-5", "usd": 0.17543, "requests": 46}
+{"t": "2026-10-13T19:26:57", "stage": "sample-topics", "model": "claude-haiku-5-5", "usd": 0.0016, "requests": 1}
+{"t": "2026-10-13T19:29:26", "stage": "sample-translate", "model": "claude-sonnet-5-5", "usd": 0.17517, "requests": 46}
+{"t": "2026-10-13T19:30:06", "stage": "sample-translate", "model": "claude-sonnet-5-5", "usd": 0.0, "requests": 46}

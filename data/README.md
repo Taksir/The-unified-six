@@ -38,3 +38,8 @@ sequential number (1–7563) is kept as `n` and the Fuad Abd al-Baqi number is `
 The scheme names in `books.json` are the ones sunnah.com's numbers correspond to. The
 7,277-entry Bukhari count seen in AhmedBaset/hadith-json is of unclear origin and is not
 mapped in M0.
+
+## Known upstream issues
+
+- 75 records across the six books contain U+FFFD replacement characters (lost characters
+  in the upstream scrape). They are kept as-is; any page that embeds the text escapes them.

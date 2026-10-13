@@ -25,6 +25,40 @@ Lexical thresholds (calibrated on gold): `same_jac=0.45`, `part_cont=0.925`, `sa
 
 Haiku was dropped from pair labelling: its merge precision is below the gate at every effort. Sonnet below high effort also falls under the gate.
 
+## Clusters
+
+```json
+{
+ "narrations": 14937,
+ "hadith": 5544,
+ "unique_per_book": {
+  "bukhari": 3508,
+  "muslim": 3999
+ },
+ "in_both": 1963,
+ "stars": [
+  [
+   "★",
+   3581
+  ],
+  [
+   "★★",
+   1764
+  ],
+  [
+   "★⯪",
+   199
+  ]
+ ],
+ "chaining_splits": 91,
+ "community_splits": 173,
+ "compounds_not_merged": 212,
+ "uncertain_grouping": 554,
+ "with_see_also": 2729,
+ "largest_cluster": 25
+}
+```
+
 ## Spend (USD)
 
 | stage | $ |
@@ -37,4 +71,8 @@ Haiku was dropped from pair labelling: its merge precision is below the gate at 
 | gold-sonnet-grouped | 0.30 |
 | gold-sonnet_low | 0.19 |
 | gold-sonnet_medium | 0.19 |
-| **total** | **2.68** |
+| label-sonnet | 46.36 |
+| label-sonnet-retry | 0.10 |
+| sample-topics | 0.00 |
+| sample-translate | 0.35 |
+| **total** | **49.50** |

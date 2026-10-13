@@ -2,40 +2,50 @@
 
 *Pickup file for any session. Update at the end of every stage.*
 
-**Last updated:** 2026-10-13 · **Current milestone:** M0 done → M1 next · **Branch:** `claude/nifty-faraday-ptd4qw`
+**Last updated:** 2026-10-13 · **Current milestone:** M1 done → M2 next (not started) · **Branch:** `claude/nifty-faraday-ptd4qw`
+
+## Budget
+
+**≈ $50 of API credit left, no refill.** M1 spent $49.50 (≈ $22 of it a cancelled batch
+that was billed anyway). Every step projected above $5 needs the owner's go-ahead.
+Spend log: `data/m1/spend.jsonl`. Batch IDs: `data/batches.json`.
 
 ## Done
 
-- **Design v1** — `docs/PROPOSAL.md`
-- **Data-source research** — `docs/research/data-sources.md`
-- **M0 Data foundation** (exit criteria met)
-  - Source pinned: fawazahmed0/hadith-api @ `df57907`, checksums in `data/sources.json`
-  - All six books ingested to one schema: 34,532 records (32,230 full, 880 ref, 1,043 ref_variant, 379 empty) — `data/narrations/*.jsonl`, schema in `data/README.md`
-  - Rule-based isnad/matn/tail split: 89.8 % start agreement with the LK Bukhari gold set — `docs/reports/m0-split-eval.md`, method in `docs/methodology/isnad-matn-split.md`
-  - Numbering concordance (incl. Muslim FAB numbers and sunnah.com links) — `data/concordance.csv`
-  - Tirmidhi's own grade extracted for 3,081 of 3,924 non-empty entries
-  - Per-book report — `docs/reports/m0-ingest.md`
+- **Design v1** — `docs/PROPOSAL.md`; **data-source research** — `docs/research/data-sources.md`
+- **M0 Data foundation** — all six books in one schema (34,532 records), isnad/matn split
+  (89.8 % agreement with LK Bukhari gold), numbering concordance. `docs/reports/m0-*.md`
+- **M1 MVP: Bukhari + Muslim**
+  - 14,937 narrations → **5,541 merged hadith** (`data/m1/hadith.jsonl`); 1,961 in both books
+  - Candidates: char/word TF-IDF + rare n-grams + e5-large embeddings (filtered) → 74,215 pairs
+  - Labels: 30,293 by calibrated lexical rules, 43,922 by Sonnet 5.5 (high effort, grouped, Batch API)
+  - **Quality gate passed:** 100 % merge precision on gold (187/187, 95 % CI 98.0–100 %),
+    recall 93.5 %. Gold = Opus 5.5 labels + Opus adjudication of disputes (no human check;
+    the owner does not read Arabic). `docs/reports/m1-eval.md`
+  - Ambiguity tags: 554 hadith "≈ grouping uncertain"; 2,729 with "see also" links
+  - **Sample PDFs** (format review): `samples/m1/m1-sample-edition-A.pdf` (by attestation),
+    `samples/m1/m1-sample-edition-B.pdf` (by topic) — 27 pages each, EN + AR, 46 hadith.
+    English is draft machine translation; topics from a provisional list.
 
 ## Next
 
-**M1 — MVP: Bukhari + Muslim.** Brief: `docs/handoff/M1.md`.
+**M2 — add Abu Dawud and Tirmidhi.** Brief with a costed, cheaper method: `docs/handoff/M2.md`.
 
-## Blockers / owner actions
+## Owner decisions on record
 
-| # | Item | Blocks |
-|---|---|---|
-| 1 | Add `ANTHROPIC_API_KEY` as an environment secret (rotate the one pasted in chat first). Not set in this environment as of 2026-10-13. | M1 LLM labelling, gold-set annotation |
-| 2 | `huggingface.co` is blocked by the environment's network policy. Either allow it (to download a local Arabic embedding model) or accept the no-download plan in the M1 brief (MinHash + TF-IDF char n-grams). | Optional; M1 has a fallback |
-| 3 | Confirm star rule (§7.2 of the proposal) and dataset licence (§7.3) | M1 PDF sample |
-| 4 | Before public release: ask fawazahmed0 about provenance; contact sunnah.com | M5 |
+- Star rule: ★ per book with the full text, ⯪ per book with only a fragment (main text too).
+- Muslim's Muqaddima (almost empty upstream) is out of v1.
+- No human gold review; Opus adjudicates. Hard cases get an "ambiguous" tag, not more spend.
 
 ## How to rebuild
 
 ```bash
-pip install -e '.[dev]'
-python -m u6 fetch        # downloads to data/raw/, verifies checksums
-python -m u6 ingest       # writes data/narrations, data/concordance.csv, docs/reports/m0-ingest.md
+pip install -e '.[dev]' anthropic datasketch scikit-learn networkx fastembed typst
+python -m u6 fetch && python -m u6 ingest
+python -m u6 m1 pairs            # needs huggingface.co + *.hf.co for the e5 model (~34 min CPU)
+python -m u6 m1 gold-sample && python -m u6 m1 gold-label && python -m u6 m1 gold-adjudicate
+python -m u6 m1 calibrate && python -m u6 m1 label    # label = Batch API spend (~$23)
+python -m u6 m1 cluster && python -m u6 m1 sample && python -m u6 m1 evaluate
 python -m pytest -q
-# optional, needs a local clone of ShathaTm/LK-Hadith-Corpus at data/external/LK-Hadith-Corpus:
-python -m u6 eval-split
 ```
+LLM stages need `ANTHROPIC_API_KEY` in the environment (never commit it).

@@ -305,15 +305,36 @@ def stage_label(cap_usd: float = 15.0) -> None:
 # ---------------------------------------------------------------- cluster + assemble
 
 def stage_cluster() -> None:
-    from .cluster import BOOK_ORDER, assemble, build_graph, guard
+    from .cluster import BOOK_ORDER, assemble, build_graph, containment_edges, guard
 
     docs = {d.id: d for d in load_docs(BOOKS)}
     edges = read_jsonl(M1 / "edges_free.jsonl")
+    score = {p["pid"]: p["score"] for p in read_jsonl(M1 / "pairs.jsonl")}
     for r in read_jsonl(M1 / "labels.jsonl"):
-        if r["label"] in MERGE:
+        r["score"] = score.get(r["pid"])
+        # Ambiguous = two independent Sonnet runs disagreed on merge vs no-merge: never
+        # merged, shown as "see also" for a researcher instead.
+        if r["label"] in MERGE and not r.get("ambiguous"):
             edges.append({**r, "source": r["source"]})
+    edges, compounds = containment_edges(docs, edges)
     g = build_graph(docs, edges)
     clusters, review = guard(g, docs)
+    review += compounds
+    # Back-references ("بهذا الإسناد مثله") belong with the narration they point to,
+    # whatever the splitting passes decided.
+    anchor = {e["b"]: e["a"] for e in read_jsonl(M1 / "edges_free.jsonl") if e["source"] == "backref"}
+    home = {n: k for k, c in enumerate(clusters) for n in c}
+    for ref in anchor:
+        root = anchor[ref]
+        seen = {ref}
+        while root in anchor and root not in seen:
+            seen.add(root)
+            root = anchor[root]
+        if ref in home and root in home and home[ref] != home[root]:
+            clusters[home[ref]].discard(ref)
+            clusters[home[root]].add(ref)
+            home[ref] = home[root]
+    clusters = [c for c in clusters if c]
     order = {b: k for k, b in enumerate(BOOK_ORDER)}
     hadith = [assemble(c, docs, g) for c in clusters]
     # Provisional IDs: by stars (desc), then first appearance in canonical book order.
@@ -328,12 +349,16 @@ def stage_cluster() -> None:
     where = {m["id"]: h["id"] for h in hadith for m in h["members"]}
     see = {}
     for r in read_jsonl(M1 / "labels.jsonl"):
-        if r["source"] == "sonnet" and r["label"] in ("related", "different") \
-                and (r["confidence"] or 0) < 0.7 and r["a"] in where and r["b"] in where:
+        doubtful = r.get("ambiguous") or (r["label"] in ("related", "different") and (r["confidence"] or 0) < 0.7)
+        if r["source"] == "sonnet" and doubtful and r["a"] in where and r["b"] in where:
             ha, hb = where[r["a"]], where[r["b"]]
             if ha != hb:
                 see.setdefault(ha, set()).add(hb)
                 see.setdefault(hb, set()).add(ha)
+    for c in compounds:  # a compound's parts point at each other and at the compound
+        hs = {where[x] for pr in c["pairs"] for x in pr if x in where}
+        for x in hs:
+            see.setdefault(x, set()).update(hs - {x})
     for h in hadith:
         h["see_also"] = sorted(see.get(h["id"], ()))
     _write_jsonl(M1 / "hadith.jsonl", ({"id": h.pop("id"), **h} for h in hadith))
@@ -347,7 +372,9 @@ def stage_cluster() -> None:
         "unique_per_book": per_book,
         "in_both": sum(1 for h in hadith if h["badge"] == "muttafaq"),
         "stars": Counter(h["stars_display"] for h in hadith).most_common(),
-        "chaining_splits": len(review),
+        "chaining_splits": sum(1 for r in review if "bridge" in r),
+        "community_splits": sum(1 for r in review if "community_split" in r),
+        "compounds_not_merged": len(compounds),
         "uncertain_grouping": sum(1 for h in hadith if h["uncertain"]),
         "with_see_also": sum(1 for h in hadith if h["see_also"]),
         "largest_cluster": max(len(h["members"]) for h in hadith),
@@ -446,3 +473,8 @@ def stage_evaluate() -> None:
     L += [f"| {k} | {v:.2f} |" for k, v in sorted(spend.items())] + [f"| **total** | **{sum(spend.values()):.2f}** |", ""]
     (ROOT / "docs" / "reports" / "m1-eval.md").write_text("\n".join(L))
     print("\n".join(L))
+
+
+def stage_sample() -> None:
+    from .sample import stage_sample as run
+    run()
