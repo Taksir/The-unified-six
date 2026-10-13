@@ -30,6 +30,8 @@ LOW_BAND = 0.40          # middle-band pairs below this get no LLM call ("see al
 HAIKU_DROP = 0.7         # Haiku no-merge calls at or above this confidence are final
 HAIKU_MERGE = 0.9        # Haiku merge calls at or above this confidence are final
 SONNET_CAP_USD = 18.0  # stop and ask the owner if the Sonnet stage projects above this
+SONNET_EFFORT = "medium"  # owner's choice after the gold re-test (see docs/reports/m23-eval.md)
+PILOT2_CAP_USD = 19.0     # medium-effort pilot: projected cost of the rest must stay under this
 
 
 def _use_six() -> None:
@@ -273,12 +275,32 @@ def stage_label() -> None:
         if projected > SONNET_CAP_USD:
             raise SystemExit(f"projected ${projected:.2f} exceeds the ${SONNET_CAP_USD} cap: ask the owner")
     todo_s = [p for p in pairs if done[p["pid"]]["source"] == "haiku-keep"]
-    if todo_s:
-        got = _run_batches(groups_for(todo_s), llm.SONNET, "high", "six-sonnet")
+    if todo_s and not _pending("six-sonnet") and not (D6 / "pilot2.json").exists():
+        # Second pilot at the chosen effort with the repacked, shorter requests.
+        groups = groups_for(todo_s)
+        before = llm.spent()
+        first = groups[:m1.BATCH_CHUNK]
+        got = _run_batches(first, llm.SONNET, SONNET_EFFORT, "six-sonnet-pilot2")
+        per_req = (llm.spent() - before) / max(1, len(first))
+        projected = per_req * (len(groups) - len(first))
+        (D6 / "pilot2.json").write_text(json.dumps({"effort": SONNET_EFFORT, "per_request_usd": per_req,
+                                                     "remaining_requests": len(groups) - len(first),
+                                                     "projected_rest_usd": projected}, indent=1))
         for p in todo_s:
             if p["pid"] in got:
                 g = got[p["pid"]]
-                put(p, g["label"], "sonnet", g["confidence"])
+                put(p, g["label"], "sonnet", g["confidence"], effort=SONNET_EFFORT)
+        m1._write_jsonl(out, done.values())
+        print(f"pilot2: ${per_req:.4f}/request, projected rest ${projected:.2f}", flush=True)
+        if projected > PILOT2_CAP_USD:
+            raise SystemExit(f"projected ${projected:.2f} exceeds ${PILOT2_CAP_USD}: ask the owner")
+    todo_s = [p for p in pairs if done[p["pid"]]["source"] == "haiku-keep"]
+    if todo_s:
+        got = _run_batches(groups_for(todo_s), llm.SONNET, SONNET_EFFORT, "six-sonnet")
+        for p in todo_s:
+            if p["pid"] in got:
+                g = got[p["pid"]]
+                put(p, g["label"], "sonnet", g["confidence"], effort=SONNET_EFFORT)
         m1._write_jsonl(out, done.values())
     print(f"labels: {Counter((r['source'], r['label']) for r in done.values()).most_common(12)}; "
           f"spend ${llm.spent():.2f}")

@@ -361,5 +361,13 @@
   "requests": 500,
   "created": "2026-10-13T20:35:12",
   "collected": true
+ },
+ {
+  "id": "msgbatch_01Hht2H5rEBS6Xwnx53niaLe",
+  "stage": "six-sonnet-pilot2",
+  "model": "claude-sonnet-5-5",
+  "requests": 500,
+  "created": "2026-10-13T20:59:02",
+  "collected": false
  }
 ]
