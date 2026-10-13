@@ -472,7 +472,7 @@
   "model": "claude-sonnet-5-5",
   "requests": 500,
   "created": "2026-10-13T21:32:11",
-  "collected": false
+  "collected": true
  },
  {
   "id": "msgbatch_01VL2vSmgQ5MQck5ReixmWZX",
@@ -480,6 +480,14 @@
   "model": "claude-sonnet-5-5",
   "requests": 205,
   "created": "2026-10-13T21:32:11",
+  "collected": true
+ },
+ {
+  "id": "msgbatch_01VW7CUcm7Q3hiGmM1aCbkXB",
+  "stage": "six-sonnet-w4",
+  "model": "claude-sonnet-5-5",
+  "requests": 1,
+  "created": "2026-10-13T21:39:30",
   "collected": false
  }
 ]
