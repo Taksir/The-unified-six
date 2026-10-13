@@ -160,7 +160,7 @@
   "model": "claude-haiku-5-5",
   "requests": 500,
   "created": "2026-10-13T20:25:16",
-  "collected": false
+  "collected": true
  },
  {
   "id": "msgbatch_01ASY5AHYj4zJ8gwYrNszBws",
@@ -168,7 +168,7 @@
   "model": "claude-haiku-5-5",
   "requests": 500,
   "created": "2026-10-13T20:25:17",
-  "collected": false
+  "collected": true
  },
  {
   "id": "msgbatch_018K6yG1WXTxBmMdPFKhyN5W",
@@ -176,7 +176,7 @@
   "model": "claude-haiku-5-5",
   "requests": 500,
   "created": "2026-10-13T20:25:18",
-  "collected": false
+  "collected": true
  },
  {
   "id": "msgbatch_013AxwvBHTvU4N8noKxNWmJW",
@@ -184,7 +184,7 @@
   "model": "claude-haiku-5-5",
   "requests": 500,
   "created": "2026-10-13T20:25:19",
-  "collected": false
+  "collected": true
  },
  {
   "id": "msgbatch_01XabujbE1z3JbxxWuPvkTbA",
@@ -192,7 +192,7 @@
   "model": "claude-haiku-5-5",
   "requests": 500,
   "created": "2026-10-13T20:25:21",
-  "collected": false
+  "collected": true
  },
  {
   "id": "msgbatch_01JhBBnf9pRTY1vR6eJUXdjH",
@@ -200,7 +200,7 @@
   "model": "claude-haiku-5-5",
   "requests": 500,
   "created": "2026-10-13T20:25:22",
-  "collected": false
+  "collected": true
  },
  {
   "id": "msgbatch_01WP1oJLPJrBwngfd7CujVWg",
@@ -208,7 +208,7 @@
   "model": "claude-haiku-5-5",
   "requests": 500,
   "created": "2026-10-13T20:25:23",
-  "collected": false
+  "collected": true
  },
  {
   "id": "msgbatch_01CrcgvsAPZvpNh3EcngkR6j",
@@ -216,7 +216,7 @@
   "model": "claude-haiku-5-5",
   "requests": 500,
   "created": "2026-10-13T20:25:24",
-  "collected": false
+  "collected": true
  },
  {
   "id": "msgbatch_01AsXGjcrE3x3fDZkcGycAmL",
@@ -224,7 +224,7 @@
   "model": "claude-haiku-5-5",
   "requests": 500,
   "created": "2026-10-13T20:25:25",
-  "collected": false
+  "collected": true
  },
  {
   "id": "msgbatch_01Nmjhgkb9PDuQGVj1uTPf1R",
@@ -232,7 +232,7 @@
   "model": "claude-haiku-5-5",
   "requests": 500,
   "created": "2026-10-13T20:25:27",
-  "collected": false
+  "collected": true
  },
  {
   "id": "msgbatch_01Drep9McU8amncdMMfuNuLR",
@@ -240,7 +240,7 @@
   "model": "claude-haiku-5-5",
   "requests": 500,
   "created": "2026-10-13T20:25:28",
-  "collected": false
+  "collected": true
  },
  {
   "id": "msgbatch_01AVD9t6j58E2W5AcUnSurg9",
@@ -248,7 +248,7 @@
   "model": "claude-haiku-5-5",
   "requests": 500,
   "created": "2026-10-13T20:25:29",
-  "collected": false
+  "collected": true
  },
  {
   "id": "msgbatch_01UjR1ah99qofnPByxx3nsdg",
@@ -256,7 +256,7 @@
   "model": "claude-haiku-5-5",
   "requests": 500,
   "created": "2026-10-13T20:25:30",
-  "collected": false
+  "collected": true
  },
  {
   "id": "msgbatch_01AixaeT7FXfYTs81kBLNxMA",
@@ -264,7 +264,7 @@
   "model": "claude-haiku-5-5",
   "requests": 500,
   "created": "2026-10-13T20:25:31",
-  "collected": false
+  "collected": true
  },
  {
   "id": "msgbatch_01DSaJUG8Qw53NTjta4DA9DJ",
@@ -272,7 +272,7 @@
   "model": "claude-haiku-5-5",
   "requests": 500,
   "created": "2026-10-13T20:25:32",
-  "collected": false
+  "collected": true
  },
  {
   "id": "msgbatch_01E4wsoYDPhcx5DrhuZbSVVp",
@@ -280,7 +280,7 @@
   "model": "claude-haiku-5-5",
   "requests": 500,
   "created": "2026-10-13T20:25:33",
-  "collected": false
+  "collected": true
  },
  {
   "id": "msgbatch_01NaJDWuMTgsFhWw9ZLZTvBW",
@@ -288,7 +288,7 @@
   "model": "claude-haiku-5-5",
   "requests": 500,
   "created": "2026-10-13T20:25:34",
-  "collected": false
+  "collected": true
  },
  {
   "id": "msgbatch_01A34AHHxYQPb6QyFBkJ7jba",
@@ -296,7 +296,7 @@
   "model": "claude-haiku-5-5",
   "requests": 500,
   "created": "2026-10-13T20:25:35",
-  "collected": false
+  "collected": true
  },
  {
   "id": "msgbatch_0143naHfX9YqNCYa28RKbE81",
@@ -304,7 +304,7 @@
   "model": "claude-haiku-5-5",
   "requests": 500,
   "created": "2026-10-13T20:25:36",
-  "collected": false
+  "collected": true
  },
  {
   "id": "msgbatch_01HLottbe5An8fE9Mmc4v5WG",
@@ -312,7 +312,7 @@
   "model": "claude-haiku-5-5",
   "requests": 500,
   "created": "2026-10-13T20:25:37",
-  "collected": false
+  "collected": true
  },
  {
   "id": "msgbatch_01Bwrre71A2Kb6Nxddbrhki8",
@@ -320,7 +320,7 @@
   "model": "claude-haiku-5-5",
   "requests": 500,
   "created": "2026-10-13T20:25:38",
-  "collected": false
+  "collected": true
  },
  {
   "id": "msgbatch_01QnhvkDcGqaSFAeGyzrFzh6",
@@ -328,7 +328,7 @@
   "model": "claude-haiku-5-5",
   "requests": 500,
   "created": "2026-10-13T20:25:39",
-  "collected": false
+  "collected": true
  },
  {
   "id": "msgbatch_01NKKssvgzLgKtvcmbjhSbST",
@@ -336,7 +336,7 @@
   "model": "claude-haiku-5-5",
   "requests": 500,
   "created": "2026-10-13T20:25:40",
-  "collected": false
+  "collected": true
  },
  {
   "id": "msgbatch_01Kz6VwsjyqJPKoGtV6FQGQx",
@@ -344,7 +344,7 @@
   "model": "claude-haiku-5-5",
   "requests": 500,
   "created": "2026-10-13T20:25:41",
-  "collected": false
+  "collected": true
  },
  {
   "id": "msgbatch_01YTnb7xRcQiH34v53kMyrGr",
@@ -352,6 +352,14 @@
   "model": "claude-haiku-5-5",
   "requests": 196,
   "created": "2026-10-13T20:25:42",
+  "collected": true
+ },
+ {
+  "id": "msgbatch_01Ae9BUXzTErpvRQvW14GVKT",
+  "stage": "six-sonnet-pilot",
+  "model": "claude-sonnet-5-5",
+  "requests": 500,
+  "created": "2026-10-13T20:35:12",
   "collected": false
  }
 ]
