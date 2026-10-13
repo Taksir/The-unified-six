@@ -9,6 +9,7 @@
 
 import json
 import random
+import time
 from collections import Counter
 from pathlib import Path
 
@@ -23,6 +24,7 @@ M1 = DATA / "m1"
 BOOKS = ("bukhari", "muslim")
 MERGE = {"same", "a_in_b", "b_in_a"}
 EMB_ONLY_MIN_TFIDF = 0.15
+BATCH_CHUNK = 500
 
 
 def _write_jsonl(path: Path, rows) -> None:
@@ -245,11 +247,10 @@ def stage_label(cap_usd: float = 15.0) -> None:
     mid = [p for p in pairs if p["pid"] not in done]
     print(f"label: {len(done)} auto, {len(mid)} to Sonnet")
     if mid:
-        pending = [r for r in (json.loads(llm.BATCHES.read_text()) if llm.BATCHES.exists() else [])
+        pending = [r["id"] for r in (json.loads(llm.BATCHES.read_text()) if llm.BATCHES.exists() else [])
                    if r["stage"] == "label-sonnet" and not r["collected"]]
         if pending:
-            bid = pending[-1]["id"]
-            print(f"resuming batch {bid}")
+            print(f"resuming {len(pending)} batches")
         else:
             if llm.spent() > cap_usd:
                 raise SystemExit("spend cap reached")
@@ -257,15 +258,31 @@ def stage_label(cap_usd: float = 15.0) -> None:
             for q, p in zip(pp, mid):
                 q["a"], q["b"] = p["a"], p["b"]
             groups = llm.group_pairs(pp)
-            bid = llm.submit_group_batch(groups, llm.SONNET, "high", stage="label-sonnet")
-            print(f"submitted {len(groups)} requests as batch {bid}; waiting")
-        got, failed = llm.collect_group_batch(bid)
-        for p in mid:
-            if p["pid"] in got:
-                g = got[p["pid"]]
-                done[p["pid"]] = {"pid": p["pid"], "a": p["a"], "b": p["b"], "label": g["label"],
-                                  "source": "sonnet", "confidence": g["confidence"]}
-        _write_jsonl(out_path, done.values())
+            # Many mid-size batches: one 9k-request batch sat unscheduled for 2 h, while
+            # small ones finish in minutes.
+            for k in range(0, len(groups), BATCH_CHUNK):
+                pending.append(llm.submit_group_batch(groups[k:k + BATCH_CHUNK], llm.SONNET, "high",
+                                                      stage="label-sonnet"))
+            print(f"submitted {len(groups)} requests as {len(pending)} batches; waiting")
+        got, failed = {}, []
+        client = llm._client()
+        while pending:
+            ended = [b for b in pending if client.messages.batches.retrieve(b).processing_status == "ended"]
+            if not ended:
+                time.sleep(60)
+                continue
+            bid = ended[0]
+            pending.remove(bid)
+            g, f = llm.collect_group_batch(bid)
+            got.update(g)
+            failed += f
+            for p in mid:
+                if p["pid"] in g:
+                    r = g[p["pid"]]
+                    done[p["pid"]] = {"pid": p["pid"], "a": p["a"], "b": p["b"], "label": r["label"],
+                                      "source": "sonnet", "confidence": r["confidence"]}
+            _write_jsonl(out_path, done.values())
+            print(f"  batch {bid}: {len(g)} labelled; spend ${llm.spent():.2f}", flush=True)
         print(f"Sonnet: {len(got)} labelled, {len(failed)} failed requests")
     missing = [p for p in pairs if p["pid"] not in done]
     if missing:
