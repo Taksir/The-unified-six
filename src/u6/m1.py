@@ -132,3 +132,179 @@ def stage_gold_label(cap_usd: float = 6.0) -> None:
                 g[field] = got[g["pid"]]
         _write_jsonl(M1 / "gold.jsonl", gold)
         print(f"gold-label {field}: {len(got)}/{len(todo)} labelled, spend so far ${llm.spent():.3f}")
+
+
+# ---------------------------------------------------------------- calibrate
+
+def is_merge(label: str | None) -> bool:
+    return label in MERGE
+
+
+def auto_label(p: dict, th: dict) -> str | None:
+    """Confident lexical decisions; None = send to the LLM."""
+    if p["jac"] >= th["same_jac"] and p["len_ratio"] >= th["same_len"]:
+        return "same"
+    if p["cont"] >= th["part_cont"] and p["len_ratio"] < th["same_len"]:
+        return "partial"
+    if p["score"] < th["diff_score"]:
+        return "different"
+    return None
+
+
+def _wilson(k: int, n: int, z: float = 1.96) -> tuple[float, float]:
+    if n == 0:
+        return (0.0, 1.0)
+    ph = k / n
+    d = 1 + z * z / n
+    c = ph + z * z / (2 * n)
+    r = z * ((ph * (1 - ph) + z * z / (4 * n)) / n) ** 0.5
+    return ((c - r) / d, (c + r) / d)
+
+
+def stage_calibrate() -> None:
+    gold = [g for g in read_jsonl(M1 / "gold.jsonl") if "sonnet" in g]
+    truth = {g["pid"]: is_merge(g["sonnet"]["label"]) for g in gold}
+    best = None
+    # Smallest auto-merge thresholds whose auto-merges are all correct on gold, and the
+    # largest auto-different threshold that drops at most 1 gold merge.
+    for sj in np.arange(0.40, 0.95, 0.025):
+        for pc in np.arange(0.60, 0.99, 0.025):
+            for sl in (0.5, 0.6, 0.7):
+                th = {"same_jac": round(float(sj), 3), "part_cont": round(float(pc), 3),
+                      "same_len": sl, "diff_score": 0.0}
+                auto_m = [g for g in gold if auto_label(g, th) in ("same", "partial")]
+                if any(not truth[g["pid"]] for g in auto_m):
+                    continue
+                if best is None or len(auto_m) > best[0]:
+                    best = (len(auto_m), th)
+    th = best[1]
+    for ds in np.arange(0.05, 0.6, 0.01):
+        lost = [g for g in gold if g["score"] < ds and truth[g["pid"]]]
+        if len(lost) > 1:
+            break
+        th["diff_score"] = round(float(ds), 3)
+    # Pick the Haiku setting and the escalation cut-off on the middle band.
+    mid = [g for g in gold if auto_label(g, th) is None]
+    report = {"thresholds": th, "gold": len(gold), "middle": len(mid), "haiku": {}}
+    for field in ("haiku", "haiku_med"):
+        rows = [g for g in mid if field in g]
+        for cmin in (0.0, 0.6, 0.7, 0.8, 0.9):
+            kept = [g for g in rows if g[field]["confidence"] >= cmin]
+            esc = len(rows) - len(kept)
+            pred_m = [g for g in kept if is_merge(g[field]["label"])]
+            tp = sum(truth[g["pid"]] for g in pred_m)
+            pos = sum(truth[g["pid"]] for g in kept)
+            agree = sum(is_merge(g[field]["label"]) == truth[g["pid"]] for g in kept)
+            report["haiku"][f"{field}@{cmin}"] = {
+                "kept": len(kept), "escalated": esc, "merge_precision": round(tp / max(1, len(pred_m)), 4),
+                "merge_recall": round(tp / max(1, pos), 4), "agreement": round(agree / max(1, len(kept)), 4)}
+    # Choice: the cheapest Haiku setting whose kept answers reach the merge-precision
+    # target with the fewest escalations; Sonnet answers the escalated rest.
+    ok = [(v["escalated"], k) for k, v in report["haiku"].items()
+          if v["merge_precision"] >= 0.97 and v["merge_recall"] >= 0.85]
+    if ok:
+        k = min(ok)[1]
+        field, c = k.split("@")
+        report["choice"] = {"haiku_effort": "low" if field == "haiku" else "medium",
+                            "escalate_below": float(c), "basis": k}
+    else:
+        report["choice"] = {"haiku_effort": "medium", "escalate_below": 1.01,
+                            "basis": "no Haiku setting met the target: escalate everything"}
+    (M1 / "thresholds.json").write_text(json.dumps(report, indent=1) + "\n")
+    print(json.dumps(report, indent=1))
+
+
+# ---------------------------------------------------------------- label
+
+def stage_label(cap_usd: float = 15.0) -> None:
+    """Auto-decide confident pairs; Haiku (batch) for the middle band; Sonnet for
+    low-confidence Haiku answers. Resumable: finished labels are kept in labels.jsonl."""
+    llm.require_key()
+    cfg = json.loads((M1 / "thresholds.json").read_text())
+    th, effort, cmin = cfg["thresholds"], cfg["choice"]["haiku_effort"], cfg["choice"]["escalate_below"]
+    pairs = read_jsonl(M1 / "pairs.jsonl")
+    out_path = M1 / "labels.jsonl"
+    done = {r["pid"]: r for r in read_jsonl(out_path)} if out_path.exists() else {}
+    words = {d.id: d.words for d in load_docs(BOOKS)}
+
+    for p in pairs:
+        if p["pid"] in done:
+            continue
+        lab = auto_label(p, th)
+        if lab == "partial":
+            lab = "a_in_b" if words[p["a"]] <= words[p["b"]] else "b_in_a"
+        if lab:
+            done[p["pid"]] = {"pid": p["pid"], "a": p["a"], "b": p["b"], "label": lab,
+                              "source": "auto", "confidence": None}
+    _write_jsonl(out_path, done.values())
+
+    mid = [p for p in pairs if p["pid"] not in done]
+    print(f"label: {len(done)} auto, {len(mid)} to Haiku")
+    if mid:
+        if llm.spent() > cap_usd:
+            raise SystemExit("spend cap reached")
+        bid = llm.submit_batch(_prompt_pairs(mid), llm.HAIKU, effort, stage="label-haiku")
+        print(f"submitted Haiku batch {bid}; waiting")
+        got, failed = llm.collect_batch(bid)
+        for p in mid:
+            if p["pid"] in got:
+                g = got[p["pid"]]
+                done[p["pid"]] = {"pid": p["pid"], "a": p["a"], "b": p["b"], "label": g["label"],
+                                  "source": "haiku", "confidence": g["confidence"]}
+        _write_jsonl(out_path, done.values())
+        print(f"Haiku: {len(got)} labelled, {len(failed)} failed requests, spend ${llm.spent():.2f}")
+
+    esc = [p for p in pairs if p["pid"] in done and done[p["pid"]]["source"] == "haiku"
+           and done[p["pid"]]["confidence"] < cmin]
+    esc += [p for p in pairs if p["pid"] not in done]  # unanswered by Haiku
+    if esc:
+        print(f"escalating {len(esc)} to Sonnet")
+        got = llm.classify_live(_prompt_pairs(esc), llm.SONNET, "high", stage="label-sonnet",
+                                cap_usd=cap_usd, per_request=5)
+        for p in esc:
+            if p["pid"] in got:
+                g = got[p["pid"]]
+                done[p["pid"]] = {"pid": p["pid"], "a": p["a"], "b": p["b"], "label": g["label"],
+                                  "source": "sonnet", "confidence": g["confidence"]}
+        _write_jsonl(out_path, done.values())
+    print(f"labels: {Counter((r['source'], r['label']) for r in done.values()).most_common()}; "
+          f"total spend ${llm.spent():.2f}")
+
+
+# ---------------------------------------------------------------- cluster + assemble
+
+def stage_cluster() -> None:
+    from .cluster import BOOK_ORDER, assemble, build_graph, guard
+
+    docs = {d.id: d for d in load_docs(BOOKS)}
+    edges = read_jsonl(M1 / "edges_free.jsonl")
+    for r in read_jsonl(M1 / "labels.jsonl"):
+        if r["label"] in MERGE:
+            edges.append({**r, "source": r["source"]})
+    g = build_graph(docs, edges)
+    clusters, review = guard(g, docs)
+    order = {b: k for k, b in enumerate(BOOK_ORDER)}
+    hadith = [assemble(c, docs, g) for c in clusters]
+    # Provisional IDs: by stars (desc), then first appearance in canonical book order.
+    def first(h):
+        m = h["members"][0]
+        return (order[m["book"]], docs[m["id"]].seq)
+    hadith.sort(key=lambda h: (-h["stars"], -len(h["books_full"]), first(h)))
+    for k, h in enumerate(hadith, 1):
+        h["id"] = f"U6-{k:05d}"
+    _write_jsonl(M1 / "hadith.jsonl", ({"id": h.pop("id"), **h} for h in hadith))
+    _write_jsonl(M1 / "review_chaining.jsonl", review)
+
+    seen = Counter(m["id"] for h in hadith for m in h["members"])
+    assert all(v == 1 for v in seen.values()) and len(seen) == len(docs), "narration in 0 or 2+ hadith"
+    per_book = {b: sum(1 for h in hadith if any(m["book"] == b for m in h["members"])) for b in BOOKS}
+    stats = {
+        "narrations": len(docs), "hadith": len(hadith),
+        "unique_per_book": per_book,
+        "in_both": sum(1 for h in hadith if h["badge"] == "muttafaq"),
+        "stars": Counter(h["stars_display"] for h in hadith).most_common(),
+        "chaining_splits": len(review),
+        "largest_cluster": max(len(h["members"]) for h in hadith),
+    }
+    (M1 / "cluster_stats.json").write_text(json.dumps(stats, indent=1, ensure_ascii=False) + "\n")
+    print(json.dumps(stats, indent=1, ensure_ascii=False))
