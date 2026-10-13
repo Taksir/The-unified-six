@@ -70,3 +70,7 @@
 {"t": "2026-10-13T21:14:52", "stage": "six-sonnet-w0", "model": "claude-sonnet-5-5", "usd": 1.52314, "requests": 500}
 {"t": "2026-10-13T21:15:54", "stage": "six-sonnet-w0", "model": "claude-sonnet-5-5", "usd": 1.19205, "requests": 500}
 {"t": "2026-10-13T21:15:55", "stage": "six-sonnet-w0", "model": "claude-sonnet-5-5", "usd": 1.00935, "requests": 500}
+{"t": "2026-10-13T21:23:23", "stage": "six-sonnet-w1", "model": "claude-sonnet-5-5", "usd": 0.87286, "requests": 500}
+{"t": "2026-10-13T21:23:24", "stage": "six-sonnet-w1", "model": "claude-sonnet-5-5", "usd": 0.82027, "requests": 500}
+{"t": "2026-10-13T21:23:25", "stage": "six-sonnet-w1", "model": "claude-sonnet-5-5", "usd": 0.69683, "requests": 500}
+{"t": "2026-10-13T21:23:26", "stage": "six-sonnet-w1", "model": "claude-sonnet-5-5", "usd": 0.61985, "requests": 500}
