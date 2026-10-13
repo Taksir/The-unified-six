@@ -6,3 +6,5 @@ __pycache__/
 data/raw/
 # Third-party validation corpora (not redistributable)
 data/external/
+# Model downloads and embedding caches (recomputable)
+data/cache/

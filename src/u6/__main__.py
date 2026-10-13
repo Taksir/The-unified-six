@@ -1,4 +1,4 @@
-"""CLI: python -m u6 {fetch,ingest,eval-split}"""
+"""CLI: python -m u6 {fetch,ingest,eval-split,m1 <stage>}"""
 
 import argparse
 import json
@@ -17,6 +17,10 @@ def main() -> None:
     e = sub.add_parser("eval-split", help="score the isnad/matn splitter against LK Bukhari")
     e.add_argument("--lk", type=Path, default=ROOT / "data" / "external" / "LK-Hadith-Corpus")
     e.add_argument("--misses", type=int, default=40)
+    m = sub.add_parser("m1", help="M1 pipeline stage (Bukhari + Muslim)")
+    m.add_argument("stage", choices=["pairs", "gold-sample", "gold-label", "calibrate", "label",
+                                     "cluster", "assemble", "sample"])
+    m.add_argument("--no-embeddings", action="store_true")
     a = p.parse_args()
 
     if a.cmd == "fetch":
@@ -25,6 +29,12 @@ def main() -> None:
     elif a.cmd == "ingest":
         from .ingest import ingest
         ingest(a.data, ROOT / "docs")
+    elif a.cmd == "m1":
+        from . import m1
+        if a.stage == "pairs":
+            m1.stage_pairs(use_embeddings=not a.no_embeddings)
+        else:
+            getattr(m1, "stage_" + a.stage.replace("-", "_"))()
     elif a.cmd == "eval-split":
         from .evalsplit import evaluate, write_report
         r = evaluate(a.lk, a.data / "raw" / "ara-bukhari.json", a.misses)
