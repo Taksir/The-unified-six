@@ -16,7 +16,8 @@ from .textnorm import letters
 
 HAIKU = "claude-haiku-5-5"
 SONNET = "claude-sonnet-5-5"
-PRICES = {HAIKU: (0.10, 0.50), SONNET: (2.00, 10.00)}  # $ per MTok in/out, list price
+OPUS = "claude-opus-5-5"   # gold-set reference annotator only
+PRICES = {HAIKU: (0.10, 0.50), SONNET: (2.00, 10.00), OPUS: (4.00, 20.00)}  # $ per MTok in/out
 SPEND_LOG = DATA / "m1" / "spend.jsonl"
 BATCHES = DATA / "batches.json"
 MAX_WORDS = 400
@@ -207,3 +208,128 @@ def collect_batch(batch_id: str, poll: int = 30) -> tuple[dict, list[str]]:
 def require_key() -> None:
     if not os.environ.get("ANTHROPIC_API_KEY"):
         raise SystemExit("ANTHROPIC_API_KEY is not set")
+
+
+# ---------------------------------------------------------------- anchor-grouped requests
+# One anchor text compared with several candidates sends each text once per request
+# instead of once per pair (~45 % fewer input tokens on the M1 middle band).
+
+GROUP_NOTE = """Each <group> has one anchor text A and several candidates. Compare A with \
+each candidate separately and label the pair (A, candidate) as above: a_in_b means A is a \
+fragment of the candidate, b_in_a means the candidate is a fragment of A."""
+
+
+def group_pairs(pairs: list[dict], max_per_group: int = 12) -> list[dict]:
+    """pairs: [{"pid", "a", "b", "a_text", "b_text"}] -> groups
+    [{"anchor", "anchor_text", "items": [{"pid", "other", "text", "swapped"}]}]."""
+    from collections import defaultdict
+    deg = defaultdict(int)
+    for p in pairs:
+        deg[p["a"]] += 1
+        deg[p["b"]] += 1
+    by_anchor = defaultdict(list)
+    for p in pairs:  # anchor = the endpoint with more middle-band pairs
+        if deg[p["a"]] >= deg[p["b"]]:
+            by_anchor[p["a"]].append({"pid": p["pid"], "text": p["b_text"], "swapped": False, "_at": p["a_text"]})
+        else:
+            by_anchor[p["b"]].append({"pid": p["pid"], "text": p["a_text"], "swapped": True, "_at": p["b_text"]})
+    groups = []
+    for anchor, items in by_anchor.items():
+        for k in range(0, len(items), max_per_group):
+            chunk = items[k:k + max_per_group]
+            groups.append({"anchor": anchor, "anchor_text": chunk[0]["_at"],
+                           "items": [{kk: v for kk, v in it.items() if kk != "_at"} for it in chunk]})
+    return groups
+
+
+def build_group_prompt(groups: list[dict]) -> str:
+    parts = [GROUP_NOTE, "Return one result per candidate, using its pair id.\n"]
+    for g in groups:
+        parts.append(f"<group>\n<A>{show(g['anchor_text'])}</A>")
+        for it in g["items"]:
+            parts.append(f"<candidate pair=\"{it['pid']}\">{show(it['text'])}</candidate>")
+        parts.append("</group>")
+    return "\n".join(parts)
+
+
+def group_request_params(model: str, groups: list[dict], effort: str) -> dict:
+    n = sum(len(g["items"]) for g in groups)
+    return {
+        "model": model,
+        "max_tokens": 6000 + 120 * n,
+        "system": [{"type": "text", "text": SYSTEM, "cache_control": {"type": "ephemeral"}}],
+        "output_config": {"effort": effort, "format": {"type": "json_schema", "schema": SCHEMA}},
+        "messages": [{"role": "user", "content": build_group_prompt(groups)}],
+    }
+
+
+_FLIP = {"a_in_b": "b_in_a", "b_in_a": "a_in_b"}
+
+
+def _orient(groups: list[dict], got: dict) -> dict:
+    """Map anchor-relative labels back to each pair's own (a, b) orientation."""
+    out = {}
+    for g in groups:
+        for it in g["items"]:
+            r = got.get(it["pid"])
+            if r:
+                lab = _FLIP.get(r["label"], r["label"]) if it["swapped"] else r["label"]
+                out[it["pid"]] = {"label": lab, "confidence": r["confidence"]}
+    return out
+
+
+def classify_groups_live(groups: list[dict], model: str, effort: str, stage: str, cap_usd: float,
+                         workers: int = 8) -> dict:
+    client = _client()
+    total, merged = 0.0, {}
+
+    def run(g):
+        return g, client.messages.create(**group_request_params(model, [g], effort))
+
+    with ThreadPoolExecutor(workers) as ex:
+        for g, msg in ex.map(run, groups):
+            total += cost(model, msg.usage, batch=False)
+            merged.update(_orient([g], _parse(msg)))
+            if spent(stage) + total > cap_usd:
+                log_spend(stage, model, total, len(groups))
+                raise SystemExit(f"{stage}: spend cap ${cap_usd} reached")
+    log_spend(stage, model, total, len(groups))
+    return merged
+
+
+def submit_group_batch(groups: list[dict], model: str, effort: str, stage: str) -> str:
+    from anthropic.types.message_create_params import MessageCreateParamsNonStreaming
+    from anthropic.types.messages.batch_create_params import Request
+
+    reqs = [Request(custom_id=f"{stage}-{k}", params=MessageCreateParamsNonStreaming(
+        **group_request_params(model, [g], effort))) for k, g in enumerate(groups)]
+    batch = _client().messages.batches.create(requests=reqs)
+    _record_batch(batch.id, stage, model, len(reqs))
+    # Manifest for resuming: ids and orientation only (texts are reproducible from data/).
+    (DATA / "m1" / f"batch-{batch.id}.json").write_text(json.dumps(
+        {f"{stage}-{k}": {"anchor": g["anchor"], "items": [{"pid": i["pid"], "swapped": i["swapped"]}
+                                                          for i in g["items"]]}
+         for k, g in enumerate(groups)}))
+    return batch.id
+
+
+def collect_group_batch(batch_id: str, poll: int = 60) -> tuple[dict, list[str]]:
+    client = _client()
+    while (b := client.messages.batches.retrieve(batch_id)).processing_status != "ended":
+        time.sleep(poll)
+    rows = json.loads(BATCHES.read_text())
+    meta = next(r for r in rows if r["id"] == batch_id)
+    manifest = json.loads((DATA / "m1" / f"batch-{batch_id}.json").read_text())
+    out, failed, usd = {}, [], 0.0
+    for res in client.messages.batches.results(batch_id):
+        if res.result.type != "succeeded":
+            failed.append(res.custom_id)
+            continue
+        msg = res.result.message
+        usd += cost(meta["model"], msg.usage, batch=True)
+        out.update(_orient([manifest[res.custom_id]], _parse(msg)))
+    if not meta["collected"]:
+        log_spend(meta["stage"], meta["model"], usd, meta["requests"])
+        meta["collected"] = True
+        BATCHES.write_text(json.dumps(rows, indent=1) + "\n")
+    return out, failed

@@ -22,6 +22,7 @@ from .features import pair_features, score, shingles
 M1 = DATA / "m1"
 BOOKS = ("bukhari", "muslim")
 MERGE = {"same", "a_in_b", "b_in_a"}
+EMB_ONLY_MIN_TFIDF = 0.15
 
 
 def _write_jsonl(path: Path, rows) -> None:
@@ -62,6 +63,9 @@ def stage_pairs(use_embeddings: bool = True) -> None:
         rows.append({"pid": f"{a.id}|{b.id}", "a": a.id, "b": b.id, **f, "score": round(score(f), 4),
                      "via": "".join(c for c, on in (("t", ch.get("knn_cos")), ("w", ch.get("word_knn")), ("r", ch.get("shared4")),
                                                     ("e", ch.get("emb_knn"))) if on)})
+    # Embedding-only neighbours are mostly same-topic noise (449 of 72k were same-FAB in
+    # the first run); keep those that also share some vocabulary.
+    rows = [r for r in rows if r["via"] != "e" or r["cos_tfidf"] >= EMB_ONLY_MIN_TFIDF]
     _write_jsonl(M1 / "pairs.jsonl", rows)
     print(f"pairs: {len(rows)} candidate pairs over {len(M)} matchable docs; "
           f"via {Counter(r['via'] for r in rows).most_common()}")
@@ -217,11 +221,11 @@ def stage_calibrate() -> None:
 # ---------------------------------------------------------------- label
 
 def stage_label(cap_usd: float = 15.0) -> None:
-    """Auto-decide confident pairs; Haiku (batch) for the middle band; Sonnet for
-    low-confidence Haiku answers. Resumable: finished labels are kept in labels.jsonl."""
+    """Auto-decide confident pairs; Sonnet (high effort, anchor-grouped, Batch API) for the
+    middle band. Haiku was measured on gold and not used (merge precision 0.89 vs the
+    Opus reference; see docs/reports/m1-eval.md). Resumable via labels.jsonl + batches.json."""
     llm.require_key()
-    cfg = json.loads((M1 / "thresholds.json").read_text())
-    th, effort, cmin = cfg["thresholds"], cfg["choice"]["haiku_effort"], cfg["choice"]["escalate_below"]
+    th = json.loads((M1 / "thresholds.json").read_text())["thresholds"]
     pairs = read_jsonl(M1 / "pairs.jsonl")
     out_path = M1 / "labels.jsonl"
     done = {r["pid"]: r for r in read_jsonl(out_path)} if out_path.exists() else {}
@@ -239,34 +243,44 @@ def stage_label(cap_usd: float = 15.0) -> None:
     _write_jsonl(out_path, done.values())
 
     mid = [p for p in pairs if p["pid"] not in done]
-    print(f"label: {len(done)} auto, {len(mid)} to Haiku")
+    print(f"label: {len(done)} auto, {len(mid)} to Sonnet")
     if mid:
-        if llm.spent() > cap_usd:
-            raise SystemExit("spend cap reached")
-        bid = llm.submit_batch(_prompt_pairs(mid), llm.HAIKU, effort, stage="label-haiku")
-        print(f"submitted Haiku batch {bid}; waiting")
-        got, failed = llm.collect_batch(bid)
+        pending = [r for r in (json.loads(llm.BATCHES.read_text()) if llm.BATCHES.exists() else [])
+                   if r["stage"] == "label-sonnet" and not r["collected"]]
+        if pending:
+            bid = pending[-1]["id"]
+            print(f"resuming batch {bid}")
+        else:
+            if llm.spent() > cap_usd:
+                raise SystemExit("spend cap reached")
+            pp = _prompt_pairs(mid)
+            for q, p in zip(pp, mid):
+                q["a"], q["b"] = p["a"], p["b"]
+            groups = llm.group_pairs(pp)
+            bid = llm.submit_group_batch(groups, llm.SONNET, "high", stage="label-sonnet")
+            print(f"submitted {len(groups)} requests as batch {bid}; waiting")
+        got, failed = llm.collect_group_batch(bid)
         for p in mid:
-            if p["pid"] in got:
-                g = got[p["pid"]]
-                done[p["pid"]] = {"pid": p["pid"], "a": p["a"], "b": p["b"], "label": g["label"],
-                                  "source": "haiku", "confidence": g["confidence"]}
-        _write_jsonl(out_path, done.values())
-        print(f"Haiku: {len(got)} labelled, {len(failed)} failed requests, spend ${llm.spent():.2f}")
-
-    esc = [p for p in pairs if p["pid"] in done and done[p["pid"]]["source"] == "haiku"
-           and done[p["pid"]]["confidence"] < cmin]
-    esc += [p for p in pairs if p["pid"] not in done]  # unanswered by Haiku
-    if esc:
-        print(f"escalating {len(esc)} to Sonnet")
-        got = llm.classify_live(_prompt_pairs(esc), llm.SONNET, "high", stage="label-sonnet",
-                                cap_usd=cap_usd, per_request=5)
-        for p in esc:
             if p["pid"] in got:
                 g = got[p["pid"]]
                 done[p["pid"]] = {"pid": p["pid"], "a": p["a"], "b": p["b"], "label": g["label"],
                                   "source": "sonnet", "confidence": g["confidence"]}
         _write_jsonl(out_path, done.values())
+        print(f"Sonnet: {len(got)} labelled, {len(failed)} failed requests")
+    missing = [p for p in pairs if p["pid"] not in done]
+    if missing:
+        print(f"{len(missing)} pairs unanswered; rerun to retry them live")
+        if len(missing) <= 600:
+            pp = _prompt_pairs(missing)
+            for q, p in zip(pp, missing):
+                q["a"], q["b"] = p["a"], p["b"]
+            got = llm.classify_groups_live(llm.group_pairs(pp), llm.SONNET, "high",
+                                           stage="label-sonnet-retry", cap_usd=cap_usd)
+            for p in missing:
+                if p["pid"] in got:
+                    done[p["pid"]] = {"pid": p["pid"], "a": p["a"], "b": p["b"], **got[p["pid"]],
+                                      "source": "sonnet"}
+            _write_jsonl(out_path, done.values())
     print(f"labels: {Counter((r['source'], r['label']) for r in done.values()).most_common()}; "
           f"total spend ${llm.spent():.2f}")
 

@@ -27,6 +27,7 @@ def pair_features(a: Doc, b: Doc, sa: set, sb: set, cos_tfidf: float, cos_emb: f
 
 
 def score(f: dict) -> float:
-    """One number for stratifying and ranking: the strongest similarity signal."""
+    """One lexical number for stratifying and ranking: the strongest overlap signal.
+    (e5 cosines sit in a narrow 0.85-1.0 band, so embeddings stay a separate feature.)"""
     return max(f["jac"], f["cont"] * (0.5 + 0.5 * f["len_ratio"]) if f["cont"] else 0.0,
-               f["cos_tfidf"], (f["cos_emb"] or 0.0) - 0.15)
+               f["cos_tfidf"])

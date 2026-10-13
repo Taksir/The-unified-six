@@ -1,0 +1,89 @@
+{
+ "thresholds": {
+  "same_jac": 0.45,
+  "part_cont": 0.925,
+  "same_len": 0.5,
+  "diff_score": 0.26
+ },
+ "gold": 350,
+ "middle": 192,
+ "haiku": {
+  "haiku@0.0": {
+   "kept": 192,
+   "escalated": 0,
+   "merge_precision": 0.7692,
+   "merge_recall": 0.8511,
+   "agreement": 0.8021
+  },
+  "haiku@0.6": {
+   "kept": 189,
+   "escalated": 3,
+   "merge_precision": 0.7767,
+   "merge_recall": 0.8511,
+   "agreement": 0.8042
+  },
+  "haiku@0.7": {
+   "kept": 156,
+   "escalated": 36,
+   "merge_precision": 0.8085,
+   "merge_recall": 0.962,
+   "agreement": 0.8654
+  },
+  "haiku@0.8": {
+   "kept": 113,
+   "escalated": 79,
+   "merge_precision": 0.8205,
+   "merge_recall": 0.9697,
+   "agreement": 0.8584
+  },
+  "haiku@0.9": {
+   "kept": 36,
+   "escalated": 156,
+   "merge_precision": 1.0,
+   "merge_recall": 1.0,
+   "agreement": 1.0
+  },
+  "haiku_med@0.0": {
+   "kept": 192,
+   "escalated": 0,
+   "merge_precision": 0.752,
+   "merge_recall": 1.0,
+   "agreement": 0.8385
+  },
+  "haiku_med@0.6": {
+   "kept": 176,
+   "escalated": 16,
+   "merge_precision": 0.7542,
+   "merge_recall": 1.0,
+   "agreement": 0.8352
+  },
+  "haiku_med@0.7": {
+   "kept": 150,
+   "escalated": 42,
+   "merge_precision": 0.7864,
+   "merge_recall": 1.0,
+   "agreement": 0.8533
+  },
+  "haiku_med@0.8": {
+   "kept": 100,
+   "escalated": 92,
+   "merge_precision": 0.8592,
+   "merge_recall": 1.0,
+   "agreement": 0.9
+  },
+  "haiku_med@0.9": {
+   "kept": 50,
+   "escalated": 142,
+   "merge_precision": 1.0,
+   "merge_recall": 1.0,
+   "agreement": 1.0
+  }
+ },
+ "choice": {
+  "middle_band_model": "claude-sonnet-5-5",
+  "effort": "high",
+  "format": "anchor-grouped",
+  "reference": "claude-opus-5-5 (high) on the 350 gold pairs",
+  "basis": "vs Opus on the 192 gold middle-band pairs: Sonnet-high P=0.979 R=0.807 (pairwise), P=0.990 R=0.833 (grouped); Sonnet-medium P=0.961; Haiku-medium P=0.888; Haiku-low P=0.904"
+ }
+}
