@@ -4,7 +4,8 @@ M1's 74k Bukhari/Muslim pair decisions are reused as they are; only pairs that i
 least one narration from a new book are generated and labelled. Cost controls (owner has a
 fixed budget, see docs/handoff/M2.md):
   * middle-band pairs with lexical score < LOW_BAND get no LLM call: "see also, unconfirmed";
-  * Haiku (medium) pre-filters the rest: confident (>= HAIKU_DROP) no-merge calls are final;
+  * Haiku (medium) pre-filters the rest: confident no-merge (>= HAIKU_DROP) and very
+    confident merge (>= HAIKU_MERGE) calls are final (both error-free on M1 gold);
   * Sonnet (high, grouped) decides what remains, after a one-chunk pilot projects the cost.
 Outputs go to data/six/.
 """
@@ -25,8 +26,9 @@ ALL = ("bukhari", "muslim", "abudawud", "tirmidhi", "nasai", "ibnmajah")
 OLD = ("bukhari", "muslim")
 NEW = ("abudawud", "tirmidhi", "nasai", "ibnmajah")
 D6 = DATA / "six"
-LOW_BAND = 0.32
-HAIKU_DROP = 0.7
+LOW_BAND = 0.40          # middle-band pairs below this get no LLM call ("see also")
+HAIKU_DROP = 0.7         # Haiku no-merge calls at or above this confidence are final
+HAIKU_MERGE = 0.9        # Haiku merge calls at or above this confidence are final
 SONNET_CAP_USD = 18.0  # stop and ask the owner if the Sonnet stage projects above this
 
 
@@ -160,6 +162,10 @@ def stage_gold(per_band: int = 25, hard_negatives: int = 25, seed: int = 11, cap
           f"spend ${llm.spent():.2f}")
 
 
+def haiku_final(h: dict) -> bool:
+    return h["confidence"] >= (HAIKU_MERGE if m1.is_merge(h["label"]) else HAIKU_DROP)
+
+
 def decision(g: dict, th: dict) -> str:
     """What the six-book pipeline decides for a pair (gold rows carry the model labels)."""
     a = m1.auto_label(g, th)
@@ -168,7 +174,7 @@ def decision(g: dict, th: dict) -> str:
     if g["score"] < LOW_BAND:
         return "skipped"
     h = g.get("haiku_grouped")
-    if h and not m1.is_merge(h["label"]) and h["confidence"] >= HAIKU_DROP:
+    if h and haiku_final(h):
         return h["label"]
     return (g.get("sonnet_grouped") or {}).get("label", "unlabelled")
 
@@ -240,7 +246,7 @@ def stage_label() -> None:
         got = _run_batches(groups_for(todo_h), llm.HAIKU, "medium", "six-haiku")
         for p in todo_h:
             h = got.get(p["pid"])
-            if h and not m1.is_merge(h["label"]) and h["confidence"] >= HAIKU_DROP:
+            if h and haiku_final(h):
                 put(p, h["label"], "haiku", h["confidence"])
             else:
                 put(p, "pending", "haiku-keep", None, haiku=h)
@@ -297,8 +303,8 @@ def stage_evaluate() -> None:
     rows.append(("Middle band: Haiku medium, grouped", m1._ev([g for g in mid if "haiku_grouped" in g],
                                                               lambda g: g["haiku_grouped"]["label"])))
     llm_band = [g for g in mid if g["score"] >= LOW_BAND and "haiku_grouped" in g]
-    dropped = [g for g in llm_band if not m1.is_merge(g["haiku_grouped"]["label"])
-               and g["haiku_grouped"]["confidence"] >= HAIKU_DROP]
+    dropped = [g for g in llm_band if not m1.is_merge(g["haiku_grouped"]["label"]) and haiku_final(g["haiku_grouped"])]
+    accepted = [g for g in llm_band if m1.is_merge(g["haiku_grouped"]["label"]) and haiku_final(g["haiku_grouped"])]
     skipped = [g for g in mid if g["score"] < LOW_BAND]
     stats = json.loads((D6 / "cluster_stats.json").read_text()) if (D6 / "cluster_stats.json").exists() else None
     spend = Counter()
@@ -320,7 +326,9 @@ def stage_evaluate() -> None:
           f"- Low band (score < {LOW_BAND}, no LLM): {len(skipped)} middle-band gold pairs, "
           f"{sum(m1.is_merge(g['truth']) for g in skipped)} true merges among them (kept as see-also links).",
           f"- Haiku pre-filter (no-merge, confidence ≥ {HAIKU_DROP}): dropped {len(dropped)} of {len(llm_band)}, "
-          f"true merges lost {sum(m1.is_merge(g['truth']) for g in dropped)}.", ""]
+          f"true merges lost {sum(m1.is_merge(g['truth']) for g in dropped)}.",
+          f"- Haiku merges accepted (confidence ≥ {HAIKU_MERGE}): {len(accepted)}, "
+          f"correct {sum(m1.is_merge(g['truth']) for g in accepted)}.", ""]
     if pilot:
         L += [f"Sonnet pilot: ${pilot['per_request_usd']:.4f} per request, {pilot['requests']} requests, "
               f"projected ${pilot['projected_usd']:.2f}.", ""]
