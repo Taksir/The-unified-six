@@ -293,32 +293,35 @@ def stage_label() -> None:
                 put(p, g["label"], "sonnet", g["confidence"], effort=SONNET_EFFORT)
         m1._write_jsonl(out, done.values())
         print(f"pilot2: ${per_req:.4f}/request (front-loaded groups; waves re-measure)", flush=True)
-    # The rest goes out in waves; after each wave the measured spend re-projects the
-    # remainder, and the run stops if it would exceed the cap. (Greedy packing puts the
-    # largest groups first, so a per-request projection from the first chunk overstates.)
-    todo_s = [p for p in pairs if done[p["pid"]]["source"] == "haiku-keep"]
-    if todo_s:
+    # The rest goes out in waves, each recomputed from the pairs still open (so a resumed
+    # run never resubmits). After each wave a per-request fit, cost = fixed + per-pair,
+    # projects the remainder over the real sizes of the remaining requests; the run stops
+    # if that would exceed the cap. (Greedy packing front-loads large requests, so a plain
+    # per-request average from one wave would overstate.)
+    rest_start = llm.spent() - sum(_stage_spend(f"six-sonnet-w{k}") for k in range(100))
+    k = 0
+    while True:
+        todo_s = [p for p in pairs if done[p["pid"]]["source"] == "haiku-keep"]
+        if not todo_s:
+            break
+        stage = f"six-sonnet-w{k}"
         groups = groups_for(todo_s)
-        rest_start = llm.spent()
-        cost_model = json.loads((D6 / "pilot2.json").read_text())
-        for w in range(0, len(groups), WAVE):
-            wave = groups[w:w + WAVE]
-            stage = f"six-sonnet-w{w // WAVE}"
-            before = llm.spent()
-            got = _run_batches(wave, llm.SONNET, SONNET_EFFORT, stage)
-            for p in todo_s:
-                if p["pid"] in got:
-                    g = got[p["pid"]]
-                    put(p, g["label"], "sonnet", g["confidence"], effort=SONNET_EFFORT)
-            m1._write_jsonl(out, done.values())
-            used = llm.spent() - rest_start
-            per_req = (llm.spent() - before) / max(1, len(wave))
-            left = len(groups) - (w + len(wave))
-            projected = used + per_req * left
-            print(f"wave {w // WAVE}: ${llm.spent() - before:.2f} for {len(wave)} requests; rest so far ${used:.2f}, "
-                  f"projected rest ${projected:.2f}", flush=True)
-            if left and projected > PILOT2_CAP_USD:
-                raise SystemExit(f"projected ${projected:.2f} exceeds ${PILOT2_CAP_USD}: ask the owner")
+        got = _run_batches(groups[:WAVE], llm.SONNET, SONNET_EFFORT, stage)
+        for p in todo_s:
+            if p["pid"] in got:
+                g = got[p["pid"]]
+                put(p, g["label"], "sonnet", g["confidence"], effort=SONNET_EFFORT)
+        m1._write_jsonl(out, done.values())
+        fixed, per_pair = _fit_request_cost(stage)
+        left = groups_for([p for p in pairs if done[p["pid"]]["source"] == "haiku-keep"]) \
+            if any(done[p["pid"]]["source"] == "haiku-keep" for p in pairs) else []
+        projected_left = sum(fixed + per_pair * len(g["items"]) for g in left)
+        used = llm.spent() - rest_start
+        print(f"wave {k}: rest so far ${used:.2f}; fit ${fixed:.5f} + ${per_pair:.5f}/pair; "
+              f"{len(left)} requests left, projected ${projected_left:.2f} more", flush=True)
+        if left and used + projected_left > PILOT2_CAP_USD:
+            raise SystemExit(f"projected rest ${used + projected_left:.2f} exceeds ${PILOT2_CAP_USD}: ask the owner")
+        k += 1
     print(f"labels: {Counter((r['source'], r['label']) for r in done.values()).most_common(12)}; "
           f"spend ${llm.spent():.2f}")
 
@@ -377,3 +380,27 @@ def stage_evaluate() -> None:
     L += [f"| {k} | {v:.2f} |" for k, v in sorted(spend.items())] + [f"| **total** | **{sum(spend.values()):.2f}** |", ""]
     (ROOT / "docs" / "reports" / "m23-eval.md").write_text("\n".join(L))
     print("\n".join(L))
+
+
+def _stage_spend(stage: str) -> float:
+    return llm.spent(stage)
+
+
+def _fit_request_cost(stage: str) -> tuple[float, float]:
+    """Least-squares fit of batch cost per request against pairs per request, from the
+    collected results of `stage` (re-reading results is free)."""
+    rows = json.loads(llm.BATCHES.read_text())
+    client = llm._client()
+    xs, ys = [], []
+    for r in rows:
+        if r["stage"] != stage:
+            continue
+        manifest = json.loads((DATA / "m1" / f"batch-{r['id']}.json").read_text())
+        for res in client.messages.batches.results(r["id"]):
+            if res.result.type == "succeeded":
+                xs.append(len(manifest[res.custom_id]["items"]))
+                ys.append(llm.cost(r["model"], res.result.message.usage, batch=True))
+    if len(set(xs)) < 2:
+        return (sum(ys) / max(1, len(ys)), 0.0)
+    per_pair, fixed = np.polyfit(xs, ys, 1)
+    return float(max(fixed, 0.0)), float(max(per_pair, 0.0))
