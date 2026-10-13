@@ -1,0 +1,32 @@
+{
+  "source": "fawazahmed0/hadith-api",
+  "license": "Unlicense (repository); upstream provenance undocumented, see docs/research/data-sources.md",
+  "commit": "df57907be35291c91ad6a6691180e22ca9920784",
+  "url_template": "https://raw.githubusercontent.com/fawazahmed0/hadith-api/df57907be35291c91ad6a6691180e22ca9920784/editions/{edition}.json",
+  "files": {
+    "ara-bukhari": {
+      "sha256": "e34a3402889ca378871da3c5984b7875c680920e93f1c8738ac7afe502179562",
+      "bytes": 9770083
+    },
+    "ara-muslim": {
+      "sha256": "194073b24090c5368e4d14a3f55c9e0ef144c7437bd7e5aa83aa4d2bc54a8ea0",
+      "bytes": 8685140
+    },
+    "ara-abudawud": {
+      "sha256": "216139c5f40a8147e700d62ffa3b5b2fe45d0e034f86941a193c598c10056189",
+      "bytes": 7345422
+    },
+    "ara-tirmidhi": {
+      "sha256": "408028cd56329ed78edbe3ad443beb96b58e16c3e5bd49f9bc7b0eac77c8820f",
+      "bytes": 7120806
+    },
+    "ara-nasai": {
+      "sha256": "c705983c19bb089c87cd6531aff609bd94d862183ed0859115b0ff991826a956",
+      "bytes": 7152291
+    },
+    "ara-ibnmajah": {
+      "sha256": "b406e6be81588ab0ec1ddbed32f5fd95bbcdda242c460d88331e82eb5c2bc0aa",
+      "bytes": 5583102
+    }
+  }
+}
