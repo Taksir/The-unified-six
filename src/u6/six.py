@@ -31,7 +31,8 @@ HAIKU_DROP = 0.7         # Haiku no-merge calls at or above this confidence are 
 HAIKU_MERGE = 0.9        # Haiku merge calls at or above this confidence are final
 SONNET_CAP_USD = 18.0  # stop and ask the owner if the Sonnet stage projects above this
 SONNET_EFFORT = "medium"  # owner's choice after the gold re-test (see docs/reports/m23-eval.md)
-PILOT2_CAP_USD = 19.0     # medium-effort pilot: projected cost of the rest must stay under this
+PILOT2_CAP_USD = 19.0     # medium effort: projected cost of the rest must stay under this
+WAVE = 2000               # requests per wave; spend is re-measured between waves
 
 
 def _use_six() -> None:
@@ -291,17 +292,33 @@ def stage_label() -> None:
                 g = got[p["pid"]]
                 put(p, g["label"], "sonnet", g["confidence"], effort=SONNET_EFFORT)
         m1._write_jsonl(out, done.values())
-        print(f"pilot2: ${per_req:.4f}/request, projected rest ${projected:.2f}", flush=True)
-        if projected > PILOT2_CAP_USD:
-            raise SystemExit(f"projected ${projected:.2f} exceeds ${PILOT2_CAP_USD}: ask the owner")
+        print(f"pilot2: ${per_req:.4f}/request (front-loaded groups; waves re-measure)", flush=True)
+    # The rest goes out in waves; after each wave the measured spend re-projects the
+    # remainder, and the run stops if it would exceed the cap. (Greedy packing puts the
+    # largest groups first, so a per-request projection from the first chunk overstates.)
     todo_s = [p for p in pairs if done[p["pid"]]["source"] == "haiku-keep"]
     if todo_s:
-        got = _run_batches(groups_for(todo_s), llm.SONNET, SONNET_EFFORT, "six-sonnet")
-        for p in todo_s:
-            if p["pid"] in got:
-                g = got[p["pid"]]
-                put(p, g["label"], "sonnet", g["confidence"], effort=SONNET_EFFORT)
-        m1._write_jsonl(out, done.values())
+        groups = groups_for(todo_s)
+        rest_start = llm.spent()
+        cost_model = json.loads((D6 / "pilot2.json").read_text())
+        for w in range(0, len(groups), WAVE):
+            wave = groups[w:w + WAVE]
+            stage = f"six-sonnet-w{w // WAVE}"
+            before = llm.spent()
+            got = _run_batches(wave, llm.SONNET, SONNET_EFFORT, stage)
+            for p in todo_s:
+                if p["pid"] in got:
+                    g = got[p["pid"]]
+                    put(p, g["label"], "sonnet", g["confidence"], effort=SONNET_EFFORT)
+            m1._write_jsonl(out, done.values())
+            used = llm.spent() - rest_start
+            per_req = (llm.spent() - before) / max(1, len(wave))
+            left = len(groups) - (w + len(wave))
+            projected = used + per_req * left
+            print(f"wave {w // WAVE}: ${llm.spent() - before:.2f} for {len(wave)} requests; rest so far ${used:.2f}, "
+                  f"projected rest ${projected:.2f}", flush=True)
+            if left and projected > PILOT2_CAP_USD:
+                raise SystemExit(f"projected ${projected:.2f} exceeds ${PILOT2_CAP_USD}: ask the owner")
     print(f"labels: {Counter((r['source'], r['label']) for r in done.values()).most_common(12)}; "
           f"spend ${llm.spent():.2f}")
 
