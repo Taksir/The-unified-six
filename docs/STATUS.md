@@ -46,7 +46,7 @@ Spend log: `data/m1/spend.jsonl`. Batch IDs: `data/batches.json`.
 - Star rule: ★ per book with the full text, ⯪ per book with only a fragment (main text too).
 - Muslim's Muqaddima (almost empty upstream) is out of v1.
 - No human gold review; Opus adjudicates. Hard cases get an "ambiguous" tag, not more spend.
-- M2 + M3 Sonnet labelling at medium effort (cost over the 97 % gate on a small sample).
+- M2 + M3 Sonnet labelling at medium effort to save cost, accepting 96.3 % vs the 97 % gate (small sample).
 - Translation with Sonnet, if it fits the budget (measured ≈ $20: it fits).
 
 ## How to rebuild
