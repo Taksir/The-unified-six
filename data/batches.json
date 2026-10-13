@@ -376,7 +376,7 @@
   "model": "claude-sonnet-5-5",
   "requests": 500,
   "created": "2026-10-13T21:07:33",
-  "collected": false
+  "collected": true
  },
  {
   "id": "msgbatch_01WHTXfKchkUMUHtvRgsJGFu",
@@ -384,7 +384,7 @@
   "model": "claude-sonnet-5-5",
   "requests": 500,
   "created": "2026-10-13T21:07:35",
-  "collected": false
+  "collected": true
  },
  {
   "id": "msgbatch_012AaLPrnc78yzM1nLhCi1eU",
@@ -392,7 +392,7 @@
   "model": "claude-sonnet-5-5",
   "requests": 500,
   "created": "2026-10-13T21:07:36",
-  "collected": false
+  "collected": true
  },
  {
   "id": "msgbatch_01Fhj2PnxLcpjVhx97UFi7Rt",
@@ -400,6 +400,38 @@
   "model": "claude-sonnet-5-5",
   "requests": 500,
   "created": "2026-10-13T21:07:37",
+  "collected": true
+ },
+ {
+  "id": "msgbatch_01H6sdH3EbhuNr9AzEDNWL4Y",
+  "stage": "six-sonnet-w1",
+  "model": "claude-sonnet-5-5",
+  "requests": 500,
+  "created": "2026-10-13T21:16:11",
+  "collected": false
+ },
+ {
+  "id": "msgbatch_01XfA6HxhYtdD2HJ7wyw3PhJ",
+  "stage": "six-sonnet-w1",
+  "model": "claude-sonnet-5-5",
+  "requests": 500,
+  "created": "2026-10-13T21:16:13",
+  "collected": false
+ },
+ {
+  "id": "msgbatch_01TAVVQQBgJKJCAyudBPWXLg",
+  "stage": "six-sonnet-w1",
+  "model": "claude-sonnet-5-5",
+  "requests": 500,
+  "created": "2026-10-13T21:16:14",
+  "collected": false
+ },
+ {
+  "id": "msgbatch_01WkEvpYyLiUnPiM1BSXDu7R",
+  "stage": "six-sonnet-w1",
+  "model": "claude-sonnet-5-5",
+  "requests": 500,
+  "created": "2026-10-13T21:16:15",
   "collected": false
  }
 ]
