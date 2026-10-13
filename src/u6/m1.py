@@ -387,6 +387,8 @@ def stage_cluster(sources=None) -> None:
         "narrations": len(docs), "hadith": len(hadith),
         "unique_per_book": per_book,
         "in_both": sum(1 for h in hadith if h["badge"] == "muttafaq"),
+        "only_in_book": {b: sum(1 for h in hadith if {m["book"] for m in h["members"]} == {b}) for b in BOOKS},
+        "with_tirmidhi_grade": sum(1 for h in hadith if h.get("tirmidhi_grades")),
         "stars": Counter(h["stars_display"] for h in hadith).most_common(),
         "chaining_splits": sum(1 for r in review if "bridge" in r),
         "community_splits": sum(1 for r in review if "community_split" in r),
