@@ -338,10 +338,28 @@ def stage_evaluate() -> None:
     th = json.loads((DATA / "m1" / "thresholds.json").read_text())["thresholds"]
     gold = [g for g in m1.read_jsonl(D6 / "gold.jsonl") if g.get("truth")]
     clear = [g for g in gold if g["truth"] != "ambiguous"]
-    rows = [("Six-book pipeline (rules, low-band skip, Haiku pre-filter, Sonnet)", m1._ev(clear, lambda g: decision(g, th)))]
+    from .features import content_ok
+    docs = {d.id: d for d in load_docs(ALL)}
+
+    def production(g):
+        """As run: rules, low-band skip, Haiku finals, Sonnet medium on 150-word texts,
+        then the content-word veto on rule/Haiku merges."""
+        d = decision({**g, "sonnet_grouped": g.get("sonnet_medium_c150", g.get("sonnet_grouped"))}, th)
+        by_rule = m1.auto_label(g, th) is not None
+        by_haiku = (not by_rule and g["score"] >= LOW_BAND and g.get("haiku_grouped")
+                    and haiku_final(g["haiku_grouped"]))
+        if m1.is_merge(d) and (by_rule or by_haiku) and not content_ok(docs[g["a"]].match, docs[g["b"]].match):
+            return "related"
+        return d
+
+    rows = [("**Production pipeline** (rules + low-band skip + Haiku finals + Sonnet medium, 150-word texts, content veto)",
+             m1._ev(clear, production)),
+            ("Same, with Sonnet high on 400-word texts (pre-budget plan)", m1._ev(clear, lambda g: decision(g, th)))]
     mid = [g for g in clear if not m1.auto_label(g, th)]
     rows.append(("Middle band: Sonnet high, grouped", m1._ev([g for g in mid if "sonnet_grouped" in g],
                                                              lambda g: g["sonnet_grouped"]["label"])))
+    rows.append(("Middle band ≥ 0.40: Sonnet medium, 150-word texts", m1._ev(
+        [g for g in mid if "sonnet_medium_c150" in g], lambda g: g["sonnet_medium_c150"]["label"])))
     rows.append(("Middle band: Haiku medium, grouped", m1._ev([g for g in mid if "haiku_grouped" in g],
                                                               lambda g: g["haiku_grouped"]["label"])))
     llm_band = [g for g in mid if g["score"] >= LOW_BAND and "haiku_grouped" in g]
@@ -372,8 +390,10 @@ def stage_evaluate() -> None:
           f"- Haiku merges accepted (confidence ≥ {HAIKU_MERGE}): {len(accepted)}, "
           f"correct {sum(m1.is_merge(g['truth']) for g in accepted)}.", ""]
     if pilot:
-        L += [f"Sonnet pilot: ${pilot['per_request_usd']:.4f} per request, {pilot['requests']} requests, "
-              f"projected ${pilot['projected_usd']:.2f}.", ""]
+        L += [f"Sonnet pilot (high effort): ${pilot['per_request_usd']:.4f} per request, {pilot['requests']} requests, "
+              f"projected ${pilot['projected_usd']:.2f}: over the $18 cap, so the owner chose medium effort with "
+              "repacked, 150-word requests. The rest ran in waves of 2,000 requests, re-projected from a "
+              "per-request cost fit after each wave.", ""]
     if stats:
         L += ["## Clusters (all six books)", "", "```json", json.dumps(stats, indent=1, ensure_ascii=False), "```", ""]
     L += ["## Spend (USD, whole project)", "", "| stage | $ |", "|---|---:|"]

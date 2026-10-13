@@ -18,7 +18,7 @@ import numpy as np
 from . import llm
 from .candidates import backref_edges, candidate_pairs, cosine_rows, exact_edges, matchable
 from .corpus import DATA, ROOT, load_docs
-from .features import pair_features, score, shingles
+from .features import content_ok, pair_features, score, shingles
 
 M1 = DATA / "m1"
 BOOKS = ("bukhari", "muslim")
@@ -320,6 +320,11 @@ def stage_cluster(sources=None) -> None:
         # Ambiguous = two independent Sonnet runs disagreed on merge vs no-merge: never
         # merged, shown as "see also" for a researcher instead.
         if r["label"] in MERGE and not r.get("ambiguous"):
+            # Short formulaic reports ("نهى رسول الله ﷺ عن X") pass the lexical rule on
+            # the formula alone; rule and Haiku merges must also share content words.
+            if r["source"] in ("auto", "haiku") and not content_ok(docs[r["a"]].match, docs[r["b"]].match):
+                r["vetoed"] = True
+                continue
             edges.append({**r, "source": r["source"]})
     edges, compounds = containment_edges(docs, edges)
     g = build_graph(docs, edges)
@@ -354,7 +359,7 @@ def stage_cluster(sources=None) -> None:
     where = {m["id"]: h["id"] for h in hadith for m in h["members"]}
     see = {}
     for r in labels:
-        doubtful = (r.get("ambiguous") or r["source"] == "skipped"
+        doubtful = (r.get("ambiguous") or r.get("vetoed") or r["source"] == "skipped"
                     or (r["source"] == "sonnet" and r["label"] in ("related", "different")
                         and (r["confidence"] or 0) < 0.7))
         if doubtful and r["a"] in where and r["b"] in where:
@@ -393,6 +398,7 @@ def stage_cluster(sources=None) -> None:
         "chaining_splits": sum(1 for r in review if "bridge" in r),
         "community_splits": sum(1 for r in review if "community_split" in r),
         "compounds_not_merged": len(compounds),
+        "merges_vetoed_formulaic": sum(1 for r in labels if r.get("vetoed")),
         "uncertain_grouping": sum(1 for h in hadith if h["uncertain"]),
         "with_see_also": sum(1 for h in hadith if h["see_also"]),
         "largest_cluster": max(len(h["members"]) for h in hadith),

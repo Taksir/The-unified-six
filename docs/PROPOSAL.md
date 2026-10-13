@@ -1,7 +1,7 @@
 # The Unified Six — Project Proposal & Design
 
 *A complete, deduplicated compilation of the Kutub al-Sittah.*
-Status: **Design v1 · M0 + M1 complete** (see `docs/STATUS.md`) · Lead: Claude (under project owner) · Last updated: 2026-10-13
+Status: **Design v1 · M0–M3 complete** (see `docs/STATUS.md`) · Lead: Claude (under project owner) · Last updated: 2026-10-13
 
 ---
 
@@ -232,8 +232,8 @@ The cloud session can end at any time, so:
 |---|---|---|
 | **M0** ✅ | Data foundation | Source: `fawazahmed0/hadith-api` Arabic with tashkeel (Unlicense; provenance to be confirmed, see §6); rule-based isnad/matn split; all six books ingested to a common schema; numbering concordance built |
 | **M1** ✅ | **MVP: Bukhari + Muslim** | Within- and cross-book merge; gold set and evaluation pass the quality gate; 30-page sample PDF (both editions, EN+AR) for owner review of format |
-| **M2** | + Abu Dawud, Tirmidhi | Merged; Tirmidhi grades attached; gate re-checked |
-| **M3** | + Nasa'i, Ibn Majah | All six merged; zawāʾid validation; human review queue cleared |
+| **M2** ✅ | + Abu Dawud, Tirmidhi | Merged; Tirmidhi grades attached; gate re-checked |
+| **M3** ✅ | + Nasa'i, Ibn Majah | All six merged; zawāʾid validation; human review queue cleared |
 | **M4** | Translation + topics | Bake-off decided; all representatives translated; taxonomy tagged |
 | **M5** | **Release v1.0** | 12 PDF builds, dataset on GitHub (Releases + Zenodo DOI, free), changelog |
 | **M6** | Website | GitHub Pages interactive site |

@@ -45,3 +45,12 @@ def test_guard_splits_a_bridge_between_unrelated_groups():
     g = build_graph(docs, edges)
     clusters, review = guard(g, docs)
     assert len(clusters) == 2 and review[0]["bridge"] == "b:3"
+
+
+def test_content_veto_on_formulaic_prohibitions():
+    from u6.features import content_ok
+    a = normalize("نهى رسول الله صلى الله عليه وسلم عن الشغار")
+    b = normalize("نهى رسول الله صلى الله عليه وسلم عن التزعفر")
+    c = normalize("أن النبي صلى الله عليه وسلم نهى عن الشغار")
+    assert not content_ok(a, b)
+    assert content_ok(a, c)

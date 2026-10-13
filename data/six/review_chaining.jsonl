@@ -1,0 +1,1025 @@
+{"bridge": "nasai:4866", "parts": [["ibnmajah:2621", "nasai:3999"], ["nasai:4005", "tirmidhi:3029"]], "kept_with": ["ibnmajah:2621", "nasai:3999"]}
+{"bridge": "tirmidhi:3087", "parts": [["ibnmajah:1851", "tirmidhi:1163"], ["ibnmajah:2669", "tirmidhi:2159"]], "kept_with": ["ibnmajah:1851", "tirmidhi:1163"]}
+{"bridge": "nasai:4850", "parts": [["ibnmajah:2655", "nasai:4852", "tirmidhi:1390"], ["abudawud:4556", "abudawud:4557", "abudawud:4561", "abudawud:4562", "ibnmajah:2653", "nasai:4843", "nasai:4845", "nasai:4846", "nasai:4851", "tirmidhi:1391"]], "kept_with": ["abudawud:4556", "abudawud:4557", "abudawud:4561"]}
+{"bridge": "tirmidhi:1401", "parts": [["ibnmajah:2661", "ibnmajah:2662", "tirmidhi:1400"], ["abudawud:4490", "ibnmajah:2599", "ibnmajah:2600"]], "kept_with": ["abudawud:4490", "ibnmajah:2599", "ibnmajah:2600"]}
+{"bridge": "abudawud:4338", "parts": [["ibnmajah:4005", "tirmidhi:2168", "tirmidhi:3057"], ["abudawud:4339", "ibnmajah:4009"]], "kept_with": ["ibnmajah:4005", "tirmidhi:2168", "tirmidhi:3057"]}
+{"bridge": "ibnmajah:3595", "parts": [["ibnmajah:3597", "nasai:5148", "nasai:5265", "tirmidhi:1720"], ["abudawud:4057", "nasai:5144", "nasai:5145", "nasai:5146", "nasai:5147"]], "kept_with": ["abudawud:4057", "nasai:5144", "nasai:5145"]}
+{"bridge": "ibnmajah:2388", "parts": [["nasai:2540", "nasai:3757"], ["abudawud:3547"], ["abudawud:3546", "nasai:3756"]], "kept_with": ["abudawud:3547"]}
+{"bridge": "abudawud:3539", "parts": [["nasai:3692", "nasai:3704"], ["ibnmajah:2377", "nasai:3690", "nasai:3703", "tirmidhi:2132"]], "kept_with": ["ibnmajah:2377", "nasai:3690", "nasai:3703"]}
+{"bridge": "tirmidhi:1544", "parts": [["abudawud:3295", "abudawud:3304"], ["abudawud:3293", "ibnmajah:2134", "nasai:3815"]], "kept_with": ["abudawud:3295", "abudawud:3304"]}
+{"bridge": "muslim:6953", "parts": [["muslim:6955", "muslim:6956", "muslim:6957", "muslim:6958", "muslim:6961", "muslim:6962"], ["ibnmajah:4247", "tirmidhi:3538"], ["muslim:6959", "muslim:6960"], ["muslim:6954"]], "kept_with": ["ibnmajah:4247", "tirmidhi:3538"]}
+{"bridge": "muslim:6670", "parts": [["abudawud:5245", "ibnmajah:3682"], ["muslim:6671", "muslim:6672"]], "kept_with": ["abudawud:5245", "ibnmajah:3682"]}
+{"bridge": "muslim:5604", "parts": [["ibnmajah:3733", "muslim:5605"], ["abudawud:4952", "tirmidhi:2838"]], "kept_with": ["abudawud:4952", "tirmidhi:2838"]}
+{"bridge": "muslim:5275", "parts": [["ibnmajah:3424", "muslim:5274", "muslim:5277", "muslim:5278", "tirmidhi:1881"], ["abudawud:3717", "tirmidhi:1879"], ["muslim:5276"]], "kept_with": ["abudawud:3717", "tirmidhi:1879"]}
+{"bridge": "ibnmajah:3406", "parts": [["ibnmajah:3405", "nasai:5654"], ["muslim:5208", "tirmidhi:1869"]], "kept_with": ["muslim:5208", "tirmidhi:1869"]}
+{"bridge": "muslim:4684", "parts": [["muslim:4686", "muslim:4687", "muslim:4688"], ["abudawud:2728", "tirmidhi:1556"]], "kept_with": ["abudawud:2728", "tirmidhi:1556"]}
+{"bridge": "nasai:4527", "parts": [["ibnmajah:2219", "nasai:4528"], ["abudawud:3470", "muslim:3975", "muslim:3976"]], "kept_with": ["abudawud:3470", "muslim:3975", "muslim:3976"]}
+{"bridge": "abudawud:3395", "parts": [["muslim:3945", "muslim:3946", "muslim:3947", "muslim:3948"], ["ibnmajah:2454", "muslim:3921", "muslim:3923"]], "kept_with": ["ibnmajah:2454", "muslim:3921", "muslim:3923"]}
+{"bridge": "muslim:3697", "parts": [["muslim:3713", "nasai:3418", "nasai:3419"], ["abudawud:2284", "nasai:3244", "nasai:3245"]], "kept_with": ["abudawud:2284", "nasai:3244", "nasai:3245"]}
+{"bridge": "muslim:1467", "parts": [["ibnmajah:2862", "muslim:4755", "muslim:4756", "muslim:4757"], ["abudawud:431", "ibnmajah:1256", "muslim:1465", "muslim:1466", "muslim:1468", "muslim:1470", "nasai:859", "tirmidhi:176"]], "kept_with": ["ibnmajah:2862", "muslim:4755", "muslim:4756"]}
+{"bridge": "abudawud:403", "parts": [["abudawud:537", "muslim:1370", "tirmidhi:202"], ["ibnmajah:673", "ibnmajah:674", "muslim:1404"]], "kept_with": ["ibnmajah:673", "ibnmajah:674", "muslim:1404"]}
+{"bridge": "muslim:1069", "parts": [["nasai:402", "nasai:403"], ["abudawud:846", "ibnmajah:878", "muslim:1067", "muslim:1068", "muslim:1073", "nasai:1066", "nasai:1067", "tirmidhi:266"], ["muslim:1070"]], "kept_with": ["nasai:402", "nasai:403"]}
+{"bridge": "muslim:970", "parts": [["abudawud:998", "abudawud:999", "nasai:1185", "nasai:1318"], ["muslim:971", "nasai:1326"]], "kept_with": ["abudawud:998", "abudawud:999", "nasai:1185"]}
+{"bridge": "bukhari:7296", "parts": [["muslim:350", "muslim:351", "muslim:352"], ["abudawud:4721", "abudawud:4722", "muslim:343", "muslim:344"]], "kept_with": ["muslim:350", "muslim:351", "muslim:352"]}
+{"bridge": "muslim:5973", "parts": [["bukhari:6576", "bukhari:6582", "bukhari:6585", "bukhari:6586", "bukhari:7049", "muslim:5978", "muslim:5979", "muslim:5980", "muslim:5981"], ["bukhari:6593", "bukhari:7048"]], "kept_with": ["bukhari:6593", "bukhari:7048"]}
+{"bridge": "muslim:1828", "parts": [["bukhari:6462", "tirmidhi:2856", "tirmidhi:2856.2"], ["bukhari:6464", "muslim:1830"]], "kept_with": ["bukhari:6462", "tirmidhi:2856", "tirmidhi:2856.2"]}
+{"bridge": "muslim:6616", "parts": [["bukhari:6361", "muslim:6619", "muslim:6620", "muslim:6621", "muslim:6622", "muslim:6623", "muslim:6624"], ["muslim:6614", "muslim:6615", "muslim:6625", "muslim:6626"], ["muslim:6617"]], "kept_with": ["muslim:6614", "muslim:6615", "muslim:6625"]}
+{"bridge": "muslim:1799", "parts": [["abudawud:58", "nasai:1705"], ["abudawud:1353", "abudawud:1354"], ["bukhari:6215"]], "kept_with": ["abudawud:1353", "abudawud:1354"]}
+{"bridge": "bukhari:6192", "parts": [["abudawud:4953", "muslim:5609"], ["muslim:5608"], ["ibnmajah:3732", "muslim:5607"]], "kept_with": ["ibnmajah:3732", "muslim:5607"]}
+{"bridge": "abudawud:4974", "parts": [["bukhari:6183", "muslim:5868", "muslim:5869", "muslim:5870", "muslim:5871"], ["muslim:5872", "muslim:5873"]], "kept_with": ["bukhari:6183", "muslim:5868", "muslim:5869"]}
+{"bridge": "bukhari:6076", "parts": [["abudawud:4911", "bukhari:6077", "bukhari:6237", "muslim:6532", "muslim:6534", "tirmidhi:1932"], ["abudawud:4917", "bukhari:6064", "bukhari:6066", "bukhari:6724", "muslim:6536", "muslim:6538", "muslim:6539", "muslim:6540", "tirmidhi:1988"], ["abudawud:4910", "bukhari:6065", "muslim:6526", "tirmidhi:1935"]], "kept_with": ["abudawud:4910", "bukhari:6065", "muslim:6526"]}
+{"bridge": "muslim:6975", "parts": [["bukhari:6469", "ibnmajah:4293", "ibnmajah:4294", "muslim:6973", "muslim:6974", "muslim:6977", "tirmidhi:3541"], ["muslim:6976"], ["bukhari:6000", "muslim:6972"]], "kept_with": ["bukhari:6469", "ibnmajah:4293", "ibnmajah:4294"]}
+{"bridge": "tirmidhi:3541", "parts": [["ibnmajah:4293", "ibnmajah:4294", "muslim:6974", "muslim:6975", "muslim:6977"], ["bukhari:6469", "muslim:6973"]], "kept_with": ["bukhari:6469", "muslim:6973"]}
+{"bridge": "muslim:292", "parts": [["abudawud:1696", "abudawud:4871", "bukhari:5984", "muslim:290", "muslim:6520", "muslim:6521", "muslim:6522", "tirmidhi:1909"], ["bukhari:6056", "tirmidhi:2026"], ["muslim:291"]], "kept_with": ["abudawud:1696", "abudawud:4871", "bukhari:5984"]}
+{"bridge": "muslim:5495", "parts": [["ibnmajah:3616"], ["abudawud:4136", "bukhari:5856", "ibnmajah:3617", "muslim:5496", "tirmidhi:1774"], ["abudawud:4139", "bukhari:5855", "tirmidhi:1779"]], "kept_with": ["ibnmajah:3616"]}
+{"bridge": "muslim:5415", "parts": [["bukhari:5828", "bukhari:5830", "bukhari:5832", "bukhari:5833", "bukhari:5834", "bukhari:5835", "ibnmajah:3588", "muslim:5410", "muslim:5413", "muslim:5414", "muslim:5425", "muslim:5426", "nasai:5304", "nasai:5305", "nasai:5306", "nasai:5312", "tirmidhi:2817"], ["bukhari:5829", "muslim:5411", "muslim:5412"], ["muslim:5417", "muslim:5418", "tirmidhi:1721"], ["muslim:5416"]], "kept_with": ["bukhari:5828", "bukhari:5830", "bukhari:5832"]}
+{"bridge": "muslim:5413", "parts": [["bukhari:5830", "bukhari:5832", "bukhari:5833", "bukhari:5834", "bukhari:5835", "ibnmajah:3588", "muslim:5410", "muslim:5425", "muslim:5426", "nasai:5304", "nasai:5305", "nasai:5306", "tirmidhi:2817"], ["muslim:5414"], ["bukhari:5828", "muslim:5415"], ["nasai:5312"]], "kept_with": ["nasai:5312"]}
+{"bridge": "muslim:5062", "parts": [["ibnmajah:3187", "muslim:5059", "muslim:5060", "nasai:4441", "nasai:4443", "nasai:4444", "tirmidhi:1475"], ["bukhari:5515", "muslim:5061"]], "kept_with": ["ibnmajah:3187", "muslim:5059", "muslim:5060"]}
+{"bridge": "bukhari:5423", "parts": [["bukhari:5374", "bukhari:5416", "bukhari:6454", "bukhari:6687", "ibnmajah:3343", "ibnmajah:3344", "muslim:7443", "muslim:7444", "muslim:7446"], ["bukhari:5438", "nasai:4432"], ["muslim:5102", "nasai:4423"]], "kept_with": ["bukhari:5374", "bukhari:5416", "bukhari:6454"]}
+{"bridge": "muslim:2907", "parts": [["abudawud:1776", "bukhari:5089", "ibnmajah:2936", "ibnmajah:2937", "ibnmajah:2938", "muslim:2902", "muslim:2903", "muslim:2904", "muslim:2905", "nasai:2766", "nasai:2767", "nasai:2768", "tirmidhi:941"], ["muslim:2906", "nasai:2765"]], "kept_with": ["abudawud:1776", "bukhari:5089", "ibnmajah:2936"]}
+{"bridge": "muslim:1837", "parts": [["bukhari:5037", "bukhari:5037.2", "bukhari:5038", "bukhari:5042", "bukhari:6335", "muslim:1838"], ["abudawud:1331", "abudawud:3970"]], "kept_with": ["bukhari:5037", "bukhari:5037.2", "bukhari:5038"]}
+{"bridge": "bukhari:5017", "parts": [["abudawud:5056", "tirmidhi:3402"], ["bukhari:5748"], ["bukhari:6319", "ibnmajah:3875"]], "kept_with": ["abudawud:5056", "tirmidhi:3402"]}
+{"bridge": "bukhari:5709", "parts": [["bukhari:4458", "bukhari:6886", "bukhari:6887", "bukhari:6888", "bukhari:6897", "muslim:5761"], ["bukhari:4455", "bukhari:4456", "bukhari:4457", "ibnmajah:1457", "nasai:1839", "nasai:1840"]], "kept_with": ["bukhari:4455", "bukhari:4456", "bukhari:4457"]}
+{"bridge": "muslim:5691", "parts": [["abudawud:4929", "bukhari:4324", "bukhari:5235", "bukhari:5887", "ibnmajah:1902", "ibnmajah:2614", "muslim:5690"], ["abudawud:4107", "abudawud:4108", "abudawud:4109"]], "kept_with": ["abudawud:4107", "abudawud:4108", "abudawud:4109"]}
+{"bridge": "bukhari:3785", "parts": [["bukhari:3786", "bukhari:5234", "bukhari:6645", "muslim:6418", "muslim:6419"], ["bukhari:5180", "muslim:6417"]], "kept_with": ["bukhari:5180", "muslim:6417"]}
+{"bridge": "bukhari:5894", "parts": [["bukhari:3550", "nasai:5086"], ["ibnmajah:3629", "muslim:6075"]], "kept_with": ["ibnmajah:3629", "muslim:6075"]}
+{"bridge": "bukhari:3437", "parts": [["bukhari:4709", "bukhari:5576", "muslim:5240", "muslim:5241", "nasai:5657"], ["bukhari:3394", "muslim:424", "tirmidhi:3130"]], "kept_with": ["bukhari:3394", "muslim:424", "tirmidhi:3130"]}
+{"bridge": "tirmidhi:3116", "parts": [["bukhari:3382", "bukhari:3390", "bukhari:4688"], ["bukhari:3375", "muslim:6143"]], "kept_with": ["bukhari:3382", "bukhari:3390", "bukhari:4688"]}
+{"bridge": "bukhari:6557", "parts": [["bukhari:3334", "muslim:7083", "muslim:7084"], ["bukhari:6538", "muslim:7085", "muslim:7086"]], "kept_with": ["bukhari:3334", "muslim:7083", "muslim:7084"]}
+{"bridge": "tirmidhi:2857", "parts": [["bukhari:3316", "bukhari:6295"], ["bukhari:5624", "bukhari:6296"]], "kept_with": ["bukhari:3316", "bukhari:6295"]}
+{"bridge": "tirmidhi:2804", "parts": [["abudawud:83", "ibnmajah:3246", "ibnmajah:386", "ibnmajah:387", "ibnmajah:388", "muslim:3999", "nasai:332", "nasai:4350", "nasai:59", "tirmidhi:69"], ["abudawud:227", "abudawud:4152", "abudawud:4155", "abudawud:4157", "bukhari:3225", "bukhari:3226", "bukhari:3227", "bukhari:3322", "bukhari:4002", "bukhari:5949", "bukhari:5958", "ibnmajah:3649", "ibnmajah:3650", "muslim:5513", "muslim:5514", "muslim:5515", "muslim:5516", "muslim:5517", "muslim:5518", "nasai:261", "nasai:4276", "nasai:4281", "nasai:4282", "nasai:4283", "nasai:5347", "nasai:5348", "nasai:5350", "tirmidhi:2805"]], "kept_with": ["abudawud:227", "abudawud:4152", "abudawud:4155"]}
+{"bridge": "bukhari:3199", "parts": [["bukhari:4803", "bukhari:7433", "muslim:402"], ["bukhari:7424", "muslim:401", "tirmidhi:2186", "tirmidhi:3227"], ["bukhari:4802"]], "kept_with": ["bukhari:4802"]}
+{"bridge": "bukhari:6725", "parts": [["bukhari:3092", "bukhari:3093", "muslim:4582"], ["bukhari:4035", "bukhari:4036"], ["bukhari:6726"]], "kept_with": ["bukhari:6726"]}
+{"bridge": "bukhari:2975", "parts": [["abudawud:3661", "bukhari:2942", "bukhari:3009", "bukhari:3701", "bukhari:4210", "muslim:6223"], ["bukhari:3702", "bukhari:4209", "muslim:6224"]], "kept_with": ["bukhari:3702", "bukhari:4209", "muslim:6224"]}
+{"bridge": "muslim:4629", "parts": [["bukhari:2698", "muslim:4630"], ["abudawud:1832"], ["bukhari:3184", "muslim:4631"]], "kept_with": ["bukhari:2698", "muslim:4630"]}
+{"bridge": "bukhari:2625", "parts": [["muslim:4199", "nasai:3719"], ["abudawud:3550", "muslim:4193", "muslim:4194", "nasai:3750", "nasai:3751"]], "kept_with": ["abudawud:3550", "muslim:4193", "muslim:4194"]}
+{"bridge": "bukhari:5492", "parts": [["bukhari:2570", "bukhari:5407"], ["abudawud:1852", "bukhari:2914", "bukhari:5490", "bukhari:5491", "muslim:2852", "nasai:2816", "tirmidhi:847"], ["muslim:2851"]], "kept_with": ["bukhari:2570", "bukhari:5407"]}
+{"bridge": "muslim:4329", "parts": [["abudawud:3937", "abudawud:3938", "abudawud:3939", "abudawud:3940", "abudawud:3941", "abudawud:3942", "abudawud:3943", "abudawud:3945", "abudawud:3946", "bukhari:2491", "bukhari:2492", "bukhari:2503", "bukhari:2504", "bukhari:2522", "bukhari:2523", "bukhari:2524", "bukhari:2525", "bukhari:2526", "bukhari:2527", "bukhari:2553", "ibnmajah:2527", "ibnmajah:2528", "muslim:3770", "muslim:3771", "muslim:3773", "muslim:3774", "muslim:3775", "muslim:4325", "muslim:4326", "muslim:4327", "muslim:4328", "muslim:4330", "muslim:4333", "muslim:4334", "nasai:4698", "nasai:4699", "tirmidhi:1346", "tirmidhi:1347", "tirmidhi:1348"], ["abudawud:3947", "bukhari:2521"]], "kept_with": ["abudawud:3947", "bukhari:2521"]}
+{"bridge": "muslim:4999", "parts": [["bukhari:2483", "bukhari:2983", "bukhari:4360", "ibnmajah:4159", "nasai:4351", "tirmidhi:2475"], ["abudawud:3840", "muslim:4998", "nasai:4354"], ["bukhari:4361", "bukhari:5494", "nasai:4352"]], "kept_with": ["bukhari:4361", "bukhari:5494", "nasai:4352"]}
+{"bridge": "bukhari:2983", "parts": [["ibnmajah:4159", "nasai:4351", "tirmidhi:2475"], ["bukhari:2483", "bukhari:4360"]], "kept_with": ["ibnmajah:4159", "nasai:4351", "tirmidhi:2475"]}
+{"bridge": "bukhari:5582", "parts": [["bukhari:2464", "bukhari:4620", "bukhari:4621", "muslim:5131"], ["bukhari:4617", "bukhari:5583", "bukhari:5622", "muslim:5132", "muslim:5133", "muslim:5134", "nasai:5541"], ["abudawud:3673", "bukhari:5580", "bukhari:5584", "bukhari:5600", "muslim:5135", "muslim:5136", "nasai:5542", "nasai:5543"], ["bukhari:7253", "muslim:5138"]], "kept_with": ["bukhari:7253", "muslim:5138"]}
+{"bridge": "muslim:5133", "parts": [["bukhari:5583", "bukhari:5622", "nasai:5541"], ["muslim:5134"], ["bukhari:4617", "muslim:5132"]], "kept_with": ["bukhari:5583", "bukhari:5622", "nasai:5541"]}
+{"bridge": "bukhari:7409", "parts": [["abudawud:2172", "bukhari:2229", "bukhari:2542", "bukhari:4138", "bukhari:5210", "bukhari:6603", "ibnmajah:1926", "muslim:3544", "muslim:3545", "muslim:3546", "muslim:3547", "muslim:3548", "muslim:3549", "muslim:3550", "nasai:3327"], ["abudawud:2170", "muslim:3553", "tirmidhi:1138"]], "kept_with": ["abudawud:2172", "bukhari:2229", "bukhari:2542"]}
+{"bridge": "muslim:4082", "parts": [["bukhari:2201", "bukhari:2202", "bukhari:2302", "bukhari:2303", "bukhari:4244", "bukhari:4245", "bukhari:7350", "bukhari:7351", "muslim:4081", "nasai:4553"], ["bukhari:4246", "bukhari:4247"]], "kept_with": ["bukhari:2201", "bukhari:2202", "bukhari:2302"]}
+{"bridge": "muslim:3887", "parts": [["abudawud:3362", "abudawud:3363", "abudawud:3364", "bukhari:2188", "bukhari:2190", "bukhari:2192", "bukhari:2380", "bukhari:2382", "bukhari:2383", "bukhari:2384", "bukhari:7425", "ibnmajah:2269", "muslim:3876", "muslim:3879", "muslim:3880", "muslim:3881", "muslim:3882", "muslim:3883", "muslim:3884", "muslim:3885", "muslim:3886", "muslim:3888", "muslim:3891", "muslim:3892", "nasai:4537", "nasai:4538", "nasai:4539", "nasai:4540", "nasai:4541", "nasai:4542", "nasai:4543", "nasai:4544", "tirmidhi:1302", "tirmidhi:1303"], ["muslim:3889", "muslim:3890"], ["bukhari:2191"]], "kept_with": ["abudawud:3362", "abudawud:3363", "abudawud:3364"]}
+{"bridge": "bukhari:2118", "parts": [["muslim:7240", "muslim:7241"], ["ibnmajah:4064", "nasai:2877", "tirmidhi:2184"]], "kept_with": ["ibnmajah:4064", "nasai:2877", "tirmidhi:2184"]}
+{"bridge": "bukhari:2277", "parts": [["abudawud:3424", "bukhari:2102", "bukhari:2210"], ["bukhari:2281", "muslim:4040"]], "kept_with": ["bukhari:2281", "muslim:4040"]}
+{"bridge": "muslim:3997", "parts": [["bukhari:2077", "bukhari:2391", "ibnmajah:2420", "muslim:3993", "muslim:3994", "muslim:3995", "muslim:3996", "tirmidhi:1307"], ["bukhari:2078", "bukhari:3480", "muslim:3998", "nasai:4694", "nasai:4695"]], "kept_with": ["bukhari:2077", "bukhari:2391", "ibnmajah:2420"]}
+{"bridge": "muslim:2687", "parts": [["abudawud:2399", "bukhari:1950", "ibnmajah:1669", "nasai:2319", "tirmidhi:783"], ["muslim:2691", "nasai:2178"], ["muslim:2688"], ["muslim:2690"], ["muslim:2689"]], "kept_with": ["abudawud:2399", "bukhari:1950", "ibnmajah:1669"]}
+{"bridge": "muslim:2499", "parts": [["bukhari:1900", "bukhari:1906", "bukhari:1907", "bukhari:1909", "ibnmajah:1654", "ibnmajah:1655", "muslim:2498", "muslim:2502", "muslim:2503", "muslim:2504", "muslim:2505", "muslim:2514", "muslim:2515", "muslim:2516", "muslim:2517", "nasai:2117", "nasai:2118", "nasai:2119", "nasai:2120", "nasai:2121", "nasai:2122", "nasai:2123", "nasai:2124", "nasai:2125", "nasai:2130", "tirmidhi:688"], ["abudawud:2319", "bukhari:1908", "bukhari:1913", "bukhari:5302", "ibnmajah:1657", "muslim:2506", "muslim:2508", "muslim:2509", "muslim:2510", "muslim:2511", "muslim:2512", "muslim:2513", "muslim:2525", "muslim:2526", "muslim:2527", "nasai:2135", "nasai:2136", "nasai:2137", "nasai:2140", "nasai:2141"], ["muslim:2500"], ["muslim:2501"]], "kept_with": ["abudawud:2319", "bukhari:1908", "bukhari:1913"]}
+{"bridge": "nasai:4760", "parts": [["abudawud:4584", "bukhari:1848", "bukhari:2265", "bukhari:2266", "bukhari:2973", "bukhari:4417", "bukhari:6892", "bukhari:6893", "ibnmajah:2656", "ibnmajah:2657", "muslim:4366", "muslim:4367", "muslim:4368", "muslim:4369", "muslim:4370", "muslim:4371", "muslim:4372", "muslim:4373", "nasai:4758", "nasai:4759", "nasai:4762", "nasai:4763", "nasai:4764", "nasai:4765", "nasai:4766", "nasai:4767", "nasai:4768", "nasai:4769", "nasai:4771", "nasai:4772", "tirmidhi:1416"], ["nasai:4761", "nasai:4770"]], "kept_with": ["abudawud:4584", "bukhari:1848", "bukhari:2265"]}
+{"bridge": "tirmidhi:2797", "parts": [["abudawud:1836", "abudawud:1837", "abudawud:2373", "abudawud:2378", "bukhari:1835", "bukhari:1836", "bukhari:1938", "bukhari:1939", "bukhari:5694", "bukhari:5695", "bukhari:5698", "bukhari:5699", "bukhari:5700", "bukhari:5701", "ibnmajah:1678", "ibnmajah:1682", "ibnmajah:3081", "ibnmajah:3082", "ibnmajah:3481", "muslim:2885", "muslim:2886", "nasai:2847", "nasai:2848", "nasai:2849", "nasai:2850", "tirmidhi:775", "tirmidhi:776", "tirmidhi:777"], ["abudawud:4014", "tirmidhi:2795"]], "kept_with": ["abudawud:1836", "abudawud:1837", "abudawud:2373"]}
+{"bridge": "ibnmajah:3071", "parts": [["abudawud:2002", "ibnmajah:3070", "muslim:3219"], ["bukhari:1755", "muslim:3220"]], "kept_with": ["abudawud:2002", "ibnmajah:3070", "muslim:3219"]}
+{"bridge": "tirmidhi:893", "parts": [["abudawud:1939", "bukhari:1677", "bukhari:1678", "bukhari:1856", "ibnmajah:3026", "muslim:3124", "muslim:3126", "muslim:3127", "muslim:3128", "nasai:3032", "nasai:3033", "tirmidhi:892"], ["abudawud:1941", "nasai:3065"], ["abudawud:1940", "ibnmajah:3025", "nasai:3064"]], "kept_with": ["abudawud:1940", "ibnmajah:3025", "nasai:3064"]}
+{"bridge": "muslim:3126", "parts": [["abudawud:1939", "bukhari:1678", "ibnmajah:3026", "muslim:3127", "muslim:3128", "nasai:3032", "nasai:3033"], ["bukhari:1677", "bukhari:1856", "muslim:3124", "tirmidhi:892"]], "kept_with": ["bukhari:1677", "bukhari:1856", "muslim:3124"]}
+{"bridge": "bukhari:1812", "parts": [["bukhari:1639", "bukhari:1640", "bukhari:1693", "bukhari:1708", "bukhari:1807", "bukhari:1813", "muslim:2989", "muslim:2990", "muslim:2992", "nasai:2746", "nasai:2859", "nasai:2933"], ["bukhari:2701", "bukhari:4252"], ["bukhari:4185"]], "kept_with": ["bukhari:1639", "bukhari:1640", "bukhari:1693"]}
+{"bridge": "bukhari:1600", "parts": [["abudawud:1902", "abudawud:1903"], ["bukhari:1791", "bukhari:1792", "bukhari:4188", "ibnmajah:2990"]], "kept_with": ["abudawud:1902", "abudawud:1903"]}
+{"bridge": "bukhari:1578", "parts": [["abudawud:1868", "bukhari:1579", "bukhari:1580", "bukhari:1581", "bukhari:4290", "bukhari:4291", "muslim:3043"], ["abudawud:1866", "bukhari:1575", "bukhari:1576", "ibnmajah:2940", "muslim:3040", "muslim:3041", "nasai:2865"], ["abudawud:1869", "bukhari:1577", "muslim:3042", "tirmidhi:853"]], "kept_with": ["abudawud:1868", "bukhari:1579", "bukhari:1580"]}
+{"bridge": "bukhari:4397", "parts": [["bukhari:4346", "muslim:2960"], ["bukhari:1559", "bukhari:1724", "bukhari:1795", "muslim:2957", "muslim:2958", "muslim:2959", "nasai:2738", "nasai:2742"]], "kept_with": ["bukhari:1559", "bukhari:1724", "bukhari:1795"]}
+{"bridge": "bukhari:1861", "parts": [["bukhari:1520", "bukhari:2784", "nasai:2628"], ["bukhari:2875", "bukhari:2876"]], "kept_with": ["bukhari:1520", "bukhari:2784", "nasai:2628"]}
+{"bridge": "muslim:4406", "parts": [["abudawud:2074", "abudawud:2081", "abudawud:2844", "abudawud:3249", "abudawud:3367", "abudawud:3370", "abudawud:3374", "abudawud:3375", "abudawud:3454", "abudawud:3455", "abudawud:3456", "abudawud:3492", "abudawud:3495", "abudawud:3496", "abudawud:3497", "abudawud:3500", "abudawud:5206", "abudawud:5207", "bukhari:1487", "bukhari:1488", "bukhari:2107", "bukhari:2108", "bukhari:2109", "bukhari:2111", "bukhari:2112", "bukhari:2113", "bukhari:2117", "bukhari:2126", "bukhari:2133", "bukhari:2135", "bukhari:2136", "bukhari:2139", "bukhari:2142", "bukhari:2171", "bukhari:2185", "bukhari:2194", "bukhari:2196", "bukhari:2197", "bukhari:2322", "bukhari:2323", "bukhari:2407", "bukhari:2414", "bukhari:3324", "bukhari:3325", "bukhari:3513", "bukhari:3514", "bukhari:3836", "bukhari:5112", "bukhari:5142", "bukhari:5480", "bukhari:5481", "bukhari:5482", "bukhari:6108", "bukhari:6257", "bukhari:6258", "bukhari:6646", "bukhari:6928", "bukhari:6960", "bukhari:6964", "bukhari:7401", "ibnmajah:1883", "ibnmajah:1884", "ibnmajah:2171", "ibnmajah:2181", "ibnmajah:2182", "ibnmajah:2183", "ibnmajah:2214", "ibnmajah:2215", "ibnmajah:2216", "ibnmajah:2218", "ibnmajah:2226", "ibnmajah:2227", "ibnmajah:3202", "ibnmajah:3203", "ibnmajah:3204", "ibnmajah:3206", "ibnmajah:3697", "muslim:3454", "muslim:3455", "muslim:3456", "muslim:3457", "muslim:3464", "muslim:3465", "muslim:3466", "muslim:3469", "muslim:3470", "muslim:3471", "muslim:3811", "muslim:3812", "muslim:3818", "muslim:3837", "muslim:3838", "muslim:3839", "muslim:3840", "muslim:3843", "muslim:3844", "muslim:3848", "muslim:3850", "muslim:3853", "muslim:3855", "muslim:3856", "muslim:3857", "muslim:3860", "muslim:3861", "muslim:3862", "muslim:3863", "muslim:3865", "muslim:3866", "muslim:3867", "muslim:3868", "muslim:3869", "muslim:3870", "muslim:3871", "muslim:3872", "muslim:3874", "muslim:3875", "muslim:3877", "muslim:3893", "muslim:3930", "muslim:3980", "muslim:4016", "muslim:4017", "muslim:4018", "muslim:4023", "muslim:4024", "muslim:4025", "muslim:4026", "muslim:4027", "muslim:4028", "muslim:4029", "muslim:4030", "muslim:4031", "muslim:4032", "muslim:4033", "muslim:4034", "muslim:4035", "muslim:4036", "muslim:4037", "muslim:4257", "muslim:4259", "muslim:5652", "muslim:5653", "muslim:5654", "muslim:5655", "muslim:6429", "muslim:6433", "muslim:6435", "nasai:3243", "nasai:3337", "nasai:3338", "nasai:3764", "nasai:4277", "nasai:4278", "nasai:4279", "nasai:4284", "nasai:4285", "nasai:4286", "nasai:4287", "nasai:4288", "nasai:4289", "nasai:4290", "nasai:4291", "nasai:4465", "nasai:4466", "nasai:4467", "nasai:4468", "nasai:4469", "nasai:4470", "nasai:4471", "nasai:4472", "nasai:4473", "nasai:4474", "nasai:4475", "nasai:4476", "nasai:4477", "nasai:4478", "nasai:4479", "nasai:4480", "nasai:4481", "nasai:4482", "nasai:4483", "nasai:4484", "nasai:4503", "nasai:4504", "nasai:4519", "nasai:4520", "nasai:4521", "nasai:4522", "nasai:4525", "nasai:4531", "nasai:4532", "nasai:4534", "nasai:4595", "nasai:4596", "nasai:4597", "nasai:4598", "nasai:4600", "nasai:4601", "nasai:4604", "nasai:4626", "nasai:4627", "tirmidhi:1134", "tirmidhi:1226", "tirmidhi:1245", "tirmidhi:1247", "tirmidhi:1291", "tirmidhi:1292", "tirmidhi:1487", "tirmidhi:1490", "tirmidhi:1534", "tirmidhi:1603", "tirmidhi:3941", "tirmidhi:3948", "tirmidhi:3949"], ["abudawud:4385", "abudawud:4386", "bukhari:6795", "bukhari:6796", "bukhari:6797", "bukhari:6798", "ibnmajah:2584", "muslim:4407", "nasai:4906", "nasai:4907", "nasai:4908", "nasai:4909", "nasai:4910", "nasai:4942", "tirmidhi:1446"]], "kept_with": ["abudawud:4385", "abudawud:4386", "bukhari:6795"]}
+{"bridge": "nasai:4277", "parts": [["abudawud:2074", "abudawud:2081", "abudawud:2844", "abudawud:3249", "abudawud:3367", "abudawud:3370", "abudawud:3374", "abudawud:3375", "abudawud:3454", "abudawud:3455", "abudawud:3456", "abudawud:3492", "abudawud:3495", "abudawud:3496", "abudawud:3497", "abudawud:3500", "abudawud:5206", "abudawud:5207", "bukhari:1487", "bukhari:1488", "bukhari:2107", "bukhari:2108", "bukhari:2109", "bukhari:2111", "bukhari:2112", "bukhari:2113", "bukhari:2117", "bukhari:2126", "bukhari:2133", "bukhari:2135", "bukhari:2136", "bukhari:2139", "bukhari:2142", "bukhari:2171", "bukhari:2185", "bukhari:2194", "bukhari:2196", "bukhari:2197", "bukhari:2322", "bukhari:2323", "bukhari:2407", "bukhari:2414", "bukhari:3324", "bukhari:3325", "bukhari:3513", "bukhari:3514", "bukhari:3836", "bukhari:5112", "bukhari:5142", "bukhari:5480", "bukhari:5481", "bukhari:5482", "bukhari:6108", "bukhari:6257", "bukhari:6258", "bukhari:6646", "bukhari:6928", "bukhari:6960", "bukhari:6964", "bukhari:7401", "ibnmajah:1883", "ibnmajah:1884", "ibnmajah:2171", "ibnmajah:2181", "ibnmajah:2182", "ibnmajah:2183", "ibnmajah:2214", "ibnmajah:2215", "ibnmajah:2216", "ibnmajah:2218", "ibnmajah:2226", "ibnmajah:2227", "ibnmajah:3202", "ibnmajah:3204", "ibnmajah:3206", "ibnmajah:3697", "muslim:3454", "muslim:3455", "muslim:3456", "muslim:3457", "muslim:3464", "muslim:3465", "muslim:3466", "muslim:3469", "muslim:3470", "muslim:3471", "muslim:3811", "muslim:3812", "muslim:3818", "muslim:3837", "muslim:3838", "muslim:3839", "muslim:3840", "muslim:3843", "muslim:3844", "muslim:3848", "muslim:3850", "muslim:3853", "muslim:3855", "muslim:3856", "muslim:3857", "muslim:3860", "muslim:3861", "muslim:3862", "muslim:3863", "muslim:3865", "muslim:3866", "muslim:3867", "muslim:3868", "muslim:3869", "muslim:3870", "muslim:3871", "muslim:3872", "muslim:3874", "muslim:3875", "muslim:3877", "muslim:3893", "muslim:3930", "muslim:3980", "muslim:4016", "muslim:4017", "muslim:4018", "muslim:4023", "muslim:4024", "muslim:4025", "muslim:4026", "muslim:4027", "muslim:4028", "muslim:4029", "muslim:4030", "muslim:4031", "muslim:4032", "muslim:4033", "muslim:4034", "muslim:4035", "muslim:4036", "muslim:4037", "muslim:4257", "muslim:4259", "muslim:5652", "muslim:5653", "muslim:5654", "muslim:5655", "muslim:6429", "muslim:6433", "muslim:6435", "nasai:3243", "nasai:3337", "nasai:3338", "nasai:3764", "nasai:4284", "nasai:4285", "nasai:4286", "nasai:4287", "nasai:4288", "nasai:4289", "nasai:4290", "nasai:4291", "nasai:4465", "nasai:4466", "nasai:4467", "nasai:4468", "nasai:4469", "nasai:4470", "nasai:4471", "nasai:4472", "nasai:4473", "nasai:4474", "nasai:4475", "nasai:4476", "nasai:4477", "nasai:4478", "nasai:4479", "nasai:4480", "nasai:4481", "nasai:4482", "nasai:4483", "nasai:4484", "nasai:4503", "nasai:4504", "nasai:4519", "nasai:4520", "nasai:4521", "nasai:4522", "nasai:4525", "nasai:4531", "nasai:4532", "nasai:4534", "nasai:4595", "nasai:4596", "nasai:4597", "nasai:4598", "nasai:4600", "nasai:4601", "nasai:4604", "nasai:4626", "nasai:4627", "tirmidhi:1134", "tirmidhi:1226", "tirmidhi:1245", "tirmidhi:1247", "tirmidhi:1291", "tirmidhi:1292", "tirmidhi:1487", "tirmidhi:1490", "tirmidhi:1534", "tirmidhi:1603", "tirmidhi:3941", "tirmidhi:3948", "tirmidhi:3949"], ["ibnmajah:3203", "nasai:4278", "nasai:4279"]], "kept_with": ["ibnmajah:3203", "nasai:4278", "nasai:4279"]}
+{"bridge": "muslim:3860", "parts": [["abudawud:2074", "abudawud:2081", "abudawud:2844", "abudawud:3249", "abudawud:3367", "abudawud:3370", "abudawud:3374", "abudawud:3375", "abudawud:3454", "abudawud:3455", "abudawud:3456", "abudawud:3492", "abudawud:3495", "abudawud:3496", "abudawud:3497", "abudawud:5206", "abudawud:5207", "bukhari:1487", "bukhari:1488", "bukhari:2107", "bukhari:2108", "bukhari:2109", "bukhari:2111", "bukhari:2112", "bukhari:2113", "bukhari:2126", "bukhari:2133", "bukhari:2135", "bukhari:2136", "bukhari:2139", "bukhari:2142", "bukhari:2171", "bukhari:2185", "bukhari:2194", "bukhari:2196", "bukhari:2197", "bukhari:2322", "bukhari:2323", "bukhari:3324", "bukhari:3325", "bukhari:3513", "bukhari:3514", "bukhari:3836", "bukhari:5112", "bukhari:5142", "bukhari:5480", "bukhari:5481", "bukhari:5482", "bukhari:6108", "bukhari:6257", "bukhari:6258", "bukhari:6646", "bukhari:6928", "bukhari:6960", "bukhari:7401", "ibnmajah:1883", "ibnmajah:1884", "ibnmajah:2171", "ibnmajah:2181", "ibnmajah:2182", "ibnmajah:2183", "ibnmajah:2214", "ibnmajah:2215", "ibnmajah:2216", "ibnmajah:2218", "ibnmajah:2226", "ibnmajah:2227", "ibnmajah:3202", "ibnmajah:3204", "ibnmajah:3206", "ibnmajah:3697", "muslim:3454", "muslim:3455", "muslim:3456", "muslim:3457", "muslim:3464", "muslim:3465", "muslim:3466", "muslim:3469", "muslim:3470", "muslim:3471", "muslim:3811", "muslim:3812", "muslim:3818", "muslim:3837", "muslim:3838", "muslim:3839", "muslim:3840", "muslim:3843", "muslim:3844", "muslim:3848", "muslim:3850", "muslim:3853", "muslim:3855", "muslim:3856", "muslim:3857", "muslim:3862", "muslim:3863", "muslim:3865", "muslim:3866", "muslim:3867", "muslim:3868", "muslim:3869", "muslim:3870", "muslim:3871", "muslim:3872", "muslim:3874", "muslim:3875", "muslim:3877", "muslim:3893", "muslim:3930", "muslim:3980", "muslim:4016", "muslim:4017", "muslim:4018", "muslim:4023", "muslim:4024", "muslim:4025", "muslim:4026", "muslim:4027", "muslim:4028", "muslim:4029", "muslim:4030", "muslim:4031", "muslim:4032", "muslim:4033", "muslim:4034", "muslim:4035", "muslim:4036", "muslim:4037", "muslim:4257", "muslim:4259", "muslim:5652", "muslim:5653", "muslim:5654", "muslim:5655", "muslim:6429", "muslim:6433", "muslim:6435", "nasai:3243", "nasai:3337", "nasai:3338", "nasai:3764", "nasai:4284", "nasai:4285", "nasai:4286", "nasai:4287", "nasai:4288", "nasai:4289", "nasai:4290", "nasai:4291", "nasai:4465", "nasai:4466", "nasai:4467", "nasai:4468", "nasai:4469", "nasai:4470", "nasai:4471", "nasai:4472", "nasai:4473", "nasai:4474", "nasai:4475", "nasai:4476", "nasai:4477", "nasai:4478", "nasai:4479", "nasai:4480", "nasai:4481", "nasai:4482", "nasai:4483", "nasai:4503", "nasai:4504", "nasai:4519", "nasai:4520", "nasai:4521", "nasai:4522", "nasai:4525", "nasai:4531", "nasai:4532", "nasai:4534", "nasai:4595", "nasai:4596", "nasai:4597", "nasai:4598", "nasai:4600", "nasai:4601", "nasai:4604", "nasai:4626", "nasai:4627", "tirmidhi:1134", "tirmidhi:1226", "tirmidhi:1245", "tirmidhi:1247", "tirmidhi:1291", "tirmidhi:1292", "tirmidhi:1487", "tirmidhi:1490", "tirmidhi:1534", "tirmidhi:1603", "tirmidhi:3941", "tirmidhi:3948", "tirmidhi:3949"], ["abudawud:3500", "bukhari:2117", "bukhari:2407", "bukhari:2414", "bukhari:6964", "nasai:4484"], ["muslim:3861"]], "kept_with": ["abudawud:3500", "bukhari:2117", "bukhari:2407"]}
+{"bridge": "bukhari:7401", "parts": [["abudawud:2074", "abudawud:2081", "abudawud:2844", "abudawud:3367", "abudawud:3370", "abudawud:3374", "abudawud:3375", "abudawud:3454", "abudawud:3455", "abudawud:3456", "abudawud:3492", "abudawud:3495", "abudawud:3496", "abudawud:3497", "abudawud:5206", "abudawud:5207", "bukhari:1487", "bukhari:1488", "bukhari:2107", "bukhari:2108", "bukhari:2109", "bukhari:2111", "bukhari:2112", "bukhari:2113", "bukhari:2126", "bukhari:2133", "bukhari:2135", "bukhari:2136", "bukhari:2139", "bukhari:2142", "bukhari:2171", "bukhari:2185", "bukhari:2194", "bukhari:2196", "bukhari:2197", "bukhari:2322", "bukhari:2323", "bukhari:3324", "bukhari:3325", "bukhari:3513", "bukhari:3514", "bukhari:3836", "bukhari:5112", "bukhari:5142", "bukhari:5480", "bukhari:5481", "bukhari:5482", "bukhari:6257", "bukhari:6258", "bukhari:6928", "bukhari:6960", "ibnmajah:1883", "ibnmajah:1884", "ibnmajah:2171", "ibnmajah:2181", "ibnmajah:2182", "ibnmajah:2183", "ibnmajah:2214", "ibnmajah:2215", "ibnmajah:2216", "ibnmajah:2218", "ibnmajah:2226", "ibnmajah:2227", "ibnmajah:3202", "ibnmajah:3204", "ibnmajah:3206", "ibnmajah:3697", "muslim:3454", "muslim:3455", "muslim:3456", "muslim:3457", "muslim:3464", "muslim:3465", "muslim:3466", "muslim:3469", "muslim:3470", "muslim:3471", "muslim:3811", "muslim:3812", "muslim:3818", "muslim:3837", "muslim:3838", "muslim:3839", "muslim:3840", "muslim:3843", "muslim:3844", "muslim:3848", "muslim:3850", "muslim:3853", "muslim:3855", "muslim:3856", "muslim:3857", "muslim:3862", "muslim:3863", "muslim:3865", "muslim:3866", "muslim:3867", "muslim:3868", "muslim:3869", "muslim:3870", "muslim:3871", "muslim:3872", "muslim:3874", "muslim:3875", "muslim:3877", "muslim:3893", "muslim:3930", "muslim:3980", "muslim:4016", "muslim:4017", "muslim:4018", "muslim:4023", "muslim:4024", "muslim:4025", "muslim:4026", "muslim:4027", "muslim:4028", "muslim:4029", "muslim:4030", "muslim:4031", "muslim:4032", "muslim:4033", "muslim:4034", "muslim:4035", "muslim:4036", "muslim:4037", "muslim:4259", "muslim:5652", "muslim:5653", "muslim:5654", "muslim:5655", "muslim:6429", "muslim:6433", "muslim:6435", "nasai:3243", "nasai:3337", "nasai:3338", "nasai:3764", "nasai:4284", "nasai:4285", "nasai:4286", "nasai:4287", "nasai:4288", "nasai:4289", "nasai:4290", "nasai:4291", "nasai:4465", "nasai:4466", "nasai:4467", "nasai:4468", "nasai:4469", "nasai:4470", "nasai:4471", "nasai:4472", "nasai:4473", "nasai:4474", "nasai:4475", "nasai:4476", "nasai:4477", "nasai:4478", "nasai:4479", "nasai:4480", "nasai:4481", "nasai:4482", "nasai:4483", "nasai:4503", "nasai:4504", "nasai:4519", "nasai:4520", "nasai:4521", "nasai:4522", "nasai:4525", "nasai:4531", "nasai:4532", "nasai:4534", "nasai:4595", "nasai:4596", "nasai:4597", "nasai:4598", "nasai:4600", "nasai:4601", "nasai:4604", "nasai:4626", "nasai:4627", "tirmidhi:1134", "tirmidhi:1226", "tirmidhi:1245", "tirmidhi:1247", "tirmidhi:1291", "tirmidhi:1292", "tirmidhi:1487", "tirmidhi:1490", "tirmidhi:1603", "tirmidhi:3941", "tirmidhi:3948", "tirmidhi:3949"], ["abudawud:3249", "bukhari:6108", "bukhari:6646", "muslim:4257", "tirmidhi:1534"]], "kept_with": ["abudawud:3249", "bukhari:6108", "bukhari:6646"]}
+{"bridge": "muslim:4259", "parts": [["abudawud:2074", "abudawud:2081", "abudawud:2844", "abudawud:3367", "abudawud:3370", "abudawud:3374", "abudawud:3375", "abudawud:3454", "abudawud:3455", "abudawud:3456", "abudawud:3492", "abudawud:3495", "abudawud:3496", "abudawud:3497", "abudawud:5206", "abudawud:5207", "bukhari:1487", "bukhari:1488", "bukhari:2107", "bukhari:2108", "bukhari:2109", "bukhari:2111", "bukhari:2112", "bukhari:2113", "bukhari:2126", "bukhari:2133", "bukhari:2135", "bukhari:2136", "bukhari:2139", "bukhari:2142", "bukhari:2171", "bukhari:2185", "bukhari:2194", "bukhari:2196", "bukhari:2197", "bukhari:2322", "bukhari:2323", "bukhari:3324", "bukhari:3325", "bukhari:3513", "bukhari:3514", "bukhari:5112", "bukhari:5142", "bukhari:5480", "bukhari:5481", "bukhari:5482", "bukhari:6257", "bukhari:6258", "bukhari:6928", "bukhari:6960", "ibnmajah:1883", "ibnmajah:1884", "ibnmajah:2171", "ibnmajah:2181", "ibnmajah:2182", "ibnmajah:2183", "ibnmajah:2214", "ibnmajah:2215", "ibnmajah:2216", "ibnmajah:2218", "ibnmajah:2226", "ibnmajah:2227", "ibnmajah:3202", "ibnmajah:3204", "ibnmajah:3206", "ibnmajah:3697", "muslim:3454", "muslim:3455", "muslim:3456", "muslim:3457", "muslim:3464", "muslim:3465", "muslim:3466", "muslim:3469", "muslim:3470", "muslim:3471", "muslim:3811", "muslim:3812", "muslim:3818", "muslim:3837", "muslim:3838", "muslim:3839", "muslim:3840", "muslim:3843", "muslim:3844", "muslim:3848", "muslim:3850", "muslim:3853", "muslim:3855", "muslim:3856", "muslim:3857", "muslim:3862", "muslim:3863", "muslim:3865", "muslim:3866", "muslim:3867", "muslim:3868", "muslim:3869", "muslim:3870", "muslim:3871", "muslim:3872", "muslim:3874", "muslim:3875", "muslim:3877", "muslim:3893", "muslim:3930", "muslim:3980", "muslim:4016", "muslim:4017", "muslim:4018", "muslim:4023", "muslim:4024", "muslim:4025", "muslim:4026", "muslim:4027", "muslim:4028", "muslim:4029", "muslim:4030", "muslim:4031", "muslim:4032", "muslim:4033", "muslim:4034", "muslim:4035", "muslim:4036", "muslim:4037", "muslim:5652", "muslim:5653", "muslim:5654", "muslim:5655", "muslim:6429", "muslim:6433", "muslim:6435", "nasai:3243", "nasai:3337", "nasai:3338", "nasai:4284", "nasai:4285", "nasai:4286", "nasai:4287", "nasai:4288", "nasai:4289", "nasai:4290", "nasai:4291", "nasai:4465", "nasai:4466", "nasai:4467", "nasai:4468", "nasai:4469", "nasai:4470", "nasai:4471", "nasai:4472", "nasai:4473", "nasai:4474", "nasai:4475", "nasai:4476", "nasai:4477", "nasai:4478", "nasai:4479", "nasai:4480", "nasai:4481", "nasai:4482", "nasai:4483", "nasai:4503", "nasai:4504", "nasai:4519", "nasai:4520", "nasai:4521", "nasai:4522", "nasai:4525", "nasai:4531", "nasai:4532", "nasai:4534", "nasai:4595", "nasai:4596", "nasai:4597", "nasai:4598", "nasai:4600", "nasai:4601", "nasai:4604", "nasai:4626", "nasai:4627", "tirmidhi:1134", "tirmidhi:1226", "tirmidhi:1245", "tirmidhi:1247", "tirmidhi:1291", "tirmidhi:1292", "tirmidhi:1487", "tirmidhi:1490", "tirmidhi:1603", "tirmidhi:3941", "tirmidhi:3948", "tirmidhi:3949"], ["bukhari:3836", "nasai:3764"]], "kept_with": ["bukhari:3836", "nasai:3764"]}
+{"bridge": "muslim:5654", "parts": [["abudawud:2074", "abudawud:2081", "abudawud:2844", "abudawud:3367", "abudawud:3370", "abudawud:3374", "abudawud:3375", "abudawud:3454", "abudawud:3455", "abudawud:3456", "abudawud:3492", "abudawud:3495", "abudawud:3496", "abudawud:3497", "bukhari:1487", "bukhari:1488", "bukhari:2107", "bukhari:2108", "bukhari:2109", "bukhari:2111", "bukhari:2112", "bukhari:2113", "bukhari:2126", "bukhari:2133", "bukhari:2135", "bukhari:2136", "bukhari:2139", "bukhari:2142", "bukhari:2171", "bukhari:2185", "bukhari:2194", "bukhari:2196", "bukhari:2197", "bukhari:2322", "bukhari:2323", "bukhari:3324", "bukhari:3325", "bukhari:3513", "bukhari:3514", "bukhari:5112", "bukhari:5142", "bukhari:5480", "bukhari:5481", "bukhari:5482", "bukhari:6960", "ibnmajah:1883", "ibnmajah:1884", "ibnmajah:2171", "ibnmajah:2181", "ibnmajah:2182", "ibnmajah:2183", "ibnmajah:2214", "ibnmajah:2215", "ibnmajah:2216", "ibnmajah:2218", "ibnmajah:2226", "ibnmajah:2227", "ibnmajah:3202", "ibnmajah:3204", "ibnmajah:3206", "muslim:3454", "muslim:3455", "muslim:3456", "muslim:3457", "muslim:3464", "muslim:3465", "muslim:3466", "muslim:3469", "muslim:3470", "muslim:3471", "muslim:3811", "muslim:3812", "muslim:3818", "muslim:3837", "muslim:3838", "muslim:3839", "muslim:3840", "muslim:3843", "muslim:3844", "muslim:3848", "muslim:3850", "muslim:3853", "muslim:3855", "muslim:3856", "muslim:3857", "muslim:3862", "muslim:3863", "muslim:3865", "muslim:3866", "muslim:3867", "muslim:3868", "muslim:3869", "muslim:3870", "muslim:3871", "muslim:3872", "muslim:3874", "muslim:3875", "muslim:3877", "muslim:3893", "muslim:3930", "muslim:3980", "muslim:4016", "muslim:4017", "muslim:4018", "muslim:4023", "muslim:4024", "muslim:4025", "muslim:4026", "muslim:4027", "muslim:4028", "muslim:4029", "muslim:4030", "muslim:4031", "muslim:4032", "muslim:4033", "muslim:4034", "muslim:4035", "muslim:4036", "muslim:4037", "muslim:6429", "muslim:6433", "muslim:6435", "nasai:3243", "nasai:3337", "nasai:3338", "nasai:4284", "nasai:4285", "nasai:4286", "nasai:4287", "nasai:4288", "nasai:4289", "nasai:4290", "nasai:4291", "nasai:4465", "nasai:4466", "nasai:4467", "nasai:4468", "nasai:4469", "nasai:4470", "nasai:4471", "nasai:4472", "nasai:4473", "nasai:4474", "nasai:4475", "nasai:4476", "nasai:4477", "nasai:4478", "nasai:4479", "nasai:4480", "nasai:4481", "nasai:4482", "nasai:4483", "nasai:4503", "nasai:4504", "nasai:4519", "nasai:4520", "nasai:4521", "nasai:4522", "nasai:4525", "nasai:4531", "nasai:4532", "nasai:4534", "nasai:4595", "nasai:4596", "nasai:4597", "nasai:4598", "nasai:4600", "nasai:4601", "nasai:4604", "nasai:4626", "nasai:4627", "tirmidhi:1134", "tirmidhi:1226", "tirmidhi:1245", "tirmidhi:1247", "tirmidhi:1291", "tirmidhi:1292", "tirmidhi:1487", "tirmidhi:1490", "tirmidhi:3941", "tirmidhi:3948", "tirmidhi:3949"], ["abudawud:5206", "abudawud:5207", "bukhari:6257", "bukhari:6258", "bukhari:6928", "ibnmajah:3697", "muslim:5652", "muslim:5653", "tirmidhi:1603"], ["muslim:5655"]], "kept_with": ["abudawud:5206", "abudawud:5207", "bukhari:6257"]}
+{"bridge": "tirmidhi:3941", "parts": [["abudawud:2074", "abudawud:2081", "abudawud:2844", "abudawud:3367", "abudawud:3370", "abudawud:3374", "abudawud:3375", "abudawud:3454", "abudawud:3455", "abudawud:3456", "abudawud:3492", "abudawud:3495", "abudawud:3496", "abudawud:3497", "bukhari:1487", "bukhari:1488", "bukhari:2107", "bukhari:2108", "bukhari:2109", "bukhari:2111", "bukhari:2112", "bukhari:2113", "bukhari:2126", "bukhari:2133", "bukhari:2135", "bukhari:2136", "bukhari:2139", "bukhari:2142", "bukhari:2171", "bukhari:2185", "bukhari:2194", "bukhari:2196", "bukhari:2197", "bukhari:2322", "bukhari:2323", "bukhari:3324", "bukhari:3325", "bukhari:3513", "bukhari:5112", "bukhari:5142", "bukhari:5480", "bukhari:5481", "bukhari:5482", "bukhari:6960", "ibnmajah:1883", "ibnmajah:1884", "ibnmajah:2171", "ibnmajah:2181", "ibnmajah:2182", "ibnmajah:2183", "ibnmajah:2214", "ibnmajah:2215", "ibnmajah:2216", "ibnmajah:2218", "ibnmajah:2226", "ibnmajah:2227", "ibnmajah:3202", "ibnmajah:3204", "ibnmajah:3206", "muslim:3454", "muslim:3455", "muslim:3456", "muslim:3457", "muslim:3464", "muslim:3465", "muslim:3466", "muslim:3469", "muslim:3470", "muslim:3471", "muslim:3811", "muslim:3812", "muslim:3818", "muslim:3837", "muslim:3838", "muslim:3839", "muslim:3840", "muslim:3843", "muslim:3844", "muslim:3848", "muslim:3850", "muslim:3853", "muslim:3855", "muslim:3856", "muslim:3857", "muslim:3862", "muslim:3863", "muslim:3865", "muslim:3866", "muslim:3867", "muslim:3868", "muslim:3869", "muslim:3870", "muslim:3871", "muslim:3872", "muslim:3874", "muslim:3875", "muslim:3877", "muslim:3893", "muslim:3930", "muslim:3980", "muslim:4016", "muslim:4017", "muslim:4018", "muslim:4023", "muslim:4024", "muslim:4025", "muslim:4026", "muslim:4027", "muslim:4028", "muslim:4029", "muslim:4030", "muslim:4031", "muslim:4032", "muslim:4033", "muslim:4034", "muslim:4035", "muslim:4036", "muslim:4037", "muslim:6435", "nasai:3243", "nasai:3337", "nasai:3338", "nasai:4284", "nasai:4285", "nasai:4286", "nasai:4287", "nasai:4288", "nasai:4289", "nasai:4290", "nasai:4291", "nasai:4465", "nasai:4466", "nasai:4467", "nasai:4468", "nasai:4469", "nasai:4470", "nasai:4471", "nasai:4472", "nasai:4473", "nasai:4474", "nasai:4475", "nasai:4476", "nasai:4477", "nasai:4478", "nasai:4479", "nasai:4480", "nasai:4481", "nasai:4482", "nasai:4483", "nasai:4503", "nasai:4504", "nasai:4519", "nasai:4520", "nasai:4521", "nasai:4522", "nasai:4525", "nasai:4531", "nasai:4532", "nasai:4534", "nasai:4595", "nasai:4596", "nasai:4597", "nasai:4598", "nasai:4600", "nasai:4601", "nasai:4604", "nasai:4626", "nasai:4627", "tirmidhi:1134", "tirmidhi:1226", "tirmidhi:1245", "tirmidhi:1247", "tirmidhi:1291", "tirmidhi:1292", "tirmidhi:1487", "tirmidhi:1490"], ["bukhari:3514", "muslim:6429", "muslim:6433", "tirmidhi:3948", "tirmidhi:3949"]], "kept_with": ["bukhari:3514", "muslim:6429", "muslim:6433"]}
+{"bridge": "nasai:4480", "parts": [["abudawud:2074", "abudawud:2081", "abudawud:2844", "abudawud:3367", "abudawud:3370", "abudawud:3374", "abudawud:3375", "abudawud:3454", "abudawud:3455", "abudawud:3492", "abudawud:3495", "abudawud:3496", "abudawud:3497", "bukhari:1487", "bukhari:1488", "bukhari:2107", "bukhari:2108", "bukhari:2109", "bukhari:2111", "bukhari:2112", "bukhari:2113", "bukhari:2126", "bukhari:2133", "bukhari:2135", "bukhari:2136", "bukhari:2139", "bukhari:2142", "bukhari:2171", "bukhari:2185", "bukhari:2194", "bukhari:2196", "bukhari:2197", "bukhari:2322", "bukhari:2323", "bukhari:3324", "bukhari:3325", "bukhari:3513", "bukhari:5112", "bukhari:5142", "bukhari:5480", "bukhari:5481", "bukhari:5482", "bukhari:6960", "ibnmajah:1883", "ibnmajah:1884", "ibnmajah:2171", "ibnmajah:2181", "ibnmajah:2182", "ibnmajah:2183", "ibnmajah:2214", "ibnmajah:2215", "ibnmajah:2216", "ibnmajah:2218", "ibnmajah:2226", "ibnmajah:2227", "ibnmajah:3202", "ibnmajah:3204", "ibnmajah:3206", "muslim:3454", "muslim:3455", "muslim:3456", "muslim:3457", "muslim:3464", "muslim:3465", "muslim:3466", "muslim:3469", "muslim:3470", "muslim:3471", "muslim:3811", "muslim:3812", "muslim:3818", "muslim:3837", "muslim:3838", "muslim:3839", "muslim:3840", "muslim:3843", "muslim:3844", "muslim:3848", "muslim:3850", "muslim:3853", "muslim:3855", "muslim:3856", "muslim:3857", "muslim:3862", "muslim:3863", "muslim:3865", "muslim:3866", "muslim:3867", "muslim:3868", "muslim:3869", "muslim:3870", "muslim:3871", "muslim:3872", "muslim:3874", "muslim:3875", "muslim:3877", "muslim:3893", "muslim:3930", "muslim:3980", "muslim:4016", "muslim:4017", "muslim:4018", "muslim:4023", "muslim:4024", "muslim:4025", "muslim:4026", "muslim:4027", "muslim:4028", "muslim:4029", "muslim:4030", "muslim:4031", "muslim:4032", "muslim:4033", "muslim:4034", "muslim:4035", "muslim:4036", "muslim:4037", "muslim:6435", "nasai:3243", "nasai:3337", "nasai:3338", "nasai:4284", "nasai:4285", "nasai:4286", "nasai:4287", "nasai:4288", "nasai:4289", "nasai:4290", "nasai:4291", "nasai:4465", "nasai:4466", "nasai:4467", "nasai:4468", "nasai:4469", "nasai:4470", "nasai:4471", "nasai:4472", "nasai:4473", "nasai:4474", "nasai:4475", "nasai:4476", "nasai:4477", "nasai:4478", "nasai:4479", "nasai:4481", "nasai:4482", "nasai:4503", "nasai:4504", "nasai:4519", "nasai:4520", "nasai:4521", "nasai:4522", "nasai:4525", "nasai:4531", "nasai:4532", "nasai:4534", "nasai:4595", "nasai:4596", "nasai:4597", "nasai:4598", "nasai:4600", "nasai:4601", "nasai:4604", "nasai:4626", "nasai:4627", "tirmidhi:1134", "tirmidhi:1226", "tirmidhi:1245", "tirmidhi:1291", "tirmidhi:1292", "tirmidhi:1487", "tirmidhi:1490"], ["abudawud:3456", "nasai:4483", "tirmidhi:1247"]], "kept_with": ["abudawud:3456", "nasai:4483", "tirmidhi:1247"]}
+{"bridge": "ibnmajah:3684", "parts": [["abudawud:1681", "abudawud:2881", "bukhari:1388", "bukhari:2760", "ibnmajah:2717", "muslim:2326", "muslim:2327", "muslim:4220", "muslim:4221", "muslim:4222", "nasai:3649", "nasai:3654", "nasai:3664", "nasai:3665", "nasai:3666"], ["abudawud:1679", "abudawud:1680"]], "kept_with": ["abudawud:1681", "abudawud:2881", "bukhari:1388"]}
+{"bridge": "nasai:3664", "parts": [["abudawud:2881", "bukhari:1388", "bukhari:2760", "ibnmajah:2717", "muslim:2326", "muslim:2327", "muslim:4220", "muslim:4221", "muslim:4222", "nasai:3649", "nasai:3654"], ["abudawud:1681", "nasai:3666"], ["ibnmajah:3684", "nasai:3665"]], "kept_with": ["ibnmajah:3684", "nasai:3665"]}
+{"bridge": "bukhari:3463", "parts": [["muslim:307", "muslim:308"], ["bukhari:1363", "bukhari:1364"]], "kept_with": ["muslim:307", "muslim:308"]}
+{"bridge": "bukhari:1176", "parts": [["ibnmajah:1379", "ibnmajah:465", "ibnmajah:614", "muslim:1668", "muslim:765", "muslim:766"], ["abudawud:1291", "bukhari:1103", "bukhari:4292", "muslim:1667", "tirmidhi:474"]], "kept_with": ["abudawud:1291", "bukhari:1103", "bukhari:4292"]}
+{"bridge": "muslim:1668", "parts": [["ibnmajah:465", "muslim:765", "muslim:766"], ["ibnmajah:1379", "ibnmajah:614"]], "kept_with": ["ibnmajah:1379", "ibnmajah:614"]}
+{"bridge": "nasai:1596", "parts": [["bukhari:3529", "bukhari:3530", "bukhari:987", "bukhari:988"], ["bukhari:2901", "muslim:2069"]], "kept_with": ["bukhari:3529", "bukhari:3530", "bukhari:987"]}
+{"bridge": "muslim:5080", "parts": [["bukhari:5500", "bukhari:5562", "bukhari:6674", "bukhari:7400", "bukhari:985", "ibnmajah:3152", "muslim:5064", "muslim:5065", "muslim:5066", "muslim:5067", "muslim:5068", "muslim:5081", "nasai:4368", "nasai:4398"], ["bukhari:5549", "bukhari:5561", "bukhari:6673", "bukhari:954", "bukhari:984", "muslim:5079", "nasai:4396"], ["ibnmajah:3151"]], "kept_with": ["bukhari:5549", "bukhari:5561", "bukhari:6673"]}
+{"bridge": "bukhari:5563", "parts": [["abudawud:2800", "abudawud:2801", "bukhari:5545", "bukhari:5556", "bukhari:5557", "bukhari:5560", "bukhari:951", "bukhari:955", "bukhari:965", "bukhari:968", "bukhari:976", "bukhari:983", "muslim:5069", "muslim:5070", "muslim:5072", "muslim:5073", "muslim:5074", "muslim:5077", "muslim:5078", "nasai:1563", "nasai:1581", "nasai:4394", "nasai:4395", "tirmidhi:1508"], ["muslim:5076"], ["ibnmajah:3154", "nasai:4397"]], "kept_with": ["abudawud:2800", "abudawud:2801", "bukhari:5545"]}
+{"bridge": "bukhari:928", "parts": [["ibnmajah:1103", "nasai:1416"], ["abudawud:1094", "muslim:1995"]], "kept_with": ["ibnmajah:1103", "nasai:1416"]}
+{"bridge": "bukhari:3583", "parts": [["ibnmajah:1415", "ibnmajah:1417", "tirmidhi:3627", "tirmidhi:505"], ["bukhari:3585", "bukhari:918"]], "kept_with": ["ibnmajah:1415", "ibnmajah:1417", "tirmidhi:3627"]}
+{"bridge": "muslim:5406", "parts": [["bukhari:3054", "bukhari:948", "muslim:5404", "muslim:5405", "nasai:1560"], ["abudawud:1076", "abudawud:4040", "bukhari:2104", "bukhari:2612", "bukhari:2619", "bukhari:5841", "bukhari:5981", "bukhari:886", "muslim:5401", "muslim:5402", "muslim:5403", "muslim:5407", "muslim:5424", "nasai:1382", "nasai:5295"]], "kept_with": ["abudawud:1076", "abudawud:4040", "bukhari:2104"]}
+{"bridge": "bukhari:1321", "parts": [["bukhari:1326", "bukhari:1340", "ibnmajah:1531", "ibnmajah:1532", "nasai:2025"], ["abudawud:3196", "bukhari:1319", "bukhari:1322", "bukhari:1336", "bukhari:857", "muslim:2211", "muslim:2212", "muslim:2213", "nasai:2023", "nasai:2024", "tirmidhi:1037"], ["bukhari:1247", "ibnmajah:1530"]], "kept_with": ["bukhari:1326", "bukhari:1340", "ibnmajah:1531"]}
+{"bridge": "bukhari:1340", "parts": [["ibnmajah:1531", "ibnmajah:1532", "nasai:2025"], ["bukhari:1321", "bukhari:1326"]], "kept_with": ["ibnmajah:1531", "ibnmajah:1532", "nasai:2025"]}
+{"bridge": "muslim:872", "parts": [["nasai:1149", "tirmidhi:253"], ["abudawud:836", "bukhari:789", "bukhari:803", "muslim:868", "muslim:869", "muslim:870", "nasai:1023", "nasai:1150", "nasai:1156", "tirmidhi:254"], ["bukhari:784"]], "kept_with": ["bukhari:784"]}
+{"bridge": "nasai:1770", "parts": [["abudawud:1255", "abudawud:1335", "abudawud:1336", "abudawud:1337", "bukhari:1123", "bukhari:1165", "bukhari:618", "bukhari:619", "bukhari:994", "ibnmajah:1143", "ibnmajah:1145", "ibnmajah:1177", "ibnmajah:1358", "muslim:1676", "muslim:1678", "muslim:1679", "muslim:1680", "muslim:1681", "muslim:1682", "muslim:1683", "muslim:1684", "muslim:1685", "muslim:1717", "muslim:1718", "nasai:1328", "nasai:1696", "nasai:1726", "nasai:1749", "nasai:1760", "nasai:1761", "nasai:1765", "nasai:1766", "nasai:1767", "nasai:1768", "nasai:1769", "nasai:1771", "nasai:1772", "nasai:1773", "nasai:1774", "nasai:1775", "nasai:1776", "nasai:1777", "nasai:1778", "nasai:1779", "nasai:1780", "nasai:1782", "nasai:583", "nasai:685", "nasai:946", "tirmidhi:440", "tirmidhi:441"], ["abudawud:1253", "bukhari:1182", "nasai:1757", "nasai:1758"], ["abudawud:1272"]], "kept_with": ["abudawud:1272"]}
+{"bridge": "muslim:1684", "parts": [["abudawud:1335", "abudawud:1336", "abudawud:1337", "bukhari:1123", "bukhari:618", "bukhari:619", "bukhari:994", "ibnmajah:1143", "ibnmajah:1145", "ibnmajah:1177", "ibnmajah:1358", "muslim:1676", "muslim:1678", "muslim:1679", "muslim:1680", "muslim:1681", "muslim:1682", "muslim:1683", "muslim:1685", "muslim:1717", "muslim:1718", "nasai:1328", "nasai:1696", "nasai:1726", "nasai:1749", "nasai:1760", "nasai:1761", "nasai:1765", "nasai:1766", "nasai:1767", "nasai:1768", "nasai:1769", "nasai:1771", "nasai:1772", "nasai:1773", "nasai:1774", "nasai:1775", "nasai:1776", "nasai:1777", "nasai:1778", "nasai:1779", "nasai:1780", "nasai:1782", "nasai:583", "nasai:685", "nasai:946", "tirmidhi:440", "tirmidhi:441"], ["abudawud:1255", "bukhari:1165"]], "kept_with": ["abudawud:1335", "abudawud:1336", "abudawud:1337"]}
+{"bridge": "bukhari:3272", "parts": [["bukhari:1629", "bukhari:582", "bukhari:583", "bukhari:585", "muslim:1924", "muslim:1925", "muslim:1931", "muslim:1932", "nasai:563", "nasai:564", "nasai:570"], ["bukhari:3273"], ["muslim:1926", "nasai:571"]], "kept_with": ["bukhari:3273"]}
+{"bridge": "muslim:6119", "parts": [["bukhari:540", "bukhari:6362", "bukhari:7089", "bukhari:7294", "bukhari:7295", "muslim:6120", "muslim:6121", "muslim:6122", "muslim:6123", "tirmidhi:3056"], ["bukhari:5221", "bukhari:6485", "bukhari:6486", "bukhari:6631", "bukhari:6637", "ibnmajah:4191", "tirmidhi:2313"]], "kept_with": ["bukhari:5221", "bukhari:6485", "bukhari:6486"]}
+{"bridge": "muslim:7324", "parts": [["muslim:7322", "muslim:7323", "tirmidhi:3800"], ["muslim:7320", "muslim:7321"], ["bukhari:2812", "bukhari:447"]], "kept_with": ["bukhari:2812", "bukhari:447"]}
+{"bridge": "muslim:1216", "parts": [["abudawud:1080", "bukhari:2094", "bukhari:448", "bukhari:917", "nasai:739"], ["bukhari:377", "ibnmajah:1416"]], "kept_with": ["abudawud:1080", "bukhari:2094", "bukhari:448"]}
+{"bridge": "muslim:1119", "parts": [["bukhari:3566", "bukhari:376", "muslim:1120", "muslim:1121"], ["nasai:5378", "tirmidhi:197"], ["abudawud:520"]], "kept_with": ["nasai:5378", "tirmidhi:197"]}
+{"bridge": "abudawud:216", "parts": [["ibnmajah:608", "ibnmajah:611", "tirmidhi:108", "tirmidhi:109"], ["bukhari:291", "ibnmajah:610", "muslim:783", "muslim:784", "nasai:191", "nasai:192"]], "kept_with": ["bukhari:291", "ibnmajah:610", "muslim:783"]}
+{"bridge": "tirmidhi:1755", "parts": [["abudawud:238", "abudawud:77", "abudawud:98", "abudawud:99", "bukhari:250", "bukhari:253", "bukhari:261", "bukhari:263", "bukhari:264", "bukhari:5956", "ibnmajah:376", "ibnmajah:377", "ibnmajah:379", "ibnmajah:380", "muslim:727", "muslim:730", "muslim:731", "muslim:732", "muslim:733", "muslim:735", "nasai:228", "nasai:231", "nasai:232", "nasai:233", "nasai:235", "nasai:236", "nasai:239", "nasai:344", "nasai:410", "nasai:411", "nasai:412", "nasai:414", "nasai:72", "tirmidhi:62"], ["abudawud:4187", "ibnmajah:3635"]], "kept_with": ["abudawud:238", "abudawud:77", "abudawud:98"]}
+{"bridge": "muslim:675", "parts": [["muslim:676"], ["abudawud:360", "abudawud:361", "bukhari:227", "bukhari:307"], ["bukhari:308", "ibnmajah:630"]], "kept_with": ["abudawud:360", "abudawud:361", "bukhari:227"]}
+{"bridge": "tirmidhi:60", "parts": [["bukhari:214", "tirmidhi:58"], ["abudawud:171", "ibnmajah:509", "nasai:131"]], "kept_with": ["bukhari:214", "tirmidhi:58"]}
+{"bridge": "ibnmajah:499", "parts": [["ibnmajah:498", "ibnmajah:500"], ["abudawud:196", "bukhari:211", "bukhari:5609", "ibnmajah:501", "muslim:798", "muslim:799", "nasai:187", "tirmidhi:89"]], "kept_with": ["ibnmajah:498", "ibnmajah:500"]}
+{"bridge": "nasai:77", "parts": [["bukhari:169", "bukhari:3573", "bukhari:5639", "muslim:5942", "nasai:76", "nasai:78", "tirmidhi:3631"], ["bukhari:3579", "tirmidhi:3633"]], "kept_with": ["bukhari:169", "bukhari:3573", "bukhari:5639"]}
+{"bridge": "bukhari:3573", "parts": [["bukhari:169", "muslim:5942", "nasai:76", "nasai:78", "tirmidhi:3631"], ["bukhari:5639", "nasai:77"]], "kept_with": ["bukhari:169", "muslim:5942", "nasai:76"]}
+{"bridge": "muslim:3240", "parts": [["bukhari:126", "nasai:2902", "tirmidhi:875"], ["bukhari:1585", "muslim:3246", "muslim:3247", "muslim:3248", "nasai:2901"], ["muslim:3241"]], "kept_with": ["bukhari:1585", "muslim:3246", "muslim:3247"]}
+{"bridge": "bukhari:1585", "parts": [["muslim:3246", "muslim:3247", "muslim:3248"], ["muslim:3240", "nasai:2901"]], "kept_with": ["muslim:3240", "nasai:2901"]}
+{"bridge": "muslim:6700", "parts": [["bukhari:101", "bukhari:1249", "bukhari:1250", "bukhari:7310", "muslim:6699"], ["muslim:1507", "muslim:2099", "muslim:6611"], ["bukhari:102"]], "kept_with": ["muslim:1507", "muslim:2099", "muslim:6611"]}
+{"bridge": "bukhari:3116", "parts": [["bukhari:3640", "bukhari:3641", "bukhari:7311", "bukhari:7459", "bukhari:7460", "ibnmajah:10", "ibnmajah:6", "ibnmajah:7", "muslim:4950", "muslim:4951", "muslim:4952", "muslim:4955", "tirmidhi:2229"], ["bukhari:5645", "ibnmajah:220", "ibnmajah:221", "muslim:2392", "tirmidhi:2645"], ["bukhari:71", "bukhari:7312"]], "kept_with": ["bukhari:5645", "ibnmajah:220", "ibnmajah:221"]}
+{"bridge": "tirmidhi:958", "parts": [["abudawud:1946", "bukhari:1622", "bukhari:3177", "bukhari:369", "bukhari:4363", "bukhari:4655", "bukhari:4656", "bukhari:4657", "muslim:3287", "nasai:2957"], ["bukhari:105", "bukhari:1739", "bukhari:1741", "bukhari:1742", "bukhari:4406", "bukhari:5550", "bukhari:6043", "bukhari:67", "bukhari:7078", "bukhari:7447", "ibnmajah:3058", "muslim:4383", "muslim:4384", "muslim:4386"], ["tirmidhi:3088", "tirmidhi:957"]], "kept_with": ["abudawud:1946", "bukhari:1622", "bukhari:3177"]}
+{"bridge": "bukhari:72", "parts": [["bukhari:131", "bukhari:2209", "bukhari:4698", "bukhari:5444", "bukhari:5448", "bukhari:61", "bukhari:6122", "bukhari:62", "muslim:7098", "muslim:7099", "muslim:7102", "tirmidhi:2867"], ["muslim:7100", "muslim:7101"]], "kept_with": ["muslim:7100", "muslim:7101"]}
+{"bridge": "muslim:2195", "parts": [["abudawud:3168", "bukhari:47", "ibnmajah:1539", "ibnmajah:1540", "ibnmajah:1541", "muslim:2189", "muslim:2192", "muslim:2193", "muslim:2196", "muslim:2197", "nasai:1940", "nasai:1941", "nasai:1994", "nasai:1995", "nasai:1996", "nasai:1997", "nasai:5032", "tirmidhi:1040"], ["bukhari:1323", "bukhari:1324", "muslim:2194"], ["abudawud:3169", "abudawud:4540"]], "kept_with": ["abudawud:3169", "abudawud:4540"]}
+{"bridge": "bukhari:1891", "parts": [["abudawud:391", "abudawud:392", "bukhari:2678", "bukhari:46", "muslim:100", "muslim:101", "nasai:458", "nasai:5028"], ["bukhari:6956", "nasai:2090"]], "kept_with": ["bukhari:6956", "nasai:2090"]}
+{"bridge": "ibnmajah:4312", "parts": [["bukhari:44", "muslim:478", "tirmidhi:2593"], ["bukhari:7440"], ["bukhari:6565", "muslim:475", "muslim:476", "muslim:477"], ["bukhari:7410"]], "kept_with": ["bukhari:44", "muslim:478", "tirmidhi:2593"]}
+{"bridge": "bukhari:4488", "parts": [["bukhari:399", "bukhari:40", "bukhari:4486", "bukhari:4492", "bukhari:7252", "muslim:1177", "nasai:488", "nasai:489", "nasai:742", "tirmidhi:2962", "tirmidhi:340"], ["bukhari:403", "bukhari:4490", "bukhari:4491", "bukhari:4493", "bukhari:4494", "bukhari:7251", "muslim:1178", "muslim:1179", "nasai:493", "nasai:745"]], "kept_with": ["bukhari:403", "bukhari:4490", "bukhari:4491"]}
+{"bridge": "muslim:154", "parts": [["abudawud:4795", "bukhari:24", "bukhari:6118", "ibnmajah:58", "nasai:5033", "tirmidhi:2615"], ["muslim:155"], ["muslim:4256", "muslim:5257"]], "kept_with": ["abudawud:4795", "bukhari:24", "bukhari:6118"]}
+{"community_split": ["ibnmajah:2774", "nasai:3107", "nasai:3108", "nasai:3110", "nasai:3111"], "size": 11, "parts": [7, 4]}
+{"community_split": ["ibnmajah:2591", "ibnmajah:2592", "nasai:4971", "nasai:4972", "nasai:4973"], "size": 9, "parts": [4, 2, 3]}
+{"community_split": ["ibnmajah:1705", "ibnmajah:1706", "nasai:2373", "nasai:2374", "nasai:2375"], "size": 14, "parts": [9, 5]}
+{"community_split": ["ibnmajah:226", "ibnmajah:478", "nasai:126", "nasai:127", "nasai:158"], "size": 9, "parts": [4, 5]}
+{"community_split": ["abudawud:4556", "abudawud:4557", "abudawud:4561", "abudawud:4562", "ibnmajah:2653"], "size": 11, "parts": [2, 2, 5, 2]}
+{"community_split": ["abudawud:4547", "abudawud:4548", "abudawud:4549", "abudawud:4588", "abudawud:4589"], "size": 16, "parts": [7, 9]}
+{"community_split": ["abudawud:3878", "abudawud:4061", "ibnmajah:1472", "ibnmajah:3495", "ibnmajah:3496"], "size": 14, "parts": [2, 8, 4]}
+{"community_split": ["abudawud:2834", "abudawud:2836", "ibnmajah:3162", "ibnmajah:3163", "nasai:4212"], "size": 11, "parts": [8, 3]}
+{"community_split": ["abudawud:2449", "ibnmajah:1707", "nasai:2408", "nasai:2420", "nasai:2422"], "size": 11, "parts": [2, 3, 2, 4]}
+{"community_split": ["abudawud:2408", "ibnmajah:1667", "nasai:2267", "nasai:2268", "nasai:2269"], "size": 19, "parts": [4, 8, 7]}
+{"community_split": ["abudawud:1576", "abudawud:1577", "abudawud:1578", "abudawud:3038", "abudawud:3039"], "size": 13, "parts": [4, 4, 5]}
+{"community_split": ["abudawud:1033", "ibnmajah:1212", "nasai:1240", "nasai:1241", "nasai:1245"], "size": 10, "parts": [5, 5]}
+{"community_split": ["abudawud:375", "abudawud:377", "abudawud:378", "ibnmajah:522", "ibnmajah:525"], "size": 9, "parts": [5, 2, 2]}
+{"community_split": ["abudawud:148", "ibnmajah:411", "ibnmajah:429", "ibnmajah:431", "ibnmajah:433"], "size": 9, "parts": [4, 3, 2]}
+{"community_split": ["abudawud:115", "abudawud:116", "ibnmajah:413", "ibnmajah:414", "ibnmajah:415"], "size": 15, "parts": [4, 3, 4, 4]}
+{"community_split": ["abudawud:2554", "abudawud:2555", "abudawud:4130", "muslim:5546", "muslim:5547"], "size": 10, "parts": [5, 3, 2]}
+{"community_split": ["ibnmajah:3388", "ibnmajah:3389", "ibnmajah:3390", "muslim:5219", "muslim:5220"], "size": 13, "parts": [5, 2, 6]}
+{"community_split": ["abudawud:3702", "ibnmajah:3400", "muslim:5182", "muslim:5204", "muslim:5205"], "size": 11, "parts": [3, 5, 3]}
+{"community_split": ["abudawud:2791", "ibnmajah:3149", "ibnmajah:3150", "muslim:5119", "muslim:5120"], "size": 11, "parts": [7, 4]}
+{"community_split": ["abudawud:3958", "abudawud:3959", "abudawud:3960", "abudawud:3961", "ibnmajah:2345"], "size": 10, "parts": [4, 3, 3]}
+{"community_split": ["abudawud:3513", "ibnmajah:2492", "muslim:4127", "muslim:4128", "muslim:4129"], "size": 9, "parts": [5, 4]}
+{"community_split": ["ibnmajah:2254", "muslim:4063", "muslim:4064", "muslim:4066", "muslim:4067"], "size": 9, "parts": [3, 2, 4]}
+{"community_split": ["abudawud:2285", "abudawud:2286", "abudawud:2287", "abudawud:2288", "ibnmajah:2035"], "size": 17, "parts": [5, 2, 7, 3]}
+{"community_split": ["ibnmajah:1943", "muslim:3600", "muslim:3601", "muslim:3602", "muslim:3604"], "size": 10, "parts": [5, 3, 2]}
+{"community_split": ["abudawud:2055", "ibnmajah:1937", "muslim:3569", "muslim:3570", "muslim:3579"], "size": 10, "parts": [6, 4]}
+{"community_split": ["abudawud:2098", "abudawud:2099", "ibnmajah:1870", "muslim:3476", "muslim:3477"], "size": 11, "parts": [3, 4, 4]}
+{"community_split": ["abudawud:1841", "abudawud:1842", "ibnmajah:1966", "muslim:3446", "muslim:3447"], "size": 14, "parts": [3, 5, 6]}
+{"community_split": ["muslim:3318", "muslim:3339", "muslim:3344", "muslim:3345", "muslim:3346"], "size": 10, "parts": [3, 5, 2]}
+{"community_split": ["abudawud:4076", "abudawud:4077", "ibnmajah:1104", "ibnmajah:2821", "ibnmajah:2822"], "size": 18, "parts": [8, 10]}
+{"community_split": ["abudawud:2598", "ibnmajah:3888", "muslim:3276", "muslim:3277", "nasai:5498"], "size": 10, "parts": [7, 3]}
+{"community_split": ["abudawud:2807", "abudawud:2808", "abudawud:2809", "ibnmajah:3132", "muslim:3185"], "size": 12, "parts": [8, 4]}
+{"community_split": ["ibnmajah:2861", "muslim:3138", "muslim:4758", "muslim:4759", "muslim:4760"], "size": 9, "parts": [5, 4]}
+{"community_split": ["abudawud:2455", "muslim:2714", "muslim:2715", "nasai:2322", "nasai:2324"], "size": 10, "parts": [5, 3, 2]}
+{"community_split": ["abudawud:1656", "abudawud:2877", "abudawud:3309", "ibnmajah:1759", "ibnmajah:2394"], "size": 11, "parts": [5, 6]}
+{"community_split": ["abudawud:3175", "ibnmajah:1544", "muslim:2227", "muslim:2228", "muslim:2229"], "size": 10, "parts": [4, 4, 2]}
+{"community_split": ["abudawud:1127", "abudawud:1132", "ibnmajah:1130", "ibnmajah:1131", "ibnmajah:1195"], "size": 14, "parts": [2, 9, 3]}
+{"community_split": ["abudawud:1250", "ibnmajah:1140", "ibnmajah:1141", "ibnmajah:1142", "muslim:1694"], "size": 26, "parts": [2, 9, 15]}
+{"community_split": ["abudawud:1256", "abudawud:1423", "abudawud:1424", "ibnmajah:1148", "ibnmajah:1149"], "size": 42, "parts": [14, 15, 13]}
+{"community_split": ["abudawud:582", "abudawud:583", "abudawud:584", "ibnmajah:980", "muslim:1532"], "size": 11, "parts": [3, 2, 6]}
+{"community_split": ["abudawud:1294", "abudawud:4850", "muslim:1525", "muslim:1526", "muslim:1527"], "size": 9, "parts": [5, 4]}
+{"community_split": ["abudawud:1512", "abudawud:1513", "ibnmajah:924", "ibnmajah:928", "muslim:1334"], "size": 13, "parts": [8, 5]}
+{"community_split": ["abudawud:987", "abudawud:988", "abudawud:991", "ibnmajah:911", "ibnmajah:913"], "size": 18, "parts": [2, 2, 4, 4, 6]}
+{"community_split": ["abudawud:4044", "abudawud:4045", "muslim:1076", "muslim:1077", "muslim:1078"], "size": 39, "parts": [13, 16, 10]}
+{"community_split": ["abudawud:674", "abudawud:675", "ibnmajah:976", "muslim:972", "muslim:973"], "size": 9, "parts": [6, 3]}
+{"community_split": ["abudawud:502", "abudawud:503", "abudawud:504", "abudawud:505", "ibnmajah:708"], "size": 14, "parts": [3, 2, 6, 3]}
+{"community_split": ["abudawud:16", "abudawud:17", "ibnmajah:351", "ibnmajah:352", "ibnmajah:353"], "size": 10, "parts": [5, 5]}
+{"community_split": ["abudawud:192", "abudawud:194", "abudawud:195", "ibnmajah:485", "ibnmajah:486"], "size": 21, "parts": [8, 2, 9, 2]}
+{"community_split": ["abudawud:371", "abudawud:372", "ibnmajah:537", "muslim:668", "muslim:669"], "size": 9, "parts": [4, 5]}
+{"community_split": ["abudawud:69", "abudawud:70", "ibnmajah:343", "ibnmajah:344", "ibnmajah:345"], "size": 17, "parts": [4, 4, 9]}
+{"community_split": ["abudawud:157", "ibnmajah:552", "ibnmajah:554", "ibnmajah:555", "ibnmajah:556"], "size": 11, "parts": [6, 3, 2]}
+{"community_split": ["bukhari:7405", "bukhari:7505", "ibnmajah:3822", "muslim:6805", "muslim:6806"], "size": 9, "parts": [6, 3]}
+{"community_split": ["abudawud:4279", "abudawud:4280", "abudawud:4281", "bukhari:7222", "bukhari:7223"], "size": 12, "parts": [3, 2, 7]}
+{"community_split": ["abudawud:2940", "bukhari:7202", "bukhari:7204", "ibnmajah:2868", "muslim:201"], "size": 12, "parts": [7, 5]}
+{"community_split": ["bukhari:7062", "bukhari:7063", "bukhari:7064", "bukhari:7065", "bukhari:7066"], "size": 14, "parts": [9, 5]}
+{"community_split": ["abudawud:5018", "bukhari:6983", "bukhari:6987", "bukhari:6988", "bukhari:6989"], "size": 19, "parts": [3, 6, 10]}
+{"community_split": ["abudawud:4570", "abudawud:4571", "bukhari:6905", "bukhari:6906", "bukhari:6907"], "size": 11, "parts": [3, 6, 2]}
+{"community_split": ["bukhari:6792", "bukhari:6793", "bukhari:6794", "ibnmajah:2586", "muslim:4404"], "size": 25, "parts": [5, 6, 3, 6, 5]}
+{"community_split": ["abudawud:4479", "bukhari:6773", "bukhari:6776", "ibnmajah:2570", "muslim:4452"], "size": 10, "parts": [4, 3, 3]}
+{"community_split": ["abudawud:2929", "abudawud:3277", "abudawud:3278", "bukhari:6622", "bukhari:6722"], "size": 34, "parts": [2, 14, 11, 7]}
+{"community_split": ["abudawud:3287", "abudawud:3288", "bukhari:6608", "bukhari:6609", "bukhari:6692"], "size": 23, "parts": [7, 3, 13]}
+{"community_split": ["bukhari:6576", "bukhari:6582", "bukhari:6585", "bukhari:6586", "bukhari:7049"], "size": 9, "parts": [4, 5]}
+{"community_split": ["bukhari:6524", "bukhari:6525", "bukhari:6527", "ibnmajah:4276", "muslim:7198"], "size": 9, "parts": [5, 4]}
+{"community_split": ["bukhari:6507", "bukhari:6508", "bukhari:7504", "ibnmajah:4264", "muslim:6820"], "size": 21, "parts": [6, 12, 3]}
+{"community_split": ["abudawud:4146", "abudawud:4147", "bukhari:6456", "ibnmajah:4151", "muslim:5446"], "size": 9, "parts": [5, 4]}
+{"community_split": ["abudawud:5043", "bukhari:6316", "ibnmajah:508", "muslim:1788", "muslim:1794"], "size": 9, "parts": [4, 3, 2]}
+{"community_split": ["abudawud:4851", "abudawud:4852", "bukhari:6288", "bukhari:6290", "ibnmajah:3775"], "size": 12, "parts": [4, 2, 6]}
+{"community_split": ["abudawud:5198", "abudawud:5199", "bukhari:6231", "bukhari:6232", "bukhari:6233"], "size": 10, "parts": [5, 5]}
+{"community_split": ["abudawud:4917", "bukhari:6064", "bukhari:6066", "bukhari:6724", "muslim:6536"], "size": 9, "parts": [4, 3, 2]}
+{"community_split": ["abudawud:3257", "bukhari:6047", "bukhari:6105", "bukhari:6652", "ibnmajah:2098"], "size": 11, "parts": [4, 4, 3]}
+{"community_split": ["abudawud:5154", "bukhari:6018", "bukhari:6019", "bukhari:6136", "bukhari:6138"], "size": 16, "parts": [6, 10]}
+{"community_split": ["abudawud:5218", "bukhari:5997", "bukhari:6013", "bukhari:7376", "muslim:6028"], "size": 9, "parts": [5, 4]}
+{"community_split": ["abudawud:1696", "abudawud:4871", "bukhari:5984", "muslim:290", "muslim:292"], "size": 9, "parts": [2, 3, 4]}
+{"community_split": ["bukhari:5954", "bukhari:6109", "muslim:5525", "muslim:5526", "muslim:5527"], "size": 9, "parts": [3, 3, 3]}
+{"community_split": ["abudawud:4193", "abudawud:4194", "bukhari:5920", "ibnmajah:3637", "ibnmajah:3638"], "size": 11, "parts": [4, 3, 4]}
+{"community_split": ["abudawud:4097", "abudawud:4930", "bukhari:5885", "bukhari:5886", "bukhari:6834"], "size": 9, "parts": [5, 4]}
+{"community_split": ["abudawud:4219", "bukhari:5874", "bukhari:5877", "ibnmajah:3639", "ibnmajah:3640"], "size": 15, "parts": [5, 5, 5]}
+{"community_split": ["abudawud:4216", "abudawud:4217", "bukhari:5870", "ibnmajah:3641", "muslim:5486"], "size": 14, "parts": [7, 7]}
+{"community_split": ["abudawud:4218", "bukhari:5865", "bukhari:5866", "bukhari:5867", "bukhari:5873"], "size": 21, "parts": [3, 9, 9]}
+{"community_split": ["abudawud:4051", "bukhari:5864", "ibnmajah:3643", "ibnmajah:3654", "muslim:5470"], "size": 13, "parts": [3, 5, 5]}
+{"community_split": ["abudawud:4179", "bukhari:5846", "muslim:5506", "muslim:5507", "nasai:2706"], "size": 11, "parts": [5, 6]}
+{"community_split": ["abudawud:4025", "abudawud:4026", "abudawud:4060", "bukhari:5812", "bukhari:5813"], "size": 13, "parts": [6, 7]}
+{"community_split": ["abudawud:4568", "abudawud:4569", "abudawud:4574", "abudawud:4576", "bukhari:5758"], "size": 29, "parts": [2, 8, 6, 8, 5]}
+{"community_split": ["abudawud:5021", "bukhari:5747", "bukhari:6984", "bukhari:6985", "bukhari:6986"], "size": 17, "parts": [3, 4, 3, 4, 3]}
+{"community_split": ["abudawud:3912", "abudawud:3916", "bukhari:5707", "bukhari:5717", "bukhari:5754"], "size": 27, "parts": [9, 7, 4, 7]}
+{"community_split": ["abudawud:3877", "bukhari:5692", "bukhari:5693", "bukhari:5713", "bukhari:5715"], "size": 11, "parts": [4, 7]}
+{"community_split": ["abudawud:3890", "bukhari:5675", "bukhari:5742", "bukhari:5743", "bukhari:5750"], "size": 14, "parts": [2, 9, 3]}
+{"community_split": ["bukhari:5640", "bukhari:5641", "bukhari:5642", "muslim:6561", "muslim:6562"], "size": 13, "parts": [6, 5, 2]}
+{"community_split": ["abudawud:3719", "abudawud:3720", "abudawud:3785", "abudawud:3786", "bukhari:5625"], "size": 18, "parts": [4, 6, 8]}
+{"community_split": ["abudawud:3703", "abudawud:3704", "abudawud:3705", "bukhari:5601", "bukhari:5602"], "size": 49, "parts": [4, 3, 14, 12, 16]}
+{"community_split": ["abudawud:3679", "bukhari:5575", "ibnmajah:3373", "ibnmajah:3374", "muslim:5218"], "size": 13, "parts": [5, 5, 3]}
+{"community_split": ["abudawud:2794", "bukhari:5553", "bukhari:5554", "bukhari:5558", "bukhari:5564"], "size": 23, "parts": [3, 3, 8, 4, 5]}
+{"community_split": ["bukhari:5536", "muslim:5027", "muslim:5028", "muslim:5029", "muslim:5030"], "size": 9, "parts": [4, 2, 3]}
+{"community_split": ["abudawud:5270", "bukhari:5479", "bukhari:6220", "ibnmajah:17", "ibnmajah:3226"], "size": 11, "parts": [3, 4, 4]}
+{"community_split": ["abudawud:2831", "abudawud:2832", "bukhari:5473", "bukhari:5474", "ibnmajah:3168"], "size": 10, "parts": [4, 3, 3]}
+{"community_split": ["abudawud:3723", "bukhari:5426", "bukhari:5632", "bukhari:5633", "bukhari:5831"], "size": 15, "parts": [4, 5, 3, 3]}
+{"community_split": ["bukhari:5393", "bukhari:5394", "bukhari:5395", "bukhari:5396", "bukhari:5397"], "size": 18, "parts": [7, 5, 6]}
+{"community_split": ["abudawud:3794", "bukhari:5391", "bukhari:5400", "bukhari:5537", "ibnmajah:3241"], "size": 12, "parts": [4, 2, 3, 3]}
+{"community_split": ["bukhari:5336", "bukhari:5337", "bukhari:5338", "bukhari:5706", "ibnmajah:2084"], "size": 14, "parts": [4, 8, 2]}
+{"community_split": ["bukhari:5310", "bukhari:5316", "bukhari:6855", "bukhari:6856", "bukhari:7238"], "size": 11, "parts": [4, 7]}
+{"community_split": ["abudawud:3715", "bukhari:5268", "bukhari:5431", "bukhari:5599", "bukhari:5614"], "size": 11, "parts": [6, 5]}
+{"community_split": ["abudawud:2203", "bukhari:5262", "ibnmajah:2052", "muslim:3684", "muslim:3686"], "size": 16, "parts": [6, 10]}
+{"community_split": ["abudawud:2309", "bukhari:5261", "ibnmajah:1933", "muslim:3529", "muslim:3530"], "size": 11, "parts": [5, 2, 4]}
+{"community_split": ["abudawud:2076", "abudawud:4168", "abudawud:4170", "bukhari:5205", "bukhari:5933"], "size": 37, "parts": [6, 14, 17]}
+{"community_split": ["abudawud:3736", "abudawud:3737", "abudawud:3738", "abudawud:3740", "bukhari:5173"], "size": 14, "parts": [3, 7, 4]}
+{"community_split": ["abudawud:2065", "abudawud:2066", "bukhari:5108", "bukhari:5109", "ibnmajah:1930"], "size": 28, "parts": [14, 3, 11]}
+{"community_split": ["abudawud:2056", "bukhari:5101", "bukhari:5106", "bukhari:5107", "bukhari:5372"], "size": 13, "parts": [8, 3, 2]}
+{"community_split": ["abudawud:1776", "bukhari:5089", "ibnmajah:2936", "ibnmajah:2937", "ibnmajah:2938"], "size": 14, "parts": [6, 8]}
+{"community_split": ["bukhari:5015", "ibnmajah:3787", "ibnmajah:3788", "ibnmajah:3789", "muslim:1886"], "size": 11, "parts": [2, 5, 4]}
+{"community_split": ["bukhari:4936", "bukhari:5301", "bukhari:6098", "bukhari:6503", "bukhari:6504"], "size": 17, "parts": [4, 7, 6]}
+{"community_split": ["bukhari:4909", "muslim:3723", "muslim:3724", "nasai:3509", "nasai:3510"], "size": 10, "parts": [4, 6]}
+{"community_split": ["abudawud:2179", "abudawud:2180", "abudawud:2181", "abudawud:2182", "abudawud:2184"], "size": 50, "parts": [8, 18, 14, 3, 3, 4]}
+{"community_split": ["abudawud:4169", "bukhari:4886", "bukhari:5931", "bukhari:5939", "bukhari:5943"], "size": 21, "parts": [9, 7, 5]}
+{"community_split": ["bukhari:4791", "bukhari:4792", "bukhari:5166", "bukhari:5466", "bukhari:6238"], "size": 10, "parts": [6, 4]}
+{"community_split": ["abudawud:2259", "bukhari:4748", "bukhari:5306", "bukhari:5313", "bukhari:5314"], "size": 13, "parts": [5, 8]}
+{"community_split": ["abudawud:3669", "bukhari:4619", "bukhari:5581", "bukhari:5588", "bukhari:5589"], "size": 11, "parts": [3, 5, 3]}
+{"community_split": ["abudawud:4275", "bukhari:4590", "bukhari:4763", "bukhari:4764", "bukhari:4766"], "size": 12, "parts": [6, 6]}
+{"community_split": ["abudawud:1457", "abudawud:1458", "bukhari:4474", "bukhari:4647", "bukhari:4703"], "size": 9, "parts": [3, 6]}
+{"community_split": ["bukhari:4388", "bukhari:4390", "muslim:182", "muslim:183", "muslim:184"], "size": 10, "parts": [3, 2, 5]}
+{"community_split": ["abudawud:2888", "bukhari:4364", "bukhari:4605", "bukhari:4654", "bukhari:6744"], "size": 11, "parts": [6, 5]}
+{"community_split": ["abudawud:3788", "abudawud:3802", "abudawud:3808", "abudawud:3811", "bukhari:4173"], "size": 60, "parts": [4, 10, 17, 2, 15, 4, 8]}
+{"community_split": ["abudawud:2048", "bukhari:4052", "bukhari:5080", "bukhari:5367", "bukhari:6387"], "size": 12, "parts": [7, 5]}
+{"community_split": ["abudawud:2022", "bukhari:3933", "ibnmajah:1073", "muslim:3297", "muslim:3298"], "size": 11, "parts": [5, 6]}
+{"community_split": ["abudawud:2121", "bukhari:3896", "bukhari:5133", "bukhari:5134", "bukhari:5158"], "size": 15, "parts": [5, 6, 4]}
+{"community_split": ["bukhari:3789", "bukhari:3790", "bukhari:3807", "bukhari:5300", "bukhari:6053"], "size": 12, "parts": [3, 2, 3, 4]}
+{"community_split": ["bukhari:3744", "bukhari:4382", "bukhari:7255", "ibnmajah:136", "ibnmajah:154"], "size": 9, "parts": [5, 4]}
+{"community_split": ["bukhari:3688", "bukhari:6171", "bukhari:7153", "muslim:6710", "muslim:6711"], "size": 11, "parts": [2, 6, 3]}
+{"community_split": ["bukhari:3674", "bukhari:3693", "bukhari:3695", "bukhari:6216", "bukhari:7097"], "size": 12, "parts": [7, 5]}
+{"community_split": ["abudawud:4085", "abudawud:4094", "bukhari:3665", "bukhari:5783", "bukhari:5784"], "size": 28, "parts": [6, 10, 2, 5, 5]}
+{"community_split": ["bukhari:3656", "ibnmajah:93", "muslim:6172", "muslim:6173", "muslim:6174"], "size": 9, "parts": [5, 4]}
+{"community_split": ["bukhari:3637", "bukhari:3638", "bukhari:3868", "bukhari:3870", "bukhari:4866"], "size": 10, "parts": [5, 5]}
+{"community_split": ["bukhari:3623", "bukhari:3624", "bukhari:3625", "bukhari:3626", "bukhari:3715"], "size": 14, "parts": [7, 7]}
+{"community_split": ["abudawud:4183", "bukhari:3551", "bukhari:5901", "bukhari:5903", "bukhari:5904"], "size": 15, "parts": [5, 4, 6]}
+{"community_split": ["bukhari:3547", "bukhari:3548", "bukhari:4464", "bukhari:4465", "bukhari:4978"], "size": 10, "parts": [6, 4]}
+{"community_split": ["bukhari:3536", "bukhari:3903", "bukhari:4466", "muslim:6091", "muslim:6092"], "size": 16, "parts": [3, 5, 4, 4]}
+{"community_split": ["bukhari:3534", "bukhari:3535", "muslim:5959", "muslim:5960", "muslim:5961"], "size": 9, "parts": [4, 5]}
+{"community_split": ["abudawud:5122", "bukhari:3528", "bukhari:3778", "bukhari:4332", "bukhari:4334"], "size": 11, "parts": [3, 5, 3]}
+{"community_split": ["bukhari:3515", "bukhari:3516", "bukhari:3523", "bukhari:6635", "muslim:6441"], "size": 14, "parts": [7, 3, 4]}
+{"community_split": ["abudawud:4872", "bukhari:3493", "bukhari:3494", "bukhari:6058", "bukhari:7179"], "size": 11, "parts": [7, 4]}
+{"community_split": ["abudawud:3690", "abudawud:3693", "abudawud:3697", "bukhari:3492", "bukhari:5587"], "size": 65, "parts": [20, 2, 8, 16, 19]}
+{"community_split": ["bukhari:3485", "bukhari:5789", "bukhari:5790", "muslim:5465", "muslim:5467"], "size": 9, "parts": [4, 5]}
+{"community_split": ["bukhari:3478", "bukhari:3481", "bukhari:6480", "bukhari:6481", "bukhari:7506"], "size": 14, "parts": [5, 3, 2, 4]}
+{"community_split": ["abudawud:3103", "bukhari:3473", "bukhari:5728", "bukhari:5730", "bukhari:6973"], "size": 18, "parts": [3, 7, 5, 3]}
+{"community_split": ["abudawud:4315", "bukhari:3450", "bukhari:3451", "bukhari:3452", "bukhari:3479"], "size": 9, "parts": [4, 5]}
+{"community_split": ["bukhari:3439", "bukhari:3440", "bukhari:3441", "bukhari:5902", "bukhari:6999"], "size": 13, "parts": [3, 4, 2, 4]}
+{"community_split": ["bukhari:3411", "bukhari:3433", "bukhari:3769", "bukhari:3770", "bukhari:5418"], "size": 16, "parts": [9, 7]}
+{"community_split": ["abudawud:976", "abudawud:977", "abudawud:978", "abudawud:979", "abudawud:980"], "size": 31, "parts": [6, 3, 4, 15, 3]}
+{"community_split": ["bukhari:3346", "bukhari:3347", "bukhari:3598", "bukhari:7059", "bukhari:7135"], "size": 13, "parts": [8, 3, 2]}
+{"community_split": ["abudawud:4764", "bukhari:3344", "bukhari:4351", "bukhari:4667", "bukhari:7432"], "size": 11, "parts": [2, 5, 4]}
+{"community_split": ["bukhari:3331", "bukhari:5184", "bukhari:5185", "bukhari:5186", "muslim:3644"], "size": 9, "parts": [4, 5]}
+{"community_split": ["abudawud:5253", "bukhari:3310", "bukhari:3311", "bukhari:3312", "bukhari:3313"], "size": 13, "parts": [3, 2, 4, 4]}
+{"community_split": ["abudawud:5252", "bukhari:3297", "bukhari:3298", "bukhari:3299", "bukhari:3308"], "size": 14, "parts": [5, 7, 2]}
+{"community_split": ["abudawud:5028", "bukhari:3289", "bukhari:6223", "bukhari:6226", "muslim:7490"], "size": 9, "parts": [2, 4, 3]}
+{"community_split": ["bukhari:3245", "bukhari:3246", "bukhari:3254", "muslim:7147", "muslim:7148"], "size": 9, "parts": [5, 4]}
+{"community_split": ["bukhari:3243", "bukhari:4878", "bukhari:4879", "bukhari:4880", "bukhari:7444"], "size": 11, "parts": [4, 3, 4]}
+{"community_split": ["abudawud:4669", "abudawud:4670", "bukhari:3239", "bukhari:3395", "bukhari:3396"], "size": 19, "parts": [14, 5]}
+{"community_split": ["abudawud:227", "abudawud:4152", "abudawud:4155", "abudawud:4157", "bukhari:3225"], "size": 29, "parts": [15, 3, 6, 5]}
+{"community_split": ["abudawud:4134", "bukhari:3107", "bukhari:5857", "bukhari:5858", "ibnmajah:3614"], "size": 10, "parts": [4, 3, 3]}
+{"community_split": ["abudawud:3684", "bukhari:3038", "bukhari:4343", "bukhari:6124", "bukhari:7172"], "size": 11, "parts": [2, 5, 4]}
+{"community_split": ["abudawud:2772", "bukhari:3020", "bukhari:3076", "bukhari:3823", "bukhari:4355"], "size": 11, "parts": [3, 4, 4]}
+{"community_split": ["abudawud:4351", "bukhari:3017", "bukhari:6922", "ibnmajah:2535", "nasai:4059"], "size": 12, "parts": [5, 5, 2]}
+{"community_split": ["abudawud:1526", "abudawud:1527", "abudawud:1528", "bukhari:2992", "bukhari:4205"], "size": 15, "parts": [3, 3, 2, 5, 2]}
+{"community_split": ["bukhari:2935", "bukhari:6024", "bukhari:6030", "bukhari:6256", "bukhari:6395"], "size": 11, "parts": [2, 6, 3]}
+{"community_split": ["abudawud:4303", "abudawud:4304", "bukhari:2927", "bukhari:2928", "bukhari:2929"], "size": 22, "parts": [7, 8, 3, 4]}
+{"community_split": ["bukhari:2905", "bukhari:3720", "bukhari:3725", "bukhari:4055", "bukhari:4056"], "size": 24, "parts": [9, 15]}
+{"community_split": ["abudawud:2542", "bukhari:2849", "bukhari:2850", "bukhari:2852", "bukhari:3119"], "size": 29, "parts": [9, 2, 3, 15]}
+{"community_split": ["bukhari:2846", "bukhari:2847", "bukhari:2997", "bukhari:3719", "bukhari:4113"], "size": 11, "parts": [4, 7]}
+{"community_split": ["bukhari:2834", "bukhari:2835", "bukhari:2961", "bukhari:3795", "bukhari:3796"], "size": 20, "parts": [8, 5, 7]}
+{"community_split": ["abudawud:2507", "bukhari:2831", "bukhari:2832", "bukhari:4592", "bukhari:4593"], "size": 16, "parts": [5, 5, 6]}
+{"community_split": ["bukhari:2792", "bukhari:2793", "bukhari:2794", "bukhari:3250", "bukhari:6415"], "size": 20, "parts": [2, 11, 7]}
+{"community_split": ["abudawud:3317", "abudawud:3318", "abudawud:3321", "bukhari:2757", "bukhari:4676"], "size": 11, "parts": [6, 5]}
+{"community_split": ["abudawud:2862", "bukhari:2738", "ibnmajah:2699", "ibnmajah:2702", "muslim:4204"], "size": 15, "parts": [9, 3, 3]}
+{"community_split": ["bukhari:2736", "bukhari:6410", "bukhari:7392", "ibnmajah:3860", "ibnmajah:3861"], "size": 10, "parts": [3, 5, 2]}
+{"community_split": ["abudawud:4520", "abudawud:4521", "bukhari:2702", "bukhari:3173", "bukhari:6142"], "size": 27, "parts": [12, 7, 8]}
+{"community_split": ["bukhari:2653", "bukhari:5977", "bukhari:6675", "bukhari:6870", "muslim:260"], "size": 13, "parts": [5, 8]}
+{"community_split": ["abudawud:4657", "bukhari:2651", "bukhari:3650", "bukhari:6428", "bukhari:6695"], "size": 15, "parts": [3, 3, 6, 3]}
+{"community_split": ["bukhari:2645", "bukhari:5100", "ibnmajah:1938", "muslim:3581", "muslim:3582"], "size": 10, "parts": [5, 5]}
+{"community_split": ["abudawud:2057", "bukhari:2644", "bukhari:4796", "bukhari:5103", "bukhari:5239"], "size": 23, "parts": [3, 9, 11]}
+{"community_split": ["abudawud:4988", "bukhari:2627", "bukhari:2820", "bukhari:2857", "bukhari:2862"], "size": 20, "parts": [12, 8]}
+{"community_split": ["bukhari:2615", "bukhari:2616", "bukhari:3248", "bukhari:3249", "bukhari:3802"], "size": 15, "parts": [6, 7, 2]}
+{"community_split": ["abudawud:3538", "bukhari:2589", "bukhari:2621", "bukhari:2622", "bukhari:6975"], "size": 31, "parts": [12, 19]}
+{"community_split": ["abudawud:3542", "abudawud:3543", "abudawud:3545", "bukhari:2586", "bukhari:2587"], "size": 30, "parts": [11, 5, 4, 2, 8]}
+{"community_split": ["abudawud:3967", "bukhari:2517", "bukhari:6715", "muslim:3795", "muslim:3796"], "size": 9, "parts": [5, 4]}
+{"community_split": ["abudawud:3937", "abudawud:3938", "abudawud:3939", "abudawud:3940", "abudawud:3941"], "size": 39, "parts": [14, 6, 19]}
+{"community_split": ["abudawud:2821", "bukhari:2488", "bukhari:2507", "bukhari:3075", "bukhari:5498"], "size": 21, "parts": [8, 2, 6, 3, 2]}
+{"community_split": ["bukhari:2477", "bukhari:4196", "bukhari:5497", "bukhari:6148", "bukhari:6331"], "size": 9, "parts": [5, 4]}
+{"community_split": ["abudawud:4689", "bukhari:2475", "bukhari:5578", "bukhari:6772", "bukhari:6782"], "size": 17, "parts": [6, 8, 3]}
+{"community_split": ["bukhari:2468", "bukhari:4913", "bukhari:4914", "bukhari:4915", "bukhari:5191"], "size": 11, "parts": [5, 3, 3]}
+{"community_split": ["bukhari:2455", "bukhari:2489", "bukhari:2490", "bukhari:5446", "ibnmajah:3331"], "size": 9, "parts": [4, 5]}
+{"community_split": ["abudawud:1701", "abudawud:1702", "abudawud:1703", "bukhari:2426", "bukhari:2437"], "size": 11, "parts": [4, 2, 3, 2]}
+{"community_split": ["abudawud:4527", "abudawud:4528", "abudawud:4529", "abudawud:4535", "bukhari:2413"], "size": 25, "parts": [2, 11, 5, 7]}
+{"community_split": ["abudawud:4671", "bukhari:2411", "bukhari:3398", "bukhari:3408", "bukhari:3414"], "size": 17, "parts": [4, 9, 4]}
+{"community_split": ["abudawud:3519", "abudawud:3520", "abudawud:3523", "bukhari:2402", "ibnmajah:2358"], "size": 13, "parts": [7, 3, 3]}
+{"community_split": ["abudawud:1658", "abudawud:1659", "bukhari:2371", "bukhari:2860", "bukhari:3646"], "size": 13, "parts": [7, 6]}
+{"community_split": ["bukhari:2365", "bukhari:3318", "bukhari:3482", "ibnmajah:4256", "muslim:5852"], "size": 14, "parts": [4, 7, 3]}
+{"community_split": ["abudawud:3474", "abudawud:3475", "bukhari:2358", "bukhari:2369", "bukhari:2672"], "size": 13, "parts": [2, 6, 3, 2]}
+{"community_split": ["abudawud:3394", "bukhari:2343", "bukhari:2344", "ibnmajah:2453", "muslim:3915"], "size": 12, "parts": [2, 4, 3, 3]}
+{"community_split": ["bukhari:2340", "bukhari:2341", "bukhari:2632", "ibnmajah:2451", "ibnmajah:2452"], "size": 11, "parts": [5, 6]}
+{"community_split": ["abudawud:2615", "bukhari:2326", "bukhari:3021", "bukhari:4031", "bukhari:4032"], "size": 13, "parts": [6, 7]}
+{"community_split": ["bukhari:2305", "bukhari:2306", "bukhari:2390", "bukhari:2392", "bukhari:2393"], "size": 13, "parts": [2, 6, 5]}
+{"community_split": ["abudawud:2798", "bukhari:2300", "bukhari:2500", "bukhari:5547", "bukhari:5555"], "size": 11, "parts": [6, 5]}
+{"community_split": ["abudawud:2900", "abudawud:2954", "abudawud:2956", "abudawud:3343", "abudawud:3344"], "size": 21, "parts": [11, 7, 3]}
+{"community_split": ["bukhari:2296", "bukhari:2598", "bukhari:2683", "bukhari:3049", "bukhari:3137"], "size": 10, "parts": [2, 3, 5]}
+{"community_split": ["abudawud:3408", "abudawud:3409", "bukhari:2285", "bukhari:2286", "bukhari:2328"], "size": 16, "parts": [2, 6, 5, 3]}
+{"community_split": ["abudawud:3418", "abudawud:3419", "abudawud:3900", "bukhari:2276", "bukhari:5007"], "size": 12, "parts": [5, 2, 5]}
+{"community_split": ["abudawud:3464", "abudawud:3465", "abudawud:3466", "bukhari:2242", "bukhari:2243"], "size": 12, "parts": [5, 5, 2]}
+{"community_split": ["abudawud:3463", "bukhari:2239", "bukhari:2239.2", "bukhari:2240", "bukhari:2240.2"], "size": 14, "parts": [3, 3, 8]}
+{"community_split": ["abudawud:3428", "abudawud:3429", "abudawud:3479", "abudawud:3481", "abudawud:3482"], "size": 34, "parts": [16, 8, 10]}
+{"community_split": ["abudawud:2172", "bukhari:2229", "bukhari:2542", "bukhari:4138", "bukhari:5210"], "size": 16, "parts": [5, 5, 6]}
+{"community_split": ["abudawud:3486", "abudawud:3487", "bukhari:2223", "bukhari:2224", "bukhari:2236"], "size": 18, "parts": [8, 10]}
+{"community_split": ["abudawud:3514", "bukhari:2213", "bukhari:2214", "bukhari:2214.2", "bukhari:2257"], "size": 11, "parts": [9, 2]}
+{"community_split": ["abudawud:3532", "abudawud:3533", "bukhari:2211", "bukhari:2460", "bukhari:3825"], "size": 17, "parts": [5, 3, 9]}
+{"community_split": ["abudawud:3361", "bukhari:2205", "ibnmajah:2265", "muslim:3894", "muslim:3895"], "size": 9, "parts": [6, 3]}
+{"community_split": ["abudawud:3433", "abudawud:3435", "bukhari:2203", "bukhari:2204", "bukhari:2206"], "size": 20, "parts": [10, 10]}
+{"community_split": ["abudawud:3373", "bukhari:2189", "muslim:3908", "muslim:3909", "muslim:3910"], "size": 10, "parts": [4, 4, 2]}
+{"community_split": ["abudawud:3362", "abudawud:3363", "abudawud:3364", "bukhari:2188", "bukhari:2190"], "size": 35, "parts": [3, 5, 8, 10, 9]}
+{"community_split": ["abudawud:3348", "bukhari:2170", "bukhari:2174", "ibnmajah:2253", "ibnmajah:2259"], "size": 10, "parts": [5, 5]}
+{"community_split": ["abudawud:3439", "abudawud:3440", "abudawud:3442", "bukhari:2158", "bukhari:2159"], "size": 25, "parts": [7, 8, 4, 6]}
+{"community_split": ["abudawud:4469", "abudawud:4470", "abudawud:4471", "bukhari:2152", "bukhari:2153"], "size": 22, "parts": [7, 2, 13]}
+{"community_split": ["abudawud:3443", "abudawud:3444", "abudawud:3445", "bukhari:2148", "bukhari:2150"], "size": 18, "parts": [7, 4, 7]}
+{"community_split": ["abudawud:3955", "abudawud:3957", "bukhari:2141", "bukhari:2403", "bukhari:2415"], "size": 20, "parts": [6, 5, 9]}
+{"community_split": ["bukhari:2122", "bukhari:3749", "bukhari:5884", "ibnmajah:142", "muslim:6256"], "size": 9, "parts": [5, 4]}
+{"community_split": ["bukhari:2105", "bukhari:3224", "bukhari:5181", "bukhari:5951", "bukhari:5957"], "size": 15, "parts": [8, 7]}
+{"community_split": ["abudawud:3423", "bukhari:2103", "bukhari:2278", "bukhari:2279", "bukhari:2280"], "size": 11, "parts": [3, 5, 3]}
+{"community_split": ["bukhari:2077", "bukhari:2391", "ibnmajah:2420", "muslim:3993", "muslim:3994"], "size": 9, "parts": [3, 4, 2]}
+{"community_split": ["bukhari:2069", "bukhari:2508", "bukhari:2916", "bukhari:4467", "ibnmajah:2437"], "size": 11, "parts": [5, 6]}
+{"community_split": ["abudawud:5180", "abudawud:5181", "abudawud:5182", "bukhari:2062", "bukhari:6245"], "size": 12, "parts": [5, 7]}
+{"community_split": ["abudawud:2273", "bukhari:2053", "bukhari:2218", "bukhari:2421", "bukhari:2533"], "size": 23, "parts": [8, 15]}
+{"community_split": ["abudawud:2109", "bukhari:2048", "bukhari:2049", "bukhari:2293", "bukhari:3780"], "size": 27, "parts": [2, 12, 9, 4]}
+{"community_split": ["abudawud:2470", "abudawud:2471", "abudawud:4719", "abudawud:4994", "bukhari:2035"], "size": 15, "parts": [5, 5, 3, 2]}
+{"community_split": ["abudawud:2464", "bukhari:2033", "bukhari:2034", "bukhari:2041", "bukhari:2045"], "size": 10, "parts": [3, 2, 5]}
+{"community_split": ["abudawud:3325", "bukhari:2032", "bukhari:2042", "bukhari:2043", "bukhari:6697"], "size": 12, "parts": [8, 4]}
+{"community_split": ["abudawud:2462", "abudawud:2463", "abudawud:2465", "bukhari:2025", "bukhari:2026"], "size": 15, "parts": [4, 3, 8]}
+{"community_split": ["abudawud:1382", "bukhari:2016", "bukhari:2018", "bukhari:2027", "bukhari:2036"], "size": 14, "parts": [6, 2, 6]}
+{"community_split": ["abudawud:2444", "bukhari:2004", "bukhari:2005", "bukhari:3397", "bukhari:3942"], "size": 15, "parts": [5, 4, 4, 2]}
+{"community_split": ["bukhari:1982", "bukhari:6334", "bukhari:6344", "bukhari:6378", "bukhari:6379"], "size": 14, "parts": [8, 3, 3]}
+{"community_split": ["bukhari:1977", "bukhari:1979", "bukhari:3419", "muslim:2734", "muslim:2735"], "size": 9, "parts": [5, 4]}
+{"community_split": ["abudawud:2336", "abudawud:2430", "abudawud:2434", "abudawud:2435", "abudawud:2437"], "size": 50, "parts": [7, 9, 4, 10, 5, 8, 7]}
+{"community_split": ["abudawud:3310", "bukhari:1953", "ibnmajah:1758", "muslim:2693", "muslim:2694"], "size": 9, "parts": [5, 4]}
+{"community_split": ["abudawud:2404", "bukhari:1948", "bukhari:4279", "ibnmajah:1661", "muslim:2608"], "size": 10, "parts": [3, 7]}
+{"community_split": ["abudawud:2407", "bukhari:1946", "ibnmajah:1664", "ibnmajah:1665", "muslim:2612"], "size": 15, "parts": [7, 6, 2]}
+{"community_split": ["abudawud:2402", "bukhari:1942", "bukhari:1943", "ibnmajah:1662", "muslim:2625"], "size": 24, "parts": [8, 6, 10]}
+{"community_split": ["abudawud:2351", "abudawud:2352", "bukhari:1941", "bukhari:1954", "bukhari:1955"], "size": 14, "parts": [8, 2, 4]}
+{"community_split": ["abudawud:2390", "abudawud:2391", "abudawud:2392", "bukhari:1936", "bukhari:1937"], "size": 21, "parts": [8, 5, 8]}
+{"community_split": ["abudawud:2382", "abudawud:2383", "abudawud:2384", "abudawud:2386", "bukhari:1927"], "size": 27, "parts": [2, 4, 12, 9]}
+{"community_split": ["abudawud:2388", "bukhari:1925", "bukhari:1926", "bukhari:1930", "bukhari:1931"], "size": 14, "parts": [4, 3, 4, 3]}
+{"community_split": ["abudawud:2360", "abudawud:2361", "bukhari:1922", "bukhari:1961", "bukhari:1962"], "size": 22, "parts": [6, 7, 9]}
+{"community_split": ["abudawud:2327", "abudawud:2335", "bukhari:1914", "ibnmajah:1650", "muslim:2518"], "size": 11, "parts": [4, 4, 3]}
+{"community_split": ["abudawud:2046", "bukhari:1905", "bukhari:4931", "bukhari:5065", "bukhari:5066"], "size": 21, "parts": [8, 9, 2, 2]}
+{"community_split": ["abudawud:2363", "bukhari:1904", "bukhari:7492", "ibnmajah:1638", "ibnmajah:1691"], "size": 18, "parts": [10, 4, 4]}
+{"community_split": ["abudawud:2319", "bukhari:1908", "bukhari:1913", "bukhari:5302", "ibnmajah:1657"], "size": 21, "parts": [7, 8, 6]}
+{"community_split": ["bukhari:1900", "bukhari:1906", "bukhari:1907", "bukhari:1909", "ibnmajah:1654"], "size": 26, "parts": [6, 2, 6, 12]}
+{"community_split": ["bukhari:1897", "bukhari:2841", "bukhari:3216", "bukhari:3666", "muslim:2371"], "size": 12, "parts": [8, 4]}
+{"community_split": ["bukhari:1877", "ibnmajah:3114", "muslim:3319", "muslim:3358", "muslim:3359"], "size": 9, "parts": [2, 2, 3, 2]}
+{"community_split": ["abudawud:2034", "abudawud:5114", "abudawud:5115", "bukhari:1867", "bukhari:1870"], "size": 24, "parts": [11, 3, 10]}
+{"community_split": ["abudawud:3301", "bukhari:1865", "bukhari:6701", "ibnmajah:2135", "muslim:4247"], "size": 10, "parts": [7, 3]}
+{"community_split": ["abudawud:4584", "bukhari:1848", "bukhari:2265", "bukhari:2266", "bukhari:2973"], "size": 32, "parts": [12, 11, 9]}
+{"community_split": ["abudawud:2685", "bukhari:1846", "bukhari:3044", "bukhari:4286", "bukhari:5808"], "size": 10, "parts": [3, 7]}
+{"community_split": ["abudawud:1829", "bukhari:1841", "bukhari:1843", "bukhari:5804", "bukhari:5853"], "size": 17, "parts": [5, 9, 3]}
+{"community_split": ["abudawud:1836", "abudawud:1837", "abudawud:2373", "abudawud:2378", "bukhari:1835"], "size": 29, "parts": [8, 8, 4, 9]}
+{"community_split": ["abudawud:1846", "abudawud:1847", "abudawud:1848", "bukhari:1826", "bukhari:1827"], "size": 43, "parts": [22, 21]}
+{"community_split": ["bukhari:1825", "bukhari:2573", "bukhari:2596", "ibnmajah:3090", "muslim:2845"], "size": 14, "parts": [3, 7, 4]}
+{"community_split": ["abudawud:1856", "abudawud:1857", "abudawud:1858", "abudawud:1860", "bukhari:1814"], "size": 30, "parts": [5, 6, 9, 10]}
+{"community_split": ["abudawud:2008", "bukhari:1765", "bukhari:1766", "ibnmajah:3067", "muslim:3169"], "size": 9, "parts": [3, 6]}
+{"community_split": ["abudawud:1974", "bukhari:1747", "bukhari:1748", "bukhari:1749", "bukhari:1750"], "size": 15, "parts": [4, 6, 5]}
+{"community_split": ["abudawud:1979", "bukhari:1727", "bukhari:1728", "bukhari:1729", "bukhari:4411"], "size": 15, "parts": [6, 2, 5, 2]}
+{"community_split": ["abudawud:1783", "bukhari:1709", "bukhari:1720", "bukhari:1721", "bukhari:2952"], "size": 10, "parts": [6, 4]}
+{"community_split": ["abudawud:1769", "bukhari:1707", "bukhari:1716", "bukhari:1717", "bukhari:1718"], "size": 11, "parts": [4, 4, 3]}
+{"community_split": ["abudawud:1757", "abudawud:1758", "abudawud:1759", "bukhari:1696", "bukhari:1698"], "size": 44, "parts": [11, 5, 4, 8, 16]}
+{"community_split": ["abudawud:1926", "abudawud:1927", "abudawud:1928", "abudawud:1929", "abudawud:1930"], "size": 37, "parts": [19, 4, 11, 3]}
+{"community_split": ["abudawud:2441", "bukhari:1658", "bukhari:1661", "bukhari:1988", "bukhari:1989"], "size": 14, "parts": [6, 8]}
+{"community_split": ["abudawud:1901", "bukhari:1643", "bukhari:1648", "bukhari:1790", "bukhari:4495"], "size": 17, "parts": [6, 4, 7]}
+{"community_split": ["abudawud:1877", "abudawud:1878", "abudawud:1880", "abudawud:1881", "bukhari:1607"], "size": 16, "parts": [9, 3, 4]}
+{"community_split": ["abudawud:1891", "bukhari:1603", "bukhari:1604", "ibnmajah:2950", "ibnmajah:2951"], "size": 17, "parts": [3, 5, 6, 3]}
+{"community_split": ["abudawud:2442", "abudawud:2443", "bukhari:1592", "bukhari:1893", "bukhari:2000"], "size": 23, "parts": [7, 7, 5, 4]}
+{"community_split": ["abudawud:2010", "abudawud:2910", "bukhari:1589", "bukhari:1590", "bukhari:3058"], "size": 15, "parts": [7, 6, 2]}
+{"community_split": ["abudawud:2909", "bukhari:1588", "bukhari:4282", "bukhari:4283", "bukhari:6764"], "size": 10, "parts": [5, 5]}
+{"community_split": ["bukhari:1571", "bukhari:4518", "muslim:2974", "muslim:2975", "muslim:2976"], "size": 13, "parts": [2, 5, 3, 3]}
+{"community_split": ["bukhari:1559", "bukhari:1724", "bukhari:1795", "bukhari:4397", "muslim:2957"], "size": 9, "parts": [5, 4]}
+{"community_split": ["abudawud:1812", "abudawud:3921", "abudawud:3922", "bukhari:1549", "bukhari:1550"], "size": 44, "parts": [11, 12, 8, 7, 2, 4]}
+{"community_split": ["abudawud:1815", "bukhari:1543", "bukhari:1544", "bukhari:1685", "bukhari:1686"], "size": 16, "parts": [9, 4, 3]}
+{"community_split": ["abudawud:1745", "bukhari:1539", "bukhari:1754", "bukhari:5922", "bukhari:5923"], "size": 31, "parts": [4, 9, 8, 10]}
+{"community_split": ["abudawud:1819", "abudawud:1822", "bukhari:1536", "bukhari:1789", "bukhari:1847"], "size": 14, "parts": [5, 4, 5]}
+{"community_split": ["abudawud:1614", "abudawud:1616", "abudawud:1618", "bukhari:1506", "bukhari:1508"], "size": 20, "parts": [9, 2, 9]}
+{"community_split": ["abudawud:1610", "abudawud:1611", "abudawud:1612", "abudawud:1613", "abudawud:1622"], "size": 34, "parts": [8, 9, 7, 4, 6]}
+{"community_split": ["abudawud:4120", "abudawud:4121", "bukhari:1492", "bukhari:2221", "bukhari:5531"], "size": 19, "parts": [7, 8, 4]}
+{"community_split": ["abudawud:1593", "bukhari:1489", "bukhari:1490", "bukhari:2623", "bukhari:2636"], "size": 22, "parts": [14, 8]}
+{"community_split": ["abudawud:5206", "abudawud:5207", "bukhari:6257", "bukhari:6258", "bukhari:6928"], "size": 10, "parts": [5, 5]}
+{"community_split": ["abudawud:2074", "abudawud:2081", "abudawud:2844", "abudawud:3367", "abudawud:3370"], "size": 172, "parts": [4, 11, 35, 26, 15, 29, 9, 4, 27, 12]}
+{"community_split": ["bukhari:1473", "bukhari:7163", "bukhari:7164", "muslim:2405", "muslim:2406"], "size": 9, "parts": [5, 4]}
+{"community_split": ["bukhari:1470", "bukhari:1471", "bukhari:1480", "bukhari:2074", "bukhari:2075"], "size": 14, "parts": [5, 4, 3, 2]}
+{"community_split": ["abudawud:1676", "bukhari:1426", "bukhari:1427", "bukhari:1428", "bukhari:5355"], "size": 10, "parts": [4, 2, 4]}
+{"community_split": ["bukhari:1417", "bukhari:6023", "bukhari:6539", "bukhari:6540", "bukhari:6563"], "size": 16, "parts": [3, 6, 7]}
+{"community_split": ["abudawud:1584", "bukhari:1395", "bukhari:1458", "bukhari:1496", "bukhari:2448"], "size": 16, "parts": [6, 6, 4]}
+{"community_split": ["abudawud:2881", "bukhari:1388", "bukhari:2760", "ibnmajah:2717", "muslim:2326"], "size": 11, "parts": [7, 2, 2]}
+{"community_split": ["abudawud:1539", "abudawud:1540", "abudawud:1542", "abudawud:983", "abudawud:984"], "size": 67, "parts": [16, 15, 8, 11, 17]}
+{"community_split": ["abudawud:4329", "bukhari:1354", "bukhari:1355", "bukhari:3055", "bukhari:6172"], "size": 14, "parts": [4, 3, 5, 2]}
+{"community_split": ["abudawud:2017", "bukhari:1349", "bukhari:1587", "bukhari:1833", "bukhari:1834"], "size": 14, "parts": [8, 6]}
+{"community_split": ["abudawud:3231", "bukhari:1338", "bukhari:1374", "muslim:7216", "muslim:7217"], "size": 9, "parts": [4, 5]}
+{"community_split": ["abudawud:4446", "abudawud:4455", "bukhari:1329", "bukhari:3635", "bukhari:4556"], "size": 14, "parts": [7, 2, 5]}
+{"community_split": ["abudawud:2864", "bukhari:1295", "bukhari:2742", "bukhari:2743", "bukhari:2744"], "size": 29, "parts": [9, 10, 5, 5]}
+{"community_split": ["abudawud:3129", "bukhari:1289", "bukhari:1290", "bukhari:1291", "bukhari:1292"], "size": 37, "parts": [10, 4, 9, 4, 10]}
+{"community_split": ["abudawud:3124", "bukhari:1283", "bukhari:1302", "bukhari:7154", "ibnmajah:1596"], "size": 11, "parts": [6, 5]}
+{"community_split": ["abudawud:2299", "bukhari:1280", "bukhari:1281", "bukhari:1282", "bukhari:5334"], "size": 30, "parts": [7, 7, 16]}
+{"community_split": ["bukhari:1269", "bukhari:1366", "bukhari:4670", "bukhari:4671", "bukhari:4672"], "size": 16, "parts": [4, 2, 2, 8]}
+{"community_split": ["abudawud:3238", "abudawud:3239", "abudawud:3240", "abudawud:3241", "bukhari:1265"], "size": 33, "parts": [14, 3, 12, 4]}
+{"community_split": ["abudawud:3151", "abudawud:3152", "bukhari:1264", "bukhari:1271", "bukhari:1272"], "size": 14, "parts": [3, 2, 9]}
+{"community_split": ["abudawud:3204", "bukhari:1245", "bukhari:1318", "bukhari:1327", "bukhari:1328"], "size": 32, "parts": [7, 8, 7, 10]}
+{"community_split": ["bukhari:1239", "bukhari:2445", "bukhari:5175", "bukhari:5635", "bukhari:5650"], "size": 18, "parts": [6, 5, 7]}
+{"community_split": ["abudawud:1030", "abudawud:1031", "abudawud:1032", "bukhari:1232", "ibnmajah:1204"], "size": 12, "parts": [2, 3, 7]}
+{"community_split": ["abudawud:2040", "bukhari:1193", "bukhari:1194", "bukhari:7326", "muslim:3389"], "size": 13, "parts": [3, 4, 2, 4]}
+{"community_split": ["bukhari:1190", "ibnmajah:1404", "ibnmajah:1405", "ibnmajah:1406", "muslim:3374"], "size": 19, "parts": [8, 7, 4]}
+{"community_split": ["abudawud:2033", "bukhari:1189", "bukhari:1197", "bukhari:1864", "bukhari:1995"], "size": 12, "parts": [3, 3, 6]}
+{"community_split": ["abudawud:1432", "abudawud:1433", "abudawud:2450", "bukhari:1178", "bukhari:1981"], "size": 18, "parts": [9, 4, 5]}
+{"community_split": ["abudawud:1315", "abudawud:4733", "bukhari:1145", "bukhari:6321", "bukhari:7494"], "size": 12, "parts": [2, 3, 7]}
+{"community_split": ["abudawud:1334", "abudawud:1360", "bukhari:1138", "bukhari:1140", "ibnmajah:1174"], "size": 17, "parts": [4, 2, 6, 5]}
+{"community_split": ["bukhari:1121", "bukhari:1122", "bukhari:3738", "bukhari:3739", "bukhari:3740"], "size": 16, "parts": [4, 8, 2, 2]}
+{"community_split": ["abudawud:953", "abudawud:954", "bukhari:1118", "bukhari:1119", "bukhari:1148"], "size": 14, "parts": [5, 5, 4]}
+{"community_split": ["abudawud:1208", "abudawud:1218", "abudawud:1219", "abudawud:1220", "bukhari:1111"], "size": 10, "parts": [6, 4]}
+{"community_split": ["bukhari:1106", "bukhari:1107", "bukhari:1108", "bukhari:1109", "bukhari:1110"], "size": 17, "parts": [5, 7, 5]}
+{"community_split": ["abudawud:1202", "abudawud:1773", "abudawud:1796", "bukhari:1089", "bukhari:1546"], "size": 16, "parts": [4, 3, 3, 6]}
+{"community_split": ["abudawud:1723", "abudawud:1724", "abudawud:1725", "abudawud:1726", "abudawud:1727"], "size": 28, "parts": [6, 9, 13]}
+{"community_split": ["bukhari:1085", "bukhari:1564", "bukhari:3832", "muslim:2994", "muslim:3009"], "size": 11, "parts": [4, 4, 3]}
+{"community_split": ["abudawud:1965", "bukhari:1082", "bukhari:1083", "bukhari:1655", "bukhari:1656"], "size": 17, "parts": [2, 4, 6, 5]}
+{"community_split": ["abudawud:1233", "bukhari:1081", "bukhari:5406", "ibnmajah:1067", "ibnmajah:1077"], "size": 12, "parts": [5, 7]}
+{"community_split": ["abudawud:1180", "bukhari:1046", "bukhari:1047", "bukhari:1058", "bukhari:1212"], "size": 11, "parts": [5, 6]}
+{"community_split": ["abudawud:1191", "bukhari:1040", "bukhari:1041", "bukhari:1042", "bukhari:1043"], "size": 25, "parts": [14, 3, 8]}
+{"community_split": ["abudawud:1170", "abudawud:1171", "bukhari:1030", "bukhari:1031", "bukhari:3565"], "size": 13, "parts": [5, 2, 6]}
+{"community_split": ["bukhari:1007", "bukhari:1020", "bukhari:4693", "bukhari:4767", "bukhari:4774"], "size": 17, "parts": [7, 5, 5]}
+{"community_split": ["abudawud:1161", "abudawud:1162", "abudawud:1166", "abudawud:1167", "bukhari:1005"], "size": 27, "parts": [10, 8, 9]}
+{"community_split": ["abudawud:1443", "abudawud:1445", "bukhari:1003", "bukhari:3064", "bukhari:4089"], "size": 16, "parts": [5, 5, 4, 2]}
+{"community_split": ["abudawud:1816", "bukhari:1659", "bukhari:970", "ibnmajah:3008", "muslim:3095"], "size": 12, "parts": [5, 3, 4]}
+{"community_split": ["abudawud:2800", "abudawud:2801", "bukhari:5545", "bukhari:5556", "bukhari:5557"], "size": 25, "parts": [5, 3, 5, 9, 3]}
+{"community_split": ["abudawud:2054", "bukhari:4200", "bukhari:4201", "bukhari:5086", "bukhari:5169"], "size": 11, "parts": [4, 2, 5]}
+{"community_split": ["abudawud:1243", "bukhari:4132", "bukhari:4133", "bukhari:4134", "bukhari:942"], "size": 14, "parts": [3, 6, 5]}
+{"community_split": ["bukhari:5294", "bukhari:6400", "bukhari:935", "ibnmajah:1137", "ibnmajah:1138"], "size": 16, "parts": [8, 5, 3]}
+{"community_split": ["abudawud:1174", "abudawud:1175", "bukhari:1013", "bukhari:1014", "bukhari:1015"], "size": 24, "parts": [2, 9, 4, 9]}
+{"community_split": ["abudawud:1115", "abudawud:1116", "abudawud:1117", "bukhari:1170", "bukhari:930"], "size": 21, "parts": [4, 3, 6, 8]}
+{"community_split": ["bukhari:3211", "bukhari:929", "ibnmajah:1092", "muslim:1984", "muslim:1985"], "size": 9, "parts": [5, 2, 2]}
+{"community_split": ["abudawud:1093", "abudawud:1095", "bukhari:920", "ibnmajah:1105", "muslim:1994"], "size": 11, "parts": [6, 5]}
+{"community_split": ["abudawud:1087", "abudawud:1089", "abudawud:1090", "bukhari:912", "bukhari:913"], "size": 11, "parts": [5, 6]}
+{"community_split": ["abudawud:4828", "bukhari:6269", "bukhari:6270", "bukhari:911", "muslim:5683"], "size": 12, "parts": [2, 6, 4]}
+{"community_split": ["abudawud:1086", "bukhari:2349", "bukhari:5403", "bukhari:6248", "bukhari:6279"], "size": 13, "parts": [3, 6, 4]}
+{"community_split": ["abudawud:46", "abudawud:47", "bukhari:7240", "bukhari:887", "ibnmajah:287"], "size": 13, "parts": [3, 6, 4]}
+{"community_split": ["abudawud:1076", "abudawud:4040", "bukhari:2104", "bukhari:2612", "bukhari:2619"], "size": 16, "parts": [8, 4, 4]}
+{"community_split": ["abudawud:340", "bukhari:877", "bukhari:878", "bukhari:882", "bukhari:894"], "size": 18, "parts": [7, 11]}
+{"community_split": ["bukhari:3486", "bukhari:3487", "bukhari:6624", "bukhari:876", "bukhari:896"], "size": 11, "parts": [5, 4, 2]}
+{"community_split": ["abudawud:568", "bukhari:5238", "bukhari:865", "bukhari:873", "bukhari:899"], "size": 14, "parts": [2, 4, 4, 4]}
+{"community_split": ["abudawud:341", "abudawud:344", "bukhari:2665", "bukhari:858", "bukhari:879"], "size": 13, "parts": [7, 6]}
+{"community_split": ["abudawud:3196", "bukhari:1319", "bukhari:1322", "bukhari:1336", "bukhari:857"], "size": 11, "parts": [4, 2, 5]}
+{"community_split": ["abudawud:3825", "abudawud:3827", "bukhari:5451", "bukhari:853", "bukhari:854"], "size": 14, "parts": [5, 6, 3]}
+{"community_split": ["abudawud:1505", "bukhari:6330", "bukhari:6473", "bukhari:6615", "bukhari:7292"], "size": 14, "parts": [4, 8, 2]}
+{"community_split": ["abudawud:880", "bukhari:2397", "bukhari:7129", "bukhari:832", "bukhari:833"], "size": 12, "parts": [3, 5, 4]}
+{"community_split": ["abudawud:2118", "abudawud:2119", "abudawud:968", "abudawud:971", "abudawud:972"], "size": 57, "parts": [19, 3, 9, 8, 18]}
+{"community_split": ["abudawud:889", "abudawud:890", "bukhari:809", "bukhari:810", "bukhari:812"], "size": 22, "parts": [5, 9, 8]}
+{"community_split": ["abudawud:1442", "bukhari:1006", "bukhari:2932", "bukhari:3386", "bukhari:4598"], "size": 16, "parts": [10, 4, 2]}
+{"community_split": ["abudawud:763", "abudawud:770", "abudawud:773", "bukhari:799", "muslim:1357"], "size": 9, "parts": [3, 3, 3]}
+{"community_split": ["abudawud:852", "abudawud:854", "bukhari:792", "bukhari:801", "bukhari:820"], "size": 11, "parts": [6, 2, 3]}
+{"community_split": ["abudawud:867", "bukhari:790", "ibnmajah:873", "muslim:1194", "muslim:1195"], "size": 9, "parts": [4, 5]}
+{"community_split": ["abudawud:836", "bukhari:789", "bukhari:803", "muslim:868", "muslim:869"], "size": 10, "parts": [5, 5]}
+{"community_split": ["abudawud:848", "abudawud:935", "abudawud:936", "bukhari:3228", "bukhari:4475"], "size": 34, "parts": [2, 11, 5, 6, 10]}
+{"community_split": ["bukhari:4996", "bukhari:5043", "bukhari:775", "muslim:1908", "muslim:1909"], "size": 13, "parts": [2, 2, 4, 5]}
+{"community_split": ["abudawud:1407", "abudawud:1408", "bukhari:1074", "bukhari:1078", "bukhari:766"], "size": 26, "parts": [12, 14]}
+{"community_split": ["abudawud:810", "abudawud:811", "bukhari:3050", "bukhari:4023", "bukhari:4429"], "size": 16, "parts": [3, 4, 5, 4]}
+{"community_split": ["abudawud:798", "abudawud:799", "bukhari:759", "bukhari:762", "bukhari:776"], "size": 15, "parts": [3, 3, 7, 2]}
+{"community_split": ["abudawud:856", "abudawud:857", "abudawud:858", "bukhari:6251", "bukhari:6252"], "size": 19, "parts": [9, 5, 5]}
+{"community_split": ["abudawud:822", "abudawud:823", "bukhari:756", "ibnmajah:837", "ibnmajah:840"], "size": 15, "parts": [3, 3, 5, 4]}
+{"community_split": ["abudawud:803", "bukhari:755", "bukhari:758", "bukhari:770", "muslim:1016"], "size": 10, "parts": [2, 6, 2]}
+{"community_split": ["abudawud:781", "bukhari:744", "ibnmajah:805", "muslim:1354", "nasai:333"], "size": 10, "parts": [4, 6]}
+{"community_split": ["abudawud:782", "bukhari:743", "ibnmajah:812", "ibnmajah:813", "ibnmajah:814"], "size": 10, "parts": [4, 6]}
+{"community_split": ["abudawud:721", "abudawud:722", "abudawud:730", "abudawud:738", "abudawud:741"], "size": 58, "parts": [16, 4, 6, 5, 20, 7]}
+{"community_split": ["abudawud:794", "abudawud:795", "bukhari:703", "muslim:1046", "muslim:1047"], "size": 10, "parts": [7, 3]}
+{"community_split": ["abudawud:599", "abudawud:600", "abudawud:790", "bukhari:6106", "bukhari:700"], "size": 18, "parts": [3, 8, 7]}
+{"community_split": ["abudawud:620", "abudawud:621", "abudawud:622", "bukhari:690", "bukhari:690.2"], "size": 13, "parts": [2, 6, 5]}
+{"community_split": ["abudawud:601", "abudawud:603", "abudawud:604", "abudawud:605", "bukhari:1113"], "size": 35, "parts": [8, 16, 11]}
+{"community_split": ["abudawud:939", "abudawud:940", "abudawud:941", "abudawud:944", "bukhari:1201"], "size": 30, "parts": [12, 15, 3]}
+{"community_split": ["abudawud:3757", "bukhari:5463", "bukhari:5464", "bukhari:5465", "bukhari:671"], "size": 18, "parts": [3, 9, 6]}
+{"community_split": ["abudawud:560", "bukhari:645", "bukhari:646", "bukhari:649", "ibnmajah:786"], "size": 20, "parts": [6, 7, 7]}
+{"community_split": ["abudawud:548", "bukhari:2420", "bukhari:644", "bukhari:657", "bukhari:7224"], "size": 12, "parts": [5, 4, 3]}
+{"community_split": ["abudawud:572", "abudawud:573", "bukhari:635", "bukhari:636", "ibnmajah:775"], "size": 15, "parts": [8, 4, 3]}
+{"community_split": ["abudawud:1060", "abudawud:1061", "abudawud:1062", "abudawud:1063", "abudawud:1064"], "size": 12, "parts": [5, 5, 2]}
+{"community_split": ["abudawud:1263", "bukhari:1160", "bukhari:1161", "bukhari:1162", "bukhari:626"], "size": 11, "parts": [3, 5, 3]}
+{"community_split": ["abudawud:1335", "abudawud:1336", "abudawud:1337", "bukhari:1123", "bukhari:618"], "size": 49, "parts": [10, 12, 8, 6, 6, 7]}
+{"community_split": ["abudawud:535", "bukhari:1918", "bukhari:1919", "bukhari:2656", "bukhari:617"], "size": 22, "parts": [9, 6, 5, 2]}
+{"community_split": ["abudawud:1066", "bukhari:616", "bukhari:668", "bukhari:901", "muslim:1604"], "size": 10, "parts": [3, 4, 3]}
+{"community_split": ["abudawud:516", "bukhari:1222", "bukhari:1231", "bukhari:3285", "bukhari:608"], "size": 13, "parts": [8, 5]}
+{"community_split": ["abudawud:508", "bukhari:3457", "bukhari:603", "bukhari:605", "bukhari:606"], "size": 14, "parts": [9, 5]}
+{"community_split": ["abudawud:442", "bukhari:597", "ibnmajah:695", "ibnmajah:696", "ibnmajah:698"], "size": 17, "parts": [6, 3, 2, 6]}
+{"community_split": ["abudawud:1279", "bukhari:591", "bukhari:592", "bukhari:593", "muslim:1935"], "size": 11, "parts": [5, 3, 3]}
+{"community_split": ["bukhari:1629", "bukhari:582", "bukhari:583", "bukhari:585", "muslim:1924"], "size": 11, "parts": [4, 2, 5]}
+{"community_split": ["abudawud:1276", "abudawud:3345", "abudawud:3377", "abudawud:3378", "abudawud:3379"], "size": 82, "parts": [18, 11, 11, 18, 17, 7]}
+{"community_split": ["bukhari:1134", "bukhari:1921", "bukhari:575", "bukhari:576", "ibnmajah:1694"], "size": 12, "parts": [3, 2, 7]}
+{"community_split": ["bukhari:572", "bukhari:5869", "bukhari:600", "bukhari:661", "bukhari:847"], "size": 13, "parts": [5, 6, 2]}
+{"community_split": ["abudawud:199", "bukhari:570", "bukhari:571", "bukhari:7239", "muslim:1445"], "size": 10, "parts": [4, 2, 2, 2]}
+{"community_split": ["abudawud:4729", "bukhari:4851", "bukhari:554", "bukhari:573", "bukhari:7434"], "size": 13, "parts": [7, 4, 2]}
+{"community_split": ["abudawud:404", "bukhari:550", "bukhari:551", "bukhari:7329", "ibnmajah:682"], "size": 11, "parts": [8, 3]}
+{"community_split": ["abudawud:1210", "abudawud:1211", "abudawud:1214", "bukhari:1174", "bukhari:543"], "size": 16, "parts": [5, 3, 5, 3]}
+{"community_split": ["abudawud:398", "abudawud:4849", "bukhari:541", "bukhari:547", "bukhari:568"], "size": 14, "parts": [4, 6, 4]}
+{"community_split": ["bukhari:540", "bukhari:6362", "bukhari:7089", "bukhari:7294", "bukhari:7295"], "size": 10, "parts": [3, 4, 3]}
+{"community_split": ["abudawud:401", "abudawud:402", "bukhari:3258", "bukhari:3259", "bukhari:3260"], "size": 32, "parts": [17, 7, 8]}
+{"community_split": ["abudawud:897", "abudawud:901", "bukhari:532", "bukhari:822", "ibnmajah:891"], "size": 13, "parts": [5, 8]}
+{"community_split": ["abudawud:426", "bukhari:2782", "bukhari:527", "bukhari:5970", "bukhari:7534"], "size": 15, "parts": [6, 4, 5]}
+{"community_split": ["abudawud:394", "bukhari:3221", "bukhari:4007", "bukhari:521", "bukhari:522"], "size": 9, "parts": [4, 5]}
+{"community_split": ["abudawud:687", "bukhari:494", "bukhari:498", "bukhari:972", "bukhari:973"], "size": 10, "parts": [4, 4, 2]}
+{"community_split": ["abudawud:1008", "abudawud:1009", "abudawud:1014", "abudawud:1017", "abudawud:1018"], "size": 41, "parts": [8, 6, 7, 9, 6, 5]}
+{"community_split": ["abudawud:1295", "abudawud:1326", "abudawud:1421", "abudawud:1438", "bukhari:1137"], "size": 39, "parts": [19, 5, 6, 9]}
+{"community_split": ["abudawud:2023", "abudawud:2024", "abudawud:2025", "bukhari:1598", "bukhari:2988"], "size": 22, "parts": [10, 6, 6]}
+{"community_split": ["bukhari:3654", "bukhari:3657", "bukhari:3904", "bukhari:466", "bukhari:467"], "size": 9, "parts": [3, 6]}
+{"community_split": ["abudawud:2915", "abudawud:2916", "abudawud:3929", "abudawud:3930", "bukhari:1493"], "size": 61, "parts": [9, 11, 5, 12, 20, 4]}
+{"community_split": ["abudawud:5013", "abudawud:5014", "bukhari:3212", "bukhari:453", "bukhari:6152"], "size": 9, "parts": [3, 4, 2]}
+{"community_split": ["bukhari:450", "ibnmajah:735", "ibnmajah:736", "ibnmajah:737", "ibnmajah:738"], "size": 12, "parts": [6, 6]}
+{"community_split": ["abudawud:469", "abudawud:470", "abudawud:471", "bukhari:3229", "bukhari:445"], "size": 14, "parts": [5, 4, 5]}
+{"community_split": ["abudawud:3227", "bukhari:1330", "bukhari:1390", "bukhari:3453", "bukhari:3454"], "size": 20, "parts": [6, 4, 10]}
+{"community_split": ["abudawud:2245", "abudawud:2248", "bukhari:423", "bukhari:4745", "bukhari:5259"], "size": 13, "parts": [3, 5, 5]}
+{"community_split": ["abudawud:478", "bukhari:1214", "bukhari:413", "bukhari:416", "bukhari:531"], "size": 9, "parts": [6, 3]}
+{"community_split": ["abudawud:1019", "abudawud:1021", "abudawud:1022", "bukhari:1226", "bukhari:404"], "size": 19, "parts": [10, 9]}
+{"community_split": ["abudawud:1020", "bukhari:401", "bukhari:6671", "ibnmajah:1211", "muslim:1274"], "size": 12, "parts": [7, 5]}
+{"community_split": ["abudawud:1871", "bukhari:1623", "bukhari:1624", "bukhari:1627", "bukhari:1645"], "size": 17, "parts": [8, 9]}
+{"community_split": ["abudawud:154", "bukhari:387", "ibnmajah:543", "muslim:622", "muslim:623"], "size": 11, "parts": [4, 3, 4]}
+{"community_split": ["abudawud:711", "bukhari:383", "bukhari:384", "bukhari:512", "bukhari:515"], "size": 11, "parts": [5, 6]}
+{"community_split": ["abudawud:4080", "abudawud:4081", "bukhari:367", "bukhari:368", "bukhari:5819"], "size": 14, "parts": [8, 4, 2]}
+{"community_split": ["abudawud:625", "abudawud:629", "bukhari:358", "bukhari:365", "ibnmajah:1047"], "size": 9, "parts": [4, 5]}
+{"community_split": ["abudawud:627", "abudawud:628", "abudawud:631", "bukhari:353", "bukhari:354"], "size": 23, "parts": [8, 10, 5]}
+{"community_split": ["abudawud:322", "abudawud:324", "abudawud:325", "bukhari:338", "bukhari:341"], "size": 13, "parts": [3, 5, 3, 2]}
+{"community_split": ["abudawud:656", "bukhari:333", "bukhari:379", "bukhari:381", "bukhari:518"], "size": 11, "parts": [7, 4]}
+{"community_split": ["abudawud:2003", "bukhari:1561", "bukhari:1733", "bukhari:1757", "bukhari:1762"], "size": 25, "parts": [8, 4, 4, 9]}
+{"community_split": ["abudawud:1136", "bukhari:1652", "bukhari:324", "bukhari:351", "bukhari:974"], "size": 16, "parts": [7, 7, 2]}
+{"community_split": ["abudawud:262", "abudawud:263", "bukhari:321", "ibnmajah:1670", "ibnmajah:631"], "size": 12, "parts": [5, 3, 4]}
+{"community_split": ["abudawud:1778", "abudawud:1781", "bukhari:1556", "bukhari:1638", "bukhari:1783"], "size": 19, "parts": [7, 2, 2, 8]}
+{"community_split": ["abudawud:314", "bukhari:314", "bukhari:315", "ibnmajah:642", "muslim:748"], "size": 10, "parts": [3, 3, 4]}
+{"community_split": ["abudawud:2302", "abudawud:2303", "bukhari:313", "bukhari:5341", "ibnmajah:2087"], "size": 9, "parts": [3, 2, 4]}
+{"community_split": ["abudawud:2167", "abudawud:268", "bukhari:302", "bukhari:303", "ibnmajah:635"], "size": 13, "parts": [3, 5, 2, 3]}
+{"community_split": ["abudawud:260", "bukhari:297", "bukhari:7549", "ibnmajah:634", "muslim:693"], "size": 9, "parts": [5, 4]}
+{"community_split": ["abudawud:2467", "abudawud:2468", "abudawud:2469", "bukhari:2028", "bukhari:2029"], "size": 27, "parts": [7, 2, 6, 9, 3]}
+{"community_split": ["abudawud:222", "abudawud:223", "abudawud:224", "bukhari:288", "ibnmajah:584"], "size": 16, "parts": [6, 3, 7]}
+{"community_split": ["abudawud:230", "abudawud:231", "bukhari:283", "bukhari:285", "ibnmajah:534"], "size": 12, "parts": [4, 4, 4]}
+{"community_split": ["abudawud:239", "bukhari:254", "ibnmajah:575", "ibnmajah:577", "muslim:740"], "size": 9, "parts": [5, 4]}
+{"community_split": ["abudawud:238", "abudawud:77", "abudawud:98", "abudawud:99", "bukhari:250"], "size": 35, "parts": [14, 8, 3, 10]}
+{"community_split": ["abudawud:245", "bukhari:249", "bukhari:257", "bukhari:259", "bukhari:260"], "size": 19, "parts": [10, 6, 3]}
+{"community_split": ["abudawud:242", "bukhari:248", "bukhari:272", "bukhari:273", "muslim:718"], "size": 13, "parts": [3, 3, 7]}
+{"community_split": ["abudawud:5046", "bukhari:247", "bukhari:6311", "bukhari:6315", "bukhari:7488"], "size": 14, "parts": [2, 6, 6]}
+{"community_split": ["abudawud:3682", "bukhari:242", "bukhari:5585", "bukhari:5586", "bukhari:5598"], "size": 16, "parts": [7, 3, 3, 3]}
+{"community_split": ["bukhari:240", "bukhari:2934", "bukhari:3185", "bukhari:3854", "bukhari:3960"], "size": 11, "parts": [4, 2, 5]}
+{"community_split": ["bukhari:237", "bukhari:2803", "bukhari:5533", "ibnmajah:2795", "muslim:4862"], "size": 10, "parts": [2, 2, 6]}
+{"community_split": ["abudawud:4364", "abudawud:4365", "abudawud:4366", "abudawud:4369", "bukhari:1501"], "size": 41, "parts": [6, 15, 3, 17]}
+{"community_split": ["abudawud:373", "bukhari:229", "bukhari:230", "bukhari:231", "bukhari:232"], "size": 10, "parts": [3, 4, 3]}
+{"community_split": ["abudawud:282", "abudawud:283", "abudawud:285", "abudawud:288", "abudawud:289"], "size": 48, "parts": [3, 19, 20, 4, 2]}
+{"community_split": ["abudawud:23", "bukhari:224", "bukhari:225", "bukhari:226", "bukhari:2471"], "size": 15, "parts": [5, 6, 4]}
+{"community_split": ["abudawud:374", "abudawud:5106", "bukhari:222", "bukhari:223", "bukhari:5468"], "size": 19, "parts": [8, 2, 9]}
+{"community_split": ["bukhari:219", "bukhari:220", "bukhari:6025", "bukhari:6128", "ibnmajah:528"], "size": 12, "parts": [8, 4]}
+{"community_split": ["abudawud:187", "abudawud:189", "abudawud:190", "bukhari:207", "bukhari:208"], "size": 22, "parts": [2, 10, 10]}
+{"community_split": ["abudawud:149", "abudawud:151", "bukhari:206", "bukhari:2918", "bukhari:363"], "size": 18, "parts": [5, 4, 4, 5]}
+{"community_split": ["abudawud:150", "abudawud:161", "bukhari:204", "ibnmajah:544", "ibnmajah:547"], "size": 18, "parts": [7, 4, 7]}
+{"community_split": ["abudawud:2886", "bukhari:194", "bukhari:4577", "bukhari:5651", "bukhari:5676"], "size": 18, "parts": [5, 8, 5]}
+{"community_split": ["abudawud:688", "bukhari:187", "bukhari:3553", "bukhari:495", "bukhari:499"], "size": 9, "parts": [2, 3, 4]}
+{"community_split": ["abudawud:118", "abudawud:119", "bukhari:185", "bukhari:186", "bukhari:191"], "size": 14, "parts": [8, 6]}
+{"community_split": ["abudawud:2848", "abudawud:2854", "bukhari:175", "bukhari:2054", "bukhari:5475"], "size": 23, "parts": [11, 8, 4]}
+{"community_split": ["abudawud:71", "abudawud:72", "abudawud:73", "abudawud:74", "bukhari:172"], "size": 31, "parts": [20, 7, 4]}
+{"community_split": ["abudawud:97", "bukhari:165", "ibnmajah:450", "ibnmajah:451", "ibnmajah:452"], "size": 18, "parts": [3, 8, 7]}
+{"community_split": ["abudawud:31", "abudawud:3722", "abudawud:3728", "bukhari:153", "bukhari:154"], "size": 22, "parts": [6, 4, 4, 8]}
+{"community_split": ["abudawud:12", "bukhari:145", "bukhari:148", "bukhari:149", "bukhari:3102"], "size": 10, "parts": [3, 4, 3]}
+{"community_split": ["abudawud:9", "bukhari:144", "bukhari:394", "ibnmajah:318", "muslim:609"], "size": 10, "parts": [6, 4]}
+{"community_split": ["abudawud:1921", "abudawud:1925", "bukhari:139", "bukhari:1667", "bukhari:1669"], "size": 20, "parts": [4, 4, 3, 5, 4]}
+{"community_split": ["abudawud:1823", "abudawud:1824", "abudawud:1825", "bukhari:134", "bukhari:1542"], "size": 30, "parts": [11, 8, 5, 6]}
+{"community_split": ["abudawud:1737", "abudawud:1738", "abudawud:1739", "bukhari:133", "bukhari:1524"], "size": 26, "parts": [10, 3, 13]}
+{"community_split": ["abudawud:207", "bukhari:132", "bukhari:178", "bukhari:269", "ibnmajah:505"], "size": 17, "parts": [4, 7, 6]}
+{"community_split": ["abudawud:237", "bukhari:130", "bukhari:282", "bukhari:3328", "bukhari:6091"], "size": 17, "parts": [3, 9, 5]}
+{"community_split": ["abudawud:4686", "bukhari:121", "bukhari:4405", "bukhari:6166", "bukhari:6868"], "size": 24, "parts": [15, 9]}
+{"community_split": ["abudawud:1357", "abudawud:610", "abudawud:611", "bukhari:117", "bukhari:138"], "size": 22, "parts": [5, 4, 8, 3, 2]}
+{"community_split": ["abudawud:3649", "abudawud:4505", "bukhari:112", "bukhari:2434", "bukhari:6880"], "size": 13, "parts": [5, 5, 3]}
+{"community_split": ["abudawud:4965", "bukhari:110", "bukhari:2120", "bukhari:2121", "bukhari:3114"], "size": 25, "parts": [8, 4, 5, 8]}
+{"community_split": ["bukhari:103", "bukhari:6536", "bukhari:6537", "muslim:7225", "muslim:7226"], "size": 9, "parts": [4, 2, 3]}
+{"community_split": ["abudawud:1142", "abudawud:1143", "abudawud:1146", "abudawud:1159", "bukhari:1431"], "size": 27, "parts": [7, 2, 5, 7, 6]}
+{"community_split": ["abudawud:2053", "bukhari:2544", "bukhari:2547", "bukhari:3011", "bukhari:5083"], "size": 11, "parts": [4, 7]}
+{"community_split": ["abudawud:1704", "abudawud:1705", "abudawud:1706", "abudawud:1707", "bukhari:2372"], "size": 25, "parts": [16, 3, 6]}
+{"community_split": ["abudawud:2014", "bukhari:124", "bukhari:1722", "bukhari:1736", "bukhari:1737"], "size": 18, "parts": [2, 6, 6, 4]}
+{"community_split": ["bukhari:1185", "bukhari:1186", "bukhari:425", "bukhari:5401", "bukhari:6422"], "size": 15, "parts": [3, 6, 6]}
+{"community_split": ["bukhari:3640", "bukhari:3641", "bukhari:7311", "bukhari:7459", "bukhari:7460"], "size": 13, "parts": [5, 8]}
+{"community_split": ["bukhari:105", "bukhari:1739", "bukhari:1741", "bukhari:1742", "bukhari:4406"], "size": 14, "parts": [3, 4, 7]}
+{"community_split": ["abudawud:1946", "bukhari:1622", "bukhari:3177", "bukhari:369", "bukhari:4363"], "size": 11, "parts": [3, 5, 3]}
+{"community_split": ["bukhari:399", "bukhari:40", "bukhari:4486", "bukhari:4492", "bukhari:7252"], "size": 11, "parts": [6, 2, 3]}
+{"community_split": ["bukhari:3123", "bukhari:36", "bukhari:7457", "bukhari:7463", "ibnmajah:2753"], "size": 13, "parts": [8, 5]}
+{"community_split": ["abudawud:1371", "abudawud:1372", "bukhari:1901", "bukhari:2008", "bukhari:2009"], "size": 40, "parts": [19, 8, 13]}
+{"community_split": ["abudawud:4268", "abudawud:4269", "bukhari:31", "bukhari:6875", "bukhari:7083"], "size": 17, "parts": [6, 2, 5, 4]}
+{"community_split": ["abudawud:4685", "bukhari:1478", "bukhari:27", "muslim:2433", "muslim:2434"], "size": 10, "parts": [2, 6, 2]}
+{"community_split": ["abudawud:2640", "abudawud:2641", "bukhari:25", "bukhari:2946", "bukhari:392"], "size": 29, "parts": [10, 6, 6, 4, 3]}
+{"community_split": ["bukhari:10", "bukhari:11", "bukhari:6484", "muslim:161", "muslim:162"], "size": 13, "parts": [7, 6]}
+{"community_split": ["abudawud:4676", "bukhari:9", "ibnmajah:57", "muslim:152", "muslim:153"], "size": 9, "parts": [4, 5]}
+{"compound_component": 393, "fragments": 2, "pairs": [["bukhari:93", "bukhari:540"], ["bukhari:7090", "muslim:6123"]]}
+{"compound_component": 3872, "fragments": 2, "pairs": [["bukhari:262", "muslim:721"], ["muslim:721", "nasai:243"]]}
+{"compound_component": 228, "fragments": 3, "pairs": [["bukhari:2658", "muslim:241"], ["bukhari:304", "bukhari:1951"], ["abudawud:4679", "tirmidhi:2613"]]}
+{"compound_component": 11285, "fragments": 2, "pairs": [["bukhari:7357", "nasai:2634"], ["nasai:2634", "ibnmajah:2905"]]}
+{"compound_component": 298, "fragments": 3, "pairs": [["bukhari:402", "bukhari:4916"], ["bukhari:402", "bukhari:4790"], ["bukhari:402", "ibnmajah:1009"]]}
+{"compound_component": 318, "fragments": 2, "pairs": [["bukhari:1868", "muslim:1173"], ["bukhari:2771", "muslim:1173"]]}
+{"compound_component": 2521, "fragments": 3, "pairs": [["muslim:4590", "nasai:712"], ["bukhari:462", "bukhari:4372"], ["bukhari:4372", "nasai:189"]]}
+{"compound_component": 3197, "fragments": 2, "pairs": [["bukhari:2297", "bukhari:6079"], ["bukhari:6079", "abudawud:4083"]]}
+{"compound_component": 2289, "fragments": 2, "pairs": [["bukhari:476", "bukhari:3905"], ["bukhari:2264", "bukhari:3905"]]}
+{"compound_component": 438, "fragments": 3, "pairs": [["bukhari:610", "bukhari:2944"], ["bukhari:3647", "muslim:4667"], ["bukhari:610", "bukhari:2943"]]}
+{"compound_component": 498, "fragments": 4, "pairs": [["bukhari:721", "bukhari:2829"], ["bukhari:615", "bukhari:721"], ["bukhari:721", "bukhari:5733"], ["bukhari:721", "muslim:984"]]}
+{"compound_component": 510, "fragments": 2, "pairs": [["bukhari:745", "bukhari:2364"], ["bukhari:745", "nasai:1498"]]}
+{"compound_component": 869, "fragments": 9, "pairs": [["bukhari:845", "bukhari:1386"], ["bukhari:1386", "bukhari:3236"], ["bukhari:3354", "bukhari:7047"], ["bukhari:4674", "bukhari:7047"], ["bukhari:1386", "bukhari:2085"], ["bukhari:1143", "bukhari:7047"], ["bukhari:1386", "bukhari:2791"], ["bukhari:1386", "bukhari:6096"], ["bukhari:1386", "muslim:5937"]]}
+{"compound_component": 675, "fragments": 2, "pairs": [["bukhari:1061", "muslim:2089"], ["bukhari:5221", "nasai:1474"]]}
+{"compound_component": 1549, "fragments": 2, "pairs": [["bukhari:925", "bukhari:6636"], ["bukhari:1500", "muslim:4739"]]}
+{"compound_component": 634, "fragments": 2, "pairs": [["bukhari:951", "bukhari:5560"], ["bukhari:5546", "muslim:5069"]]}
+{"compound_component": 3546, "fragments": 5, "pairs": [["bukhari:1036", "bukhari:7121"], ["bukhari:7121", "muslim:2340"], ["bukhari:6506", "bukhari:7121"], ["bukhari:7115", "bukhari:7121"], ["bukhari:3609", "bukhari:7121"]]}
+{"compound_component": 6475, "fragments": 2, "pairs": [["bukhari:1041", "nasai:1486"], ["nasai:1485", "nasai:1488"]]}
+{"compound_component": 674, "fragments": 3, "pairs": [["bukhari:1043", "bukhari:6199"], ["bukhari:1040", "bukhari:1062"], ["bukhari:1040", "nasai:1464"]]}
+{"compound_component": 3397, "fragments": 2, "pairs": [["bukhari:3209", "bukhari:6612"], ["bukhari:6243", "bukhari:6612"]]}
+{"compound_component": 808, "fragments": 2, "pairs": [["bukhari:1283", "bukhari:1302"], ["bukhari:1252", "bukhari:1283"]]}
+{"compound_component": 839, "fragments": 2, "pairs": [["bukhari:1345", "abudawud:3138"], ["bukhari:1346", "bukhari:1353"]]}
+{"compound_component": 882, "fragments": 2, "pairs": [["abudawud:2640", "nasai:3971"], ["bukhari:1456", "nasai:3969"]]}
+{"compound_component": 843, "fragments": 2, "pairs": [["bukhari:1587", "bukhari:2433"], ["bukhari:1834", "nasai:2875"]]}
+{"compound_component": 56, "fragments": 3, "pairs": [["bukhari:1739", "bukhari:6868"], ["bukhari:4406", "bukhari:4662"], ["abudawud:1945", "ibnmajah:3058"]]}
+{"compound_component": 1434, "fragments": 2, "pairs": [["bukhari:2089", "bukhari:3091"], ["bukhari:3091", "bukhari:5793"]]}
+{"compound_component": 1715, "fragments": 3, "pairs": [["bukhari:2893", "bukhari:4211"], ["bukhari:5425", "nasai:5476"], ["bukhari:2889", "bukhari:5425"]]}
+{"compound_component": 1362, "fragments": 2, "pairs": [["bukhari:4296", "abudawud:3486"], ["bukhari:4633", "abudawud:3486"]]}
+{"compound_component": 101, "fragments": 5, "pairs": [["bukhari:2267", "bukhari:4726"], ["bukhari:2728", "bukhari:4726"], ["bukhari:74", "bukhari:122"], ["bukhari:122", "bukhari:3278"], ["bukhari:122", "muslim:6164"]]}
+{"compound_component": 1601, "fragments": 3, "pairs": [["bukhari:2314", "bukhari:6860"], ["bukhari:7194", "bukhari:7278"], ["bukhari:2649", "bukhari:2696"]]}
+{"compound_component": 1394, "fragments": 2, "pairs": [["bukhari:2401", "bukhari:2609"], ["tirmidhi:1316", "ibnmajah:2423"]]}
+{"compound_component": 1753, "fragments": 3, "pairs": [["bukhari:2818", "abudawud:2631"], ["bukhari:7237", "abudawud:2631"], ["bukhari:3026", "abudawud:2631"]]}
+{"compound_component": 2536, "fragments": 6, "pairs": [["bukhari:2947", "bukhari:4418"], ["bukhari:3556", "bukhari:4418"], ["bukhari:3951", "bukhari:4418"], ["bukhari:4418", "bukhari:4678"], ["bukhari:2948", "bukhari:4418"], ["bukhari:3889", "bukhari:4418"]]}
+{"compound_component": 1792, "fragments": 2, "pairs": [["bukhari:4121", "muslim:4599"], ["bukhari:6262", "abudawud:5215"]]}
+{"compound_component": 876, "fragments": 2, "pairs": [["bukhari:1392", "bukhari:3052"], ["bukhari:1392", "bukhari:4888"]]}
+{"compound_component": 1133, "fragments": 3, "pairs": [["bukhari:3317", "bukhari:4931"], ["bukhari:4931.2", "muslim:5838"], ["bukhari:4930", "nasai:2883"]]}
+{"compound_component": 1888, "fragments": 3, "pairs": [["bukhari:3393", "bukhari:3887"], ["bukhari:3430", "bukhari:3887"], ["muslim:416", "tirmidhi:3346"]]}
+{"compound_component": 1454, "fragments": 2, "pairs": [["bukhari:3398", "muslim:6155"], ["bukhari:2412", "bukhari:4638"]]}
+{"compound_component": 2526, "fragments": 3, "pairs": [["muslim:187", "muslim:189"], ["bukhari:3499", "muslim:189"], ["bukhari:4388", "tirmidhi:3935"]]}
+{"compound_component": 2283, "fragments": 3, "pairs": [["bukhari:5156", "muslim:3479"], ["bukhari:5160", "muslim:3479"], ["abudawud:4933", "abudawud:4935"]]}
+{"compound_component": 803, "fragments": 2, "pairs": [["bukhari:3913", "bukhari:6448"], ["bukhari:6448", "abudawud:2876"]]}
+{"compound_component": 2353, "fragments": 2, "pairs": [["bukhari:5145", "nasai:3248"], ["bukhari:5129", "nasai:3248"]]}
+{"compound_component": 316, "fragments": 5, "pairs": [["bukhari:4009", "bukhari:5401"], ["bukhari:424", "nasai:1327"], ["bukhari:667", "bukhari:5401"], ["bukhari:4010", "bukhari:5401"], ["bukhari:5401", "bukhari:6938"]]}
+{"compound_component": 2455, "fragments": 3, "pairs": [["bukhari:4231", "muslim:6410"], ["bukhari:3136", "muslim:6410"], ["bukhari:3876", "muslim:6410"]]}
+{"compound_component": 2495, "fragments": 2, "pairs": [["bukhari:4323", "bukhari:6383"], ["bukhari:2884", "bukhari:4323"]]}
+{"compound_component": 2524, "fragments": 2, "pairs": [["bukhari:4378", "bukhari:7033"], ["bukhari:4378", "bukhari:7034"]]}
+{"compound_component": 2609, "fragments": 2, "pairs": [["bukhari:4582", "bukhari:5055"], ["bukhari:5049", "tirmidhi:3025"]]}
+{"compound_component": 2683, "fragments": 2, "pairs": [["bukhari:5307", "ibnmajah:2067"], ["bukhari:2671", "bukhari:4747"]]}
+{"compound_component": 1585, "fragments": 4, "pairs": [["bukhari:4750", "bukhari:6679"], ["bukhari:4750", "bukhari:7500"], ["bukhari:2879", "bukhari:4141"], ["bukhari:2661", "bukhari:4025"]]}
+{"compound_component": 2698, "fragments": 3, "pairs": [["bukhari:4973", "tirmidhi:3363"], ["bukhari:4770", "bukhari:4971"], ["bukhari:3526", "bukhari:4770"]]}
+{"compound_component": 851, "fragments": 2, "pairs": [["bukhari:4675", "bukhari:6681"], ["muslim:132", "muslim:134"]]}
+{"compound_component": 1482, "fragments": 4, "pairs": [["bukhari:4913", "bukhari:5218"], ["bukhari:4913", "bukhari:7263"], ["bukhari:5843", "bukhari:7256"], ["bukhari:5843", "muslim:3694"]]}
+{"compound_component": 2, "fragments": 4, "pairs": [["bukhari:3", "bukhari:4955"], ["bukhari:3", "bukhari:3392"], ["bukhari:3", "muslim:405"], ["bukhari:4957", "muslim:403"]]}
+{"compound_component": 2809, "fragments": 2, "pairs": [["bukhari:5032", "bukhari:5039"], ["bukhari:5033", "tirmidhi:2942"]]}
+{"compound_component": 2807, "fragments": 2, "pairs": [["bukhari:7417", "nasai:3359"], ["bukhari:2310", "bukhari:5029"]]}
+{"compound_component": 2916, "fragments": 2, "pairs": [["bukhari:5216", "bukhari:5268"], ["bukhari:5431", "abudawud:3715"]]}
+{"compound_component": 4710, "fragments": 3, "pairs": [["bukhari:5327", "muslim:3717"], ["muslim:3717", "muslim:3719"], ["muslim:3720", "abudawud:2293"]]}
+{"compound_component": 2600, "fragments": 2, "pairs": [["bukhari:2987", "bukhari:5663"], ["muslim:4659", "tirmidhi:2702"]]}
+{"compound_component": 3070, "fragments": 2, "pairs": [["muslim:5789", "abudawud:3912"], ["bukhari:5770", "muslim:5790"]]}
+{"compound_component": 9881, "fragments": 2, "pairs": [["bukhari:6013", "tirmidhi:2381"], ["tirmidhi:2381", "ibnmajah:4206"]]}
+{"compound_component": 2239, "fragments": 2, "pairs": [["bukhari:3817", "bukhari:7484"], ["bukhari:3817", "muslim:6280"]]}
+{"compound_component": 2443, "fragments": 2, "pairs": [["bukhari:6331", "muslim:5018"], ["bukhari:6148", "bukhari:6891"]]}
+{"compound_component": 20, "fragments": 2, "pairs": [["bukhari:6293", "muslim:5257"], ["nasai:5006", "ibnmajah:58"]]}
+{"compound_component": 3350, "fragments": 2, "pairs": [["bukhari:6513", "nasai:1931"], ["muslim:2202", "muslim:2203"]]}
+{"compound_component": 3511, "fragments": 2, "pairs": [["bukhari:6994", "muslim:5911"], ["bukhari:6994", "muslim:5919"]]}
+{"compound_component": 3572, "fragments": 2, "pairs": [["muslim:200", "nasai:4189"], ["bukhari:7204", "muslim:4836"]]}
+{"compound_component": 3887, "fragments": 2, "pairs": [["muslim:774", "muslim:6270"], ["muslim:774", "ibnmajah:340"]]}
+{"compound_component": 4436, "fragments": 2, "pairs": [["muslim:1418", "muslim:2702"], ["muslim:2702", "abudawud:2461"]]}
+{"compound_component": 353, "fragments": 3, "pairs": [["nasai:1693", "ibnmajah:1318"], ["bukhari:472", "abudawud:1438"], ["muslim:1757", "nasai:1693"]]}
+{"compound_component": 4333, "fragments": 7, "pairs": [["muslim:5117", "muslim:5209"], ["muslim:5117", "muslim:5118"], ["abudawud:3235", "nasai:2032"], ["muslim:5102", "nasai:4430"], ["muslim:5117", "ibnmajah:3160"], ["nasai:2033", "ibnmajah:3405"], ["nasai:4430", "ibnmajah:1570"]]}
+{"compound_component": 272, "fragments": 3, "pairs": [["muslim:4665", "nasai:3380"], ["abudawud:3009", "nasai:3380"], ["abudawud:2998", "nasai:3380"]]}
+{"compound_component": 4930, "fragments": 2, "pairs": [["muslim:4667", "tirmidhi:1550"], ["muslim:4667", "nasai:547"]]}
+{"compound_component": 1334, "fragments": 2, "pairs": [["tirmidhi:1224", "nasai:4524"], ["bukhari:2381", "abudawud:3373"]]}
+{"compound_component": 6, "fragments": 3, "pairs": [["bukhari:51", "bukhari:4553"], ["bukhari:7", "bukhari:7196"], ["bukhari:2804", "bukhari:4553"]]}
+{"compound_component": 680, "fragments": 4, "pairs": [["bukhari:29", "muslim:2109"], ["bukhari:431", "bukhari:1052"], ["bukhari:748", "bukhari:1052"], ["bukhari:5197", "abudawud:1189"]]}
+{"compound_component": 3373, "fragments": 2, "pairs": [["bukhari:44", "bukhari:7410"], ["bukhari:7440", "bukhari:7516"]]}
+{"compound_component": 816, "fragments": 3, "pairs": [["bukhari:56", "bukhari:5668"], ["muslim:4214", "nasai:3633"], ["nasai:3629", "nasai:3632"]]}
+{"compound_component": 1523, "fragments": 2, "pairs": [["bukhari:2547", "muslim:3499"], ["bukhari:2547", "muslim:4322"]]}
+{"compound_component": 88, "fragments": 2, "pairs": [["bukhari:108", "bukhari:1291"], ["muslim:7510", "ibnmajah:30"]]}
+{"compound_component": 2028, "fragments": 2, "pairs": [["bukhari:109", "bukhari:3461"], ["bukhari:3461", "abudawud:3662"]]}
+{"compound_component": 104, "fragments": 2, "pairs": [["bukhari:126", "muslim:3245"], ["muslim:3244", "nasai:2902"]]}
+{"compound_component": 3115, "fragments": 2, "pairs": [["bukhari:730", "bukhari:5861"], ["abudawud:1368", "nasai:762"]]}
+{"compound_component": 482, "fragments": 3, "pairs": [["nasai:921", "ibnmajah:876"], ["bukhari:722", "muslim:977"], ["nasai:921", "nasai:922"]]}
+{"compound_component": 643, "fragments": 2, "pairs": [["bukhari:975", "bukhari:978"], ["bukhari:978", "abudawud:1141"]]}
+{"compound_component": 961, "fragments": 2, "pairs": [["bukhari:1552", "muslim:2812"], ["bukhari:1515", "abudawud:1773"]]}
+{"compound_component": 110, "fragments": 2, "pairs": [["bukhari:7344", "abudawud:1737"], ["abudawud:1739", "nasai:2653"]]}
+{"compound_component": 1010, "fragments": 2, "pairs": [["bukhari:4501", "bukhari:4502"], ["bukhari:2000", "muslim:2647"]]}
+{"compound_component": 1441, "fragments": 3, "pairs": [["bukhari:2388", "bukhari:7487"], ["bukhari:2388", "bukhari:2389"], ["bukhari:6268", "ibnmajah:4131"]]}
+{"compound_component": 1650, "fragments": 2, "pairs": [["bukhari:2787", "bukhari:3123"], ["bukhari:2787", "nasai:3127"]]}
+{"compound_component": 2017, "fragments": 2, "pairs": [["bukhari:3439", "muslim:7361"], ["bukhari:3439", "tirmidhi:2241"]]}
+{"compound_component": 3320, "fragments": 3, "pairs": [["bukhari:6462", "muslim:1834"], ["bukhari:6464", "muslim:1828"], ["bukhari:6465", "muslim:1828"]]}
+{"compound_component": 1657, "fragments": 2, "pairs": [["bukhari:7227", "muslim:4864"], ["muslim:4864", "muslim:4865"]]}
+{"compound_component": 134, "fragments": 3, "pairs": [["bukhari:161", "bukhari:162"], ["bukhari:162", "abudawud:105"], ["bukhari:162", "abudawud:140"]]}
+{"compound_component": 164, "fragments": 2, "pairs": [["bukhari:182", "bukhari:204"], ["bukhari:204", "ibnmajah:547"]]}
+{"compound_component": 3064, "fragments": 2, "pairs": [["bukhari:5692", "tirmidhi:71"], ["abudawud:3877", "ibnmajah:3468"]]}
+{"compound_component": 196, "fragments": 2, "pairs": [["muslim:721", "nasai:247"], ["nasai:423", "nasai:426"]]}
+{"compound_component": 198, "fragments": 3, "pairs": [["bukhari:272", "bukhari:5956"], ["bukhari:261", "bukhari:301"], ["muslim:726", "nasai:410"]]}
+{"compound_component": 222, "fragments": 2, "pairs": [["bukhari:294", "muslim:2919"], ["abudawud:1782", "nasai:2741"]]}
+{"compound_component": 226, "fragments": 3, "pairs": [["bukhari:300", "bukhari:303"], ["bukhari:299", "bukhari:2030"], ["bukhari:301", "tirmidhi:132"]]}
+{"compound_component": 233, "fragments": 3, "pairs": [["bukhari:5341", "muslim:2166"], ["bukhari:5342", "muslim:3740"], ["bukhari:5343", "muslim:3740"]]}
+{"compound_component": 249, "fragments": 4, "pairs": [["bukhari:338", "bukhari:341"], ["bukhari:338", "bukhari:343"], ["bukhari:342", "muslim:821"], ["muslim:820", "abudawud:326"]]}
+{"compound_component": 254, "fragments": 2, "pairs": [["bukhari:344", "nasai:321"], ["bukhari:344", "muslim:1564"]]}
+{"compound_component": 4005, "fragments": 2, "pairs": [["muslim:1156", "muslim:1159"], ["muslim:1159", "muslim:1505"]]}
+{"compound_component": 261, "fragments": 2, "pairs": [["bukhari:3171", "muslim:765"], ["bukhari:3171", "nasai:225"]]}
+{"compound_component": 277, "fragments": 6, "pairs": [["bukhari:499", "bukhari:3566"], ["bukhari:634", "muslim:1119"], ["bukhari:3566", "bukhari:5786"], ["bukhari:5859", "muslim:1120"], ["bukhari:633", "bukhari:3566"], ["tirmidhi:197", "nasai:772"]]}
+{"compound_component": 4113, "fragments": 2, "pairs": [["bukhari:1102", "nasai:1458"], ["bukhari:1101", "muslim:1579"]]}
+{"compound_component": 436, "fragments": 2, "pairs": [["bukhari:1232", "bukhari:3285"], ["bukhari:1222", "muslim:857"]]}
+{"compound_component": 2466, "fragments": 3, "pairs": [["bukhari:1777", "bukhari:4253"], ["bukhari:1775", "muslim:3036"], ["bukhari:4253", "tirmidhi:937"]]}
+{"compound_component": 235, "fragments": 3, "pairs": [["bukhari:1783", "nasai:2717"], ["bukhari:1786", "muslim:2916"], ["bukhari:319", "nasai:2991"]]}
+{"compound_component": 1819, "fragments": 2, "pairs": [["bukhari:3087", "bukhari:3089"], ["bukhari:3089", "abudawud:3747"]]}
+{"compound_component": 1083, "fragments": 2, "pairs": [["bukhari:4411", "muslim:3151"], ["bukhari:1729", "tirmidhi:913"]]}
+{"compound_component": 183, "fragments": 4, "pairs": [["bukhari:6802", "bukhari:6803"], ["abudawud:4369", "nasai:4041"], ["tirmidhi:1845", "nasai:4028"], ["abudawud:4367", "nasai:4034"]]}
+{"compound_component": 3521, "fragments": 2, "pairs": [["bukhari:7046", "muslim:5929"], ["bukhari:7046", "abudawud:3268"]]}
+{"compound_component": 421, "fragments": 4, "pairs": [["bukhari:368", "bukhari:6284"], ["nasai:566", "nasai:569"], ["muslim:3934", "ibnmajah:2455"], ["tirmidhi:1231", "tirmidhi:1309"]]}
+{"compound_component": 2444, "fragments": 3, "pairs": [["bukhari:371", "bukhari:4201"], ["bukhari:947", "bukhari:5086"], ["ibnmajah:1957", "ibnmajah:1958"]]}
+{"compound_component": 702, "fragments": 3, "pairs": [["bukhari:400", "tirmidhi:352"], ["abudawud:692", "tirmidhi:352"], ["bukhari:1093", "tirmidhi:2958"]]}
+{"compound_component": 301, "fragments": 3, "pairs": [["bukhari:404", "muslim:1282"], ["muslim:1281", "nasai:1236"], ["muslim:1283", "nasai:1258"]]}
+{"compound_component": 304, "fragments": 4, "pairs": [["bukhari:405", "muslim:1227"], ["bukhari:407", "bukhari:408"], ["bukhari:407", "muslim:1223"], ["bukhari:407", "muslim:1224"]]}
+{"compound_component": 302, "fragments": 2, "pairs": [["bukhari:413", "bukhari:417"], ["bukhari:417", "nasai:308"]]}
+{"compound_component": 356, "fragments": 2, "pairs": [["bukhari:445", "bukhari:647"], ["bukhari:647", "tirmidhi:603"]]}
+{"compound_component": 458, "fragments": 2, "pairs": [["bukhari:645", "bukhari:2119"], ["bukhari:646", "muslim:1473"]]}
+{"compound_component": 4912, "fragments": 2, "pairs": [["bukhari:463", "muslim:4600"], ["bukhari:3901", "muslim:4600"]]}
+{"compound_component": 11268, "fragments": 2, "pairs": [["muslim:6585", "nasai:2560"], ["bukhari:2260", "nasai:2560"]]}
+{"compound_component": 5084, "fragments": 2, "pairs": [["muslim:5197", "muslim:5203"], ["muslim:5197", "nasai:5635"]]}
+{"compound_component": 394, "fragments": 3, "pairs": [["muslim:1031", "muslim:1464"], ["muslim:1463", "muslim:1464"], ["muslim:1464", "ibnmajah:701"]]}
+{"compound_component": 4061, "fragments": 2, "pairs": [["bukhari:565", "muslim:1404"], ["abudawud:806", "ibnmajah:673"]]}
+{"compound_component": 490, "fragments": 2, "pairs": [["bukhari:700", "bukhari:701"], ["muslim:1041", "ibnmajah:836"]]}
+{"compound_component": 622, "fragments": 3, "pairs": [["bukhari:937", "muslim:2040"], ["bukhari:1169", "tirmidhi:432"], ["abudawud:1252", "ibnmajah:1164"]]}
+{"compound_component": 655, "fragments": 2, "pairs": [["bukhari:1095", "muslim:1618"], ["abudawud:1224", "nasai:1686"]]}
+{"compound_component": 709, "fragments": 2, "pairs": [["bukhari:1106", "bukhari:1107"], ["bukhari:1091", "bukhari:1805"]]}
+{"compound_component": 12302, "fragments": 2, "pairs": [["bukhari:568", "ibnmajah:701"], ["nasai:533", "ibnmajah:701"]]}
+{"compound_component": 3911, "fragments": 2, "pairs": [["bukhari:611", "nasai:678"], ["muslim:912", "nasai:678"]]}
+{"compound_component": 729, "fragments": 3, "pairs": [["muslim:1724", "muslim:1803"], ["bukhari:1138", "abudawud:1363"], ["muslim:1722", "abudawud:1359"]]}
+{"compound_component": 462, "fragments": 2, "pairs": [["bukhari:652", "bukhari:721"], ["bukhari:652", "bukhari:2472"]]}
+{"compound_component": 448, "fragments": 2, "pairs": [["bukhari:658", "bukhari:6008"], ["bukhari:818", "bukhari:824"]]}
+{"compound_component": 467, "fragments": 2, "pairs": [["bukhari:712", "bukhari:3384"], ["bukhari:664", "bukhari:683"]]}
+{"compound_component": 1246, "fragments": 4, "pairs": [["bukhari:669", "bukhari:2016"], ["bukhari:813", "muslim:2772"], ["bukhari:2016", "ibnmajah:1766"], ["muslim:2771", "ibnmajah:1775"]]}
+{"compound_component": 494, "fragments": 2, "pairs": [["bukhari:708", "muslim:1054"], ["bukhari:708", "tirmidhi:376"]]}
+{"compound_component": 520, "fragments": 3, "pairs": [["bukhari:779", "nasai:978"], ["bukhari:762", "ibnmajah:829"], ["abudawud:798", "nasai:974"]]}
+{"compound_component": 539, "fragments": 2, "pairs": [["bukhari:820", "muslim:1058"], ["bukhari:820", "nasai:1069"]]}
+{"compound_component": 533, "fragments": 2, "pairs": [["bukhari:803", "muslim:871"], ["tirmidhi:254", "nasai:1150"]]}
+{"compound_component": 2597, "fragments": 2, "pairs": [["bukhari:2932", "bukhari:4560"], ["bukhari:4560", "bukhari:7346"]]}
+{"compound_component": 1417, "fragments": 2, "pairs": [["bukhari:2345", "muslim:3944"], ["muslim:3916", "abudawud:3393"]]}
+{"compound_component": 4274, "fragments": 2, "pairs": [["bukhari:3318", "muslim:2100"], ["muslim:2100", "nasai:1478"]]}
+{"compound_component": 476, "fragments": 2, "pairs": [["bukhari:4445", "muslim:940"], ["bukhari:678", "nasai:833"]]}
+{"compound_component": 2774, "fragments": 2, "pairs": [["bukhari:4944", "muslim:1916"], ["bukhari:4943", "bukhari:4944"]]}
+{"compound_component": 11942, "fragments": 2, "pairs": [["nasai:5446", "nasai:5483"], ["nasai:5483", "nasai:5491"]]}
+{"compound_component": 593, "fragments": 2, "pairs": [["bukhari:3486", "muslim:1981"], ["bukhari:898", "bukhari:3487"]]}
+{"compound_component": 618, "fragments": 2, "pairs": [["bukhari:932", "bukhari:6342"], ["bukhari:1029", "bukhari:1033"]]}
+{"compound_component": 644, "fragments": 2, "pairs": [["bukhari:962", "bukhari:979"], ["bukhari:979", "bukhari:5880"]]}
+{"compound_component": 1429, "fragments": 2, "pairs": [["bukhari:3318", "muslim:2102"], ["bukhari:3318", "nasai:1496"]]}
+{"compound_component": 677, "fragments": 5, "pairs": [["bukhari:1046", "muslim:2095"], ["bukhari:1212", "bukhari:4624"], ["bukhari:1058", "tirmidhi:561"], ["abudawud:1180", "nasai:1466"], ["bukhari:1065", "abudawud:1180"]]}
+{"compound_component": 1147, "fragments": 2, "pairs": [["bukhari:1087", "bukhari:3006"], ["bukhari:3061", "bukhari:5233"]]}
+{"compound_component": 4145, "fragments": 2, "pairs": [["bukhari:1139", "muslim:1699"], ["muslim:1699", "abudawud:955"]]}
+{"compound_component": 765, "fragments": 3, "pairs": [["bukhari:1995", "abudawud:2033"], ["bukhari:1995", "muslim:3263"], ["bukhari:1864", "muslim:3264"]]}
+{"compound_component": 864, "fragments": 3, "pairs": [["bukhari:1376", "nasai:5443"], ["abudawud:3972", "nasai:5448"], ["nasai:5517", "nasai:5518"]]}
+{"compound_component": 1044, "fragments": 2, "pairs": [["bukhari:1651", "muslim:2933"], ["bukhari:1651", "abudawud:1789"]]}
+{"compound_component": 3326, "fragments": 2, "pairs": [["bukhari:2408", "bukhari:7292"], ["muslim:1342", "nasai:1343"]]}
+{"compound_component": 2603, "fragments": 2, "pairs": [["bukhari:4569", "bukhari:6215"], ["bukhari:4569", "muslim:1798"]]}
+{"compound_component": 4261, "fragments": 3, "pairs": [["muslim:2063", "nasai:1595"], ["muslim:2063", "nasai:1593"], ["muslim:2063", "nasai:1597"]]}
+{"compound_component": 4332, "fragments": 2, "pairs": [["muslim:2258", "muslim:2259"], ["nasai:2034", "ibnmajah:1569"]]}
+{"compound_component": 941, "fragments": 4, "pairs": [["bukhari:1481", "bukhari:4422"], ["bukhari:1482", "bukhari:3161"], ["bukhari:3791", "muslim:5948"], ["bukhari:1481", "abudawud:3079"]]}
+{"compound_component": 945, "fragments": 10, "pairs": [["bukhari:1487", "bukhari:2189"], ["bukhari:2126", "muslim:3842"], ["bukhari:2139", "bukhari:2723"], ["bukhari:2171", "muslim:3896"], ["muslim:3977", "tirmidhi:1226"], ["bukhari:2679", "bukhari:6646"], ["muslim:6432", "muslim:6433"], ["muslim:3454", "nasai:3238"], ["abudawud:3249", "nasai:3765"], ["muslim:4019", "nasai:4278"]]}
+{"compound_component": 947, "fragments": 2, "pairs": [["bukhari:2221", "nasai:4239"], ["bukhari:2221", "nasai:4237"]]}
+{"compound_component": 948, "fragments": 2, "pairs": [["bukhari:2577", "bukhari:6751"], ["bukhari:6751", "bukhari:6759"]]}
+{"compound_component": 700, "fragments": 2, "pairs": [["bukhari:1546", "nasai:2758"], ["bukhari:1714", "abudawud:2793"]]}
+{"compound_component": 6925, "fragments": 2, "pairs": [["bukhari:2985", "abudawud:1995"], ["abudawud:1995", "tirmidhi:934"]]}
+{"compound_component": 980, "fragments": 2, "pairs": [["bukhari:1545", "bukhari:1625"], ["bukhari:1545", "bukhari:1731"]]}
+{"compound_component": 2512, "fragments": 2, "pairs": [["bukhari:1557", "bukhari:4352"], ["bukhari:4352", "nasai:2744"]]}
+{"compound_component": 4533, "fragments": 2, "pairs": [["bukhari:1575", "muslim:3040"], ["muslim:3040", "abudawud:1867"]]}
+{"compound_component": 1007, "fragments": 2, "pairs": [["muslim:3294", "muslim:3295"], ["bukhari:4282", "muslim:4140"]]}
+{"compound_component": 1018, "fragments": 3, "pairs": [["bukhari:1603", "muslim:2982"], ["bukhari:1604", "muslim:3049"], ["nasai:2939", "ibnmajah:2951"]]}
+{"compound_component": 2929, "fragments": 2, "pairs": [["bukhari:1613", "bukhari:5293"], ["bukhari:3347", "bukhari:5293"]]}
+{"compound_component": 1039, "fragments": 2, "pairs": [["bukhari:1639", "bukhari:4184"], ["bukhari:1806", "bukhari:1813"]]}
+{"compound_component": 1505, "fragments": 2, "pairs": [["bukhari:4352", "muslim:2943"], ["nasai:2805", "nasai:2806"]]}
+{"compound_component": 111, "fragments": 4, "pairs": [["bukhari:5847", "bukhari:5852"], ["bukhari:5852", "nasai:2680"], ["bukhari:1842", "nasai:2678"], ["bukhari:1838", "abudawud:1826"]]}
+{"compound_component": 1545, "fragments": 2, "pairs": [["muslim:4165", "muslim:4170"], ["bukhari:2589", "nasai:3692"]]}
+{"compound_component": 1107, "fragments": 4, "pairs": [["bukhari:1780", "bukhari:3066"], ["bukhari:1778", "muslim:3033"], ["bukhari:1781", "bukhari:4148"], ["bukhari:4148", "ibnmajah:2996"]]}
+{"compound_component": 1604, "fragments": 3, "pairs": [["bukhari:1844", "bukhari:2699"], ["bukhari:2699", "muslim:4631"], ["bukhari:2699", "abudawud:2280"]]}
+{"compound_component": 1167, "fragments": 2, "pairs": [["bukhari:1884", "muslim:7031"], ["bukhari:4589", "muslim:3356"]]}
+{"compound_component": 1179, "fragments": 3, "pairs": [["bukhari:5927", "nasai:2214"], ["tirmidhi:766", "nasai:2212"], ["muslim:2707", "ibnmajah:3823"]]}
+{"compound_component": 1200, "fragments": 2, "pairs": [["bukhari:1942", "muslim:2626"], ["bukhari:1942", "nasai:2378"]]}
+{"compound_component": 1205, "fragments": 2, "pairs": [["bukhari:1947", "muslim:2618"], ["abudawud:2405", "nasai:2311"]]}
+{"compound_component": 1852, "fragments": 2, "pairs": [["bukhari:2032", "muslim:4294"], ["bukhari:3144", "muslim:4295"]]}
+{"compound_component": 1260, "fragments": 2, "pairs": [["bukhari:5167", "bukhari:6082"], ["bukhari:5148", "bukhari:5155"]]}
+{"compound_component": 1264, "fragments": 2, "pairs": [["bukhari:2055", "bukhari:2431"], ["bukhari:2055", "bukhari:2432"]]}
+{"compound_component": 4781, "fragments": 2, "pairs": [["bukhari:2102", "muslim:4038"], ["bukhari:2278", "muslim:4038"]]}
+{"compound_component": 1534, "fragments": 2, "pairs": [["bukhari:2854", "bukhari:2914"], ["bukhari:2914", "muslim:2853"]]}
+{"compound_component": 1290, "fragments": 2, "pairs": [["bukhari:2097", "muslim:1658"], ["bukhari:2385", "muslim:4100"]]}
+{"compound_component": 4686, "fragments": 2, "pairs": [["muslim:3636", "ibnmajah:1860"], ["muslim:3636", "tirmidhi:1086"]]}
+{"compound_component": 1321, "fragments": 2, "pairs": [["bukhari:2162", "muslim:3829"], ["bukhari:2162", "muslim:3819"]]}
+{"compound_component": 1317, "fragments": 3, "pairs": [["bukhari:2150", "bukhari:2151"], ["abudawud:3443", "nasai:4487"], ["bukhari:2150", "nasai:4496"]]}
+{"compound_component": 1978, "fragments": 2, "pairs": [["bukhari:2635", "bukhari:3358"], ["bukhari:3358", "abudawud:2212"]]}
+{"compound_component": 1370, "fragments": 2, "pairs": [["bukhari:2246", "bukhari:2249"], ["bukhari:2247", "bukhari:2249"]]}
+{"compound_component": 1395, "fragments": 2, "pairs": [["bukhari:2583", "abudawud:2693"], ["bukhari:7176", "abudawud:2693"]]}
+{"compound_component": 1405, "fragments": 3, "pairs": [["bukhari:2324", "bukhari:3690"], ["bukhari:2324", "tirmidhi:3677"], ["bukhari:2324", "tirmidhi:3695"]]}
+{"compound_component": 1410, "fragments": 3, "pairs": [["bukhari:2330", "muslim:3958"], ["bukhari:2342", "abudawud:3389"], ["bukhari:2342", "ibnmajah:2464"]]}
+{"compound_component": 3830, "fragments": 2, "pairs": [["bukhari:2367", "muslim:583"], ["muslim:583", "ibnmajah:4282"]]}
+{"compound_component": 1416, "fragments": 2, "pairs": [["muslim:3931", "muslim:3961"], ["muslim:3926", "muslim:3931"]]}
+{"compound_component": 2994, "fragments": 2, "pairs": [["bukhari:4841", "bukhari:6220"], ["bukhari:5479", "nasai:4815"]]}
+{"compound_component": 3979, "fragments": 4, "pairs": [["bukhari:5864", "nasai:1041"], ["nasai:5177", "ibnmajah:3602"], ["tirmidhi:1725", "nasai:5177"], ["nasai:5183", "nasai:5184"]]}
+{"compound_component": 3519, "fragments": 2, "pairs": [["tirmidhi:1751", "nasai:5359"], ["bukhari:7042", "tirmidhi:2283"]]}
+{"compound_component": 3492, "fragments": 3, "pairs": [["bukhari:6923", "bukhari:7157"], ["bukhari:6923", "nasai:4"], ["muslim:4718", "nasai:4066"]]}
+{"compound_component": 4635, "fragments": 2, "pairs": [["bukhari:5108", "muslim:3443"], ["bukhari:5152", "muslim:3443"]]}
+{"compound_component": 9410, "fragments": 2, "pairs": [["muslim:4064", "tirmidhi:1240"], ["tirmidhi:1240", "ibnmajah:2255"]]}
+{"compound_component": 2144, "fragments": 2, "pairs": [["bukhari:2439", "bukhari:3652"], ["bukhari:3652", "bukhari:3917"]]}
+{"compound_component": 1494, "fragments": 4, "pairs": [["bukhari:4360", "muslim:5002"], ["bukhari:4362", "bukhari:5494"], ["muslim:5001", "nasai:4351"], ["bukhari:5494", "muslim:5000"]]}
+{"compound_component": 1502, "fragments": 2, "pairs": [["bukhari:5064", "bukhari:6965"], ["bukhari:5128", "nasai:3346"]]}
+{"compound_component": 1498, "fragments": 4, "pairs": [["bukhari:5506", "ibnmajah:3178"], ["bukhari:2488", "nasai:4297"], ["bukhari:5503", "ibnmajah:3183"], ["abudawud:2821", "tirmidhi:1600"]]}
+{"compound_component": 2217, "fragments": 2, "pairs": [["bukhari:2580", "bukhari:3775"], ["nasai:3949", "nasai:3950"]]}
+{"compound_component": 1799, "fragments": 2, "pairs": [["bukhari:2638", "bukhari:3056"], ["bukhari:3056", "bukhari:3337"]]}
+{"compound_component": 1574, "fragments": 2, "pairs": [["bukhari:2645", "tirmidhi:1146"], ["bukhari:2645", "nasai:3305"]]}
+{"compound_component": 1588, "fragments": 2, "pairs": [["bukhari:2664", "abudawud:2957"], ["bukhari:2664", "abudawud:4407"]]}
+{"compound_component": 1608, "fragments": 2, "pairs": [["bukhari:6894", "abudawud:4595"], ["abudawud:4595", "nasai:4752"]]}
+{"compound_component": 1623, "fragments": 3, "pairs": [["bukhari:2773", "nasai:3597"], ["muslim:4226", "nasai:3597"], ["bukhari:2764", "bukhari:2777"]]}
+{"compound_component": 1654, "fragments": 2, "pairs": [["bukhari:2794", "bukhari:2892"], ["bukhari:2794", "bukhari:6567"]]}
+{"compound_component": 2039, "fragments": 2, "pairs": [["bukhari:3732", "nasai:4901"], ["bukhari:4304", "bukhari:6800"]]}
+{"compound_component": 1456, "fragments": 2, "pairs": [["nasai:4740", "ibnmajah:2666"], ["bukhari:2413", "ibnmajah:2665"]]}
+{"compound_component": 3037, "fragments": 3, "pairs": [["bukhari:5627", "bukhari:5628"], ["tirmidhi:1473", "nasai:4448"], ["tirmidhi:1824", "nasai:4448"]]}
+{"compound_component": 3067, "fragments": 3, "pairs": [["bukhari:6541", "muslim:520"], ["bukhari:3410", "bukhari:5752"], ["bukhari:6472", "bukhari:6541"]]}
+{"compound_component": 4669, "fragments": 3, "pairs": [["muslim:3569", "muslim:3583"], ["bukhari:5110", "nasai:3302"], ["muslim:3569", "nasai:3301"]]}
+{"compound_component": 2446, "fragments": 2, "pairs": [["tirmidhi:3461", "ibnmajah:3824"], ["bukhari:2992", "bukhari:4205"]]}
+{"compound_component": 1701, "fragments": 2, "pairs": [["bukhari:2871", "bukhari:6501"], ["abudawud:4803", "nasai:3592"]]}
+{"compound_component": 1709, "fragments": 2, "pairs": [["bukhari:2886", "bukhari:2887"], ["bukhari:2887", "ibnmajah:4136"]]}
+{"compound_component": 1711, "fragments": 2, "pairs": [["bukhari:2889", "bukhari:3367"], ["bukhari:6714", "muslim:3321"]]}
+{"compound_component": 1774, "fragments": 2, "pairs": [["bukhari:3012", "muslim:4549"], ["bukhari:3012", "ibnmajah:2839"]]}
+{"compound_component": 1790, "fragments": 2, "pairs": [["bukhari:3039", "bukhari:4067"], ["bukhari:3039", "abudawud:2662"]]}
+{"compound_component": 1793, "fragments": 2, "pairs": [["bukhari:4086", "bukhari:7402"], ["bukhari:3045", "abudawud:3112"]]}
+{"compound_component": 1798, "fragments": 2, "pairs": [["bukhari:4431", "muslim:4233"], ["bukhari:4431", "abudawud:3029"]]}
+{"compound_component": 4268, "fragments": 2, "pairs": [["bukhari:3206", "muslim:2085"], ["muslim:2085", "tirmidhi:3449"]]}
+{"compound_component": 2735, "fragments": 3, "pairs": [["bukhari:3234", "muslim:439"], ["bukhari:4612", "bukhari:4855"], ["bukhari:4855", "bukhari:7380"]]}
+{"compound_component": 2163, "fragments": 2, "pairs": [["bukhari:3679", "bukhari:5226"], ["bukhari:3679", "muslim:6321"]]}
+{"compound_component": 12107, "fragments": 2, "pairs": [["tirmidhi:3730", "ibnmajah:121"], ["tirmidhi:3713", "ibnmajah:121"]]}
+{"compound_component": 2461, "fragments": 2, "pairs": [["bukhari:3711", "bukhari:4240"], ["bukhari:4240", "abudawud:2968"]]}
+{"compound_component": 2430, "fragments": 3, "pairs": [["bukhari:4173", "muslim:5010"], ["bukhari:4217", "muslim:3433"], ["bukhari:4173", "nasai:69"]]}
+{"compound_component": 2500, "fragments": 2, "pairs": [["bukhari:4330", "ibnmajah:164"], ["bukhari:3793", "bukhari:4330"]]}
+{"compound_component": 1970, "fragments": 3, "pairs": [["bukhari:3349", "bukhari:4626"], ["bukhari:4625", "nasai:2087"], ["bukhari:3349", "nasai:2082"]]}
+{"compound_component": 1971, "fragments": 2, "pairs": [["bukhari:3350", "bukhari:4768"], ["bukhari:3350", "bukhari:4769"]]}
+{"compound_component": 2669, "fragments": 2, "pairs": [["bukhari:3394", "bukhari:5576"], ["bukhari:5576", "bukhari:5603"]]}
+{"compound_component": 2048, "fragments": 5, "pairs": [["bukhari:3491", "bukhari:3492"], ["muslim:5182", "muslim:5203"], ["muslim:5173", "nasai:5589"], ["muslim:5173", "nasai:5639"], ["abudawud:3697", "nasai:5557"]]}
+{"compound_component": 2076, "fragments": 2, "pairs": [["bukhari:3536", "muslim:6091"], ["muslim:6096", "muslim:6097"]]}
+{"compound_component": 5329, "fragments": 2, "pairs": [["muslim:6074", "muslim:6075"], ["bukhari:5895", "muslim:6074"]]}
+{"compound_component": 2086, "fragments": 4, "pairs": [["bukhari:5848", "muslim:6064"], ["bukhari:5901", "bukhari:5903"], ["muslim:6064", "abudawud:4072"], ["nasai:5060", "ibnmajah:3599"]]}
+{"compound_component": 2210, "fragments": 2, "pairs": [["bukhari:3559", "bukhari:3759"], ["bukhari:3758", "bukhari:3759"]]}
+{"compound_component": 2112, "fragments": 2, "pairs": [["bukhari:3601", "bukhari:7081"], ["bukhari:3602", "muslim:1419"]]}
+{"compound_component": 1969, "fragments": 2, "pairs": [["bukhari:4741", "bukhari:7483"], ["bukhari:3348", "tirmidhi:2941"]]}
+{"compound_component": 3221, "fragments": 2, "pairs": [["bukhari:6167", "muslim:6712"], ["bukhari:6167", "muslim:7412"]]}
+{"compound_component": 3226, "fragments": 2, "pairs": [["bukhari:6182", "muslim:5865"], ["muslim:5867", "muslim:5869"]]}
+{"compound_component": 3604, "fragments": 2, "pairs": [["bukhari:7296", "muslim:347"], ["bukhari:7296", "abudawud:4721"]]}
+{"compound_component": 10708, "fragments": 2, "pairs": [["muslim:3375", "tirmidhi:3916"], ["tirmidhi:3915", "tirmidhi:3916"]]}
+{"compound_component": 2752, "fragments": 2, "pairs": [["bukhari:5320", "muslim:3723"], ["nasai:3513", "nasai:3515"]]}
+{"compound_component": 3484, "fragments": 2, "pairs": [["bukhari:4193", "bukhari:6899"], ["bukhari:4610", "bukhari:6899"]]}
+{"compound_component": 2560, "fragments": 2, "pairs": [["bukhari:4703", "bukhari:4704"], ["nasai:913", "ibnmajah:3785"]]}
+{"compound_component": 3631, "fragments": 2, "pairs": [["bukhari:5220", "bukhari:7416"], ["bukhari:6846", "bukhari:7416"]]}
+{"compound_component": 2934, "fragments": 3, "pairs": [["bukhari:4746", "bukhari:5309"], ["bukhari:5309", "bukhari:6854"], ["bukhari:5309", "muslim:3745"]]}
+{"compound_component": 4650, "fragments": 2, "pairs": [["bukhari:4793", "muslim:3503"], ["muslim:3503", "nasai:3251"]]}
+{"compound_component": 2767, "fragments": 2, "pairs": [["bukhari:4814", "bukhari:4935"], ["bukhari:4935", "ibnmajah:4266"]]}
+{"compound_component": 1614, "fragments": 2, "pairs": [["bukhari:4891", "bukhari:7214"], ["bukhari:4891", "tirmidhi:3306"]]}
+{"compound_component": 2773, "fragments": 2, "pairs": [["bukhari:4942", "bukhari:5204"], ["bukhari:4942", "ibnmajah:1983"]]}
+{"compound_component": 3116, "fragments": 2, "pairs": [["bukhari:5838", "nasai:5165"], ["bukhari:5864", "nasai:5266"]]}
+{"compound_component": 2751, "fragments": 2, "pairs": [["muslim:3659", "nasai:3558"], ["nasai:3392", "nasai:3398"]]}
+{"compound_component": 2917, "fragments": 2, "pairs": [["bukhari:6814", "bukhari:6815"], ["bukhari:5270", "muslim:4421"]]}
+{"compound_component": 1330, "fragments": 2, "pairs": [["muslim:4089", "muslim:4091"], ["bukhari:2178", "nasai:4580"]]}
+{"compound_component": 3084, "fragments": 3, "pairs": [["bukhari:5758", "muslim:4389"], ["muslim:4394", "nasai:4824"], ["abudawud:4579", "nasai:4820"]]}
+{"compound_component": 3508, "fragments": 2, "pairs": [["bukhari:6984", "bukhari:6995"], ["bukhari:6984", "muslim:5902"]]}
+{"compound_component": 2992, "fragments": 2, "pairs": [["nasai:4265", "nasai:4307"], ["bukhari:7397", "nasai:4267"]]}
+{"compound_component": 11664, "fragments": 2, "pairs": [["bukhari:5484", "nasai:4268"], ["nasai:4263", "nasai:4268"]]}
+{"compound_component": 5122, "fragments": 4, "pairs": [["muslim:5301", "muslim:5307"], ["muslim:5301", "tirmidhi:1802"], ["muslim:5301", "ibnmajah:3270"], ["muslim:5301", "ibnmajah:3279"]]}
+{"compound_component": 3212, "fragments": 2, "pairs": [["bukhari:6129", "bukhari:6203"], ["bukhari:6129", "ibnmajah:3740"]]}
+{"compound_component": 846, "fragments": 2, "pairs": [["bukhari:1355", "bukhari:6618"], ["bukhari:3056", "muslim:7356"]]}
+{"compound_component": 3306, "fragments": 2, "pairs": [["bukhari:6349", "bukhari:6430"], ["bukhari:6430", "bukhari:6431"]]}
+{"compound_component": 1918, "fragments": 2, "pairs": [["bukhari:6555", "tirmidhi:2556"], ["bukhari:6556", "tirmidhi:2556"]]}
+{"compound_component": 5299, "fragments": 2, "pairs": [["bukhari:6579", "muslim:5971"], ["bukhari:6593", "muslim:5971"]]}
+{"compound_component": 3507, "fragments": 2, "pairs": [["bukhari:6989", "bukhari:6994"], ["abudawud:5018", "ibnmajah:3914"]]}
+{"compound_component": 3510, "fragments": 3, "pairs": [["bukhari:6996", "bukhari:6997"], ["bukhari:6197", "ibnmajah:3902"], ["muslim:5923", "ibnmajah:3913"]]}
+{"compound_component": 3974, "fragments": 2, "pairs": [["muslim:1068", "muslim:1071"], ["nasai:1060", "ibnmajah:878"]]}
+{"compound_component": 4445, "fragments": 3, "pairs": [["muslim:2747", "muslim:2750"], ["muslim:2746", "tirmidhi:749"], ["nasai:2387", "ibnmajah:1713"]]}
+{"compound_component": 4586, "fragments": 3, "pairs": [["muslim:3257", "muslim:6115"], ["bukhari:7288", "nasai:2619"], ["muslim:3257", "tirmidhi:2679"]]}
+{"compound_component": 4667, "fragments": 2, "pairs": [["muslim:3564", "muslim:3565"], ["tirmidhi:2076", "ibnmajah:2011"]]}
+{"compound_component": 3215, "fragments": 2, "pairs": [["muslim:4514", "muslim:4515"], ["abudawud:3749", "tirmidhi:1968"]]}
+{"compound_component": 4975, "fragments": 2, "pairs": [["muslim:4801", "muslim:4802"], ["muslim:4800", "abudawud:4760"]]}
+{"compound_component": 5102, "fragments": 2, "pairs": [["muslim:5246", "muslim:5248"], ["tirmidhi:1812", "ibnmajah:3410"]]}
+{"compound_component": 5178, "fragments": 2, "pairs": [["muslim:5508", "muslim:5509"], ["muslim:5509", "nasai:5242"]]}
+{"compound_component": 5587, "fragments": 3, "pairs": [["muslim:6879", "tirmidhi:3437"], ["muslim:6879", "muslim:6881"], ["muslim:6879", "abudawud:3898"]]}
+{"compound_component": 725, "fragments": 2, "pairs": [["bukhari:1132.2", "muslim:1730"], ["muslim:1730", "abudawud:1317"]]}
+{"compound_component": 2015, "fragments": 2, "pairs": [["bukhari:2482", "bukhari:3436"], ["bukhari:3436", "bukhari:3466"]]}
+{"compound_component": 1597, "fragments": 2, "pairs": [["bukhari:1243", "bukhari:3929"], ["bukhari:7004", "bukhari:7018"]]}
+{"compound_component": 2383, "fragments": 2, "pairs": [["bukhari:4079", "nasai:1845"], ["bukhari:1343", "bukhari:4079"]]}
+{"compound_component": 3392, "fragments": 3, "pairs": [["bukhari:1359", "muslim:6761"], ["bukhari:1385", "bukhari:6599"], ["bukhari:6598", "tirmidhi:2138"]]}
+{"compound_component": 908, "fragments": 2, "pairs": [["bukhari:1433", "bukhari:1434"], ["muslim:2376", "muslim:2378"]]}
+{"compound_component": 886, "fragments": 2, "pairs": [["muslim:2266", "muslim:2267"], ["nasai:2445", "nasai:2486"]]}
+{"compound_component": 922, "fragments": 2, "pairs": [["bukhari:1454", "bukhari:6955"], ["bukhari:1451", "nasai:2455"]]}
+{"compound_component": 4344, "fragments": 2, "pairs": [["bukhari:1460", "nasai:2440"], ["bukhari:6638", "nasai:2440"]]}
+{"compound_component": 2885, "fragments": 2, "pairs": [["bukhari:2066", "bukhari:5195"], ["bukhari:5195", "abudawud:2458"]]}
+{"compound_component": 7651, "fragments": 2, "pairs": [["abudawud:3119", "ibnmajah:1598"], ["abudawud:3119", "tirmidhi:3511"]]}
+{"compound_component": 3918, "fragments": 2, "pairs": [["muslim:878", "muslim:879"], ["tirmidhi:2953", "ibnmajah:838"]]}
+{"compound_component": 3973, "fragments": 2, "pairs": [["muslim:1065", "muslim:1066"], ["muslim:1066", "abudawud:817"]]}
+{"compound_component": 3461, "fragments": 2, "pairs": [["bukhari:6830", "tirmidhi:1432"], ["bukhari:6830", "bukhari:7323"]]}
+{"compound_component": 115, "fragments": 2, "pairs": [["bukhari:698", "ibnmajah:475"], ["muslim:1793", "ibnmajah:423"]]}
+{"compound_component": 7489, "fragments": 3, "pairs": [["bukhari:2398", "abudawud:2899"], ["abudawud:2899", "abudawud:2901"], ["ibnmajah:2634", "ibnmajah:2738"]]}
+{"compound_component": 7883, "fragments": 3, "pairs": [["abudawud:3538", "nasai:3710"], ["tirmidhi:1351", "nasai:3727"], ["nasai:3707", "ibnmajah:2383"]]}
+{"compound_component": 10353, "fragments": 2, "pairs": [["bukhari:4779", "tirmidhi:3292"], ["tirmidhi:3013", "tirmidhi:3292"]]}
+{"compound_component": 173, "fragments": 2, "pairs": [["bukhari:6052", "ibnmajah:347"], ["bukhari:6052", "ibnmajah:349"]]}
+{"compound_component": 1950, "fragments": 2, "pairs": [["bukhari:6295", "tirmidhi:2857"], ["bukhari:3316", "abudawud:3733"]]}
+{"compound_component": 3995, "fragments": 2, "pairs": [["abudawud:783", "ibnmajah:869"], ["abudawud:783", "ibnmajah:893"]]}
+{"compound_component": 4016, "fragments": 2, "pairs": [["abudawud:930", "abudawud:3909"], ["abudawud:930", "abudawud:3282"]]}
+{"compound_component": 1734, "fragments": 2, "pairs": [["tirmidhi:2984", "nasai:473"], ["abudawud:409", "tirmidhi:181"]]}
+{"compound_component": 506, "fragments": 7, "pairs": [["tirmidhi:3421", "nasai:897"], ["abudawud:743", "nasai:1182"], ["tirmidhi:3421", "nasai:1126"], ["nasai:1144", "ibnmajah:866"], ["muslim:1812", "abudawud:1509"], ["tirmidhi:3421", "nasai:1050"], ["tirmidhi:304", "nasai:1101"]]}
+{"compound_component": 981, "fragments": 2, "pairs": [["nasai:2747", "nasai:2749"], ["bukhari:5772", "ibnmajah:1993"]]}
+{"compound_component": 9263, "fragments": 3, "pairs": [["abudawud:3969", "tirmidhi:2967"], ["nasai:2962", "nasai:2970"], ["muslim:2953", "nasai:2939"]]}
+{"compound_component": 4495, "fragments": 4, "pairs": [["muslim:2951", "nasai:656"], ["muslim:2951", "nasai:604"], ["abudawud:1905", "ibnmajah:3074"], ["nasai:3076", "ibnmajah:3074"]]}
+{"compound_component": 4529, "fragments": 2, "pairs": [["muslim:2995", "abudawud:1795"], ["bukhari:5406", "ibnmajah:2968"]]}
+{"compound_component": 4675, "fragments": 2, "pairs": [["muslim:3600", "nasai:1638"], ["muslim:3603", "nasai:3323"]]}
+{"compound_component": 7750, "fragments": 2, "pairs": [["muslim:4253", "abudawud:3290"], ["nasai:3844", "nasai:3846"]]}
+{"compound_component": 5575, "fragments": 3, "pairs": [["abudawud:1455", "tirmidhi:2945"], ["abudawud:3643", "tirmidhi:2945"], ["tirmidhi:1930", "tirmidhi:2945"]]}
+{"compound_component": 8767, "fragments": 2, "pairs": [["tirmidhi:1930", "ibnmajah:2417"], ["tirmidhi:1425", "ibnmajah:2544"]]}
+{"compound_component": 9047, "fragments": 2, "pairs": [["abudawud:61", "tirmidhi:238"], ["tirmidhi:238", "ibnmajah:839"]]}
+{"compound_component": 151, "fragments": 2, "pairs": [["bukhari:185", "tirmidhi:32"], ["bukhari:197", "abudawud:100"]]}
+{"compound_component": 5880, "fragments": 2, "pairs": [["abudawud:142", "tirmidhi:788"], ["abudawud:142", "abudawud:3973"]]}
+{"compound_component": 12243, "fragments": 2, "pairs": [["tirmidhi:81", "ibnmajah:497"], ["ibnmajah:496", "ibnmajah:497"]]}
+{"compound_component": 6013, "fragments": 2, "pairs": [["abudawud:376", "nasai:304"], ["abudawud:376", "nasai:224"]]}
+{"compound_component": 3908, "fragments": 2, "pairs": [["tirmidhi:192", "ibnmajah:709"], ["nasai:629", "nasai:649"]]}
+{"compound_component": 22, "fragments": 2, "pairs": [["bukhari:26", "nasai:4985"], ["bukhari:26", "nasai:3129"]]}
+{"compound_component": 9113, "fragments": 2, "pairs": [["abudawud:1416", "tirmidhi:453"], ["tirmidhi:453", "tirmidhi:454"]]}
+{"compound_component": 7393, "fragments": 2, "pairs": [["nasai:4735", "ibnmajah:2660"], ["nasai:4735", "ibnmajah:2683"]]}
+{"compound_component": 7428, "fragments": 2, "pairs": [["nasai:4372", "nasai:4376"], ["nasai:4373", "nasai:4375"]]}
+{"compound_component": 7890, "fragments": 4, "pairs": [["abudawud:3565", "nasai:3641"], ["abudawud:3565", "ibnmajah:2398"], ["abudawud:3565", "tirmidhi:670"], ["abudawud:3565", "tirmidhi:1265"]]}
+{"compound_component": 1843, "fragments": 2, "pairs": [["bukhari:6680", "abudawud:3276"], ["bukhari:6721", "nasai:4347"]]}
+{"compound_component": 7740, "fragments": 3, "pairs": [["abudawud:3274", "nasai:3850"], ["abudawud:3274", "ibnmajah:2111"], ["abudawud:3274", "nasai:3792"]]}
+{"compound_component": 7853, "fragments": 2, "pairs": [["nasai:4611", "nasai:4631"], ["nasai:4631", "ibnmajah:2188"]]}
+{"compound_component": 7859, "fragments": 2, "pairs": [["abudawud:3511", "nasai:4648"], ["abudawud:3511", "ibnmajah:2186"]]}
+{"compound_component": 7870, "fragments": 2, "pairs": [["nasai:4450", "ibnmajah:2292"], ["ibnmajah:2291", "ibnmajah:2292"]]}
+{"compound_component": 5698, "fragments": 3, "pairs": [["abudawud:4252", "tirmidhi:2202"], ["abudawud:4252", "tirmidhi:2219"], ["abudawud:4252", "tirmidhi:2229"]]}
+{"compound_component": 4640, "fragments": 2, "pairs": [["tirmidhi:1123", "tirmidhi:1601"], ["abudawud:2581", "nasai:3336"]]}
+{"compound_component": 11778, "fragments": 2, "pairs": [["abudawud:4541", "ibnmajah:2630"], ["nasai:4801", "ibnmajah:2647"]]}
+{"compound_component": 9184, "fragments": 2, "pairs": [["tirmidhi:644", "ibnmajah:1819"], ["abudawud:1603", "tirmidhi:644"]]}
+{"compound_component": 9384, "fragments": 2, "pairs": [["tirmidhi:1164", "tirmidhi:1166"], ["tirmidhi:1164", "ibnmajah:1924"]]}
+{"compound_component": 11576, "fragments": 2, "pairs": [["tirmidhi:1527", "nasai:3851"], ["nasai:3833", "nasai:3851"]]}
+{"compound_component": 3119, "fragments": 2, "pairs": [["nasai:5276", "nasai:5277"], ["abudawud:4216", "nasai:5197"]]}
+{"compound_component": 11018, "fragments": 3, "pairs": [["tirmidhi:1883", "nasai:1361"], ["muslim:1641", "nasai:1361"], ["abudawud:653", "nasai:1361"]]}
+{"compound_component": 3516, "fragments": 2, "pairs": [["abudawud:5019", "ibnmajah:3917"], ["abudawud:5019", "ibnmajah:3926"]]}
+{"compound_component": 10524, "fragments": 2, "pairs": [["tirmidhi:3613", "ibnmajah:4314"], ["bukhari:3534", "tirmidhi:3613"]]}
+{"compound_component": 6524, "fragments": 2, "pairs": [["nasai:584", "ibnmajah:1364"], ["tirmidhi:3579", "nasai:572"]]}
+{"compound_component": 4159, "fragments": 2, "pairs": [["nasai:1315", "nasai:1601"], ["nasai:1601", "nasai:1641"]]}
+{"compound_component": 785, "fragments": 3, "pairs": [["bukhari:5650", "nasai:5309"], ["nasai:3778", "ibnmajah:2115"], ["bukhari:5849", "ibnmajah:3589"]]}
+{"compound_component": 11152, "fragments": 2, "pairs": [["muslim:2247", "nasai:2028"], ["nasai:2028", "nasai:2029"]]}
+{"compound_component": 11364, "fragments": 2, "pairs": [["nasai:2961", "nasai:2984"], ["nasai:2961", "nasai:2985"]]}
+{"compound_component": 11549, "fragments": 2, "pairs": [["nasai:3732", "nasai:3752"], ["nasai:3733", "ibnmajah:2382"]]}
+{"compound_component": 12078, "fragments": 2, "pairs": [["nasai:4113", "ibnmajah:46"], ["bukhari:6094", "ibnmajah:46"]]}
+{"compound_component": 25, "fragments": 2, "pairs": [["bukhari:2545", "tirmidhi:1945"], ["bukhari:2545", "ibnmajah:3690"]]}
+{"compound_component": 145, "fragments": 3, "pairs": [["bukhari:5476", "nasai:4273"], ["bukhari:175", "nasai:4268"], ["bukhari:175", "nasai:4275"]]}
+{"compound_component": 6015, "fragments": 2, "pairs": [["bukhari:220", "abudawud:380"], ["abudawud:380", "nasai:1217"]]}
+{"compound_component": 175, "fragments": 2, "pairs": [["bukhari:220", "tirmidhi:147"], ["bukhari:6025", "nasai:54"]]}
+{"compound_component": 295, "fragments": 2, "pairs": [["nasai:2913", "nasai:2917"], ["nasai:2909", "nasai:2916"]]}
+{"compound_component": 297, "fragments": 2, "pairs": [["nasai:1244", "ibnmajah:1211"], ["muslim:1274", "nasai:1246"]]}
+{"compound_component": 555, "fragments": 2, "pairs": [["bukhari:828", "abudawud:732"], ["bukhari:828", "abudawud:964"]]}
+{"compound_component": 586, "fragments": 3, "pairs": [["bukhari:5841", "ibnmajah:3591"], ["bukhari:948", "abudawud:4041"], ["abudawud:1077", "nasai:1560"]]}
+{"compound_component": 11027, "fragments": 2, "pairs": [["bukhari:920", "nasai:1418"], ["muslim:2003", "nasai:1584"]]}
+{"compound_component": 620, "fragments": 2, "pairs": [["tirmidhi:491", "ibnmajah:1137"], ["abudawud:1048", "nasai:1431"]]}
+{"compound_component": 899, "fragments": 2, "pairs": [["bukhari:2748", "nasai:2542"], ["bukhari:1419", "ibnmajah:2706"]]}
+{"compound_component": 4522, "fragments": 2, "pairs": [["muslim:3016", "abudawud:1774"], ["tirmidhi:906", "nasai:2774"]]}
+{"compound_component": 1177, "fragments": 4, "pairs": [["bukhari:1906", "abudawud:2320"], ["bukhari:1907", "nasai:2134"], ["muslim:2515", "tirmidhi:684"], ["muslim:2515", "nasai:2129"]]}
+{"compound_component": 1223, "fragments": 2, "pairs": [["bukhari:1979", "tirmidhi:770"], ["muslim:2736", "nasai:2410"]]}
+{"compound_component": 1252, "fragments": 2, "pairs": [["muslim:2780", "abudawud:2463"], ["bukhari:2025", "tirmidhi:792"]]}
+{"compound_component": 1329, "fragments": 2, "pairs": [["bukhari:2176", "nasai:4570"], ["muslim:4057", "nasai:4570"]]}
+{"compound_component": 10380, "fragments": 2, "pairs": [["bukhari:2802", "tirmidhi:3345"], ["muslim:4656", "tirmidhi:3345"]]}
+{"compound_component": 5166, "fragments": 4, "pairs": [["muslim:5486", "ibnmajah:3646"], ["muslim:5487", "nasai:5203"], ["ibnmajah:3645", "ibnmajah:3646"], ["nasai:5197", "nasai:5283"]]}
+{"compound_component": 1176, "fragments": 2, "pairs": [["bukhari:3277", "ibnmajah:1642"], ["muslim:2497", "nasai:2098"]]}
+{"compound_component": 2553, "fragments": 2, "pairs": [["bukhari:4462", "nasai:1844"], ["bukhari:4462", "ibnmajah:1630"]]}
+{"compound_component": 3008, "fragments": 2, "pairs": [["bukhari:5536", "ibnmajah:3242"], ["bukhari:5536", "ibnmajah:3245"]]}
+{"compound_component": 2975, "fragments": 2, "pairs": [["bukhari:5632", "ibnmajah:3414"], ["tirmidhi:1878", "ibnmajah:3590"]]}
+{"compound_component": 9652, "fragments": 2, "pairs": [["bukhari:5989", "tirmidhi:1924"], ["abudawud:4941", "tirmidhi:1924"]]}
+{"compound_component": 3633, "fragments": 2, "pairs": [["bukhari:7420", "tirmidhi:3212"], ["bukhari:7420", "tirmidhi:3213"]]}
+{"compound_component": 9976, "fragments": 2, "pairs": [["bukhari:7423", "ibnmajah:4331"], ["tirmidhi:2529", "tirmidhi:2531"]]}
+{"compound_component": 3820, "fragments": 2, "pairs": [["muslim:553", "abudawud:906"], ["muslim:553", "nasai:148"]]}
+{"compound_component": 3860, "fragments": 2, "pairs": [["nasai:280", "nasai:282"], ["nasai:281", "ibnmajah:643"]]}
+{"compound_component": 3861, "fragments": 2, "pairs": [["nasai:288", "nasai:369"], ["muslim:694", "ibnmajah:644"]]}
+{"compound_component": 6609, "fragments": 2, "pairs": [["muslim:705", "tirmidhi:2924"], ["tirmidhi:449", "tirmidhi:2924"]]}
+{"compound_component": 3937, "fragments": 2, "pairs": [["muslim:968", "abudawud:661"], ["muslim:968", "abudawud:1000"]]}
+{"compound_component": 4044, "fragments": 2, "pairs": [["muslim:1315", "abudawud:933"], ["nasai:1142", "nasai:1317"]]}
+{"compound_component": 4156, "fragments": 2, "pairs": [["muslim:1707", "nasai:1781"], ["abudawud:1340", "ibnmajah:1196"]]}
+{"compound_component": 6613, "fragments": 3, "pairs": [["muslim:1769", "nasai:2526"], ["nasai:2526", "nasai:4986"], ["nasai:2526", "ibnmajah:2794"]]}
+{"compound_component": 8307, "fragments": 2, "pairs": [["muslim:6911", "abudawud:4225"], ["abudawud:4225", "nasai:5212"]]}
+{"compound_component": 1300, "fragments": 2, "pairs": [["muslim:7240", "abudawud:4289"], ["nasai:2877", "ibnmajah:4064"]]}
+{"compound_component": 5747, "fragments": 2, "pairs": [["muslim:7386", "abudawud:4326"], ["muslim:7386", "nasai:3237"]]}
+{"compound_component": 5805, "fragments": 2, "pairs": [["abudawud:10", "tirmidhi:9"], ["tirmidhi:9", "tirmidhi:10"]]}
+{"compound_component": 9111, "fragments": 2, "pairs": [["abudawud:226", "nasai:1662"], ["abudawud:1437", "nasai:1662"]]}
+{"compound_component": 6171, "fragments": 2, "pairs": [["abudawud:643", "tirmidhi:378"], ["abudawud:643", "ibnmajah:966"]]}
+{"compound_component": 6229, "fragments": 3, "pairs": [["abudawud:734", "abudawud:967"], ["abudawud:734", "tirmidhi:260"], ["abudawud:734", "tirmidhi:270"]]}
+{"compound_component": 6267, "fragments": 2, "pairs": [["tirmidhi:1701", "nasai:3581"], ["nasai:141", "nasai:3581"]]}
+{"compound_component": 4254, "fragments": 2, "pairs": [["abudawud:1128", "nasai:1428"], ["abudawud:1130", "ibnmajah:1130"]]}
+{"compound_component": 6598, "fragments": 2, "pairs": [["abudawud:1416", "ibnmajah:1170"], ["nasai:1675", "ibnmajah:1169"]]}
+{"compound_component": 4140, "fragments": 3, "pairs": [["abudawud:1423", "nasai:1743"], ["abudawud:1430", "nasai:1740"], ["nasai:1699", "ibnmajah:1182"]]}
+{"compound_component": 6682, "fragments": 2, "pairs": [["abudawud:1568", "ibnmajah:1798"], ["abudawud:1568", "ibnmajah:1805"]]}
+{"compound_component": 7168, "fragments": 2, "pairs": [["nasai:2274", "nasai:2277"], ["ibnmajah:1667", "ibnmajah:3299"]]}
+{"compound_component": 4439, "fragments": 2, "pairs": [["nasai:2325", "nasai:2328"], ["tirmidhi:733", "nasai:2329"]]}
+{"compound_component": 21, "fragments": 3, "pairs": [["tirmidhi:2606", "nasai:3093"], ["abudawud:2642", "nasai:3966"], ["nasai:3967", "nasai:3983"]]}
+{"compound_component": 13143, "fragments": 2, "pairs": [["abudawud:3334", "ibnmajah:3055"], ["tirmidhi:2159", "ibnmajah:3055"]]}
+{"compound_component": 9749, "fragments": 2, "pairs": [["abudawud:3565", "tirmidhi:2120"], ["tirmidhi:2120", "tirmidhi:2121"]]}
+{"compound_component": 5093, "fragments": 2, "pairs": [["abudawud:3679", "ibnmajah:3390"], ["nasai:5583", "ibnmajah:3389"]]}
+{"compound_component": 8319, "fragments": 2, "pairs": [["abudawud:4239", "nasai:5160"], ["tirmidhi:1760", "nasai:5150"]]}
+{"compound_component": 8418, "fragments": 2, "pairs": [["abudawud:4399", "abudawud:4403"], ["abudawud:4402", "abudawud:4403"]]}
+{"compound_component": 8887, "fragments": 2, "pairs": [["abudawud:5139", "tirmidhi:1897"], ["abudawud:5139", "nasai:2566"]]}
+{"compound_component": 9072, "fragments": 2, "pairs": [["tirmidhi:322", "nasai:714"], ["tirmidhi:322", "ibnmajah:749"]]}
+{"compound_component": 9289, "fragments": 2, "pairs": [["tirmidhi:935", "nasai:2863"], ["tirmidhi:935", "nasai:2864"]]}
+{"compound_component": 9573, "fragments": 2, "pairs": [["tirmidhi:1731", "nasai:5337"], ["tirmidhi:1731", "nasai:5338"]]}
+{"compound_component": 9716, "fragments": 2, "pairs": [["tirmidhi:2047", "tirmidhi:2053"], ["tirmidhi:2053", "ibnmajah:3478"]]}
+{"compound_component": 9738, "fragments": 2, "pairs": [["tirmidhi:2095", "ibnmajah:2715"], ["tirmidhi:2122", "ibnmajah:2715"]]}
+{"compound_component": 10946, "fragments": 2, "pairs": [["nasai:982", "ibnmajah:827"], ["nasai:983", "nasai:999"]]}
+{"compound_component": 11076, "fragments": 2, "pairs": [["nasai:1652", "nasai:1653"], ["nasai:1652", "nasai:1655"]]}
+{"compound_component": 11299, "fragments": 2, "pairs": [["nasai:2718", "ibnmajah:2981"], ["nasai:2718", "nasai:2990"]]}
+{"compound_component": 12499, "fragments": 2, "pairs": [["ibnmajah:1294", "ibnmajah:1300"], ["ibnmajah:1300", "ibnmajah:1301"]]}
