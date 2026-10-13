@@ -1,0 +1,468 @@
+{
+ "summary": {
+  "checked": 50,
+  "accuracy": 4.78,
+  "fluency": 4.64,
+  "with_major_errors": 3,
+  "topic_ok": 49,
+  "spend_usd": 0.259
+ },
+ "rows": [
+  {
+   "id": "U6-07666",
+   "accuracy": 5,
+   "fluency": 4,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Prayer",
+   "topic": "Prayer"
+  },
+  {
+   "id": "U6-10153",
+   "accuracy": 5,
+   "fluency": 5,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Greetings, seeking permission and gatherings",
+   "topic": "Greetings, seeking permission and gatherings"
+  },
+  {
+   "id": "U6-06187",
+   "accuracy": 3,
+   "fluency": 3,
+   "major_errors": [
+    "Likely subject/object reversal: 'سمع النبيَّ' in narration usually means 'He heard the Prophet ﷺ', not 'The Prophet ﷺ heard'"
+   ],
+   "topic_ok": true,
+   "better_topic": "Marriage and divorce",
+   "topic": "Marriage and divorce"
+  },
+  {
+   "id": "U6-04417",
+   "accuracy": 5,
+   "fluency": 5,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Food, drink and hunting",
+   "topic": "Food, drink and hunting"
+  },
+  {
+   "id": "U6-02290",
+   "accuracy": 5,
+   "fluency": 4,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Zakat and charity",
+   "topic": "Zakat and charity"
+  },
+  {
+   "id": "U6-03083",
+   "accuracy": 5,
+   "fluency": 5,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Manners and good character",
+   "topic": "Manners and good character"
+  },
+  {
+   "id": "U6-11197",
+   "accuracy": 5,
+   "fluency": 4,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Jihad and expeditions",
+   "topic": "Jihad and expeditions"
+  },
+  {
+   "id": "U6-00106",
+   "accuracy": 5,
+   "fluency": 4,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Prayer",
+   "topic": "Prayer"
+  },
+  {
+   "id": "U6-05600",
+   "accuracy": 5,
+   "fluency": 5,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Hajj and Umrah",
+   "topic": "Hajj and Umrah"
+  },
+  {
+   "id": "U6-08320",
+   "accuracy": 5,
+   "fluency": 5,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Hajj and Umrah",
+   "topic": "Hajj and Umrah"
+  },
+  {
+   "id": "U6-07678",
+   "accuracy": 5,
+   "fluency": 5,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Prayer",
+   "topic": "Prayer"
+  },
+  {
+   "id": "U6-10012",
+   "accuracy": 5,
+   "fluency": 5,
+   "major_errors": [],
+   "topic_ok": false,
+   "better_topic": "Softening of hearts",
+   "topic": "Trade and transactions"
+  },
+  {
+   "id": "U6-01331",
+   "accuracy": 5,
+   "fluency": 4,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Prayer",
+   "topic": "Prayer"
+  },
+  {
+   "id": "U6-05528",
+   "accuracy": 5,
+   "fluency": 4,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Hajj and Umrah",
+   "topic": "Hajj and Umrah"
+  },
+  {
+   "id": "U6-09175",
+   "accuracy": 5,
+   "fluency": 4,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Government and leadership",
+   "topic": "Government and leadership"
+  },
+  {
+   "id": "U6-10210",
+   "accuracy": 5,
+   "fluency": 5,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "The Qur'an and its recitation",
+   "topic": "The Qur'an and its recitation"
+  },
+  {
+   "id": "U6-11582",
+   "accuracy": 4,
+   "fluency": 5,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Food, drink and hunting",
+   "topic": "Food, drink and hunting"
+  },
+  {
+   "id": "U6-00675",
+   "accuracy": 5,
+   "fluency": 5,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Zakat and charity",
+   "topic": "Zakat and charity"
+  },
+  {
+   "id": "U6-12045",
+   "accuracy": 5,
+   "fluency": 5,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Prayer",
+   "topic": "Prayer"
+  },
+  {
+   "id": "U6-06282",
+   "accuracy": 5,
+   "fluency": 5,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Virtues of the Prophet and Companions",
+   "topic": "Virtues of the Prophet and Companions"
+  },
+  {
+   "id": "U6-02807",
+   "accuracy": 4,
+   "fluency": 5,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Jihad and expeditions",
+   "topic": "Jihad and expeditions"
+  },
+  {
+   "id": "U6-11639",
+   "accuracy": 4,
+   "fluency": 5,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Food, drink and hunting",
+   "topic": "Food, drink and hunting"
+  },
+  {
+   "id": "U6-07486",
+   "accuracy": 5,
+   "fluency": 5,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Signs of the Hour and tribulations",
+   "topic": "Signs of the Hour and tribulations"
+  },
+  {
+   "id": "U6-11994",
+   "accuracy": 5,
+   "fluency": 5,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Prayer",
+   "topic": "Prayer"
+  },
+  {
+   "id": "U6-07003",
+   "accuracy": 3,
+   "fluency": 4,
+   "major_errors": [
+    "Added 'it will reach water and eat from trees', which is not in the Arabic of this narration"
+   ],
+   "topic_ok": true,
+   "better_topic": "Trade and transactions",
+   "topic": "Trade and transactions"
+  },
+  {
+   "id": "U6-02604",
+   "accuracy": 4,
+   "fluency": 4,
+   "major_errors": [
+    "Misattributes who wanted to move: in the Arabic it is Abū Bakr who wanted to step back and the Prophet ﷺ who signaled him to stay. The translation's 'He wanted to move' plus a passive 'was signaled' obscures both the subject and the signaler."
+   ],
+   "topic_ok": true,
+   "better_topic": "Biography and campaigns of the Prophet",
+   "topic": "Biography and campaigns of the Prophet"
+  },
+  {
+   "id": "U6-02791",
+   "accuracy": 5,
+   "fluency": 4,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Trade and transactions",
+   "topic": "Trade and transactions"
+  },
+  {
+   "id": "U6-03939",
+   "accuracy": 5,
+   "fluency": 5,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Dress and adornment",
+   "topic": "Dress and adornment"
+  },
+  {
+   "id": "U6-00846",
+   "accuracy": 5,
+   "fluency": 5,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Sacrifice, slaughter and aqiqah",
+   "topic": "Sacrifice, slaughter and aqiqah"
+  },
+  {
+   "id": "U6-01832",
+   "accuracy": 5,
+   "fluency": 5,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Knowledge and the Sunnah",
+   "topic": "Knowledge and the Sunnah"
+  },
+  {
+   "id": "U6-02189",
+   "accuracy": 4,
+   "fluency": 4,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Signs of the Hour and tribulations",
+   "topic": "Signs of the Hour and tribulations"
+  },
+  {
+   "id": "U6-08377",
+   "accuracy": 5,
+   "fluency": 5,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Jihad and expeditions",
+   "topic": "Jihad and expeditions"
+  },
+  {
+   "id": "U6-09772",
+   "accuracy": 4,
+   "fluency": 5,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Crimes and punishments",
+   "topic": "Crimes and punishments"
+  },
+  {
+   "id": "U6-01042",
+   "accuracy": 5,
+   "fluency": 5,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Hajj and Umrah",
+   "topic": "Hajj and Umrah"
+  },
+  {
+   "id": "U6-12801",
+   "accuracy": 4,
+   "fluency": 5,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Dress and adornment",
+   "topic": "Dress and adornment"
+  },
+  {
+   "id": "U6-11391",
+   "accuracy": 5,
+   "fluency": 5,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Food, drink and hunting",
+   "topic": "Food, drink and hunting"
+  },
+  {
+   "id": "U6-06358",
+   "accuracy": 5,
+   "fluency": 5,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Medicine and dreams",
+   "topic": "Medicine and dreams"
+  },
+  {
+   "id": "U6-12339",
+   "accuracy": 5,
+   "fluency": 5,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Trade and transactions",
+   "topic": "Trade and transactions"
+  },
+  {
+   "id": "U6-01677",
+   "accuracy": 5,
+   "fluency": 5,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Supplication and remembrance",
+   "topic": "Supplication and remembrance"
+  },
+  {
+   "id": "U6-04812",
+   "accuracy": 5,
+   "fluency": 5,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Resurrection, Paradise and Hell",
+   "topic": "Resurrection, Paradise and Hell"
+  },
+  {
+   "id": "U6-03396",
+   "accuracy": 5,
+   "fluency": 4,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Marriage and divorce",
+   "topic": "Marriage and divorce"
+  },
+  {
+   "id": "U6-11156",
+   "accuracy": 5,
+   "fluency": 5,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Hajj and Umrah",
+   "topic": "Hajj and Umrah"
+  },
+  {
+   "id": "U6-03713",
+   "accuracy": 5,
+   "fluency": 4,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "The Qur'an and its recitation",
+   "topic": "The Qur'an and its recitation"
+  },
+  {
+   "id": "U6-12004",
+   "accuracy": 5,
+   "fluency": 5,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Prayer",
+   "topic": "Prayer"
+  },
+  {
+   "id": "U6-06990",
+   "accuracy": 5,
+   "fluency": 4,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Emancipation of slaves",
+   "topic": "Emancipation of slaves"
+  },
+  {
+   "id": "U6-01445",
+   "accuracy": 5,
+   "fluency": 5,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Prayer",
+   "topic": "Prayer"
+  },
+  {
+   "id": "U6-12774",
+   "accuracy": 5,
+   "fluency": 5,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Medicine and dreams",
+   "topic": "Medicine and dreams"
+  },
+  {
+   "id": "U6-04411",
+   "accuracy": 5,
+   "fluency": 4,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Food, drink and hunting",
+   "topic": "Food, drink and hunting"
+  },
+  {
+   "id": "U6-03476",
+   "accuracy": 5,
+   "fluency": 4,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Medicine and dreams",
+   "topic": "Medicine and dreams"
+  },
+  {
+   "id": "U6-06575",
+   "accuracy": 5,
+   "fluency": 5,
+   "major_errors": [],
+   "topic_ok": true,
+   "better_topic": "Prayer",
+   "topic": "Prayer"
+  }
+ ]
+}
