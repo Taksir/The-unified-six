@@ -520,6 +520,14 @@
   "model": "claude-sonnet-5-5",
   "requests": 500,
   "created": "2026-10-13T23:24:28",
-  "collected": false
+  "collected": true
+ },
+ {
+  "id": "msgbatch_0186GnmWqh4qM3BintDvf9ob",
+  "stage": "m4-tr-w3",
+  "model": "claude-sonnet-5-5",
+  "requests": 54,
+  "created": "2026-10-13T23:31:32",
+  "collected": true
  }
 ]

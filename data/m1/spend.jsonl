@@ -87,3 +87,5 @@
 {"t": "2026-10-13T23:13:13", "stage": "m4-tr-w0", "model": "claude-sonnet-5-5", "usd": 1.2244, "requests": 100}
 {"t": "2026-10-13T23:24:26", "stage": "m4-tr-w1", "model": "claude-sonnet-5-5", "usd": 6.09704, "requests": 500}
 {"t": "2026-10-13T23:26:15", "stage": "m4-topics", "model": "claude-haiku-5-5", "usd": 0.39295, "requests": 521}
+{"t": "2026-10-13T23:31:31", "stage": "m4-tr-w2", "model": "claude-sonnet-5-5", "usd": 6.09644, "requests": 500}
+{"t": "2026-10-13T23:38:36", "stage": "m4-tr-w3", "model": "claude-sonnet-5-5", "usd": 0.68163, "requests": 54}
