@@ -451,3 +451,69 @@ def stage_topics(cap_usd: float = 3.0) -> None:
         next(r for r in meta if r["id"] == batch.id)["collected"] = True
         llm.BATCHES.write_text(json.dumps(meta, indent=1) + "\n")
         print(f"  ${usd:.3f}; tagged {len(have) + len(rows)}/{len(reps)}", flush=True)
+
+
+# ---------------------------------------------------------------- spot-check
+
+CHECK_SYSTEM = f"""You review a machine translation of hadith from classical Arabic into \
+English, and the subject topic a classifier filed each hadith under. For each hadith:
+- accuracy (1-5): 5 = every statement faithful, nothing added or lost; 3 = a minor \
+inaccuracy; 1 = a mistranslation that changes a ruling or meaning.
+- fluency (1-5): natural, readable modern English.
+- major_errors: short notes on any error that changes meaning (empty if none).
+- topic_ok: whether the topic is a reasonable primary subject for a reader looking it up \
+(true unless clearly wrong); better_topic: your choice from the list when topic_ok is false, \
+else the same topic.
+House glossary the translator followed: {GLOSSARY}
+Topics: """ + "; ".join(TOPICS)
+
+CHECK_SCHEMA = {
+    "type": "object",
+    "properties": {"results": {"type": "array", "items": {
+        "type": "object",
+        "properties": {"id": {"type": "string"}, "accuracy": {"type": "integer"},
+                       "fluency": {"type": "integer"},
+                       "major_errors": {"type": "array", "items": {"type": "string"}},
+                       "topic_ok": {"type": "boolean"},
+                       "better_topic": {"type": "string", "enum": TOPICS}},
+        "required": ["id", "accuracy", "fluency", "major_errors", "topic_ok", "better_topic"],
+        "additionalProperties": False}}},
+    "required": ["results"], "additionalProperties": False,
+}
+
+
+def stage_check(n: int = 50, seed: int = 9, cap_usd: float = 1.5) -> None:
+    llm.require_key()
+    tr = load_translations()
+    tp = {r["id"]: r for r in map(json.loads, TOPICS_FILE.open())}
+    reps = [h for h in representatives() if h["id"] in tr and h["id"] in tp]
+    pick = random.Random(seed).sample(reps, n)
+    client = llm._client()
+    chunks = [pick[i:i + 5] for i in range(0, n, 5)]
+
+    def run(c):
+        body = "\n".join(
+            f"<hadith id=\"{h['id']}\">\n<arabic>{' '.join(letters(s['ar']) for s in h['segments'])}</arabic>\n"
+            f"<english>{' '.join(tr[h['id']]['segments_en'])}</english>\n<topic>{tp[h['id']]['topic']}</topic>\n</hadith>"
+            for h in c)
+        return client.messages.create(
+            model=llm.OPUS, max_tokens=16000,
+            system=[{"type": "text", "text": CHECK_SYSTEM, "cache_control": {"type": "ephemeral"}}],
+            output_config={"effort": "high", "format": {"type": "json_schema", "schema": CHECK_SCHEMA}},
+            messages=[{"role": "user", "content": body}])
+
+    total, got = 0.0, {}
+    with ThreadPoolExecutor(5) as ex:
+        for msg in ex.map(run, chunks):
+            total += llm.cost(llm.OPUS, msg.usage, batch=False)
+            if msg.stop_reason == "end_turn":
+                got.update({r["id"]: r for r in json.loads(next(b.text for b in msg.content if b.type == "text"))["results"]})
+    llm.log_spend("m4-check", llm.OPUS, total, len(chunks))
+    rows = [{**got[h["id"]], "topic": tp[h["id"]]["topic"]} for h in pick if h["id"] in got]
+    k = len(rows)
+    summary = {"checked": k, "accuracy": round(sum(r["accuracy"] for r in rows) / k, 2),
+               "fluency": round(sum(r["fluency"] for r in rows) / k, 2),
+               "with_major_errors": sum(bool(r["major_errors"]) for r in rows),
+               "topic_ok": sum(r["topic_ok"] for r in rows), "spend_usd": round(total, 3)}
+    (M4 / "check.json").write_text(json.dumps({"summary": summary, "rows": rows}, ensure_ascii=False, indent=1) + "\n")
+    print(json.dumps(summary, indent=1))
