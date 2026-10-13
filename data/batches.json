@@ -360,6 +360,6 @@
   "model": "claude-sonnet-5-5",
   "requests": 500,
   "created": "2026-10-13T20:35:12",
-  "collected": false
+  "collected": true
  }
 ]

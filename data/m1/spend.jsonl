@@ -60,3 +60,4 @@
 {"t": "2026-10-13T20:34:01", "stage": "six-haiku", "model": "claude-haiku-5-5", "usd": 0.06715, "requests": 500}
 {"t": "2026-10-13T20:34:02", "stage": "six-haiku", "model": "claude-haiku-5-5", "usd": 0.06774, "requests": 500}
 {"t": "2026-10-13T20:35:04", "stage": "six-haiku", "model": "claude-haiku-5-5", "usd": 0.09872, "requests": 500}
+{"t": "2026-10-13T20:49:17", "stage": "six-sonnet-pilot", "model": "claude-sonnet-5-5", "usd": 1.56037, "requests": 500}
