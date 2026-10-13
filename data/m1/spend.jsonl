@@ -84,3 +84,4 @@
 {"t": "2026-10-13T23:07:02", "stage": "m4-bakeoff-judge", "model": "claude-opus-5-5", "usd": 0.3661, "requests": 9}
 {"t": "2026-10-13T23:07:36", "stage": "m4-bakeoff-sonnet-medium", "model": "claude-sonnet-5-5", "usd": 0.12849, "requests": 5}
 {"t": "2026-10-13T23:08:01", "stage": "m4-bakeoff-judge", "model": "claude-opus-5-5", "usd": 0.32364, "requests": 10}
+{"t": "2026-10-13T23:13:13", "stage": "m4-tr-w0", "model": "claude-sonnet-5-5", "usd": 1.2244, "requests": 100}

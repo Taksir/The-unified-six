@@ -496,6 +496,6 @@
   "model": "claude-sonnet-5-5",
   "requests": 100,
   "created": "2026-10-13T23:09:11",
-  "collected": false
+  "collected": true
  }
 ]
