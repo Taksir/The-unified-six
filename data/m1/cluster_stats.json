@@ -1,15 +1,15 @@
 {
  "narrations": 14937,
- "hadith": 5544,
+ "hadith": 5540,
  "unique_per_book": {
-  "bukhari": 3508,
-  "muslim": 3999
+  "bukhari": 3505,
+  "muslim": 3998
  },
  "in_both": 1963,
  "stars": [
   [
    "★",
-   3581
+   3577
   ],
   [
    "★★",
@@ -20,10 +20,10 @@
    199
   ]
  ],
- "chaining_splits": 91,
+ "chaining_splits": 90,
  "community_splits": 173,
  "compounds_not_merged": 212,
  "uncertain_grouping": 554,
- "with_see_also": 2729,
+ "with_see_also": 2726,
  "largest_cluster": 25
 }

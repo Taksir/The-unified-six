@@ -1,267 +1,266 @@
 {"bridge": "muslim:5278", "parts": [["muslim:5274", "muslim:5277"], ["muslim:5275", "muslim:5276"]], "kept_with": ["muslim:5274", "muslim:5277"]}
-{"bridge": "bukhari:7296", "parts": [["muslim:347", "muslim:348"], ["muslim:343", "muslim:344"], ["muslim:350", "muslim:351", "muslim:352"]], "kept_with": ["muslim:350", "muslim:351", "muslim:352"]}
+{"bridge": "bukhari:7296", "parts": [["muslim:350", "muslim:351", "muslim:352"], ["muslim:343", "muslim:344"], ["muslim:347", "muslim:348"]], "kept_with": ["muslim:350", "muslim:351", "muslim:352"]}
 {"bridge": "bukhari:6997", "parts": [["bukhari:6993", "muslim:5919", "muslim:5920", "muslim:5924"], ["bukhari:6996", "muslim:5921"]], "kept_with": ["bukhari:6993", "muslim:5919", "muslim:5920"]}
 {"bridge": "muslim:5919", "parts": [["bukhari:6993", "muslim:5920"], ["bukhari:6997", "muslim:5924"]], "kept_with": ["bukhari:6993", "muslim:5920"]}
-{"bridge": "muslim:4454", "parts": [["muslim:4452", "muslim:4453"], ["bukhari:6773", "bukhari:6776", "muslim:4456"], ["muslim:4455"]], "kept_with": ["bukhari:6773", "bukhari:6776", "muslim:4456"]}
-{"bridge": "muslim:6616", "parts": [["bukhari:6361", "muslim:6619", "muslim:6620", "muslim:6621", "muslim:6622", "muslim:6623", "muslim:6624"], ["muslim:6614", "muslim:6615", "muslim:6625", "muslim:6626"], ["muslim:6617"]], "kept_with": ["muslim:6614", "muslim:6615", "muslim:6625"]}
-{"bridge": "bukhari:6076", "parts": [["bukhari:6064", "bukhari:6066", "bukhari:6724", "muslim:6536", "muslim:6538", "muslim:6539", "muslim:6540"], ["bukhari:6065", "muslim:6526"], ["bukhari:6077", "bukhari:6237", "muslim:6532", "muslim:6534"]], "kept_with": ["bukhari:6065", "muslim:6526"]}
-{"bridge": "muslim:6014", "parts": [["bukhari:6038", "muslim:6011", "muslim:6012"], ["muslim:6015", "muslim:6016"]], "kept_with": ["muslim:6015", "muslim:6016"]}
+{"bridge": "muslim:4454", "parts": [["bukhari:6773", "bukhari:6776", "muslim:4456"], ["muslim:4452", "muslim:4453"], ["muslim:4455"]], "kept_with": ["bukhari:6773", "bukhari:6776", "muslim:4456"]}
+{"bridge": "muslim:6616", "parts": [["bukhari:6361", "muslim:6619", "muslim:6620", "muslim:6621", "muslim:6622", "muslim:6623", "muslim:6624"], ["muslim:6617"], ["muslim:6614", "muslim:6615", "muslim:6625", "muslim:6626"]], "kept_with": ["muslim:6614", "muslim:6615", "muslim:6625"]}
+{"bridge": "bukhari:6076", "parts": [["bukhari:6065", "muslim:6526"], ["bukhari:6064", "bukhari:6066", "bukhari:6724", "muslim:6536", "muslim:6538", "muslim:6539", "muslim:6540"], ["bukhari:6077", "bukhari:6237", "muslim:6532", "muslim:6534"]], "kept_with": ["bukhari:6065", "muslim:6526"]}
+{"bridge": "muslim:6014", "parts": [["muslim:6015", "muslim:6016"], ["bukhari:6038", "muslim:6011", "muslim:6012"]], "kept_with": ["muslim:6015", "muslim:6016"]}
 {"bridge": "muslim:6975", "parts": [["muslim:6974", "muslim:6977"], ["bukhari:6000", "muslim:6972"], ["muslim:6976"]], "kept_with": ["muslim:6974", "muslim:6977"]}
-{"bridge": "muslim:5415", "parts": [["bukhari:5828", "bukhari:5830", "bukhari:5832", "bukhari:5833", "bukhari:5834", "muslim:5410", "muslim:5413", "muslim:5414", "muslim:5425", "muslim:5426"], ["muslim:5416"], ["muslim:5417", "muslim:5418"], ["bukhari:5829", "muslim:5411", "muslim:5412"]], "kept_with": ["bukhari:5828", "bukhari:5830", "bukhari:5832"]}
-{"bridge": "muslim:5413", "parts": [["bukhari:5828", "muslim:5415"], ["bukhari:5830", "bukhari:5832", "bukhari:5833", "bukhari:5834", "muslim:5410", "muslim:5425", "muslim:5426"], ["muslim:5414"]], "kept_with": ["muslim:5414"]}
-{"bridge": "muslim:4391", "parts": [["muslim:4393", "muslim:4394", "muslim:4395", "muslim:4396"], ["bukhari:5758", "bukhari:5759", "bukhari:5760"], ["bukhari:6904", "bukhari:6910", "muslim:4389"], ["muslim:4392"]], "kept_with": ["bukhari:6904", "bukhari:6910", "muslim:4389"]}
-{"bridge": "muslim:5034", "parts": [["bukhari:5391", "bukhari:5400", "bukhari:5537", "muslim:5035"], ["muslim:5036", "muslim:5037", "muslim:5038"]], "kept_with": ["bukhari:5391", "bukhari:5400", "bukhari:5537"]}
-{"bridge": "bukhari:5709", "parts": [["bukhari:4455", "bukhari:4456", "bukhari:4457"], ["bukhari:4458", "bukhari:6886", "bukhari:6887", "bukhari:6888", "bukhari:6897", "muslim:5761"]], "kept_with": ["bukhari:4458", "bukhari:6886", "bukhari:6887"]}
+{"bridge": "muslim:5415", "parts": [["bukhari:5828", "bukhari:5830", "bukhari:5832", "bukhari:5833", "bukhari:5834", "muslim:5410", "muslim:5413", "muslim:5414", "muslim:5425", "muslim:5426"], ["muslim:5416"], ["bukhari:5829", "muslim:5411", "muslim:5412"], ["muslim:5417", "muslim:5418"]], "kept_with": ["bukhari:5828", "bukhari:5830", "bukhari:5832"]}
+{"bridge": "muslim:5413", "parts": [["bukhari:5830", "bukhari:5832", "bukhari:5833", "bukhari:5834", "muslim:5410", "muslim:5425", "muslim:5426"], ["bukhari:5828", "muslim:5415"], ["muslim:5414"]], "kept_with": ["muslim:5414"]}
+{"bridge": "muslim:4391", "parts": [["bukhari:6904", "bukhari:6910", "muslim:4389"], ["muslim:4393", "muslim:4394", "muslim:4395", "muslim:4396"], ["bukhari:5758", "bukhari:5759", "bukhari:5760"], ["muslim:4392"]], "kept_with": ["bukhari:6904", "bukhari:6910", "muslim:4389"]}
+{"bridge": "muslim:5034", "parts": [["muslim:5036", "muslim:5037", "muslim:5038"], ["bukhari:5391", "bukhari:5400", "bukhari:5537", "muslim:5035"]], "kept_with": ["bukhari:5391", "bukhari:5400", "bukhari:5537"]}
+{"bridge": "bukhari:5709", "parts": [["bukhari:4458", "bukhari:6886", "bukhari:6887", "bukhari:6888", "bukhari:6897", "muslim:5761"], ["bukhari:4455", "bukhari:4456", "bukhari:4457"]], "kept_with": ["bukhari:4458", "bukhari:6886", "bukhari:6887"]}
 {"bridge": "bukhari:3785", "parts": [["bukhari:3786", "bukhari:5234", "bukhari:6645", "muslim:6418", "muslim:6419"], ["bukhari:5180", "muslim:6417"]], "kept_with": ["bukhari:5180", "muslim:6417"]}
 {"bridge": "bukhari:5058", "parts": [["bukhari:3610", "bukhari:6163", "bukhari:6933", "muslim:2456"], ["bukhari:6931", "muslim:2455"]], "kept_with": ["bukhari:6931", "muslim:2455"]}
-{"bridge": "muslim:2439", "parts": [["bukhari:3778", "bukhari:4332", "bukhari:4334", "muslim:2440"], ["bukhari:3528", "bukhari:6762"]], "kept_with": ["bukhari:3778", "bukhari:4332", "bukhari:4334"]}
+{"bridge": "muslim:2439", "parts": [["bukhari:3528", "bukhari:6762"], ["bukhari:3778", "bukhari:4332", "bukhari:4334", "muslim:2440"]], "kept_with": ["bukhari:3778", "bukhari:4332", "bukhari:4334"]}
 {"bridge": "bukhari:3437", "parts": [["bukhari:4709", "bukhari:5576", "muslim:5240", "muslim:5241"], ["bukhari:3394", "muslim:424"]], "kept_with": ["bukhari:3394", "muslim:424"]}
-{"bridge": "bukhari:6557", "parts": [["bukhari:6538", "muslim:7085", "muslim:7086"], ["bukhari:3334", "muslim:7083", "muslim:7084"]], "kept_with": ["bukhari:3334", "muslim:7083", "muslim:7084"]}
-{"bridge": "muslim:3644", "parts": [["muslim:3645"], ["bukhari:5184", "muslim:3646"], ["bukhari:3331", "bukhari:5185", "bukhari:5186", "muslim:3647"]], "kept_with": ["bukhari:5184", "muslim:3646"]}
+{"bridge": "bukhari:6557", "parts": [["bukhari:3334", "muslim:7083", "muslim:7084"], ["bukhari:6538", "muslim:7085", "muslim:7086"]], "kept_with": ["bukhari:3334", "muslim:7083", "muslim:7084"]}
+{"bridge": "muslim:3644", "parts": [["bukhari:5184", "muslim:3646"], ["bukhari:3331", "bukhari:5185", "bukhari:5186", "muslim:3647"], ["muslim:3645"]], "kept_with": ["bukhari:5184", "muslim:3646"]}
 {"bridge": "bukhari:3199", "parts": [["bukhari:4803", "bukhari:7433", "muslim:402"], ["bukhari:4802"], ["bukhari:7424", "muslim:401"]], "kept_with": ["bukhari:4802"]}
-{"bridge": "bukhari:3092", "parts": [["bukhari:4035", "bukhari:4036", "bukhari:6725", "bukhari:6726"], ["bukhari:3093", "muslim:4582"]], "kept_with": ["bukhari:3093", "muslim:4582"]}
+{"bridge": "bukhari:6725", "parts": [["bukhari:3092", "bukhari:3093", "muslim:4582"], ["bukhari:4035", "bukhari:4036"], ["bukhari:6726"]], "kept_with": ["bukhari:6726"]}
 {"bridge": "bukhari:3039", "parts": [["bukhari:4043", "bukhari:4044"], ["bukhari:4067", "bukhari:4561"], ["bukhari:3986"]], "kept_with": ["bukhari:4067", "bukhari:4561"]}
 {"bridge": "muslim:6223", "parts": [["bukhari:2975", "bukhari:3702", "bukhari:4209", "muslim:6224"], ["bukhari:2942", "bukhari:3009", "bukhari:3701", "bukhari:4210"]], "kept_with": ["bukhari:2942", "bukhari:3009", "bukhari:3701"]}
-{"bridge": "muslim:4629", "parts": [["bukhari:2698", "muslim:4630"], ["bukhari:3184", "muslim:4631"]], "kept_with": ["bukhari:2698", "muslim:4630"]}
-{"bridge": "bukhari:5492", "parts": [["bukhari:2914", "bukhari:5490", "bukhari:5491", "muslim:2852"], ["bukhari:2570", "bukhari:5407"], ["muslim:2851"]], "kept_with": ["bukhari:2570", "bukhari:5407"]}
-{"bridge": "muslim:5133", "parts": [["bukhari:5583", "bukhari:5622"], ["bukhari:2464", "bukhari:4617", "bukhari:4620", "bukhari:4621", "bukhari:5580", "bukhari:5582", "bukhari:5584", "bukhari:5600", "bukhari:7253", "muslim:5131", "muslim:5132", "muslim:5135", "muslim:5136", "muslim:5138"], ["muslim:5134"]], "kept_with": ["bukhari:5583", "bukhari:5622"]}
-{"bridge": "bukhari:5582", "parts": [["bukhari:5580", "bukhari:5584", "bukhari:5600", "muslim:5135", "muslim:5136"], ["bukhari:7253", "muslim:5138"], ["bukhari:2464", "bukhari:4620", "bukhari:4621", "muslim:5131"], ["bukhari:4617", "muslim:5132"]], "kept_with": ["bukhari:7253", "muslim:5138"]}
-{"bridge": "bukhari:2437", "parts": [["muslim:4506"], ["muslim:4507", "muslim:4508"], ["bukhari:2426", "bukhari:2437.2"]], "kept_with": ["muslim:4506"]}
-{"bridge": "muslim:3938", "parts": [["bukhari:2345", "muslim:3942", "muslim:3944"], ["bukhari:2343", "bukhari:2344"], ["muslim:3939"], ["bukhari:4012", "bukhari:4013"]], "kept_with": ["bukhari:2343", "bukhari:2344"]}
+{"bridge": "muslim:4629", "parts": [["bukhari:3184", "muslim:4631"], ["bukhari:2698", "muslim:4630"]], "kept_with": ["bukhari:3184", "muslim:4631"]}
+{"bridge": "bukhari:5492", "parts": [["bukhari:2570", "bukhari:5407"], ["bukhari:2914", "bukhari:5490", "bukhari:5491", "muslim:2852"], ["muslim:2851"]], "kept_with": ["bukhari:2570", "bukhari:5407"]}
+{"bridge": "muslim:5133", "parts": [["bukhari:2464", "bukhari:4617", "bukhari:4620", "bukhari:4621", "bukhari:5580", "bukhari:5582", "bukhari:5584", "bukhari:5600", "bukhari:7253", "muslim:5131", "muslim:5132", "muslim:5135", "muslim:5136", "muslim:5138"], ["bukhari:5583", "bukhari:5622"], ["muslim:5134"]], "kept_with": ["bukhari:5583", "bukhari:5622"]}
+{"bridge": "bukhari:5600", "parts": [["bukhari:2464", "bukhari:4617", "bukhari:4620", "bukhari:4621", "bukhari:5582", "bukhari:7253", "muslim:5131", "muslim:5132", "muslim:5138"], ["muslim:5135", "muslim:5136"], ["bukhari:5580", "bukhari:5584"]], "kept_with": ["muslim:5135", "muslim:5136"]}
+{"bridge": "bukhari:5582", "parts": [["bukhari:4617", "muslim:5132"], ["bukhari:2464", "bukhari:4620", "bukhari:4621", "muslim:5131"], ["bukhari:7253", "muslim:5138"]], "kept_with": ["bukhari:7253", "muslim:5138"]}
+{"bridge": "bukhari:2437", "parts": [["bukhari:2426", "bukhari:2437.2"], ["muslim:4507", "muslim:4508"], ["muslim:4506"]], "kept_with": ["muslim:4506"]}
+{"bridge": "muslim:3938", "parts": [["bukhari:2345", "muslim:3942", "muslim:3944"], ["bukhari:2343", "bukhari:2344"], ["bukhari:4012", "bukhari:4013"], ["muslim:3939"]], "kept_with": ["bukhari:2343", "bukhari:2344"]}
 {"bridge": "bukhari:2330", "parts": [["bukhari:2342", "muslim:3957", "muslim:3960"], ["muslim:3958", "muslim:3959"]], "kept_with": ["bukhari:2342", "muslim:3957", "muslim:3960"]}
 {"bridge": "muslim:5733", "parts": [["bukhari:2276", "bukhari:5736", "bukhari:5749"], ["bukhari:5007", "muslim:5735", "muslim:5736"], ["muslim:5734"]], "kept_with": ["bukhari:2276", "bukhari:5736", "bukhari:5749"]}
 {"bridge": "muslim:4082", "parts": [["bukhari:2201", "bukhari:2202", "bukhari:2302", "bukhari:2303", "bukhari:4244", "bukhari:4245", "bukhari:7350", "bukhari:7351", "muslim:4081"], ["bukhari:4246", "bukhari:4247"]], "kept_with": ["bukhari:2201", "bukhari:2202", "bukhari:2302"]}
-{"bridge": "muslim:3887", "parts": [["bukhari:2191"], ["bukhari:2383", "bukhari:2384", "muslim:3891"], ["muslim:3889", "muslim:3890"]], "kept_with": ["bukhari:2191"]}
+{"bridge": "muslim:3887", "parts": [["muslim:3889", "muslim:3890"], ["bukhari:2383", "bukhari:2384", "muslim:3891"], ["bukhari:2191"]], "kept_with": ["bukhari:2191"]}
 {"bridge": "muslim:4447", "parts": [["bukhari:2152", "bukhari:2153", "bukhari:2154", "bukhari:2232", "bukhari:2233", "bukhari:2234", "bukhari:2555", "bukhari:2556", "bukhari:6837", "bukhari:6838", "bukhari:6839", "muslim:4445", "muslim:4446"], ["muslim:4448", "muslim:4449"]], "kept_with": ["bukhari:2152", "bukhari:2153", "bukhari:2154"]}
 {"bridge": "bukhari:2277", "parts": [["bukhari:2102", "bukhari:2210"], ["bukhari:2281", "muslim:4040"]], "kept_with": ["bukhari:2281", "muslim:4040"]}
 {"bridge": "bukhari:2967", "parts": [["bukhari:2097", "muslim:3641", "muslim:4100"], ["bukhari:2405", "bukhari:2406"]], "kept_with": ["bukhari:2097", "muslim:3641", "muslim:4100"]}
 {"bridge": "muslim:3997", "parts": [["bukhari:2077", "bukhari:2391", "muslim:3993", "muslim:3994", "muslim:3995", "muslim:3996"], ["bukhari:2078", "bukhari:3480", "muslim:3998"]], "kept_with": ["bukhari:2077", "bukhari:2391", "muslim:3993"]}
-{"bridge": "bukhari:1960", "parts": [["muslim:2669", "muslim:2670"], ["bukhari:1924", "bukhari:2007", "bukhari:7265", "muslim:2668"]], "kept_with": ["muslim:2669", "muslim:2670"]}
+{"bridge": "bukhari:1960", "parts": [["bukhari:1924", "bukhari:2007", "bukhari:7265", "muslim:2668"], ["muslim:2669", "muslim:2670"]], "kept_with": ["muslim:2669", "muslim:2670"]}
 {"bridge": "bukhari:4411", "parts": [["bukhari:1727", "bukhari:1728", "bukhari:1729", "muslim:3144", "muslim:3145", "muslim:3146", "muslim:3147", "muslim:3148", "muslim:3149"], ["bukhari:4410", "muslim:3151"]], "kept_with": ["bukhari:4410", "muslim:3151"]}
-{"bridge": "bukhari:1707", "parts": [["bukhari:1717", "muslim:3180", "muslim:3183", "muslim:3184"], ["bukhari:1716", "bukhari:1718"], ["bukhari:2299"]], "kept_with": ["bukhari:2299"]}
-{"bridge": "muslim:3126", "parts": [["bukhari:1677", "bukhari:1856", "muslim:3124"], ["bukhari:1678", "muslim:3127", "muslim:3128"]], "kept_with": ["bukhari:1677", "bukhari:1856", "muslim:3124"]}
+{"bridge": "muslim:3180", "parts": [["bukhari:1707", "bukhari:1716", "bukhari:1718", "bukhari:2299"], ["bukhari:1717", "muslim:3183", "muslim:3184"]], "kept_with": ["bukhari:1707", "bukhari:1716", "bukhari:1718"]}
+{"bridge": "muslim:3126", "parts": [["bukhari:1678", "muslim:3127", "muslim:3128"], ["bukhari:1677", "bukhari:1856", "muslim:3124"]], "kept_with": ["bukhari:1677", "bukhari:1856", "muslim:3124"]}
 {"bridge": "bukhari:1576", "parts": [["bukhari:1577", "bukhari:1578", "bukhari:1579", "bukhari:1580", "bukhari:1581", "bukhari:4290", "bukhari:4291", "muslim:3042", "muslim:3043"], ["bukhari:1575", "muslim:3040", "muslim:3041"]], "kept_with": ["bukhari:1575", "muslim:3040", "muslim:3041"]}
 {"bridge": "bukhari:1578", "parts": [["bukhari:1579", "bukhari:1580", "bukhari:1581", "bukhari:4290", "bukhari:4291", "muslim:3043"], ["bukhari:1577", "muslim:3042"]], "kept_with": ["bukhari:1579", "bukhari:1580", "bukhari:1581"]}
 {"bridge": "bukhari:4397", "parts": [["bukhari:1559", "bukhari:1724", "bukhari:1795", "muslim:2957", "muslim:2958", "muslim:2959"], ["bukhari:4346", "muslim:2960"]], "kept_with": ["bukhari:1559", "bukhari:1724", "bukhari:1795"]}
-{"bridge": "bukhari:1685", "parts": [["bukhari:1543", "bukhari:1544", "bukhari:1686", "bukhari:1687", "muslim:3088"], ["muslim:3089", "muslim:3090"]], "kept_with": ["bukhari:1543", "bukhari:1544", "bukhari:1686"]}
+{"bridge": "bukhari:1685", "parts": [["muslim:3089", "muslim:3090"], ["bukhari:1543", "bukhari:1544", "bukhari:1686", "bukhari:1687", "muslim:3088"]], "kept_with": ["bukhari:1543", "bukhari:1544", "bukhari:1686"]}
 {"bridge": "bukhari:1861", "parts": [["bukhari:2875", "bukhari:2876"], ["bukhari:1520", "bukhari:2784"]], "kept_with": ["bukhari:1520", "bukhari:2784"]}
 {"bridge": "muslim:2812", "parts": [["bukhari:1514", "bukhari:1515", "bukhari:1552", "bukhari:1554", "bukhari:2865", "muslim:2820", "muslim:2821", "muslim:2822"], ["bukhari:1549", "bukhari:1550", "bukhari:5915", "muslim:2811"]], "kept_with": ["bukhari:1549", "bukhari:1550", "bukhari:5915"]}
-{"bridge": "muslim:3860", "parts": [["bukhari:1487", "bukhari:1488", "bukhari:2107", "bukhari:2109", "bukhari:2111", "bukhari:2112", "bukhari:2113", "bukhari:2126", "bukhari:2133", "bukhari:2135", "bukhari:2136", "bukhari:2139", "bukhari:2142", "bukhari:2171", "bukhari:2185", "bukhari:2194", "bukhari:2196", "bukhari:2322", "bukhari:2323", "bukhari:2474", "bukhari:3324", "bukhari:3325", "bukhari:3513", "bukhari:3836", "bukhari:5112", "bukhari:5480", "bukhari:5481", "bukhari:5482", "bukhari:5516", "bukhari:6108", "bukhari:6257", "bukhari:6646", "bukhari:6795", "bukhari:6796", "bukhari:6797", "bukhari:6798", "bukhari:6928", "bukhari:6960", "bukhari:7401", "muslim:3465", "muslim:3466", "muslim:3469", "muslim:3470", "muslim:3471", "muslim:3811", "muslim:3818", "muslim:3837", "muslim:3838", "muslim:3839", "muslim:3840", "muslim:3843", "muslim:3844", "muslim:3848", "muslim:3850", "muslim:3853", "muslim:3855", "muslim:3856", "muslim:3857", "muslim:3862", "muslim:3863", "muslim:3869", "muslim:3870", "muslim:3871", "muslim:3872", "muslim:3874", "muslim:3875", "muslim:3877", "muslim:3893", "muslim:4016", "muslim:4017", "muslim:4018", "muslim:4023", "muslim:4024", "muslim:4025", "muslim:4026", "muslim:4027", "muslim:4028", "muslim:4029", "muslim:4030", "muslim:4031", "muslim:4032", "muslim:4033", "muslim:4034", "muslim:4035", "muslim:4036", "muslim:4257", "muslim:4259", "muslim:4406", "muslim:4407", "muslim:5654", "muslim:5655", "muslim:6435"], ["bukhari:2117", "bukhari:2407", "bukhari:2414", "bukhari:6964"], ["muslim:3861"]], "kept_with": ["bukhari:1487", "bukhari:1488", "bukhari:2107"]}
-{"bridge": "muslim:5654", "parts": [["bukhari:1487", "bukhari:1488", "bukhari:2107", "bukhari:2109", "bukhari:2111", "bukhari:2112", "bukhari:2113", "bukhari:2126", "bukhari:2133", "bukhari:2135", "bukhari:2136", "bukhari:2139", "bukhari:2142", "bukhari:2171", "bukhari:2185", "bukhari:2194", "bukhari:2196", "bukhari:2322", "bukhari:2323", "bukhari:2474", "bukhari:3324", "bukhari:3325", "bukhari:3513", "bukhari:3836", "bukhari:5112", "bukhari:5480", "bukhari:5481", "bukhari:5482", "bukhari:5516", "bukhari:6108", "bukhari:6646", "bukhari:6795", "bukhari:6796", "bukhari:6797", "bukhari:6798", "bukhari:6960", "bukhari:7401", "muslim:3465", "muslim:3466", "muslim:3469", "muslim:3470", "muslim:3471", "muslim:3811", "muslim:3818", "muslim:3837", "muslim:3838", "muslim:3839", "muslim:3840", "muslim:3843", "muslim:3844", "muslim:3848", "muslim:3850", "muslim:3853", "muslim:3855", "muslim:3856", "muslim:3857", "muslim:3860", "muslim:3862", "muslim:3863", "muslim:3869", "muslim:3870", "muslim:3871", "muslim:3872", "muslim:3874", "muslim:3875", "muslim:3877", "muslim:3893", "muslim:4016", "muslim:4017", "muslim:4018", "muslim:4023", "muslim:4024", "muslim:4025", "muslim:4026", "muslim:4027", "muslim:4028", "muslim:4029", "muslim:4030", "muslim:4031", "muslim:4032", "muslim:4033", "muslim:4034", "muslim:4035", "muslim:4036", "muslim:4257", "muslim:4259", "muslim:4406", "muslim:4407", "muslim:6435"], ["muslim:5655"], ["bukhari:6257", "bukhari:6928"]], "kept_with": ["bukhari:1487", "bukhari:1488", "bukhari:2107"]}
-{"bridge": "muslim:4259", "parts": [["bukhari:1487", "bukhari:1488", "bukhari:2107", "bukhari:2109", "bukhari:2111", "bukhari:2112", "bukhari:2113", "bukhari:2126", "bukhari:2133", "bukhari:2135", "bukhari:2136", "bukhari:2139", "bukhari:2142", "bukhari:2171", "bukhari:2185", "bukhari:2194", "bukhari:2196", "bukhari:2322", "bukhari:2323", "bukhari:2474", "bukhari:3324", "bukhari:3325", "bukhari:3513", "bukhari:5112", "bukhari:5480", "bukhari:5481", "bukhari:5482", "bukhari:5516", "bukhari:6795", "bukhari:6796", "bukhari:6797", "bukhari:6798", "bukhari:6960", "muslim:3465", "muslim:3466", "muslim:3469", "muslim:3470", "muslim:3471", "muslim:3811", "muslim:3818", "muslim:3837", "muslim:3838", "muslim:3839", "muslim:3840", "muslim:3843", "muslim:3844", "muslim:3848", "muslim:3850", "muslim:3853", "muslim:3855", "muslim:3856", "muslim:3857", "muslim:3860", "muslim:3862", "muslim:3863", "muslim:3869", "muslim:3870", "muslim:3871", "muslim:3872", "muslim:3874", "muslim:3875", "muslim:3877", "muslim:3893", "muslim:4016", "muslim:4017", "muslim:4018", "muslim:4023", "muslim:4024", "muslim:4025", "muslim:4026", "muslim:4027", "muslim:4028", "muslim:4029", "muslim:4030", "muslim:4031", "muslim:4032", "muslim:4033", "muslim:4034", "muslim:4035", "muslim:4036", "muslim:4406", "muslim:4407", "muslim:5654", "muslim:6435"], ["bukhari:6108", "bukhari:6646", "bukhari:7401", "muslim:4257"], ["bukhari:3836"]], "kept_with": ["bukhari:3836"]}
-{"bridge": "muslim:3856", "parts": [["bukhari:1487", "bukhari:1488", "bukhari:2107", "bukhari:2109", "bukhari:2111", "bukhari:2113", "bukhari:2126", "bukhari:2133", "bukhari:2135", "bukhari:2136", "bukhari:2139", "bukhari:2142", "bukhari:2171", "bukhari:2185", "bukhari:2194", "bukhari:2196", "bukhari:2322", "bukhari:2323", "bukhari:2474", "bukhari:3324", "bukhari:3325", "bukhari:3513", "bukhari:5112", "bukhari:5480", "bukhari:5481", "bukhari:5482", "bukhari:5516", "bukhari:6795", "bukhari:6796", "bukhari:6797", "bukhari:6798", "bukhari:6960", "muslim:3465", "muslim:3466", "muslim:3469", "muslim:3470", "muslim:3471", "muslim:3811", "muslim:3818", "muslim:3837", "muslim:3838", "muslim:3839", "muslim:3840", "muslim:3843", "muslim:3844", "muslim:3848", "muslim:3850", "muslim:3853", "muslim:3857", "muslim:3860", "muslim:3862", "muslim:3863", "muslim:3869", "muslim:3870", "muslim:3871", "muslim:3872", "muslim:3874", "muslim:3875", "muslim:3877", "muslim:3893", "muslim:4016", "muslim:4017", "muslim:4018", "muslim:4023", "muslim:4024", "muslim:4025", "muslim:4026", "muslim:4027", "muslim:4028", "muslim:4029", "muslim:4030", "muslim:4031", "muslim:4032", "muslim:4033", "muslim:4034", "muslim:4035", "muslim:4036", "muslim:4406", "muslim:4407", "muslim:5654", "muslim:6435"], ["bukhari:2112", "muslim:3855"]], "kept_with": ["bukhari:1487", "bukhari:1488", "bukhari:2107"]}
-{"bridge": "muslim:3840", "parts": [["bukhari:1487", "bukhari:1488", "bukhari:2107", "bukhari:2109", "bukhari:2111", "bukhari:2113", "bukhari:2139", "bukhari:2142", "bukhari:2171", "bukhari:2185", "bukhari:2194", "bukhari:2196", "bukhari:2322", "bukhari:2323", "bukhari:2474", "bukhari:3324", "bukhari:3325", "bukhari:3513", "bukhari:5112", "bukhari:5480", "bukhari:5481", "bukhari:5482", "bukhari:5516", "bukhari:6795", "bukhari:6796", "bukhari:6797", "bukhari:6798", "bukhari:6960", "muslim:3465", "muslim:3466", "muslim:3469", "muslim:3470", "muslim:3471", "muslim:3811", "muslim:3818", "muslim:3853", "muslim:3856", "muslim:3857", "muslim:3860", "muslim:3862", "muslim:3863", "muslim:3869", "muslim:3870", "muslim:3871", "muslim:3872", "muslim:3874", "muslim:3875", "muslim:3877", "muslim:3893", "muslim:4016", "muslim:4017", "muslim:4018", "muslim:4023", "muslim:4024", "muslim:4025", "muslim:4026", "muslim:4027", "muslim:4028", "muslim:4029", "muslim:4030", "muslim:4031", "muslim:4032", "muslim:4033", "muslim:4034", "muslim:4035", "muslim:4036", "muslim:4406", "muslim:4407", "muslim:5654", "muslim:6435"], ["bukhari:2126", "bukhari:2133", "bukhari:2135", "bukhari:2136", "muslim:3837", "muslim:3838", "muslim:3839", "muslim:3843", "muslim:3844", "muslim:3848", "muslim:3850"]], "kept_with": ["bukhari:2126", "bukhari:2133", "bukhari:2135"]}
-{"bridge": "muslim:4406", "parts": [["bukhari:1487", "bukhari:1488", "bukhari:2107", "bukhari:2109", "bukhari:2111", "bukhari:2113", "bukhari:2139", "bukhari:2142", "bukhari:2171", "bukhari:2185", "bukhari:2194", "bukhari:2196", "bukhari:2322", "bukhari:2323", "bukhari:2474", "bukhari:3324", "bukhari:3325", "bukhari:3513", "bukhari:5112", "bukhari:5480", "bukhari:5481", "bukhari:5482", "bukhari:5516", "bukhari:6960", "muslim:3465", "muslim:3466", "muslim:3469", "muslim:3470", "muslim:3471", "muslim:3811", "muslim:3818", "muslim:3853", "muslim:3856", "muslim:3857", "muslim:3860", "muslim:3862", "muslim:3863", "muslim:3869", "muslim:3870", "muslim:3871", "muslim:3872", "muslim:3874", "muslim:3875", "muslim:3877", "muslim:3893", "muslim:4016", "muslim:4017", "muslim:4018", "muslim:4023", "muslim:4024", "muslim:4025", "muslim:4026", "muslim:4027", "muslim:4028", "muslim:4029", "muslim:4030", "muslim:4031", "muslim:4032", "muslim:4033", "muslim:4034", "muslim:4035", "muslim:4036", "muslim:5654", "muslim:6435"], ["bukhari:6795", "bukhari:6796", "bukhari:6797", "bukhari:6798"], ["muslim:4407"]], "kept_with": ["bukhari:1487", "bukhari:1488", "bukhari:2107"]}
-{"bridge": "bukhari:2142", "parts": [["bukhari:1487", "bukhari:1488", "bukhari:2107", "bukhari:2109", "bukhari:2111", "bukhari:2113", "bukhari:2139", "bukhari:2171", "bukhari:2185", "bukhari:2194", "bukhari:2196", "bukhari:2322", "bukhari:2323", "bukhari:3324", "bukhari:3325", "bukhari:3513", "bukhari:5112", "bukhari:5480", "bukhari:5481", "bukhari:5482", "bukhari:6960", "muslim:3465", "muslim:3466", "muslim:3469", "muslim:3470", "muslim:3471", "muslim:3811", "muslim:3818", "muslim:3853", "muslim:3856", "muslim:3857", "muslim:3860", "muslim:3862", "muslim:3863", "muslim:3869", "muslim:3870", "muslim:3871", "muslim:3872", "muslim:3874", "muslim:3875", "muslim:3877", "muslim:3893", "muslim:4016", "muslim:4017", "muslim:4018", "muslim:4023", "muslim:4024", "muslim:4025", "muslim:4026", "muslim:4027", "muslim:4028", "muslim:4029", "muslim:4030", "muslim:4031", "muslim:4032", "muslim:4033", "muslim:4034", "muslim:4035", "muslim:4036", "muslim:4406", "muslim:5654", "muslim:6435"], ["bukhari:2474", "bukhari:5516"]], "kept_with": ["bukhari:2474", "bukhari:5516"]}
+{"bridge": "muslim:3840", "parts": [["bukhari:1487", "bukhari:1488", "bukhari:2107", "bukhari:2109", "bukhari:2111", "bukhari:2112", "bukhari:2113", "bukhari:2117", "bukhari:2139", "bukhari:2142", "bukhari:2171", "bukhari:2185", "bukhari:2194", "bukhari:2196", "bukhari:2322", "bukhari:2323", "bukhari:2407", "bukhari:2414", "bukhari:2474", "bukhari:3324", "bukhari:3325", "bukhari:3513", "bukhari:3836", "bukhari:5112", "bukhari:5480", "bukhari:5481", "bukhari:5482", "bukhari:5516", "bukhari:6108", "bukhari:6257", "bukhari:6646", "bukhari:6795", "bukhari:6796", "bukhari:6797", "bukhari:6798", "bukhari:6928", "bukhari:6960", "bukhari:6964", "bukhari:7401", "muslim:3465", "muslim:3466", "muslim:3469", "muslim:3470", "muslim:3471", "muslim:3811", "muslim:3818", "muslim:3853", "muslim:3855", "muslim:3856", "muslim:3857", "muslim:3860", "muslim:3861", "muslim:3862", "muslim:3863", "muslim:3869", "muslim:3870", "muslim:3871", "muslim:3872", "muslim:3874", "muslim:3875", "muslim:3877", "muslim:3893", "muslim:4016", "muslim:4017", "muslim:4018", "muslim:4023", "muslim:4024", "muslim:4025", "muslim:4026", "muslim:4027", "muslim:4028", "muslim:4029", "muslim:4030", "muslim:4031", "muslim:4032", "muslim:4033", "muslim:4034", "muslim:4035", "muslim:4036", "muslim:4257", "muslim:4259", "muslim:4406", "muslim:4407", "muslim:5654", "muslim:5655", "muslim:6435"], ["bukhari:2126", "bukhari:2133", "bukhari:2135", "bukhari:2136", "muslim:3837", "muslim:3838", "muslim:3839", "muslim:3843", "muslim:3844", "muslim:3848", "muslim:3850"]], "kept_with": ["bukhari:2126", "bukhari:2133", "bukhari:2135"]}
+{"bridge": "muslim:4406", "parts": [["bukhari:1487", "bukhari:1488", "bukhari:2107", "bukhari:2109", "bukhari:2111", "bukhari:2112", "bukhari:2113", "bukhari:2117", "bukhari:2139", "bukhari:2142", "bukhari:2171", "bukhari:2185", "bukhari:2194", "bukhari:2196", "bukhari:2322", "bukhari:2323", "bukhari:2407", "bukhari:2414", "bukhari:2474", "bukhari:3324", "bukhari:3325", "bukhari:3513", "bukhari:3836", "bukhari:5112", "bukhari:5480", "bukhari:5481", "bukhari:5482", "bukhari:5516", "bukhari:6108", "bukhari:6257", "bukhari:6646", "bukhari:6928", "bukhari:6960", "bukhari:6964", "bukhari:7401", "muslim:3465", "muslim:3466", "muslim:3469", "muslim:3470", "muslim:3471", "muslim:3811", "muslim:3818", "muslim:3853", "muslim:3855", "muslim:3856", "muslim:3857", "muslim:3860", "muslim:3861", "muslim:3862", "muslim:3863", "muslim:3869", "muslim:3870", "muslim:3871", "muslim:3872", "muslim:3874", "muslim:3875", "muslim:3877", "muslim:3893", "muslim:4016", "muslim:4017", "muslim:4018", "muslim:4023", "muslim:4024", "muslim:4025", "muslim:4026", "muslim:4027", "muslim:4028", "muslim:4029", "muslim:4030", "muslim:4031", "muslim:4032", "muslim:4033", "muslim:4034", "muslim:4035", "muslim:4036", "muslim:4257", "muslim:4259", "muslim:5654", "muslim:5655", "muslim:6435"], ["bukhari:6795", "bukhari:6796", "bukhari:6797", "bukhari:6798"], ["muslim:4407"]], "kept_with": ["bukhari:1487", "bukhari:1488", "bukhari:2107"]}
+{"bridge": "muslim:3860", "parts": [["bukhari:1487", "bukhari:1488", "bukhari:2107", "bukhari:2109", "bukhari:2111", "bukhari:2112", "bukhari:2113", "bukhari:2139", "bukhari:2142", "bukhari:2171", "bukhari:2185", "bukhari:2194", "bukhari:2196", "bukhari:2322", "bukhari:2323", "bukhari:2474", "bukhari:3324", "bukhari:3325", "bukhari:3513", "bukhari:3836", "bukhari:5112", "bukhari:5480", "bukhari:5481", "bukhari:5482", "bukhari:5516", "bukhari:6108", "bukhari:6257", "bukhari:6646", "bukhari:6928", "bukhari:6960", "bukhari:7401", "muslim:3465", "muslim:3466", "muslim:3469", "muslim:3470", "muslim:3471", "muslim:3811", "muslim:3818", "muslim:3853", "muslim:3855", "muslim:3856", "muslim:3857", "muslim:3862", "muslim:3863", "muslim:3869", "muslim:3870", "muslim:3871", "muslim:3872", "muslim:3874", "muslim:3875", "muslim:3877", "muslim:3893", "muslim:4016", "muslim:4017", "muslim:4018", "muslim:4023", "muslim:4024", "muslim:4025", "muslim:4026", "muslim:4027", "muslim:4028", "muslim:4029", "muslim:4030", "muslim:4031", "muslim:4032", "muslim:4033", "muslim:4034", "muslim:4035", "muslim:4036", "muslim:4257", "muslim:4259", "muslim:4406", "muslim:5654", "muslim:5655", "muslim:6435"], ["bukhari:2117", "bukhari:2407", "bukhari:2414", "bukhari:6964"], ["muslim:3861"]], "kept_with": ["bukhari:2117", "bukhari:2407", "bukhari:2414"]}
+{"bridge": "muslim:4259", "parts": [["bukhari:1487", "bukhari:1488", "bukhari:2107", "bukhari:2109", "bukhari:2111", "bukhari:2112", "bukhari:2113", "bukhari:2139", "bukhari:2142", "bukhari:2171", "bukhari:2185", "bukhari:2194", "bukhari:2196", "bukhari:2322", "bukhari:2323", "bukhari:2474", "bukhari:3324", "bukhari:3325", "bukhari:3513", "bukhari:5112", "bukhari:5480", "bukhari:5481", "bukhari:5482", "bukhari:5516", "bukhari:6257", "bukhari:6928", "bukhari:6960", "muslim:3465", "muslim:3466", "muslim:3469", "muslim:3470", "muslim:3471", "muslim:3811", "muslim:3818", "muslim:3853", "muslim:3855", "muslim:3856", "muslim:3857", "muslim:3862", "muslim:3863", "muslim:3869", "muslim:3870", "muslim:3871", "muslim:3872", "muslim:3874", "muslim:3875", "muslim:3877", "muslim:3893", "muslim:4016", "muslim:4017", "muslim:4018", "muslim:4023", "muslim:4024", "muslim:4025", "muslim:4026", "muslim:4027", "muslim:4028", "muslim:4029", "muslim:4030", "muslim:4031", "muslim:4032", "muslim:4033", "muslim:4034", "muslim:4035", "muslim:4036", "muslim:4406", "muslim:5654", "muslim:5655", "muslim:6435"], ["bukhari:6108", "bukhari:6646", "bukhari:7401", "muslim:4257"], ["bukhari:3836"]], "kept_with": ["bukhari:3836"]}
+{"bridge": "muslim:5654", "parts": [["bukhari:1487", "bukhari:1488", "bukhari:2107", "bukhari:2109", "bukhari:2111", "bukhari:2112", "bukhari:2113", "bukhari:2139", "bukhari:2142", "bukhari:2171", "bukhari:2185", "bukhari:2194", "bukhari:2196", "bukhari:2322", "bukhari:2323", "bukhari:2474", "bukhari:3324", "bukhari:3325", "bukhari:3513", "bukhari:5112", "bukhari:5480", "bukhari:5481", "bukhari:5482", "bukhari:5516", "bukhari:6960", "muslim:3465", "muslim:3466", "muslim:3469", "muslim:3470", "muslim:3471", "muslim:3811", "muslim:3818", "muslim:3853", "muslim:3855", "muslim:3856", "muslim:3857", "muslim:3862", "muslim:3863", "muslim:3869", "muslim:3870", "muslim:3871", "muslim:3872", "muslim:3874", "muslim:3875", "muslim:3877", "muslim:3893", "muslim:4016", "muslim:4017", "muslim:4018", "muslim:4023", "muslim:4024", "muslim:4025", "muslim:4026", "muslim:4027", "muslim:4028", "muslim:4029", "muslim:4030", "muslim:4031", "muslim:4032", "muslim:4033", "muslim:4034", "muslim:4035", "muslim:4036", "muslim:4406", "muslim:6435"], ["muslim:5655"], ["bukhari:6257", "bukhari:6928"]], "kept_with": ["bukhari:1487", "bukhari:1488", "bukhari:2107"]}
 {"bridge": "bukhari:3463", "parts": [["bukhari:1363", "bukhari:1364"], ["muslim:307", "muslim:308"]], "kept_with": ["muslim:307", "muslim:308"]}
 {"bridge": "bukhari:6173", "parts": [["bukhari:1354", "bukhari:1355", "bukhari:3055", "bukhari:6172", "bukhari:6618", "muslim:7345"], ["muslim:7357", "muslim:7358"]], "kept_with": ["bukhari:1354", "bukhari:1355", "bukhari:3055"]}
-{"bridge": "bukhari:7215", "parts": [["bukhari:4892", "muslim:2165"], ["bukhari:1306", "muslim:2163", "muslim:2164"]], "kept_with": ["bukhari:4892", "muslim:2165"]}
-{"bridge": "muslim:2208", "parts": [["bukhari:1245", "bukhari:1318", "bukhari:1327", "bukhari:1328", "bukhari:1333", "bukhari:1334", "bukhari:3879", "bukhari:3880", "bukhari:3881", "muslim:2204", "muslim:2205"], ["bukhari:3877", "muslim:2209", "muslim:2210"]], "kept_with": ["bukhari:3877", "muslim:2209", "muslim:2210"]}
+{"bridge": "bukhari:7215", "parts": [["bukhari:1306", "muslim:2163", "muslim:2164"], ["bukhari:4892", "muslim:2165"]], "kept_with": ["bukhari:4892", "muslim:2165"]}
+{"bridge": "bukhari:3879", "parts": [["bukhari:1334", "bukhari:3877", "muslim:2208", "muslim:2209", "muslim:2210"], ["bukhari:1245", "bukhari:1318", "bukhari:1327", "bukhari:1328", "bukhari:1333", "bukhari:3880", "bukhari:3881", "muslim:2204", "muslim:2205"]], "kept_with": ["bukhari:1334", "bukhari:3877", "muslim:2208"]}
+{"bridge": "muslim:2208", "parts": [["bukhari:3877", "muslim:2209", "muslim:2210"], ["bukhari:1334", "bukhari:3879"]], "kept_with": ["bukhari:3877", "muslim:2209", "muslim:2210"]}
 {"bridge": "muslim:1668", "parts": [["bukhari:1103", "bukhari:1176", "bukhari:4292", "muslim:1667"], ["muslim:765", "muslim:766"]], "kept_with": ["muslim:765", "muslim:766"]}
 {"bridge": "muslim:5080", "parts": [["bukhari:5500", "bukhari:5562", "bukhari:6674", "bukhari:7400", "bukhari:985", "muslim:5064", "muslim:5065", "muslim:5066", "muslim:5067", "muslim:5068", "muslim:5081"], ["bukhari:5549", "bukhari:5561", "bukhari:6673", "bukhari:954", "bukhari:984", "muslim:5079"]], "kept_with": ["bukhari:5549", "bukhari:5561", "bukhari:6673"]}
 {"bridge": "bukhari:942", "parts": [["bukhari:4132", "bukhari:4134"], ["bukhari:4133", "muslim:1942"]], "kept_with": ["bukhari:4132", "bukhari:4134"]}
 {"bridge": "bukhari:1013", "parts": [["bukhari:1015", "bukhari:1021", "bukhari:1033", "bukhari:3582", "bukhari:6093", "bukhari:6342", "bukhari:932", "bukhari:933", "muslim:2079"], ["bukhari:1014", "bukhari:1016", "bukhari:1017", "bukhari:1019", "muslim:2078"]], "kept_with": ["bukhari:1014", "bukhari:1016", "bukhari:1017"]}
-{"bridge": "muslim:5406", "parts": [["bukhari:2104", "bukhari:2612", "bukhari:2619", "bukhari:5841", "bukhari:5981", "bukhari:886", "muslim:5401", "muslim:5402", "muslim:5403", "muslim:5407", "muslim:5424"], ["bukhari:3054", "bukhari:948", "muslim:5404", "muslim:5405"]], "kept_with": ["bukhari:2104", "bukhari:2612", "bukhari:2619"]}
-{"bridge": "bukhari:1321", "parts": [["bukhari:1319", "bukhari:1322", "bukhari:1336", "bukhari:857", "muslim:2211", "muslim:2212", "muslim:2213"], ["bukhari:1247"], ["bukhari:1326", "bukhari:1340"]], "kept_with": ["bukhari:1326", "bukhari:1340"]}
-{"bridge": "bukhari:7292", "parts": [["bukhari:6330", "bukhari:6615", "bukhari:844", "muslim:1338", "muslim:1339", "muslim:1340", "muslim:1341", "muslim:1342"], ["bukhari:1477", "bukhari:2408", "bukhari:5975", "muslim:4483", "muslim:4484", "muslim:4485", "muslim:4486"], ["bukhari:6473"]], "kept_with": ["bukhari:6330", "bukhari:6615", "bukhari:844"]}
+{"bridge": "muslim:5406", "parts": [["bukhari:3054", "bukhari:948", "muslim:5404", "muslim:5405"], ["bukhari:2104", "bukhari:2612", "bukhari:2619", "bukhari:5841", "bukhari:5981", "bukhari:886", "muslim:5401", "muslim:5402", "muslim:5403", "muslim:5407", "muslim:5424"]], "kept_with": ["bukhari:2104", "bukhari:2612", "bukhari:2619"]}
+{"bridge": "bukhari:1321", "parts": [["bukhari:1319", "bukhari:1322", "bukhari:1336", "bukhari:857", "muslim:2211", "muslim:2212", "muslim:2213"], ["bukhari:1326", "bukhari:1340"], ["bukhari:1247"]], "kept_with": ["bukhari:1326", "bukhari:1340"]}
+{"bridge": "bukhari:7292", "parts": [["bukhari:1477", "bukhari:2408", "bukhari:5975", "muslim:4483", "muslim:4484", "muslim:4485", "muslim:4486"], ["bukhari:6330", "bukhari:6615", "bukhari:844", "muslim:1338", "muslim:1339", "muslim:1340", "muslim:1341", "muslim:1342"], ["bukhari:6473"]], "kept_with": ["bukhari:6330", "bukhari:6615", "bukhari:844"]}
 {"bridge": "bukhari:844", "parts": [["muslim:1340", "muslim:1341"], ["bukhari:6330", "bukhari:6615", "muslim:1338", "muslim:1339"], ["bukhari:7292", "muslim:1342"]], "kept_with": ["bukhari:6330", "bukhari:6615", "muslim:1338"]}
-{"bridge": "muslim:1913", "parts": [["bukhari:5043", "muslim:1911"], ["bukhari:4996", "muslim:1908", "muslim:1909", "muslim:1910"], ["bukhari:775", "muslim:1912"]], "kept_with": ["bukhari:775", "muslim:1912"]}
+{"bridge": "muslim:1913", "parts": [["bukhari:775", "muslim:1912"], ["bukhari:4996", "muslim:1908", "muslim:1909", "muslim:1910"], ["bukhari:5043", "muslim:1911"]], "kept_with": ["bukhari:775", "muslim:1912"]}
 {"bridge": "muslim:940", "parts": [["bukhari:3384", "bukhari:3385", "bukhari:678", "bukhari:679", "bukhari:682", "bukhari:716", "bukhari:7303", "muslim:948"], ["bukhari:4445", "muslim:939"]], "kept_with": ["bukhari:3384", "bukhari:3385", "bukhari:678"]}
 {"bridge": "bukhari:2420", "parts": [["bukhari:644", "bukhari:7224", "muslim:1481"], ["bukhari:657", "muslim:1482"]], "kept_with": ["bukhari:657", "muslim:1482"]}
 {"bridge": "muslim:6119", "parts": [["bukhari:540", "bukhari:6362", "bukhari:7089", "bukhari:7294", "bukhari:7295", "muslim:6120", "muslim:6121", "muslim:6122", "muslim:6123"], ["bukhari:5221", "bukhari:6485", "bukhari:6486", "bukhari:6631", "bukhari:6637"]], "kept_with": ["bukhari:5221", "bukhari:6485", "bukhari:6486"]}
-{"bridge": "bukhari:526", "parts": [["muslim:7004", "muslim:7005"], ["bukhari:4687", "muslim:7001"]], "kept_with": ["bukhari:4687", "muslim:7001"]}
+{"bridge": "bukhari:526", "parts": [["bukhari:4687", "muslim:7001"], ["muslim:7004", "muslim:7005"]], "kept_with": ["bukhari:4687", "muslim:7001"]}
 {"bridge": "bukhari:458", "parts": [["bukhari:460", "bukhari:461"], ["bukhari:1337", "muslim:2215"]], "kept_with": ["bukhari:1337", "muslim:2215"]}
-{"bridge": "muslim:7324", "parts": [["muslim:7322", "muslim:7323"], ["bukhari:2812", "bukhari:447"], ["muslim:7320", "muslim:7321"]], "kept_with": ["bukhari:2812", "bukhari:447"]}
-{"bridge": "bukhari:358", "parts": [["bukhari:365", "muslim:1150"], ["muslim:1148", "muslim:1149"]], "kept_with": ["muslim:1148", "muslim:1149"]}
-{"bridge": "bukhari:350", "parts": [["bukhari:3935", "muslim:1571"], ["bukhari:1090", "muslim:1572"], ["muslim:1570"]], "kept_with": ["muslim:1570"]}
+{"bridge": "muslim:7324", "parts": [["muslim:7320", "muslim:7321"], ["muslim:7322", "muslim:7323"], ["bukhari:2812", "bukhari:447"]], "kept_with": ["bukhari:2812", "bukhari:447"]}
+{"bridge": "bukhari:358", "parts": [["muslim:1148", "muslim:1149"], ["bukhari:365", "muslim:1150"]], "kept_with": ["muslim:1148", "muslim:1149"]}
+{"bridge": "bukhari:350", "parts": [["bukhari:3935", "muslim:1571"], ["muslim:1570"], ["bukhari:1090", "muslim:1572"]], "kept_with": ["muslim:1570"]}
 {"bridge": "bukhari:336", "parts": [["bukhari:4583", "bukhari:5882"], ["bukhari:3773", "bukhari:5164", "muslim:817"]], "kept_with": ["bukhari:3773", "bukhari:5164", "muslim:817"]}
-{"bridge": "muslim:756", "parts": [["muslim:757", "muslim:758"], ["bukhari:327", "muslim:755"]], "kept_with": ["bukhari:327", "muslim:755"]}
-{"bridge": "bukhari:224", "parts": [["bukhari:388", "muslim:624"], ["bukhari:225", "bukhari:2471"], ["bukhari:226", "muslim:625"]], "kept_with": ["bukhari:225", "bukhari:2471"]}
+{"bridge": "muslim:756", "parts": [["bukhari:327", "muslim:755"], ["muslim:757", "muslim:758"]], "kept_with": ["bukhari:327", "muslim:755"]}
 {"bridge": "muslim:4979", "parts": [["bukhari:175", "bukhari:5483", "bukhari:5487", "muslim:4973"], ["bukhari:5484", "muslim:4981"]], "kept_with": ["bukhari:175", "bukhari:5483", "bukhari:5487"]}
 {"bridge": "muslim:653", "parts": [["bukhari:172", "muslim:648", "muslim:649", "muslim:650", "muslim:651", "muslim:652"], ["muslim:4021", "muslim:4022"], ["muslim:654"]], "kept_with": ["muslim:4021", "muslim:4022"]}
-{"bridge": "bukhari:165", "parts": [["muslim:566", "muslim:568"], ["muslim:574"], ["muslim:570", "muslim:571"], ["muslim:575"]], "kept_with": ["muslim:575"]}
-{"bridge": "muslim:3240", "parts": [["muslim:3241"], ["bukhari:1585", "muslim:3246", "muslim:3247", "muslim:3248"], ["bukhari:126", "muslim:3245"]], "kept_with": ["bukhari:1585", "muslim:3246", "muslim:3247"]}
-{"bridge": "muslim:3248", "parts": [["bukhari:1585", "muslim:3240"], ["muslim:3246", "muslim:3247"]], "kept_with": ["muslim:3246", "muslim:3247"]}
-{"bridge": "muslim:2152", "parts": [["bukhari:1290", "muslim:2145", "muslim:2146"], ["bukhari:107", "bukhari:108", "bukhari:109", "bukhari:1291", "bukhari:1292", "bukhari:3461", "muslim:2143", "muslim:2144", "muslim:2157", "muslim:2158", "muslim:2159"], ["muslim:2142"]], "kept_with": ["bukhari:1290", "muslim:2145", "muslim:2146"]}
+{"bridge": "bukhari:165", "parts": [["muslim:570", "muslim:571"], ["muslim:566", "muslim:568"], ["muslim:575"], ["muslim:574"]], "kept_with": ["muslim:575"]}
+{"bridge": "muslim:3240", "parts": [["bukhari:126", "muslim:3245"], ["bukhari:1585", "muslim:3246", "muslim:3247", "muslim:3248"], ["muslim:3241"]], "kept_with": ["bukhari:1585", "muslim:3246", "muslim:3247"]}
+{"bridge": "muslim:3248", "parts": [["muslim:3246", "muslim:3247"], ["bukhari:1585", "muslim:3240"]], "kept_with": ["muslim:3246", "muslim:3247"]}
+{"bridge": "muslim:2152", "parts": [["bukhari:107", "bukhari:108", "bukhari:109", "bukhari:1291", "bukhari:1292", "bukhari:3461", "muslim:2143", "muslim:2144", "muslim:2157", "muslim:2158", "muslim:2159"], ["muslim:2142"], ["bukhari:1290", "muslim:2145", "muslim:2146"]], "kept_with": ["muslim:2142"]}
 {"bridge": "bukhari:1291", "parts": [["bukhari:1292", "muslim:2143", "muslim:2144", "muslim:2157", "muslim:2158", "muslim:2159"], ["bukhari:107", "bukhari:108", "bukhari:109", "bukhari:3461"]], "kept_with": ["bukhari:107", "bukhari:108", "bukhari:109"]}
-{"bridge": "muslim:6700", "parts": [["muslim:1507", "muslim:2099", "muslim:6611"], ["bukhari:101", "bukhari:1249", "bukhari:1250", "bukhari:7310", "muslim:6699"], ["bukhari:102"]], "kept_with": ["muslim:1507", "muslim:2099", "muslim:6611"]}
-{"bridge": "bukhari:72", "parts": [["muslim:7100", "muslim:7101"], ["bukhari:131", "bukhari:2209", "bukhari:4698", "bukhari:5444", "bukhari:5448", "bukhari:61", "bukhari:6122", "bukhari:62", "muslim:7098", "muslim:7099", "muslim:7102"]], "kept_with": ["muslim:7100", "muslim:7101"]}
+{"bridge": "muslim:6700", "parts": [["bukhari:101", "bukhari:1249", "bukhari:1250", "bukhari:7310", "muslim:6699"], ["bukhari:102"], ["muslim:1507", "muslim:2099", "muslim:6611"]], "kept_with": ["muslim:1507", "muslim:2099", "muslim:6611"]}
+{"bridge": "bukhari:72", "parts": [["bukhari:131", "bukhari:2209", "bukhari:4698", "bukhari:5444", "bukhari:5448", "bukhari:61", "bukhari:6122", "bukhari:62", "muslim:7098", "muslim:7099", "muslim:7102"], ["muslim:7100", "muslim:7101"]], "kept_with": ["muslim:7100", "muslim:7101"]}
 {"bridge": "muslim:2195", "parts": [["bukhari:47", "muslim:2189", "muslim:2192", "muslim:2193", "muslim:2196", "muslim:2197"], ["bukhari:1323", "bukhari:1324", "muslim:2194"]], "kept_with": ["bukhari:1323", "bukhari:1324", "muslim:2194"]}
 {"bridge": "bukhari:7252", "parts": [["bukhari:399", "bukhari:403", "bukhari:4488", "bukhari:4490", "bukhari:4491", "bukhari:4493", "bukhari:4494", "bukhari:7251", "muslim:1178", "muslim:1179"], ["bukhari:40", "bukhari:4486"]], "kept_with": ["bukhari:399", "bukhari:403", "bukhari:4488"]}
 {"bridge": "bukhari:4488", "parts": [["bukhari:403", "bukhari:4490", "bukhari:4491", "bukhari:4493", "bukhari:4494", "bukhari:7251", "muslim:1178", "muslim:1179"], ["bukhari:399", "bukhari:7252"]], "kept_with": ["bukhari:403", "bukhari:4490", "bukhari:4491"]}
-{"community_split": ["muslim:6953", "muslim:6954", "muslim:6955", "muslim:6956", "muslim:6957"], "size": 10, "parts": [4, 4, 2]}
-{"community_split": ["bukhari:7062", "bukhari:7063", "bukhari:7064", "bukhari:7065", "bukhari:7066"], "size": 11, "parts": [4, 7]}
-{"community_split": ["bukhari:6983", "bukhari:6987", "bukhari:6988", "bukhari:6989", "bukhari:6994"], "size": 14, "parts": [5, 6, 3]}
-{"community_split": ["bukhari:6622", "bukhari:6722", "bukhari:7146", "bukhari:7147", "muslim:4271"], "size": 16, "parts": [2, 6, 8]}
-{"community_split": ["bukhari:6608", "bukhari:6609", "bukhari:6692", "bukhari:6693", "bukhari:6694"], "size": 13, "parts": [2, 7, 4]}
-{"community_split": ["bukhari:6575", "bukhari:6576", "bukhari:6582", "bukhari:6585", "bukhari:6586"], "size": 16, "parts": [3, 5, 4, 4]}
+{"community_split": ["muslim:6953", "muslim:6954", "muslim:6955", "muslim:6956", "muslim:6957"], "size": 10, "parts": [4, 2, 4]}
+{"community_split": ["bukhari:7062", "bukhari:7063", "bukhari:7064", "bukhari:7065", "bukhari:7066"], "size": 11, "parts": [7, 4]}
+{"community_split": ["bukhari:6983", "bukhari:6987", "bukhari:6988", "bukhari:6989", "bukhari:6994"], "size": 14, "parts": [5, 3, 6]}
+{"community_split": ["bukhari:6622", "bukhari:6722", "bukhari:7146", "bukhari:7147", "muslim:4271"], "size": 16, "parts": [6, 8, 2]}
+{"community_split": ["bukhari:6608", "bukhari:6609", "bukhari:6692", "bukhari:6693", "bukhari:6694"], "size": 13, "parts": [4, 7, 2]}
+{"community_split": ["bukhari:6575", "bukhari:6576", "bukhari:6582", "bukhari:6585", "bukhari:6586"], "size": 16, "parts": [4, 5, 4, 3]}
 {"community_split": ["bukhari:6507", "bukhari:6508", "bukhari:7504", "muslim:6820", "muslim:6821"], "size": 10, "parts": [5, 2, 3]}
-{"community_split": ["bukhari:6304", "bukhari:6305", "bukhari:7474", "muslim:487", "muslim:488"], "size": 14, "parts": [7, 3, 4]}
-{"community_split": ["bukhari:5747", "bukhari:6984", "bukhari:6985", "bukhari:6986", "bukhari:6995"], "size": 14, "parts": [3, 5, 4, 2]}
-{"community_split": ["bukhari:5707", "bukhari:5754", "bukhari:5755", "bukhari:5756", "bukhari:5757"], "size": 16, "parts": [6, 6, 4]}
-{"community_split": ["bukhari:5675", "bukhari:5742", "bukhari:5743", "bukhari:5750", "muslim:5707"], "size": 9, "parts": [3, 2, 4]}
+{"community_split": ["bukhari:6304", "bukhari:6305", "bukhari:7474", "muslim:487", "muslim:488"], "size": 14, "parts": [3, 4, 7]}
+{"community_split": ["bukhari:5747", "bukhari:6984", "bukhari:6985", "bukhari:6986", "bukhari:6995"], "size": 14, "parts": [3, 4, 2, 5]}
+{"community_split": ["bukhari:5707", "bukhari:5754", "bukhari:5755", "bukhari:5756", "bukhari:5757"], "size": 16, "parts": [6, 4, 6]}
+{"community_split": ["bukhari:5675", "bukhari:5742", "bukhari:5743", "bukhari:5750", "muslim:5707"], "size": 9, "parts": [2, 4, 3]}
 {"community_split": ["bukhari:5640", "bukhari:5641", "bukhari:5642", "muslim:6561", "muslim:6562"], "size": 11, "parts": [6, 5]}
-{"community_split": ["bukhari:5601", "bukhari:5602", "muslim:5145", "muslim:5146", "muslim:5147"], "size": 19, "parts": [2, 7, 2, 8]}
+{"community_split": ["bukhari:5601", "bukhari:5602", "muslim:5145", "muslim:5146", "muslim:5147"], "size": 19, "parts": [2, 2, 8, 7]}
 {"community_split": ["bukhari:5530", "muslim:4988", "muslim:4989", "muslim:4990", "muslim:4991"], "size": 11, "parts": [4, 3, 4]}
-{"community_split": ["bukhari:5426", "bukhari:5632", "bukhari:5633", "bukhari:5831", "bukhari:5837"], "size": 12, "parts": [3, 3, 6]}
-{"community_split": ["bukhari:5393", "bukhari:5394", "bukhari:5395", "bukhari:5396", "bukhari:5397"], "size": 13, "parts": [8, 5]}
+{"community_split": ["bukhari:5426", "bukhari:5632", "bukhari:5633", "bukhari:5831", "bukhari:5837"], "size": 12, "parts": [6, 3, 3]}
+{"community_split": ["bukhari:5393", "bukhari:5394", "bukhari:5395", "bukhari:5396", "bukhari:5397"], "size": 13, "parts": [5, 8]}
 {"community_split": ["bukhari:5205", "bukhari:5933", "bukhari:5934", "bukhari:5935", "bukhari:5936"], "size": 18, "parts": [10, 8]}
-{"community_split": ["bukhari:4908", "bukhari:5251", "bukhari:5252", "bukhari:5258", "bukhari:5264"], "size": 27, "parts": [3, 11, 4, 9]}
-{"community_split": ["bukhari:4886", "bukhari:5931", "bukhari:5939", "bukhari:5943", "bukhari:5948"], "size": 9, "parts": [3, 4, 2]}
+{"community_split": ["bukhari:4908", "bukhari:5251", "bukhari:5252", "bukhari:5258", "bukhari:5264"], "size": 27, "parts": [3, 11, 9, 4]}
+{"community_split": ["bukhari:4886", "bukhari:5931", "bukhari:5939", "bukhari:5943", "bukhari:5948"], "size": 9, "parts": [4, 3, 2]}
 {"community_split": ["bukhari:4791", "bukhari:4792", "bukhari:5166", "bukhari:5466", "bukhari:6238"], "size": 10, "parts": [6, 4]}
 {"community_split": ["bukhari:4748", "bukhari:5306", "bukhari:5313", "bukhari:5314", "bukhari:5315"], "size": 9, "parts": [5, 4]}
-{"community_split": ["bukhari:4364", "bukhari:4605", "bukhari:4654", "bukhari:6744", "muslim:4152"], "size": 9, "parts": [3, 4, 2]}
-{"community_split": ["bukhari:4173", "bukhari:4199", "bukhari:4217", "bukhari:4218", "bukhari:4219"], "size": 22, "parts": [2, 4, 4, 12]}
-{"community_split": ["bukhari:4008", "bukhari:5009", "bukhari:5040", "bukhari:5051.2", "muslim:1878"], "size": 9, "parts": [3, 6]}
-{"community_split": ["bukhari:3688", "bukhari:6171", "bukhari:7153", "muslim:6710", "muslim:6711"], "size": 10, "parts": [5, 3, 2]}
-{"community_split": ["bukhari:3674", "bukhari:3693", "bukhari:3695", "bukhari:6216", "bukhari:7097"], "size": 11, "parts": [6, 5]}
-{"community_split": ["bukhari:3665", "bukhari:5783", "bukhari:5784", "bukhari:5788", "bukhari:5791"], "size": 16, "parts": [7, 3, 2, 2, 2]}
+{"community_split": ["bukhari:4364", "bukhari:4605", "bukhari:4654", "bukhari:6744", "muslim:4152"], "size": 9, "parts": [2, 4, 3]}
+{"community_split": ["bukhari:4173", "bukhari:4199", "bukhari:4217", "bukhari:4218", "bukhari:4219"], "size": 22, "parts": [4, 4, 2, 12]}
+{"community_split": ["bukhari:4008", "bukhari:5009", "bukhari:5040", "bukhari:5051.2", "muslim:1878"], "size": 9, "parts": [6, 3]}
+{"community_split": ["bukhari:3688", "bukhari:6171", "bukhari:7153", "muslim:6710", "muslim:6711"], "size": 10, "parts": [3, 5, 2]}
+{"community_split": ["bukhari:3674", "bukhari:3693", "bukhari:3695", "bukhari:6216", "bukhari:7097"], "size": 11, "parts": [5, 6]}
+{"community_split": ["bukhari:3665", "bukhari:5783", "bukhari:5784", "bukhari:5788", "bukhari:5791"], "size": 16, "parts": [2, 7, 2, 2, 3]}
 {"community_split": ["bukhari:3637", "bukhari:3638", "bukhari:3868", "bukhari:3870", "bukhari:4866"], "size": 10, "parts": [5, 5]}
 {"community_split": ["bukhari:3547", "bukhari:3548", "bukhari:4464", "bukhari:4465", "bukhari:4978"], "size": 9, "parts": [4, 5]}
 {"community_split": ["bukhari:3536", "bukhari:3903", "bukhari:4466", "muslim:6091", "muslim:6092"], "size": 10, "parts": [5, 3, 2]}
 {"community_split": ["bukhari:3515", "bukhari:3516", "bukhari:6635", "muslim:6441", "muslim:6444"], "size": 9, "parts": [3, 3, 3]}
-{"community_split": ["bukhari:3493", "bukhari:3494", "bukhari:6058", "bukhari:7179", "muslim:6454"], "size": 9, "parts": [5, 4]}
-{"community_split": ["bukhari:3492", "bukhari:5587", "bukhari:5594", "bukhari:5595", "muslim:5166"], "size": 32, "parts": [3, 10, 13, 6]}
-{"community_split": ["bukhari:3473", "bukhari:5728", "bukhari:5730", "bukhari:6973", "bukhari:6974"], "size": 16, "parts": [6, 3, 4, 3]}
-{"community_split": ["bukhari:3439", "bukhari:3440", "bukhari:3441", "bukhari:5902", "bukhari:6999"], "size": 15, "parts": [3, 4, 4, 4]}
+{"community_split": ["bukhari:3493", "bukhari:3494", "bukhari:6058", "bukhari:7179", "muslim:6454"], "size": 9, "parts": [4, 5]}
+{"community_split": ["bukhari:3492", "bukhari:5587", "bukhari:5594", "bukhari:5595", "muslim:5166"], "size": 32, "parts": [6, 13, 3, 10]}
+{"community_split": ["bukhari:3473", "bukhari:5728", "bukhari:5730", "bukhari:6973", "bukhari:6974"], "size": 16, "parts": [3, 3, 4, 6]}
+{"community_split": ["bukhari:3439", "bukhari:3440", "bukhari:3441", "bukhari:5902", "bukhari:6999"], "size": 15, "parts": [4, 3, 4, 4]}
 {"community_split": ["bukhari:3411", "bukhari:3433", "bukhari:3769", "bukhari:3770", "bukhari:5418"], "size": 10, "parts": [5, 5]}
-{"community_split": ["bukhari:3369", "bukhari:3370", "bukhari:4797", "bukhari:4798", "bukhari:6357"], "size": 12, "parts": [4, 5, 3]}
-{"community_split": ["bukhari:3310", "bukhari:3311", "bukhari:3312", "bukhari:3313", "bukhari:4016"], "size": 12, "parts": [4, 3, 5]}
-{"community_split": ["bukhari:3301", "bukhari:3499", "bukhari:4388", "bukhari:4390", "muslim:182"], "size": 14, "parts": [4, 4, 3, 3]}
+{"community_split": ["bukhari:3369", "bukhari:3370", "bukhari:4797", "bukhari:4798", "bukhari:6357"], "size": 12, "parts": [3, 4, 5]}
+{"community_split": ["bukhari:3310", "bukhari:3311", "bukhari:3312", "bukhari:3313", "bukhari:4016"], "size": 12, "parts": [4, 5, 3]}
+{"community_split": ["bukhari:3301", "bukhari:3499", "bukhari:4388", "bukhari:4390", "muslim:182"], "size": 14, "parts": [3, 4, 3, 4]}
 {"community_split": ["bukhari:3297", "bukhari:3298", "bukhari:3299", "bukhari:3308", "bukhari:3309"], "size": 10, "parts": [4, 6]}
-{"community_split": ["bukhari:3243", "bukhari:4878", "bukhari:4879", "bukhari:4880", "bukhari:7444"], "size": 9, "parts": [5, 4]}
+{"community_split": ["bukhari:3243", "bukhari:4878", "bukhari:4879", "bukhari:4880", "bukhari:7444"], "size": 9, "parts": [4, 5]}
 {"community_split": ["bukhari:3239", "bukhari:3395", "bukhari:3396", "bukhari:3412", "bukhari:3413"], "size": 17, "parts": [12, 5]}
-{"community_split": ["bukhari:3225", "bukhari:3226", "bukhari:3322", "bukhari:4002", "bukhari:5949"], "size": 11, "parts": [4, 7]}
-{"community_split": ["bukhari:3133", "bukhari:4385", "bukhari:5518", "bukhari:6623", "bukhari:6649"], "size": 16, "parts": [6, 7, 3]}
+{"community_split": ["bukhari:3225", "bukhari:3226", "bukhari:3322", "bukhari:4002", "bukhari:5949"], "size": 11, "parts": [7, 4]}
+{"community_split": ["bukhari:3133", "bukhari:4385", "bukhari:5518", "bukhari:6623", "bukhari:6649"], "size": 16, "parts": [3, 7, 6]}
 {"community_split": ["bukhari:3020", "bukhari:3076", "bukhari:3823", "bukhari:4355", "bukhari:4356"], "size": 10, "parts": [4, 3, 3]}
-{"community_split": ["bukhari:2935", "bukhari:6024", "bukhari:6030", "bukhari:6256", "bukhari:6395"], "size": 10, "parts": [5, 3, 2]}
+{"community_split": ["bukhari:2935", "bukhari:6024", "bukhari:6030", "bukhari:6256", "bukhari:6395"], "size": 10, "parts": [3, 2, 5]}
 {"community_split": ["bukhari:2927", "bukhari:2928", "bukhari:2929", "bukhari:3587", "bukhari:3588"], "size": 14, "parts": [8, 3, 3]}
-{"community_split": ["bukhari:2905", "bukhari:3725", "bukhari:4055", "bukhari:4056", "bukhari:4057"], "size": 13, "parts": [7, 6]}
-{"community_split": ["bukhari:2858", "bukhari:2859", "bukhari:5093", "bukhari:5094", "bukhari:5095"], "size": 16, "parts": [6, 3, 4, 3]}
-{"community_split": ["bukhari:2849", "bukhari:2850", "bukhari:2852", "bukhari:3119", "bukhari:3644"], "size": 15, "parts": [2, 2, 7, 4]}
+{"community_split": ["bukhari:2905", "bukhari:3725", "bukhari:4055", "bukhari:4056", "bukhari:4057"], "size": 13, "parts": [6, 7]}
+{"community_split": ["bukhari:2858", "bukhari:2859", "bukhari:5093", "bukhari:5094", "bukhari:5095"], "size": 16, "parts": [3, 6, 3, 4]}
+{"community_split": ["bukhari:2849", "bukhari:2850", "bukhari:2852", "bukhari:3119", "bukhari:3644"], "size": 15, "parts": [2, 7, 4, 2]}
 {"community_split": ["bukhari:2834", "bukhari:2835", "bukhari:2961", "bukhari:3795", "bukhari:3796"], "size": 17, "parts": [8, 9]}
-{"community_split": ["bukhari:2783", "bukhari:2825", "bukhari:3077", "bukhari:3899", "bukhari:4311"], "size": 9, "parts": [6, 3]}
-{"community_split": ["bukhari:2702", "bukhari:3173", "bukhari:6142", "bukhari:6143", "bukhari:6144"], "size": 11, "parts": [5, 3, 3]}
-{"community_split": ["bukhari:2651", "bukhari:3650", "bukhari:6428", "bukhari:6695", "muslim:6473"], "size": 9, "parts": [3, 4, 2]}
-{"community_split": ["bukhari:2645", "bukhari:5100", "muslim:3569", "muslim:3570", "muslim:3579"], "size": 9, "parts": [4, 3, 2]}
-{"community_split": ["bukhari:2644", "bukhari:4796", "bukhari:5103", "bukhari:5239", "bukhari:6156"], "size": 14, "parts": [3, 5, 4, 2]}
-{"community_split": ["bukhari:2627", "bukhari:2820", "bukhari:2857", "bukhari:2862", "bukhari:2866"], "size": 15, "parts": [9, 6]}
+{"community_split": ["bukhari:2783", "bukhari:2825", "bukhari:3077", "bukhari:3899", "bukhari:4311"], "size": 9, "parts": [3, 6]}
+{"community_split": ["bukhari:2702", "bukhari:3173", "bukhari:6142", "bukhari:6143", "bukhari:6144"], "size": 11, "parts": [3, 2, 6]}
+{"community_split": ["bukhari:2651", "bukhari:3650", "bukhari:6428", "bukhari:6695", "muslim:6473"], "size": 9, "parts": [4, 2, 3]}
+{"community_split": ["bukhari:2645", "bukhari:5100", "muslim:3569", "muslim:3570", "muslim:3579"], "size": 9, "parts": [3, 4, 2]}
+{"community_split": ["bukhari:2644", "bukhari:4796", "bukhari:5103", "bukhari:5239", "bukhari:6156"], "size": 14, "parts": [3, 5, 2, 4]}
+{"community_split": ["bukhari:2627", "bukhari:2820", "bukhari:2857", "bukhari:2862", "bukhari:2866"], "size": 15, "parts": [6, 9]}
 {"community_split": ["bukhari:2586", "bukhari:2587", "bukhari:2650", "muslim:4177", "muslim:4178"], "size": 14, "parts": [5, 5, 4]}
-{"community_split": ["bukhari:2491", "bukhari:2492", "bukhari:2503", "bukhari:2504", "bukhari:2521"], "size": 25, "parts": [9, 2, 14]}
-{"community_split": ["bukhari:2488", "bukhari:2507", "bukhari:3075", "bukhari:5498", "bukhari:5503"], "size": 14, "parts": [5, 3, 6]}
-{"community_split": ["bukhari:2468", "bukhari:4913", "bukhari:4914", "bukhari:4915", "bukhari:5191"], "size": 10, "parts": [3, 3, 4]}
+{"community_split": ["bukhari:2491", "bukhari:2492", "bukhari:2503", "bukhari:2504", "bukhari:2521"], "size": 25, "parts": [7, 9, 9]}
+{"community_split": ["bukhari:2488", "bukhari:2507", "bukhari:3075", "bukhari:5498", "bukhari:5503"], "size": 14, "parts": [6, 5, 3]}
+{"community_split": ["bukhari:2468", "bukhari:4913", "bukhari:4914", "bukhari:4915", "bukhari:5191"], "size": 10, "parts": [4, 3, 3]}
 {"community_split": ["bukhari:2411", "bukhari:3408", "bukhari:3414", "bukhari:3415", "bukhari:4638"], "size": 12, "parts": [2, 5, 5]}
-{"community_split": ["bukhari:2340", "bukhari:2341", "bukhari:2632", "muslim:3917", "muslim:3918"], "size": 9, "parts": [3, 4, 2]}
-{"community_split": ["bukhari:2328", "bukhari:2329", "bukhari:2331", "bukhari:2499", "bukhari:2720"], "size": 10, "parts": [2, 3, 5]}
-{"community_split": ["bukhari:2305", "bukhari:2306", "bukhari:2390", "bukhari:2392", "bukhari:2393"], "size": 11, "parts": [6, 5]}
-{"community_split": ["bukhari:2296", "bukhari:2598", "bukhari:2683", "bukhari:3049", "bukhari:3137"], "size": 10, "parts": [2, 4, 4]}
-{"community_split": ["bukhari:2239", "bukhari:2239.2", "bukhari:2240", "bukhari:2240.2", "bukhari:2241"], "size": 10, "parts": [5, 2, 3]}
-{"community_split": ["bukhari:2229", "bukhari:2542", "bukhari:4138", "bukhari:5210", "bukhari:6603"], "size": 14, "parts": [6, 4, 4]}
-{"community_split": ["bukhari:2211", "bukhari:2460", "bukhari:3825", "bukhari:5359", "bukhari:5364"], "size": 13, "parts": [8, 5]}
-{"community_split": ["bukhari:2203", "bukhari:2204", "bukhari:2206", "bukhari:2379", "bukhari:2716"], "size": 12, "parts": [4, 8]}
-{"community_split": ["bukhari:2186", "bukhari:2187", "bukhari:2207", "muslim:3878", "muslim:3908"], "size": 9, "parts": [3, 4, 2]}
-{"community_split": ["bukhari:2183", "bukhari:2184", "bukhari:2188", "bukhari:2190", "bukhari:2192"], "size": 18, "parts": [3, 4, 3, 6, 2]}
-{"community_split": ["bukhari:2148", "bukhari:2150", "bukhari:2151", "muslim:3815", "muslim:3830"], "size": 10, "parts": [2, 3, 2, 3]}
-{"community_split": ["bukhari:2141", "bukhari:2403", "bukhari:2415", "bukhari:2534", "bukhari:6716"], "size": 12, "parts": [3, 6, 3]}
+{"community_split": ["bukhari:2340", "bukhari:2341", "bukhari:2632", "muslim:3917", "muslim:3918"], "size": 9, "parts": [3, 2, 4]}
+{"community_split": ["bukhari:2328", "bukhari:2329", "bukhari:2331", "bukhari:2499", "bukhari:2720"], "size": 10, "parts": [5, 2, 3]}
+{"community_split": ["bukhari:2305", "bukhari:2306", "bukhari:2390", "bukhari:2392", "bukhari:2393"], "size": 11, "parts": [5, 6]}
+{"community_split": ["bukhari:2296", "bukhari:2598", "bukhari:2683", "bukhari:3049", "bukhari:3137"], "size": 10, "parts": [4, 4, 2]}
+{"community_split": ["bukhari:2239", "bukhari:2239.2", "bukhari:2240", "bukhari:2240.2", "bukhari:2241"], "size": 10, "parts": [3, 2, 5]}
+{"community_split": ["bukhari:2229", "bukhari:2542", "bukhari:4138", "bukhari:5210", "bukhari:6603"], "size": 14, "parts": [4, 4, 6]}
+{"community_split": ["bukhari:2211", "bukhari:2460", "bukhari:3825", "bukhari:5359", "bukhari:5364"], "size": 13, "parts": [5, 8]}
+{"community_split": ["bukhari:2203", "bukhari:2204", "bukhari:2206", "bukhari:2379", "bukhari:2716"], "size": 12, "parts": [8, 4]}
+{"community_split": ["bukhari:2186", "bukhari:2187", "bukhari:2207", "muslim:3878", "muslim:3908"], "size": 9, "parts": [2, 4, 3]}
+{"community_split": ["bukhari:2183", "bukhari:2184", "bukhari:2188", "bukhari:2190", "bukhari:2192"], "size": 18, "parts": [4, 3, 6, 2, 3]}
+{"community_split": ["bukhari:2148", "bukhari:2150", "bukhari:2151", "muslim:3815", "muslim:3830"], "size": 10, "parts": [2, 3, 3, 2]}
+{"community_split": ["bukhari:2141", "bukhari:2403", "bukhari:2415", "bukhari:2534", "bukhari:6716"], "size": 12, "parts": [6, 3, 3]}
 {"community_split": ["bukhari:2140", "bukhari:2723", "bukhari:5142", "muslim:3454", "muslim:3455"], "size": 12, "parts": [7, 5]}
-{"community_split": ["bukhari:2105", "bukhari:3224", "bukhari:5181", "bukhari:5951", "bukhari:5957"], "size": 12, "parts": [5, 7]}
+{"community_split": ["bukhari:2105", "bukhari:3224", "bukhari:5181", "bukhari:5951", "bukhari:5957"], "size": 12, "parts": [7, 5]}
 {"community_split": ["bukhari:2054", "bukhari:5475", "bukhari:5476", "bukhari:5486", "muslim:4974"], "size": 9, "parts": [5, 4]}
-{"community_split": ["bukhari:2048", "bukhari:2049", "bukhari:2293", "bukhari:3780", "bukhari:3781"], "size": 18, "parts": [7, 7, 2, 2]}
-{"community_split": ["bukhari:2035", "bukhari:2038", "bukhari:2039", "bukhari:3101", "bukhari:3281"], "size": 10, "parts": [2, 3, 5]}
-{"community_split": ["bukhari:2025", "bukhari:2026", "bukhari:2033", "bukhari:2034", "bukhari:2041"], "size": 13, "parts": [5, 2, 6]}
-{"community_split": ["bukhari:2004", "bukhari:2005", "bukhari:3397", "bukhari:3942", "bukhari:3943"], "size": 13, "parts": [2, 4, 3, 4]}
-{"community_split": ["bukhari:1936", "bukhari:1937", "bukhari:2600", "bukhari:5368", "bukhari:6087"], "size": 16, "parts": [2, 5, 9]}
-{"community_split": ["bukhari:1927", "bukhari:1928", "muslim:2573", "muslim:2574", "muslim:2575"], "size": 16, "parts": [6, 4, 2, 4]}
+{"community_split": ["bukhari:2048", "bukhari:2049", "bukhari:2293", "bukhari:3780", "bukhari:3781"], "size": 18, "parts": [2, 7, 7, 2]}
+{"community_split": ["bukhari:2035", "bukhari:2038", "bukhari:2039", "bukhari:3101", "bukhari:3281"], "size": 10, "parts": [2, 5, 3]}
+{"community_split": ["bukhari:2025", "bukhari:2026", "bukhari:2033", "bukhari:2034", "bukhari:2041"], "size": 13, "parts": [6, 2, 5]}
+{"community_split": ["bukhari:2004", "bukhari:2005", "bukhari:3397", "bukhari:3942", "bukhari:3943"], "size": 13, "parts": [4, 3, 2, 4]}
+{"community_split": ["bukhari:1936", "bukhari:1937", "bukhari:2600", "bukhari:5368", "bukhari:6087"], "size": 16, "parts": [2, 9, 5]}
+{"community_split": ["bukhari:1927", "bukhari:1928", "muslim:2573", "muslim:2574", "muslim:2575"], "size": 16, "parts": [4, 2, 6, 4]}
 {"community_split": ["bukhari:1925", "bukhari:1926", "bukhari:1930", "bukhari:1931", "bukhari:1932"], "size": 10, "parts": [2, 3, 3, 2]}
-{"community_split": ["bukhari:1922", "bukhari:1961", "bukhari:1962", "bukhari:1963", "bukhari:1964"], "size": 19, "parts": [6, 8, 2, 3]}
-{"community_split": ["bukhari:1908", "bukhari:1913", "muslim:2506", "muslim:2508", "muslim:2509"], "size": 12, "parts": [3, 6, 3]}
-{"community_split": ["bukhari:1900", "bukhari:1906", "bukhari:1907", "bukhari:1909", "muslim:2498"], "size": 13, "parts": [5, 4, 4]}
-{"community_split": ["bukhari:1867", "bukhari:1870", "bukhari:3172", "bukhari:3179", "bukhari:6755"], "size": 18, "parts": [3, 6, 9]}
-{"community_split": ["bukhari:1848", "bukhari:2265", "bukhari:2266", "bukhari:2973", "bukhari:4417"], "size": 15, "parts": [3, 5, 2, 5]}
+{"community_split": ["bukhari:1922", "bukhari:1961", "bukhari:1962", "bukhari:1963", "bukhari:1964"], "size": 19, "parts": [2, 8, 6, 3]}
+{"community_split": ["bukhari:1908", "bukhari:1913", "muslim:2506", "muslim:2508", "muslim:2509"], "size": 12, "parts": [3, 3, 6]}
+{"community_split": ["bukhari:1900", "bukhari:1906", "bukhari:1907", "bukhari:1909", "muslim:2498"], "size": 13, "parts": [4, 4, 5]}
+{"community_split": ["bukhari:1867", "bukhari:1870", "bukhari:3172", "bukhari:3179", "bukhari:6755"], "size": 18, "parts": [9, 9]}
+{"community_split": ["bukhari:1848", "bukhari:2265", "bukhari:2266", "bukhari:2973", "bukhari:4417"], "size": 15, "parts": [2, 5, 5, 3]}
 {"community_split": ["bukhari:1835", "bukhari:1836", "bukhari:1938", "bukhari:1939", "bukhari:5694"], "size": 12, "parts": [6, 6]}
-{"community_split": ["bukhari:1826", "bukhari:1827", "bukhari:1828", "bukhari:1829", "bukhari:3314"], "size": 21, "parts": [7, 12, 2]}
-{"community_split": ["bukhari:1814", "bukhari:1815", "bukhari:1816", "bukhari:1817", "bukhari:1818"], "size": 20, "parts": [3, 5, 8, 4]}
+{"community_split": ["bukhari:1826", "bukhari:1827", "bukhari:1828", "bukhari:1829", "bukhari:3314"], "size": 21, "parts": [12, 7, 2]}
+{"community_split": ["bukhari:1814", "bukhari:1815", "bukhari:1816", "bukhari:1817", "bukhari:1818"], "size": 20, "parts": [5, 4, 8, 3]}
 {"community_split": ["bukhari:1727", "bukhari:1728", "bukhari:1729", "muslim:3144", "muslim:3145"], "size": 9, "parts": [5, 2, 2]}
-{"community_split": ["bukhari:1696", "bukhari:1698", "bukhari:1699", "bukhari:1700", "bukhari:1702"], "size": 20, "parts": [7, 4, 7, 2]}
-{"community_split": ["bukhari:1643", "bukhari:1648", "bukhari:1790", "bukhari:4495", "bukhari:4496"], "size": 11, "parts": [3, 3, 5]}
-{"community_split": ["bukhari:1603", "bukhari:1604", "bukhari:1616", "bukhari:1691", "muslim:2953"], "size": 12, "parts": [2, 3, 3, 2, 2]}
-{"community_split": ["bukhari:1592", "bukhari:1893", "bukhari:2001", "bukhari:2002", "bukhari:3831"], "size": 18, "parts": [4, 2, 7, 5]}
+{"community_split": ["bukhari:1696", "bukhari:1698", "bukhari:1699", "bukhari:1700", "bukhari:1702"], "size": 20, "parts": [2, 4, 7, 7]}
+{"community_split": ["bukhari:1643", "bukhari:1648", "bukhari:1790", "bukhari:4495", "bukhari:4496"], "size": 11, "parts": [3, 5, 3]}
+{"community_split": ["bukhari:1603", "bukhari:1604", "bukhari:1616", "bukhari:1691", "muslim:2953"], "size": 12, "parts": [2, 2, 3, 2, 3]}
+{"community_split": ["bukhari:1592", "bukhari:1893", "bukhari:2001", "bukhari:2002", "bukhari:3831"], "size": 18, "parts": [5, 4, 7, 2]}
 {"community_split": ["bukhari:1571", "bukhari:4518", "muslim:2974", "muslim:2975", "muslim:2976"], "size": 10, "parts": [3, 4, 3]}
-{"community_split": ["bukhari:1539", "bukhari:1754", "bukhari:5922", "bukhari:5923", "bukhari:5928"], "size": 16, "parts": [4, 4, 6, 2]}
-{"community_split": ["bukhari:1493", "bukhari:2578", "bukhari:5097", "bukhari:5279", "bukhari:5284"], "size": 13, "parts": [6, 7]}
-{"community_split": ["bukhari:1492", "bukhari:2221", "bukhari:5531", "bukhari:5532", "muslim:806"], "size": 9, "parts": [4, 3, 2]}
-{"community_split": ["bukhari:1489", "bukhari:1490", "bukhari:2589", "bukhari:2621", "bukhari:2622"], "size": 27, "parts": [11, 9, 7]}
-{"community_split": ["bukhari:1487", "bukhari:1488", "bukhari:2107", "bukhari:2109", "bukhari:2111"], "size": 62, "parts": [6, 11, 10, 7, 7, 21]}
-{"community_split": ["bukhari:1405", "bukhari:1447", "bukhari:1459", "bukhari:1484", "muslim:2263"], "size": 12, "parts": [2, 3, 7]}
-{"community_split": ["bukhari:1395", "bukhari:1458", "bukhari:1496", "bukhari:2448", "bukhari:4347"], "size": 10, "parts": [3, 2, 5]}
+{"community_split": ["bukhari:1539", "bukhari:1754", "bukhari:5922", "bukhari:5923", "bukhari:5928"], "size": 16, "parts": [4, 2, 4, 6]}
+{"community_split": ["bukhari:1493", "bukhari:2578", "bukhari:5097", "bukhari:5279", "bukhari:5284"], "size": 13, "parts": [7, 6]}
+{"community_split": ["bukhari:1492", "bukhari:2221", "bukhari:5531", "bukhari:5532", "muslim:806"], "size": 9, "parts": [4, 2, 3]}
+{"community_split": ["bukhari:1489", "bukhari:1490", "bukhari:2589", "bukhari:2621", "bukhari:2622"], "size": 27, "parts": [9, 11, 7]}
+{"community_split": ["bukhari:1487", "bukhari:1488", "bukhari:2107", "bukhari:2109", "bukhari:2111"], "size": 66, "parts": [6, 7, 8, 13, 11, 21]}
+{"community_split": ["bukhari:1405", "bukhari:1447", "bukhari:1459", "bukhari:1484", "muslim:2263"], "size": 12, "parts": [3, 2, 7]}
+{"community_split": ["bukhari:1395", "bukhari:1458", "bukhari:1496", "bukhari:2448", "bukhari:4347"], "size": 10, "parts": [3, 5, 2]}
 {"community_split": ["bukhari:1349", "bukhari:1587", "bukhari:1833", "bukhari:1834", "bukhari:2090"], "size": 10, "parts": [5, 5]}
-{"community_split": ["bukhari:1295", "bukhari:2742", "bukhari:3936", "bukhari:4409", "bukhari:5354"], "size": 12, "parts": [5, 3, 4]}
-{"community_split": ["bukhari:1280", "bukhari:1281", "bukhari:1282", "bukhari:5334", "bukhari:5335"], "size": 16, "parts": [7, 6, 3]}
+{"community_split": ["bukhari:1295", "bukhari:2742", "bukhari:3936", "bukhari:4409", "bukhari:5354"], "size": 12, "parts": [5, 4, 3]}
+{"community_split": ["bukhari:1280", "bukhari:1281", "bukhari:1282", "bukhari:5334", "bukhari:5335"], "size": 16, "parts": [7, 3, 6]}
 {"community_split": ["bukhari:1253", "bukhari:1254", "bukhari:1257", "bukhari:1258", "bukhari:1259"], "size": 11, "parts": [6, 5]}
-{"community_split": ["bukhari:1245", "bukhari:1318", "bukhari:1327", "bukhari:1328", "bukhari:1333"], "size": 11, "parts": [4, 7]}
-{"community_split": ["bukhari:1239", "bukhari:2445", "bukhari:5175", "bukhari:5635", "bukhari:5650"], "size": 15, "parts": [10, 5]}
-{"community_split": ["bukhari:1193", "bukhari:1194", "bukhari:7326", "muslim:3389", "muslim:3390"], "size": 11, "parts": [5, 6]}
-{"community_split": ["bukhari:1190", "muslim:3374", "muslim:3375", "muslim:3376", "muslim:3377"], "size": 10, "parts": [6, 4]}
+{"community_split": ["bukhari:1245", "bukhari:1318", "bukhari:1327", "bukhari:1328", "bukhari:1333"], "size": 9, "parts": [5, 4]}
+{"community_split": ["bukhari:1239", "bukhari:2445", "bukhari:5175", "bukhari:5635", "bukhari:5650"], "size": 15, "parts": [5, 10]}
+{"community_split": ["bukhari:1193", "bukhari:1194", "bukhari:7326", "muslim:3389", "muslim:3390"], "size": 11, "parts": [6, 5]}
+{"community_split": ["bukhari:1190", "muslim:3374", "muslim:3375", "muslim:3376", "muslim:3377"], "size": 10, "parts": [4, 6]}
 {"community_split": ["bukhari:1121", "bukhari:1122", "bukhari:3738", "bukhari:3739", "bukhari:3740"], "size": 14, "parts": [5, 4, 5]}
-{"community_split": ["bukhari:1106", "bukhari:1107", "bukhari:1108", "bukhari:1109", "bukhari:1110"], "size": 11, "parts": [5, 6]}
-{"community_split": ["bukhari:1089", "bukhari:1546", "bukhari:1547", "bukhari:1548", "bukhari:1551"], "size": 11, "parts": [3, 2, 3, 3]}
-{"community_split": ["bukhari:1086", "bukhari:1087", "bukhari:1088", "bukhari:1862", "bukhari:3006"], "size": 19, "parts": [2, 7, 4, 6]}
-{"community_split": ["bukhari:1045", "bukhari:2365", "bukhari:3318", "bukhari:3482", "muslim:2100"], "size": 17, "parts": [3, 4, 4, 6]}
-{"community_split": ["bukhari:1040", "bukhari:1041", "bukhari:1042", "bukhari:1043", "bukhari:1048"], "size": 17, "parts": [5, 9, 3]}
-{"community_split": ["bukhari:1007", "bukhari:1020", "bukhari:4693", "bukhari:4767", "bukhari:4774"], "size": 16, "parts": [11, 5]}
+{"community_split": ["bukhari:1106", "bukhari:1107", "bukhari:1108", "bukhari:1109", "bukhari:1110"], "size": 11, "parts": [7, 4]}
+{"community_split": ["bukhari:1089", "bukhari:1546", "bukhari:1547", "bukhari:1548", "bukhari:1551"], "size": 11, "parts": [3, 3, 3, 2]}
+{"community_split": ["bukhari:1086", "bukhari:1087", "bukhari:1088", "bukhari:1862", "bukhari:3006"], "size": 19, "parts": [6, 4, 2, 7]}
+{"community_split": ["bukhari:1045", "bukhari:2365", "bukhari:3318", "bukhari:3482", "muslim:2100"], "size": 17, "parts": [4, 6, 4, 3]}
+{"community_split": ["bukhari:1040", "bukhari:1041", "bukhari:1042", "bukhari:1043", "bukhari:1048"], "size": 17, "parts": [3, 9, 5]}
+{"community_split": ["bukhari:1007", "bukhari:1020", "bukhari:4693", "bukhari:4767", "bukhari:4774"], "size": 16, "parts": [5, 11]}
 {"community_split": ["bukhari:1005", "bukhari:1012", "bukhari:1023", "bukhari:1024", "bukhari:1025"], "size": 13, "parts": [8, 5]}
-{"community_split": ["bukhari:1003", "bukhari:3064", "bukhari:4089", "bukhari:4090", "bukhari:4094"], "size": 10, "parts": [4, 3, 3]}
+{"community_split": ["bukhari:1003", "bukhari:3064", "bukhari:4089", "bukhari:4090", "bukhari:4094"], "size": 10, "parts": [3, 3, 4]}
 {"community_split": ["bukhari:5545", "bukhari:5556", "bukhari:5557", "bukhari:5560", "bukhari:5563"], "size": 19, "parts": [8, 6, 5]}
 {"community_split": ["bukhari:6269", "bukhari:6270", "bukhari:911", "muslim:5683", "muslim:5684"], "size": 9, "parts": [5, 4]}
-{"community_split": ["bukhari:2104", "bukhari:2612", "bukhari:2619", "bukhari:5841", "bukhari:5981"], "size": 12, "parts": [6, 4, 2]}
-{"community_split": ["bukhari:3486", "bukhari:3487", "bukhari:6624", "bukhari:876", "bukhari:896"], "size": 10, "parts": [4, 2, 4]}
-{"community_split": ["bukhari:5238", "bukhari:865", "bukhari:873", "bukhari:899", "muslim:988"], "size": 11, "parts": [3, 5, 3]}
-{"community_split": ["bukhari:1377", "bukhari:2397", "bukhari:2823", "bukhari:6367", "bukhari:6376"], "size": 13, "parts": [3, 2, 4, 4]}
-{"community_split": ["bukhari:1202", "bukhari:6230", "bukhari:6265", "bukhari:6328", "bukhari:7381"], "size": 14, "parts": [3, 4, 7]}
+{"community_split": ["bukhari:2104", "bukhari:2612", "bukhari:2619", "bukhari:5841", "bukhari:5981"], "size": 12, "parts": [4, 6, 2]}
+{"community_split": ["bukhari:3486", "bukhari:3487", "bukhari:6624", "bukhari:876", "bukhari:896"], "size": 10, "parts": [4, 4, 2]}
+{"community_split": ["bukhari:5238", "bukhari:865", "bukhari:873", "bukhari:899", "muslim:988"], "size": 11, "parts": [3, 3, 5]}
+{"community_split": ["bukhari:1377", "bukhari:2397", "bukhari:2823", "bukhari:6367", "bukhari:6376"], "size": 13, "parts": [2, 4, 4, 3]}
+{"community_split": ["bukhari:1202", "bukhari:6230", "bukhari:6265", "bukhari:6328", "bukhari:7381"], "size": 14, "parts": [7, 3, 4]}
 {"community_split": ["bukhari:1006", "bukhari:2932", "bukhari:3386", "bukhari:4598", "bukhari:6200"], "size": 12, "parts": [5, 7]}
-{"community_split": ["bukhari:3228", "bukhari:4475", "bukhari:6402", "bukhari:780", "bukhari:782"], "size": 12, "parts": [4, 5, 3]}
-{"community_split": ["bukhari:735", "bukhari:736", "bukhari:737", "bukhari:738", "bukhari:739"], "size": 11, "parts": [3, 4, 4]}
-{"community_split": ["bukhari:6106", "bukhari:700", "bukhari:701", "bukhari:705", "bukhari:711"], "size": 9, "parts": [4, 5]}
-{"community_split": ["bukhari:690", "bukhari:690.2", "bukhari:747", "bukhari:811", "muslim:1062"], "size": 9, "parts": [4, 3, 2]}
+{"community_split": ["bukhari:3228", "bukhari:4475", "bukhari:6402", "bukhari:780", "bukhari:782"], "size": 12, "parts": [4, 3, 5]}
+{"community_split": ["bukhari:735", "bukhari:736", "bukhari:737", "bukhari:738", "bukhari:739"], "size": 11, "parts": [4, 4, 3]}
+{"community_split": ["bukhari:6106", "bukhari:700", "bukhari:701", "bukhari:705", "bukhari:711"], "size": 9, "parts": [5, 4]}
+{"community_split": ["bukhari:690", "bukhari:690.2", "bukhari:747", "bukhari:811", "muslim:1062"], "size": 9, "parts": [3, 4, 2]}
 {"community_split": ["bukhari:1113", "bukhari:1114", "bukhari:1236", "bukhari:5658", "bukhari:688"], "size": 22, "parts": [5, 7, 6, 4]}
-{"community_split": ["bukhari:5463", "bukhari:5464", "bukhari:5465", "bukhari:671", "bukhari:672"], "size": 11, "parts": [4, 2, 5]}
-{"community_split": ["bukhari:4717", "bukhari:645", "bukhari:646", "bukhari:648", "bukhari:649"], "size": 13, "parts": [5, 4, 4]}
-{"community_split": ["bukhari:1160", "bukhari:618", "bukhari:619", "bukhari:626", "bukhari:6310"], "size": 15, "parts": [4, 3, 5, 3]}
-{"community_split": ["bukhari:1918", "bukhari:1919", "bukhari:2656", "bukhari:617", "bukhari:620"], "size": 13, "parts": [6, 3, 4]}
+{"community_split": ["bukhari:5463", "bukhari:5464", "bukhari:5465", "bukhari:671", "bukhari:672"], "size": 11, "parts": [2, 5, 4]}
+{"community_split": ["bukhari:4717", "bukhari:645", "bukhari:646", "bukhari:648", "bukhari:649"], "size": 13, "parts": [4, 4, 5]}
+{"community_split": ["bukhari:1160", "bukhari:618", "bukhari:619", "bukhari:626", "bukhari:6310"], "size": 15, "parts": [4, 5, 3, 3]}
+{"community_split": ["bukhari:1918", "bukhari:1919", "bukhari:2656", "bukhari:617", "bukhari:620"], "size": 13, "parts": [3, 6, 4]}
 {"community_split": ["bukhari:616", "bukhari:668", "bukhari:901", "muslim:1604", "muslim:1605"], "size": 9, "parts": [2, 4, 3]}
-{"community_split": ["bukhari:1222", "bukhari:1231", "bukhari:3285", "bukhari:608", "muslim:1267"], "size": 10, "parts": [4, 6]}
+{"community_split": ["bukhari:1222", "bukhari:1231", "bukhari:3285", "bukhari:608", "muslim:1267"], "size": 10, "parts": [6, 4]}
 {"community_split": ["bukhari:3457", "bukhari:603", "bukhari:605", "bukhari:606", "bukhari:607"], "size": 9, "parts": [4, 5]}
-{"community_split": ["bukhari:1629", "bukhari:3272", "bukhari:3273", "bukhari:582", "bukhari:583"], "size": 10, "parts": [2, 3, 5]}
-{"community_split": ["bukhari:2144", "bukhari:2145", "bukhari:2146", "bukhari:2147", "bukhari:581"], "size": 25, "parts": [10, 7, 4, 4]}
-{"community_split": ["bukhari:556", "bukhari:579", "bukhari:580", "muslim:1371", "muslim:1372"], "size": 10, "parts": [3, 5, 2]}
-{"community_split": ["bukhari:540", "bukhari:6362", "bukhari:7089", "bukhari:7294", "bukhari:7295"], "size": 9, "parts": [3, 4, 2]}
-{"community_split": ["bukhari:3258", "bukhari:3259", "bukhari:3260", "bukhari:533", "bukhari:534"], "size": 20, "parts": [9, 6, 5]}
-{"community_split": ["bukhari:1227", "bukhari:1228", "bukhari:1229", "bukhari:482", "bukhari:6051"], "size": 13, "parts": [4, 5, 2, 2]}
+{"community_split": ["bukhari:1629", "bukhari:3272", "bukhari:3273", "bukhari:582", "bukhari:583"], "size": 10, "parts": [5, 2, 3]}
+{"community_split": ["bukhari:2144", "bukhari:2145", "bukhari:2146", "bukhari:2147", "bukhari:581"], "size": 25, "parts": [10, 4, 7, 4]}
+{"community_split": ["bukhari:556", "bukhari:579", "bukhari:580", "muslim:1371", "muslim:1372"], "size": 10, "parts": [2, 5, 3]}
+{"community_split": ["bukhari:540", "bukhari:6362", "bukhari:7089", "bukhari:7294", "bukhari:7295"], "size": 9, "parts": [2, 4, 3]}
+{"community_split": ["bukhari:3258", "bukhari:3259", "bukhari:3260", "bukhari:533", "bukhari:534"], "size": 20, "parts": [5, 9, 6]}
+{"community_split": ["bukhari:1227", "bukhari:1228", "bukhari:1229", "bukhari:482", "bukhari:6051"], "size": 13, "parts": [2, 2, 5, 4]}
 {"community_split": ["bukhari:1137", "bukhari:472", "bukhari:473", "bukhari:990", "bukhari:993"], "size": 15, "parts": [6, 9]}
-{"community_split": ["bukhari:1598", "bukhari:2988", "bukhari:4289", "bukhari:4400", "bukhari:468"], "size": 14, "parts": [8, 6]}
-{"community_split": ["bukhari:2155", "bukhari:2156", "bukhari:2168", "bukhari:2169", "bukhari:2536"], "size": 24, "parts": [3, 12, 9]}
-{"community_split": ["bukhari:2119", "bukhari:3229", "bukhari:445", "bukhari:477", "bukhari:647"], "size": 11, "parts": [2, 5, 4]}
-{"community_split": ["bukhari:1330", "bukhari:1390", "bukhari:3453", "bukhari:3454", "bukhari:435"], "size": 16, "parts": [7, 9]}
-{"community_split": ["bukhari:353", "bukhari:354", "bukhari:355", "bukhari:356", "bukhari:360"], "size": 14, "parts": [3, 6, 5]}
-{"community_split": ["bukhari:1561", "bukhari:1733", "bukhari:1757", "bukhari:1762", "bukhari:1771"], "size": 19, "parts": [7, 3, 9]}
-{"community_split": ["bukhari:1556", "bukhari:1638", "bukhari:1783", "bukhari:1786", "bukhari:316"], "size": 13, "parts": [2, 6, 5]}
-{"community_split": ["bukhari:2028", "bukhari:2030", "bukhari:2031", "bukhari:2046", "bukhari:295"], "size": 10, "parts": [2, 4, 4]}
-{"community_split": ["bukhari:250", "bukhari:253", "bukhari:261", "bukhari:263", "bukhari:264"], "size": 12, "parts": [7, 2, 3]}
-{"community_split": ["bukhari:222", "bukhari:223", "bukhari:5468", "bukhari:6002", "bukhari:6355"], "size": 12, "parts": [2, 4, 6]}
-{"community_split": ["bukhari:206", "bukhari:2918", "bukhari:363", "bukhari:4421", "bukhari:5798"], "size": 10, "parts": [4, 6]}
-{"community_split": ["bukhari:139", "bukhari:1667", "bukhari:1669", "bukhari:1670", "bukhari:1672"], "size": 24, "parts": [5, 4, 9, 6]}
-{"community_split": ["bukhari:138", "bukhari:5919", "bukhari:698", "bukhari:699", "bukhari:726"], "size": 12, "parts": [2, 5, 5]}
-{"community_split": ["bukhari:133", "bukhari:1522", "bukhari:1524", "bukhari:1525", "bukhari:1526"], "size": 15, "parts": [7, 6, 2]}
+{"community_split": ["bukhari:1598", "bukhari:2988", "bukhari:4289", "bukhari:4400", "bukhari:468"], "size": 14, "parts": [6, 8]}
+{"community_split": ["bukhari:2155", "bukhari:2156", "bukhari:2168", "bukhari:2169", "bukhari:2536"], "size": 24, "parts": [9, 12, 3]}
+{"community_split": ["bukhari:2119", "bukhari:3229", "bukhari:445", "bukhari:477", "bukhari:647"], "size": 11, "parts": [5, 4, 2]}
+{"community_split": ["bukhari:1330", "bukhari:1390", "bukhari:3453", "bukhari:3454", "bukhari:435"], "size": 16, "parts": [9, 7]}
+{"community_split": ["bukhari:353", "bukhari:354", "bukhari:355", "bukhari:356", "bukhari:360"], "size": 14, "parts": [3, 5, 6]}
+{"community_split": ["bukhari:1561", "bukhari:1733", "bukhari:1757", "bukhari:1762", "bukhari:1771"], "size": 19, "parts": [3, 9, 7]}
+{"community_split": ["bukhari:1556", "bukhari:1638", "bukhari:1783", "bukhari:1786", "bukhari:316"], "size": 13, "parts": [6, 2, 5]}
+{"community_split": ["bukhari:2028", "bukhari:2030", "bukhari:2031", "bukhari:2046", "bukhari:295"], "size": 10, "parts": [4, 4, 2]}
+{"community_split": ["bukhari:250", "bukhari:253", "bukhari:261", "bukhari:263", "bukhari:264"], "size": 12, "parts": [2, 7, 3]}
+{"community_split": ["bukhari:222", "bukhari:223", "bukhari:5468", "bukhari:6002", "bukhari:6355"], "size": 12, "parts": [4, 6, 2]}
+{"community_split": ["bukhari:206", "bukhari:2918", "bukhari:363", "bukhari:4421", "bukhari:5798"], "size": 10, "parts": [6, 4]}
+{"community_split": ["bukhari:139", "bukhari:1667", "bukhari:1669", "bukhari:1670", "bukhari:1672"], "size": 24, "parts": [9, 4, 5, 6]}
+{"community_split": ["bukhari:138", "bukhari:5919", "bukhari:698", "bukhari:699", "bukhari:726"], "size": 12, "parts": [7, 5]}
+{"community_split": ["bukhari:133", "bukhari:1522", "bukhari:1524", "bukhari:1525", "bukhari:1526"], "size": 15, "parts": [6, 2, 7]}
 {"community_split": ["bukhari:121", "bukhari:4405", "bukhari:6166", "bukhari:6868", "bukhari:6869"], "size": 12, "parts": [6, 6]}
-{"community_split": ["bukhari:110", "bukhari:2120", "bukhari:2121", "bukhari:3114", "bukhari:3115"], "size": 21, "parts": [8, 4, 6, 3]}
+{"community_split": ["bukhari:110", "bukhari:2120", "bukhari:2121", "bukhari:3114", "bukhari:3115"], "size": 21, "parts": [4, 5, 4, 8]}
 {"community_split": ["bukhari:1431", "bukhari:1449", "bukhari:5249", "bukhari:5881", "bukhari:5883"], "size": 16, "parts": [7, 5, 4]}
-{"community_split": ["bukhari:124", "bukhari:1722", "bukhari:1736", "bukhari:1737", "bukhari:6665"], "size": 15, "parts": [4, 4, 2, 5]}
-{"community_split": ["bukhari:1185", "bukhari:1186", "bukhari:425", "bukhari:5401", "bukhari:6422"], "size": 11, "parts": [5, 6]}
-{"community_split": ["bukhari:3116", "bukhari:3640", "bukhari:3641", "bukhari:71", "bukhari:7311"], "size": 13, "parts": [4, 5, 4]}
-{"community_split": ["bukhari:105", "bukhari:1739", "bukhari:1741", "bukhari:1742", "bukhari:4406"], "size": 13, "parts": [4, 7, 2]}
-{"community_split": ["bukhari:1901", "bukhari:2008", "bukhari:2009", "bukhari:2014", "bukhari:35"], "size": 11, "parts": [5, 4, 2]}
-{"community_split": ["bukhari:1478", "bukhari:27", "muslim:2433", "muslim:2434", "muslim:2435"], "size": 9, "parts": [3, 2, 4]}
-{"community_split": ["bukhari:1401", "bukhari:2157", "bukhari:2714", "bukhari:2715", "bukhari:524"], "size": 14, "parts": [3, 5, 6]}
+{"community_split": ["bukhari:124", "bukhari:1722", "bukhari:1736", "bukhari:1737", "bukhari:6665"], "size": 15, "parts": [4, 2, 5, 4]}
+{"community_split": ["bukhari:1185", "bukhari:1186", "bukhari:425", "bukhari:5401", "bukhari:6422"], "size": 11, "parts": [6, 5]}
+{"community_split": ["bukhari:3116", "bukhari:3640", "bukhari:3641", "bukhari:71", "bukhari:7311"], "size": 13, "parts": [5, 4, 4]}
+{"community_split": ["bukhari:105", "bukhari:1739", "bukhari:1741", "bukhari:1742", "bukhari:4406"], "size": 13, "parts": [7, 4, 2]}
+{"community_split": ["bukhari:1901", "bukhari:2008", "bukhari:2009", "bukhari:2014", "bukhari:35"], "size": 11, "parts": [4, 2, 5]}
+{"community_split": ["bukhari:1478", "bukhari:27", "muslim:2433", "muslim:2434", "muslim:2435"], "size": 9, "parts": [4, 3, 2]}
+{"community_split": ["bukhari:1401", "bukhari:2157", "bukhari:2714", "bukhari:2715", "bukhari:524"], "size": 14, "parts": [3, 6, 5]}
 {"compound_component": 405, "fragments": 2, "pairs": [["bukhari:93", "bukhari:540"], ["bukhari:7090", "muslim:6123"]]}
 {"compound_component": 270, "fragments": 2, "pairs": [["bukhari:3171", "muslim:764"], ["bukhari:3171", "muslim:765"]]}
 {"compound_component": 236, "fragments": 2, "pairs": [["bukhari:2658", "muslim:241"], ["bukhari:304", "bukhari:1951"]]}

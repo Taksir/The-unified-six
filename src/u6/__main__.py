@@ -21,6 +21,8 @@ def main() -> None:
     m.add_argument("stage", choices=["pairs", "gold-sample", "gold-label", "calibrate", "label",
                                      "cluster", "assemble", "sample", "gold-adjudicate", "evaluate"])
     m.add_argument("--no-embeddings", action="store_true")
+    x = sub.add_parser("six", help="M2+M3 stage (all six books, incremental on M1)")
+    x.add_argument("stage", choices=["pairs", "gold", "label", "cluster", "evaluate"])
     a = p.parse_args()
 
     if a.cmd == "fetch":
@@ -35,6 +37,9 @@ def main() -> None:
             m1.stage_pairs(use_embeddings=not a.no_embeddings)
         else:
             getattr(m1, "stage_" + a.stage.replace("-", "_"))()
+    elif a.cmd == "six":
+        from . import six
+        getattr(six, "stage_" + a.stage)()
     elif a.cmd == "eval-split":
         from .evalsplit import evaluate, write_report
         r = evaluate(a.lk, a.data / "raw" / "ara-bukhari.json", a.misses)

@@ -304,13 +304,18 @@ def stage_label(cap_usd: float = 15.0) -> None:
 
 # ---------------------------------------------------------------- cluster + assemble
 
-def stage_cluster() -> None:
+def stage_cluster(sources=None) -> None:
+    """sources: run directories whose edges_free/pairs/labels are combined (the six-book
+    run reuses M1's decisions); defaults to this run's own directory."""
     from .cluster import BOOK_ORDER, assemble, build_graph, containment_edges, guard
 
+    sources = sources or [M1]
     docs = {d.id: d for d in load_docs(BOOKS)}
-    edges = read_jsonl(M1 / "edges_free.jsonl")
-    score = {p["pid"]: p["score"] for p in read_jsonl(M1 / "pairs.jsonl")}
-    for r in read_jsonl(M1 / "labels.jsonl"):
+    free = [e for src in sources for e in read_jsonl(src / "edges_free.jsonl")]
+    edges = list(free)
+    score = {p["pid"]: p["score"] for src in sources for p in read_jsonl(src / "pairs.jsonl")}
+    labels = [r for src in sources for r in read_jsonl(src / "labels.jsonl")]
+    for r in labels:
         r["score"] = score.get(r["pid"])
         # Ambiguous = two independent Sonnet runs disagreed on merge vs no-merge: never
         # merged, shown as "see also" for a researcher instead.
@@ -322,7 +327,7 @@ def stage_cluster() -> None:
     review += compounds
     # Back-references ("بهذا الإسناد مثله") belong with the narration they point to,
     # whatever the splitting passes decided.
-    anchor = {e["b"]: e["a"] for e in read_jsonl(M1 / "edges_free.jsonl") if e["source"] == "backref"}
+    anchor = {e["b"]: e["a"] for e in free if e["source"] == "backref"}
     home = {n: k for k, c in enumerate(clusters) for n in c}
     for ref in anchor:
         root = anchor[ref]
@@ -348,9 +353,11 @@ def stage_cluster() -> None:
     # a researcher may want to check), shown in the appendix.
     where = {m["id"]: h["id"] for h in hadith for m in h["members"]}
     see = {}
-    for r in read_jsonl(M1 / "labels.jsonl"):
-        doubtful = r.get("ambiguous") or (r["label"] in ("related", "different") and (r["confidence"] or 0) < 0.7)
-        if r["source"] == "sonnet" and doubtful and r["a"] in where and r["b"] in where:
+    for r in labels:
+        doubtful = (r.get("ambiguous") or r["source"] == "skipped"
+                    or (r["source"] == "sonnet" and r["label"] in ("related", "different")
+                        and (r["confidence"] or 0) < 0.7))
+        if doubtful and r["a"] in where and r["b"] in where:
             ha, hb = where[r["a"]], where[r["b"]]
             if ha != hb:
                 see.setdefault(ha, set()).add(hb)
@@ -359,8 +366,17 @@ def stage_cluster() -> None:
         hs = {where[x] for pr in c["pairs"] for x in pr if x in where}
         for x in hs:
             see.setdefault(x, set()).update(hs - {x})
+    grades = {}
+    if "tirmidhi" in BOOKS:
+        for line in (DATA / "narrations" / "tirmidhi.jsonl").open(encoding="utf-8"):
+            r = json.loads(line)
+            if r["tirmidhi_grade"]:
+                grades[r["id"]] = r["tirmidhi_grade"]
     for h in hadith:
         h["see_also"] = sorted(see.get(h["id"], ()))
+        g = [{"id": m["id"], **grades[m["id"]]} for m in h["members"] if m["id"] in grades]
+        if g:
+            h["tirmidhi_grades"] = g
     _write_jsonl(M1 / "hadith.jsonl", ({"id": h.pop("id"), **h} for h in hadith))
     _write_jsonl(M1 / "review_chaining.jsonl", review)
 
