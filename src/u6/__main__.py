@@ -19,7 +19,7 @@ def main() -> None:
     e.add_argument("--misses", type=int, default=40)
     m = sub.add_parser("m1", help="M1 pipeline stage (Bukhari + Muslim)")
     m.add_argument("stage", choices=["pairs", "gold-sample", "gold-label", "calibrate", "label",
-                                     "cluster", "assemble", "sample"])
+                                     "cluster", "assemble", "sample", "gold-adjudicate", "evaluate"])
     m.add_argument("--no-embeddings", action="store_true")
     a = p.parse_args()
 

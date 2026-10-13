@@ -19,6 +19,7 @@ from .textnorm import normalize
 BOOK_ORDER = ["bukhari", "muslim", "abudawud", "tirmidhi", "nasai", "ibnmajah"]
 LETTER = {"bukhari": "B", "muslim": "M", "abudawud": "D", "tirmidhi": "T", "nasai": "N", "ibnmajah": "J"}
 MERGE = {"same", "a_in_b", "b_in_a", "variant"}
+UNCERTAIN_BELOW = 0.7  # LLM confidence under which a merge decision counts as uncertain
 
 
 def _sim(a: Doc, b: Doc) -> float:
@@ -33,7 +34,8 @@ def build_graph(docs: dict[str, Doc], edges: list[dict]) -> nx.Graph:
     g.add_nodes_from(docs)
     for e in edges:
         if e["label"] in MERGE and e["a"] in docs and e["b"] in docs:
-            g.add_edge(e["a"], e["b"], label=e["label"], source=e.get("source", ""))
+            g.add_edge(e["a"], e["b"], label=e["label"], source=e.get("source", ""),
+                       confidence=e.get("confidence"))
     return g
 
 
@@ -139,7 +141,16 @@ def assemble(cluster: set, docs: dict[str, Doc], g: nx.Graph) -> dict:
     elif clauses:
         segs = [{"ar": c, "core": True, "in": [rep.id]} for c in clauses]
 
+    # Uncertain grouping: the cluster falls apart without its low-confidence merge edges.
+    sub = g.subgraph(cluster)
+    sure = nx.Graph()
+    sure.add_nodes_from(cluster)
+    sure.add_edges_from((u, v) for u, v, a in sub.edges(data=True)
+                        if a.get("confidence") is None or a["confidence"] >= UNCERTAIN_BELOW)
+    uncertain = len(cluster) > 1 and nx.number_connected_components(sure) > 1
+
     return {
+        "uncertain": uncertain,
         "members": sorted(({"id": d.id, "book": d.book, "kind": d.kind, "role": roles[d.id]}
                            for d in members), key=lambda m: (order[m["book"]], docs[m["id"]].seq)),
         "representative": rep.id,

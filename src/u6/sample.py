@@ -148,6 +148,8 @@ def build_data(sample: list[dict]) -> dict:
             "members": members,
             "narrators": sorted({m["narrator"] for m in members if m["narrator"]}),
             "variants": sum(1 for m in members if m["kind"] != "ref") - 1,
+            "uncertain": h.get("uncertain", False),
+            "see_also": h.get("see_also", []),
         })
     return {"entries": entries, "topics": TOPICS}
 

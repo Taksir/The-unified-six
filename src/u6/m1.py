@@ -306,6 +306,19 @@ def stage_cluster() -> None:
     hadith.sort(key=lambda h: (-h["stars"], -len(h["books_full"]), first(h)))
     for k, h in enumerate(hadith, 1):
         h["id"] = f"U6-{k:05d}"
+    # "See also": low-confidence no-merge calls between different hadith (possible duplicates
+    # a researcher may want to check), shown in the appendix.
+    where = {m["id"]: h["id"] for h in hadith for m in h["members"]}
+    see = {}
+    for r in read_jsonl(M1 / "labels.jsonl"):
+        if r["source"] == "sonnet" and r["label"] in ("related", "different") \
+                and (r["confidence"] or 0) < 0.7 and r["a"] in where and r["b"] in where:
+            ha, hb = where[r["a"]], where[r["b"]]
+            if ha != hb:
+                see.setdefault(ha, set()).add(hb)
+                see.setdefault(hb, set()).add(ha)
+    for h in hadith:
+        h["see_also"] = sorted(see.get(h["id"], ()))
     _write_jsonl(M1 / "hadith.jsonl", ({"id": h.pop("id"), **h} for h in hadith))
     _write_jsonl(M1 / "review_chaining.jsonl", review)
 
@@ -318,7 +331,101 @@ def stage_cluster() -> None:
         "in_both": sum(1 for h in hadith if h["badge"] == "muttafaq"),
         "stars": Counter(h["stars_display"] for h in hadith).most_common(),
         "chaining_splits": len(review),
+        "uncertain_grouping": sum(1 for h in hadith if h["uncertain"]),
+        "with_see_also": sum(1 for h in hadith if h["see_also"]),
         "largest_cluster": max(len(h["members"]) for h in hadith),
     }
     (M1 / "cluster_stats.json").write_text(json.dumps(stats, indent=1, ensure_ascii=False) + "\n")
     print(json.dumps(stats, indent=1, ensure_ascii=False))
+
+
+# ---------------------------------------------------------------- gold adjudication
+
+AMBIGUOUS_BELOW = 0.7
+
+
+def system_label(g: dict, th: dict) -> str:
+    return auto_label(g, th) or g.get("sonnet_grouped", g["sonnet"])["label"]
+
+
+def stage_gold_adjudicate(cap_usd: float = 3.0) -> None:
+    """The owner cannot read Arabic, so disputed gold pairs (Opus vs Sonnet vs pipeline
+    disagree on merge/no-merge) are re-judged by Opus at xhigh effort, one pair per
+    request. Final truth: consensus where all agree; otherwise the adjudication, or
+    "ambiguous" when the adjudicator's confidence is below AMBIGUOUS_BELOW."""
+    llm.require_key()
+    th = json.loads((M1 / "thresholds.json").read_text())["thresholds"]
+    gold = read_jsonl(M1 / "gold.jsonl")
+    disputed = [g for g in gold if len({is_merge(g["opus"]["label"]), is_merge(g["sonnet"]["label"]),
+                                        is_merge(system_label(g, th))}) > 1]
+    todo = [g for g in disputed if "adjudicated" not in g]
+    if todo:
+        got = llm.classify_live(_prompt_pairs(todo), llm.OPUS, "xhigh", stage="gold-adjudicate",
+                                cap_usd=cap_usd, per_request=1)
+        for g in gold:
+            if g["pid"] in got:
+                g["adjudicated"] = got[g["pid"]]
+    for g in gold:
+        if g in disputed and "adjudicated" in g:
+            a = g["adjudicated"]
+            g["truth"] = "ambiguous" if a["confidence"] < AMBIGUOUS_BELOW else a["label"]
+        elif g not in disputed:
+            g["truth"] = g["opus"]["label"]
+    _write_jsonl(M1 / "gold.jsonl", gold)
+    print(f"disputed {len(disputed)}; truth: {Counter(g.get('truth') for g in disputed)}; spend ${llm.spent():.2f}")
+
+
+# ---------------------------------------------------------------- evaluation report
+
+def _ev(rows: list[dict], pred) -> dict:
+    pm = [g for g in rows if is_merge(pred(g))]
+    tp = sum(is_merge(g["truth"]) for g in pm)
+    pos = sum(is_merge(g["truth"]) for g in rows)
+    lo, hi = _wilson(tp, len(pm))
+    return {"tp": tp, "pred": len(pm), "pos": pos, "p": tp / max(1, len(pm)), "r": tp / max(1, pos),
+            "lo": lo, "hi": hi}
+
+
+def stage_evaluate() -> None:
+    th = json.loads((M1 / "thresholds.json").read_text())["thresholds"]
+    gold = read_jsonl(M1 / "gold.jsonl")
+    clear = [g for g in gold if g.get("truth") and g["truth"] != "ambiguous"]
+    mid = [g for g in clear if not auto_label(g, th)]
+    norm = lambda l: "a_in_b" if l == "partial" else l
+    rows = [("Full pipeline (rules + Sonnet high, grouped)", _ev(clear, lambda g: norm(system_label(g, th)))),
+            ("Confident lexical rules only", _ev([g for g in clear if auto_label(g, th)],
+                                                 lambda g: norm(auto_label(g, th)) if auto_label(g, th) != "different" else "different"))]
+    for f, name in (("sonnet_grouped", "Sonnet high, grouped (production format)"), ("sonnet", "Sonnet high, pairwise"),
+                    ("sonnet_medium", "Sonnet medium"), ("sonnet_low", "Sonnet low"),
+                    ("haiku_med", "Haiku medium"), ("haiku", "Haiku low")):
+        rows.append((f"Middle band: {name}", _ev([g for g in mid if f in g], lambda g, f=f: g[f]["label"])))
+    spend = Counter()
+    for r in read_jsonl(llm.SPEND_LOG):
+        spend[r["stage"]] += r["usd"]
+    stats = json.loads((M1 / "cluster_stats.json").read_text()) if (M1 / "cluster_stats.json").exists() else None
+    L = ["# M1 evaluation: Bukhari + Muslim", "",
+         "Generated by `python -m u6 m1 evaluate`.", "",
+         "## Gold set", "",
+         f"{len(gold)} pairs: 50 per lexical-score band (six bands, half cross-book) plus 50 same-chapter "
+         "hard negatives. Labelled by Opus 5.5 (high effort, reference), Sonnet 5.5 and Haiku 5.5 at several "
+         "efforts. Where Opus, Sonnet and the pipeline disagreed on merge vs no-merge "
+         f"({sum(1 for g in gold if 'adjudicated' in g)} pairs), Opus re-judged the pair alone at xhigh effort; "
+         f"adjudications below {AMBIGUOUS_BELOW} confidence count as **ambiguous** "
+         f"({len(gold) - len(clear)} pairs) and are left out of the scores below. "
+         "The owner does not read Arabic, so no human verified these labels: they are model consensus "
+         "plus model adjudication, and agreement-based gold can share the models' blind spots.", "",
+         "## Merge precision and recall (unit: pair)", "",
+         "| decision path | precision | 95% CI | recall |", "|---|---:|---:|---:|"]
+    for name, e in rows:
+        L.append(f"| {name} | {e['p']:.1%} ({e['tp']}/{e['pred']}) | {e['lo']:.1%}–{e['hi']:.1%} | {e['r']:.1%} ({e['tp']}/{e['pos']}) |")
+    L += ["", f"**Quality gate (≥ 97 % precision on merges): "
+          f"{'PASSED' if rows[0][1]['p'] >= 0.97 else 'NOT PASSED'}** on the full pipeline.", "",
+          "Lexical thresholds (calibrated on gold): " + ", ".join(f"`{k}={v}`" for k, v in th.items()) + ".", "",
+          "Haiku was dropped from pair labelling: its merge precision is below the gate at every effort. "
+          "Sonnet below high effort also falls under the gate.", ""]
+    if stats:
+        L += ["## Clusters", "", "```json", json.dumps(stats, indent=1, ensure_ascii=False), "```", ""]
+    L += ["## Spend (USD)", "", "| stage | $ |", "|---|---:|"]
+    L += [f"| {k} | {v:.2f} |" for k, v in sorted(spend.items())] + [f"| **total** | **{sum(spend.values()):.2f}** |", ""]
+    (ROOT / "docs" / "reports" / "m1-eval.md").write_text("\n".join(L))
+    print("\n".join(L))

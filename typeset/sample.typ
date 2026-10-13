@@ -48,7 +48,7 @@
   #arabic(e)
   #v(0.15em)
   #set text(8.5pt)
-  [#e.stars #badge(e.badge) · #e.letters.join(" ") · →A#num.at(e.uid)]
+  [#e.stars #badge(e.badge) · #e.letters.join(" ")#if e.uncertain [ · ≈] · →A#num.at(e.uid)]
 ]
 
 // ---------------------------------------------------------------- front matter
@@ -68,7 +68,8 @@ says which). The bracket below each hadith gives:
 
 - *★* one star per book that carries the full hadith, *⯪* per book that carries only a fragment of it;
 - #badge("muttafaq") *Muttafaq ʿalayh* — in both al-Bukhārī and Muslim; #badge("sahih_one") in one of the two;
-- the book letters (*B* al-Bukhārī, *M* Muslim) and the appendix entry (→A12).
+- the book letters (*B* al-Bukhārī, *M* Muslim) and the appendix entry (→A12);
+- *≈* the grouping of these narrations rests on an uncertain machine judgement; a researcher should check it.
 
 Stars count how many books carry a hadith. They say nothing about its authenticity.
 
@@ -108,6 +109,7 @@ reviewed. Topics come from a provisional list. Numbering: al-Bukhārī by Fuʾā
       #if m.narrator != "" [ · #text(font: "Amiri", lang: "ar", dir: rtl, m.narrator)]
       #if m.url != "" [ · #link(m.url)[sunnah.com]] \
     ]
-    #if e.variants > 0 [Versions compared for the italics: #(e.variants + 1).]
+    #if e.variants > 0 [Versions compared for the italics: #(e.variants + 1). ]#if e.uncertain [*≈ Grouping uncertain:* at least one narration joined this entry on a low-confidence judgement. ]
+    #if e.see_also.len() > 0 [See also (possible duplicates, unconfirmed): #e.see_also.join(", ").]
   ]
 ]
