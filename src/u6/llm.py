@@ -20,7 +20,7 @@ OPUS = "claude-opus-5-5"   # gold-set reference annotator only
 PRICES = {HAIKU: (0.10, 0.50), SONNET: (2.00, 10.00), OPUS: (4.00, 20.00)}  # $ per MTok in/out
 SPEND_LOG = DATA / "m1" / "spend.jsonl"
 BATCHES = DATA / "batches.json"
-MAX_WORDS = 400
+MAX_WORDS = 150  # M1 ran with 400; M2/M3 cut it for cost (re-validated on gold)
 
 LABELS = ["same", "a_in_b", "b_in_a", "related", "different"]
 
@@ -219,26 +219,37 @@ each candidate separately and label the pair (A, candidate) as above: a_in_b mea
 fragment of the candidate, b_in_a means the candidate is a fragment of A."""
 
 
-def group_pairs(pairs: list[dict], max_per_group: int = 12) -> list[dict]:
+def group_pairs(pairs: list[dict], max_per_group: int = 16) -> list[dict]:
     """pairs: [{"pid", "a", "b", "a_text", "b_text"}] -> groups
-    [{"anchor", "anchor_text", "items": [{"pid", "other", "text", "swapped"}]}]."""
+    [{"anchor", "anchor_text", "items": [{"pid", "other", "text", "swapped"}]}].
+    Greedy cover: the narration with the most unassigned pairs becomes the next anchor,
+    so each request carries as many pairs as possible (fewer requests, less overhead)."""
+    import heapq
     from collections import defaultdict
-    deg = defaultdict(int)
+    adj = defaultdict(dict)  # doc -> {other doc: pair}
+    text = {}
     for p in pairs:
-        deg[p["a"]] += 1
-        deg[p["b"]] += 1
-    by_anchor = defaultdict(list)
-    for p in pairs:  # anchor = the endpoint with more middle-band pairs
-        if deg[p["a"]] >= deg[p["b"]]:
-            by_anchor[p["a"]].append({"pid": p["pid"], "text": p["b_text"], "swapped": False, "_at": p["a_text"]})
-        else:
-            by_anchor[p["b"]].append({"pid": p["pid"], "text": p["a_text"], "swapped": True, "_at": p["b_text"]})
+        adj[p["a"]][p["b"]] = p
+        adj[p["b"]][p["a"]] = p
+        text[p["a"]], text[p["b"]] = p["a_text"], p["b_text"]
+    heap = [(-len(v), k) for k, v in adj.items()]
+    heapq.heapify(heap)
     groups = []
-    for anchor, items in by_anchor.items():
+    while heap:
+        d, anchor = heapq.heappop(heap)
+        if -d != len(adj[anchor]):
+            if adj[anchor]:
+                heapq.heappush(heap, (-len(adj[anchor]), anchor))
+            continue
+        if not adj[anchor]:
+            continue
+        items = []
+        for other, p in sorted(adj[anchor].items()):
+            items.append({"pid": p["pid"], "text": text[other], "swapped": p["a"] != anchor})
+            del adj[other][anchor]
+        adj[anchor] = {}
         for k in range(0, len(items), max_per_group):
-            chunk = items[k:k + max_per_group]
-            groups.append({"anchor": anchor, "anchor_text": chunk[0]["_at"],
-                           "items": [{kk: v for kk, v in it.items() if kk != "_at"} for it in chunk]})
+            groups.append({"anchor": anchor, "anchor_text": text[anchor], "items": items[k:k + max_per_group]})
     return groups
 
 
