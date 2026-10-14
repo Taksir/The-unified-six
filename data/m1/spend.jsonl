@@ -96,3 +96,4 @@
 {"t": "2026-10-14T01:12:24", "stage": "m4-review-pilot-high", "model": "claude-sonnet-5-5", "usd": 0.09552, "requests": 5}
 {"t": "2026-10-14T01:19:55", "stage": "m4-rv-w0", "model": "claude-sonnet-5-5", "usd": 0.95267, "requests": 100}
 {"t": "2026-10-14T03:27:42", "stage": "m4-rv-w1", "model": "claude-sonnet-5-5", "usd": 4.79207, "requests": 500}
+{"t": "2026-10-14T03:34:47", "stage": "m4-rv-w2", "model": "claude-sonnet-5-5", "usd": 4.77687, "requests": 500}
