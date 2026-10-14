@@ -2,6 +2,7 @@
 
 A complete, deduplicated compilation of the **Kutub al-Sittah** — Sahih al-Bukhari, Sahih Muslim, Sunan Abi Dawud, Jami' al-Tirmidhi, Sunan al-Nasa'i, and Sunan Ibn Majah. Each distinct hadith is listed once, with references to every book where it appears.
 
+- **Website:** https://taksir.github.io/The-unified-six/
 - **Design and plan:** [`docs/PROPOSAL.md`](docs/PROPOSAL.md)
 - **Data-source research:** [`docs/research/data-sources.md`](docs/research/data-sources.md)
 - **Where we are:** [`docs/STATUS.md`](docs/STATUS.md) · next milestone brief: [`docs/handoff/M1.md`](docs/handoff/M1.md)

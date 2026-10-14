@@ -2,7 +2,7 @@
 
 *Pickup file for any session. Update at the end of every stage.*
 
-**Last updated:** 2026-10-14 · **Current milestone:** v1.1 built → owner publishes v1.1 → M6 (website) · **Branch:** `main` (= `claude/blissful-franklin-z0z0m6`)
+**Last updated:** 2026-10-14 · **Current milestone:** M6 website built → owner enables Pages → done · **Branch:** `main` (= `claude/blissful-franklin-z0z0m6`)
 
 ## Budget
 
@@ -57,6 +57,10 @@ Spend log: `data/m1/spend.jsonl`. Batch IDs: `data/batches.json`.
 - **v1.1 built** (`docs/reports/v1.1-review.md`): every translation re-checked against the Arabic
   (Sonnet, high effort); 246 meaning errors corrected (`review_fix`), $13.45.
 
+- **M6 website built** (`docs/reports/m6.md`): static site, 13,003 hadith pages, topic / attestation /
+  book-number browsing, Pagefind search (English + Arabic, every member's wording indexed),
+  `.github/workflows/pages.yml` deploys on every push to `main`.
+
 ## Security incident (2026-10-14) — read this
 
 The owner's Windows PC was infected (malicious VS Code project; a hidden `folderOpen` task in
@@ -71,7 +75,9 @@ appended to `.gitignore` in this repo: stop and tell the owner.**
 ## Next
 
 1. **Publish v1.1:** Actions → release → Run workflow, branch `main`, tag `v1.1` (owner).
-2. **M6 — website** (GitHub Pages + Pagefind). Brief: `docs/handoff/M6.md`.
+2. **Turn on the website:** Settings → Pages → Source: GitHub Actions; then Actions → pages → Run workflow (owner).
+3. Later (no budget needed): better isnad/matn split for representatives (see m6 report, known limits);
+   the extended edition and the 71-book programme (PROPOSAL §5.6).
 
 ## Owner decisions on record
 
@@ -102,6 +108,7 @@ python -c "from u6 import m4; m4.stage_fallback('<singles batch id>')"   # itali
 python -m u6 m4 topics && python -m u6 m4 check     # M4 ≈ $16 in all
 python -c "from u6 import m4; m4.stage_review()"   # v1.1 review pass, ≈ $13 Batch API
 python -m u6 m5 clean && python -m u6 m5 dataset && python -m u6 m5 pdf   # PDFs in out/release/
+python -m u6 m6 build && python -m pagefind --site site                    # website in site/
 python -m pytest -q
 ```
 LLM stages need `ANTHROPIC_API_KEY` in the environment (never commit it).
