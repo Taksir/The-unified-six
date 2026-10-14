@@ -544,6 +544,14 @@
   "model": "claude-sonnet-5-5",
   "requests": 100,
   "created": "2026-10-14T01:12:52",
+  "collected": true
+ },
+ {
+  "id": "msgbatch_01GrQRgTD18o9oRZrAi6yxcG",
+  "stage": "m4-rv-w1",
+  "model": "claude-sonnet-5-5",
+  "requests": 500,
+  "created": "2026-10-14T01:19:57",
   "collected": false
  }
 ]
