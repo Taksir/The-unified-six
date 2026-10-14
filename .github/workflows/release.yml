@@ -1,11 +1,18 @@
 # Build the v1.0 release (dataset + 12 PDF builds) from the committed data and attach it to a
 # GitHub Release. No API key needed: every LLM output is already in data/.
-# Trigger: push a tag such as v1.0 (`git tag v1.0 && git push origin v1.0`).
+# Trigger: push a tag such as v1.0, or run it from the Actions tab ("Run workflow") with a tag
+# name: the release then creates that tag on the commit it was run from.
 name: release
 
 on:
   push:
     tags: ["v*"]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag to create (e.g. v1.0)"
+        required: true
+        default: "v1.0"
 
 permissions:
   contents: write
@@ -26,7 +33,9 @@ jobs:
       - run: python -m u6 m5 pdf
       - uses: softprops/action-gh-release@v2
         with:
-          name: The Unified Six ${{ github.ref_name }}
+          tag_name: ${{ inputs.tag || github.ref_name }}
+          target_commitish: ${{ github.sha }}
+          name: The Unified Six ${{ inputs.tag || github.ref_name }}
           body_path: CHANGELOG.md
           files: |
             out/release/*.pdf
