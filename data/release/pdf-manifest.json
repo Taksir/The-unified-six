@@ -330,7 +330,7 @@
   "mb": 8.7
  },
  {
-  "file": "the-unified-six-v1.0-B-en-appendix-vol1.pdf",
+  "file": "the-unified-six-v1.1-B-en-appendix-vol1.pdf",
   "edition": "B",
   "lang": "en",
   "part": "appendix",
@@ -340,7 +340,7 @@
   "mb": 11.5
  },
  {
-  "file": "the-unified-six-v1.0-B-en-appendix-vol2.pdf",
+  "file": "the-unified-six-v1.1-B-en-appendix-vol2.pdf",
   "edition": "B",
   "lang": "en",
   "part": "appendix",
@@ -350,7 +350,7 @@
   "mb": 11.5
  },
  {
-  "file": "the-unified-six-v1.0-B-en-appendix-vol3.pdf",
+  "file": "the-unified-six-v1.1-B-en-appendix-vol3.pdf",
   "edition": "B",
   "lang": "en",
   "part": "appendix",
@@ -360,17 +360,17 @@
   "mb": 11.1
  },
  {
-  "file": "the-unified-six-v1.0-B-en-combined.pdf",
+  "file": "the-unified-six-v1.1-B-en-combined.pdf",
   "edition": "B",
   "lang": "en",
   "part": "combined",
   "volume": null,
   "range": "all",
-  "pages": 3536,
+  "pages": 3537,
   "mb": 33.2
  },
  {
-  "file": "the-unified-six-v1.0-B-en-hadith-vol1.pdf",
+  "file": "the-unified-six-v1.1-B-en-hadith-vol1.pdf",
   "edition": "B",
   "lang": "en",
   "part": "hadith",
@@ -380,7 +380,7 @@
   "mb": 4.6
  },
  {
-  "file": "the-unified-six-v1.0-B-en-hadith-vol2.pdf",
+  "file": "the-unified-six-v1.1-B-en-hadith-vol2.pdf",
   "edition": "B",
   "lang": "en",
   "part": "hadith",
@@ -390,7 +390,7 @@
   "mb": 4.9
  },
  {
-  "file": "the-unified-six-v1.0-B-en-hadith-vol3.pdf",
+  "file": "the-unified-six-v1.1-B-en-hadith-vol3.pdf",
   "edition": "B",
   "lang": "en",
   "part": "hadith",
@@ -400,17 +400,17 @@
   "mb": 5.0
  },
  {
-  "file": "the-unified-six-v1.0-B-en-hadith-vol4.pdf",
+  "file": "the-unified-six-v1.1-B-en-hadith-vol4.pdf",
   "edition": "B",
   "lang": "en",
   "part": "hadith",
   "volume": 4,
   "range": "Nos. 8616\u201311097",
-  "pages": 426,
+  "pages": 427,
   "mb": 4.4
  },
  {
-  "file": "the-unified-six-v1.0-B-en-hadith-vol5.pdf",
+  "file": "the-unified-six-v1.1-B-en-hadith-vol5.pdf",
   "edition": "B",
   "lang": "en",
   "part": "hadith",

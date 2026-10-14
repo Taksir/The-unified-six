@@ -1,10 +1,11 @@
 {
- "version": "1.0",
+ "version": "1.1",
  "n_hadith": 13021,
  "n_text": 13003,
  "n_empty": 18,
  "n_narr": 34150,
  "n_comment": 296,
+ "n_fixed": 246,
  "n_short": 159,
  "date": "2026-10-14"
 }

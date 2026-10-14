@@ -72,6 +72,10 @@ def stage_clean() -> None:
     narr = load_narrations()
     hadith = [json.loads(l) for l in (DATA / "six" / "hadith.jsonl").open(encoding="utf-8")]
     tr = m4.load_translations()
+    # v1.1: second machine pass (Sonnet, high effort) correcting meaning errors only
+    rows = [json.loads(l) for l in m4.REVIEW.open(encoding="utf-8")] if m4.REVIEW.exists() else []
+    review_done = {r["id"] for r in rows}
+    review = {r["id"]: r for r in rows if r["changed"]}
     topics = {r["id"]: r for r in map(json.loads, m4.TOPICS_FILE.open(encoding="utf-8"))}
     by_id = {h["id"]: h for h in hadith}
     of_narr = {m["id"]: h["id"] for h in hadith for m in h["members"]}
@@ -155,8 +159,15 @@ def stage_clean() -> None:
             out.append(h)
             continue
         t = tr[h["id"]]
-        h["segments_en"] = t["segments_en"]
-        h["italics_dropped"] = bool(t.get("italics_dropped"))
+        fix = review.get(h["id"])
+        if fix and not h.get("extended_from_stub"):   # the review saw the pre-repair stub text
+            h["segments_en"] = fix["segments_en"]
+            h["review_fix"] = fix["error"]
+            h["italics_dropped"] = False                  # the fix is aligned segment by segment
+        else:
+            h["segments_en"] = t["segments_en"]
+            h["italics_dropped"] = bool(t.get("italics_dropped"))
+        h["reviewed"] = h["id"] in review_done
         h["topic"] = topics[h["id"]]["topic"] if h["id"] in topics else "Manners and good character"
         h["topics_secondary"] = topics.get(h["id"], {}).get("secondary", [])
         cut = commentary_from(h)
@@ -176,7 +187,7 @@ def stage_clean() -> None:
 
 # ---------------------------------------------------------------- PDF editions
 
-VERSION = "1.0"
+VERSION = "1.1"
 TYPESET = ROOT / "typeset"
 OUT = ROOT / "out" / "release"
 LETTER = dict(zip(BOOKS, "BMDTNJ"))
@@ -321,6 +332,7 @@ def stage_pdf(editions=("A", "B"), langs=("enar", "en")) -> None:
                     make = (lambda h: entry_json(h, num[h["id"]], lang)) if part == "hadith" else \
                            (lambda h: app_json(h, num[h["id"]], num, narr, urls, lang))
                     data = {"vol": v, "nvols": len(vols), "range": f"Nos. {first}–{last}", "version": VERSION,
+                            "fixed": f"{sum(1 for h in hadith if h.get('review_fix')):,}",
                             "narrations": f"{sum(len(h['members']) for h in hadith):,}", "total": f"{total:,}",
                             "groups": [{"title": t, "note": note, "entries": [make(h) for h in hs]}
                                        for t, note, hs in groups]}
@@ -378,8 +390,10 @@ duplicates, unconfirmed · `edition_a`, `edition_b`: entry numbers in the PDFs �
 `italics_dropped`, `extended_from_stub` (split repaired in M5), `commentary_from` (index of the
 first segment that is al-Tirmidhī's commentary, not printed in the main text), `no_text`.
 
-**English is machine translation** (Claude Sonnet 5.5), not reviewed by a scholar; a sample
-check found a meaning-changing error in about 6 % of hadith. **Grouping** is machine-assisted
+**English is machine translation** (Claude Sonnet 5.5), not reviewed by a scholar. A sample
+check of v1.0 found a meaning-changing error in about 6 % of hadith; v1.1 adds a second machine
+pass against the Arabic that corrected {n_fixed} of them (`review_fix` says what was wrong), so
+fewer remain but some do. **Grouping** is machine-assisted
 (merge precision 96–100 % on evaluation samples). Stars count books, not authenticity.
 
 ## narrations.jsonl
@@ -395,7 +409,16 @@ Numbering per book: see `books.json`. Third-party gradings in the upstream data 
 
 CHANGELOG = """# Changelog
 
-## v1.0 — {date}
+## v1.1 — {date}
+
+- Translation review: every entry's English re-checked against the Arabic (with diacritics) by a
+  second model pass (Claude Sonnet 5.5, high effort) that corrects meaning errors only —
+  omissions, additions, wrong subject/object, reversed sense. {n_fixed} translations corrected;
+  each carries `review_fix` in hadith.jsonl. Style was not touched.
+- `translation` in hadith.jsonl gains `machine_reviewed` and `corrected_in_review`.
+- No change to grouping, numbering, topics or the Arabic.
+
+## v1.0 — 2026-10-14
 
 - All six books merged: {n_narr:,} narrations → {n_text:,} entries with text.
 - English machine translation of every entry (Claude Sonnet 5.5), clause-aligned for italics.
@@ -403,7 +426,8 @@ CHANGELOG = """# Changelog
 - M5 cleanup: 16 chain-only stubs attached to their hadith; 44 truncated texts repaired and
   re-translated (2 merged as duplicates); al-Tirmidhī's commentary kept out of the main text
   where it starts at a clause boundary ({n_comment}).
-- Known limits: ~6 % of translations with a meaning-changing error (sample of 50); merge
+- Known limits: ~6 % of translations with a meaning-changing error (sample of 50; reduced in
+  v1.1); merge
   precision 96.3 % on the four Sunan (gold sample); {n_short} entries of ≤ 5 Arabic words are
   real short reports or fragments and are printed as they are.
 """
@@ -430,10 +454,12 @@ def stage_dataset() -> None:
                            for s, e in zip(h["segments"], h["segments_en"])]
         rec["en"] = " ".join(h["segments_en"][:h.get("commentary_from")])
         rec["edition_a"], rec["edition_b"] = nums["A"].get(h["id"]), nums["B"].get(h["id"])
-        for k in ("italics_dropped", "extended_from_stub", "commentary_from", "no_text"):
+        for k in ("italics_dropped", "extended_from_stub", "commentary_from", "no_text", "review_fix"):
             if h.get(k) not in (None, False):
                 rec[k] = h[k]
-        rec["translation"] = None if h.get("no_text") else {"model": m4.TRANSLATE_MODEL, "label": "machine translation"}
+        rec["translation"] = None if h.get("no_text") else {
+            "model": m4.TRANSLATE_MODEL, "label": "machine translation",
+            "machine_reviewed": bool(h.get("reviewed")), "corrected_in_review": bool(h.get("review_fix"))}
         final.append(rec)
         for m in h["members"]:
             assert m["id"] not in of, f"{m['id']} in two entries"
@@ -471,6 +497,7 @@ def stage_dataset() -> None:
     stats = {"version": VERSION, "n_hadith": len(final), "n_text": sum(1 for r in final if not r.get("no_text")),
              "n_empty": sum(1 for r in final if r.get("no_text")), "n_narr": len(rows),
              "n_comment": sum(1 for r in final if "commentary_from" in r),
+             "n_fixed": sum(1 for r in final if r.get("review_fix")),
              "n_short": sum(1 for h in hadith if h["segments"] and m4.words(h) <= STUB_WORDS),
              "date": time.strftime("%Y-%m-%d")}
     (ds / "README.md").write_text(DATASET_README.format(**stats), encoding="utf-8")

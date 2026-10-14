@@ -97,7 +97,9 @@
 
   *Machine-assisted compilation and machine translation.* The grouping was made by software and language models,
   checked on samples (about 96–100 % of merges correct). The English is a machine translation (Claude Sonnet)
-  and has not been reviewed by a scholar; a sample check found an error affecting meaning in about 6 % of hadith.
+  and has not been reviewed by a scholar. A sample check of v1.0 found an error affecting meaning in about 6 % of
+  hadith; for v1.1 a second machine pass re-read every translation against the Arabic and corrected #data.fixed of them.
+  Some errors remain.
   Rely on the Arabic and on the source books, and please report mistakes.
 
   *Numbering.* B: Fuʾād ʿAbd al-Bāqī (= Fatḥ al-Bārī); M: Fuʾād ʿAbd al-Bāqī with letter suffixes for

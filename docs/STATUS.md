@@ -2,13 +2,13 @@
 
 *Pickup file for any session. Update at the end of every stage.*
 
-**Last updated:** 2026-10-13 · **Current milestone:** M5 built → publish v1.0 → M6 · **Branch:** `main` (= `claude/blissful-franklin-z0z0m6`)
+**Last updated:** 2026-10-14 · **Current milestone:** v1.1 built → owner publishes v1.1 → M6 (website) · **Branch:** `main` (= `claude/blissful-franklin-z0z0m6`)
 
 ## Budget
 
-**≈ $15.31 of API credit left, no refill.** Spent $84.69: M1 $50.05 (≈ $22 of it a cancelled
-batch that was billed anyway), M2 + M3 $18.63, M4 $15.89, M5 $0.12. Every step projected above $5 needs the
-owner's go-ahead.
+**API credit used up (≈ $98 of $100 spent, no refill). Nothing left in the plan needs the API.**
+M1 $50.05 (≈ $22 of it a cancelled batch that was billed anyway), M2 + M3 $18.63, M4 $15.89,
+M5 $0.12, v1.1 review $13.45. The key used so far is to be rotated by the owner.
 Spend log: `data/m1/spend.jsonl`. Batch IDs: `data/batches.json`.
 
 ## Done
@@ -53,12 +53,25 @@ Spend log: `data/m1/spend.jsonl`. Batch IDs: `data/batches.json`.
   - 12 PDF builds (A/B × EN/EN+AR × hadith/appendix/combined), ~17,500 pages in 38 volumes
   - `.github/workflows/release.yml`: a `v*` tag rebuilds everything and publishes a GitHub Release
 
+- **v1.0 published** 2026-10-14: GitHub Release `v1.0` (43 files), Zenodo record made by the owner.
+- **v1.1 built** (`docs/reports/v1.1-review.md`): every translation re-checked against the Arabic
+  (Sonnet, high effort); 246 meaning errors corrected (`review_fix`), $13.45.
+
+## Security incident (2026-10-14) — read this
+
+The owner's Windows PC was infected (malicious VS Code project; a hidden `folderOpen` task in
+`.vscode/tasks.json` runs obfuscated JavaScript disguised as a font, `*/public/fonts/fa-*.eot`).
+With the stolen Git credentials it rewrote the last commit of 8 repositories, this one included,
+and removed `.env` from `.gitignore`. All 8 were restored with history rewritten (same files
+minus the malware); the v1.0 release was built before the attack and is clean. Owner revoked
+tokens/sessions, changed passwords, enabled 2FA and reinstalled Windows.
+**If you ever see `.vscode/tasks.json`, `fa-solid-900.eot` or `config.bat`/`node_modules`
+appended to `.gitignore` in this repo: stop and tell the owner.**
+
 ## Next
 
-1. **Publish v1.0** (owner approved): set `main` as the default branch, then run the `release` workflow
-   on `main` with tag `v1.0` (Actions tab → release → Run workflow; build sessions cannot push tags).
-   Zenodo is enabled by the owner, so the release gets a DOI.
-2. **M6 — website** (GitHub Pages + Pagefind), from `data/release/`.
+1. **Publish v1.1:** Actions → release → Run workflow, branch `main`, tag `v1.1` (owner).
+2. **M6 — website** (GitHub Pages + Pagefind). Brief: `docs/handoff/M6.md`.
 
 ## Owner decisions on record
 
@@ -70,7 +83,8 @@ Spend log: `data/m1/spend.jsonl`. Batch IDs: `data/batches.json`.
 - Topic taxonomy: 33 top-level topics (`m4.TOPICS`).
 - Arabic source: keep the current edition for the public release; no permission request (owner: the Sunnah belongs to the whole ummah).
 - Dataset license: **CC BY 4.0** (improvements by others welcome). Code: MIT.
-- API key: owner rotates it after the work is finished.
+- API key: owner rotates it now that the API work is finished.
+- v1.1: spend the remaining credit on a translation review pass (done).
 
 ## How to rebuild
 
@@ -86,6 +100,7 @@ python -m u6 six cluster && python -m u6 six evaluate
 python -m u6 m4 bakeoff && python -m u6 m4 translate && python -m u6 m4 translate --singles
 python -c "from u6 import m4; m4.stage_fallback('<singles batch id>')"   # italics-dropped fallback, no spend
 python -m u6 m4 topics && python -m u6 m4 check     # M4 ≈ $16 in all
+python -c "from u6 import m4; m4.stage_review()"   # v1.1 review pass, ≈ $13 Batch API
 python -m u6 m5 clean && python -m u6 m5 dataset && python -m u6 m5 pdf   # PDFs in out/release/
 python -m pytest -q
 ```
