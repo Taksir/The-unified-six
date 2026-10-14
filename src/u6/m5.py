@@ -292,6 +292,7 @@ def _compile(data: dict, name: str, edition: str, lang: str, part: str) -> bytes
     build.mkdir(parents=True, exist_ok=True)
     (build / f"{name}.json").write_text(json.dumps(data, ensure_ascii=False))
     return typst.compile(str(TYPESET / "release.typ"), root=str(ROOT), font_paths=[str(TYPESET / "fonts")],
+                         ignore_system_fonts=True,  # reproducible: bundled fonts only (CI = local)
                          sys_inputs={"data": f"build/{name}.json", "edition": edition, "lang": lang, "part": part})
 
 
