@@ -2,12 +2,12 @@
 
 *Pickup file for any session. Update at the end of every stage.*
 
-**Last updated:** 2026-10-13 · **Current milestone:** M4 done → M5 next (not started) · **Branch:** `claude/blissful-franklin-z0z0m6`
+**Last updated:** 2026-10-13 · **Current milestone:** M5 built → publish (owner pushes tag `v1.0`) → M6 · **Branch:** `claude/blissful-franklin-z0z0m6`
 
 ## Budget
 
-**≈ $15.43 of API credit left, no refill.** Spent $84.57: M1 $50.05 (≈ $22 of it a cancelled
-batch that was billed anyway), M2 + M3 $18.63, M4 $15.89. Every step projected above $5 needs the
+**≈ $15.31 of API credit left, no refill.** Spent $84.69: M1 $50.05 (≈ $22 of it a cancelled
+batch that was billed anyway), M2 + M3 $18.63, M4 $15.89, M5 $0.12. Every step projected above $5 needs the
 owner's go-ahead.
 Spend log: `data/m1/spend.jsonl`. Batch IDs: `data/batches.json`.
 
@@ -46,9 +46,17 @@ Spend log: `data/m1/spend.jsonl`. Batch IDs: `data/batches.json`.
   - Opus spot-check of 50: accuracy 4.78/5, 3 meaning-changing errors, topics 49/50 right
   - Found: 98 representatives of ≤ 3 words (split leftovers such as بِهَذَا) → M5 cleanup
 
+- **M5: release v1.0, built** (`docs/reports/m5.md`)
+  - Cleanup: 16 chain-only stubs attached, 44 truncated texts repaired (2 merged), al-Tirmidhī's
+    commentary kept out of 296 main texts; every narration in exactly one entry
+  - Dataset: `hadith.jsonl`, `narrations.jsonl`, `concordance.csv` (+ README, CC BY 4.0)
+  - 12 PDF builds (A/B × EN/EN+AR × hadith/appendix/combined), ~17,500 pages in 38 volumes
+  - `.github/workflows/release.yml`: a `v*` tag rebuilds everything and publishes a GitHub Release
+
 ## Next
 
-**M5 — release v1.0** (12 PDF builds + dataset). Brief: `docs/handoff/M5.md`.
+1. **Publish v1.0:** push tag `v1.0` (owner's go); enable Zenodo for the repo for a DOI.
+2. **M6 — website** (GitHub Pages + Pagefind), from `data/release/`.
 
 ## Owner decisions on record
 
@@ -65,7 +73,7 @@ Spend log: `data/m1/spend.jsonl`. Batch IDs: `data/batches.json`.
 ## How to rebuild
 
 ```bash
-pip install -e '.[dev]' anthropic datasketch scikit-learn networkx fastembed typst
+pip install -e '.[dev]' anthropic datasketch scikit-learn networkx fastembed typst pypdf
 python -m u6 fetch && python -m u6 ingest
 python -m u6 m1 pairs            # needs huggingface.co + *.hf.co for the e5 model (~34 min CPU)
 python -m u6 m1 gold-sample && python -m u6 m1 gold-label && python -m u6 m1 gold-adjudicate
@@ -76,6 +84,7 @@ python -m u6 six cluster && python -m u6 six evaluate
 python -m u6 m4 bakeoff && python -m u6 m4 translate && python -m u6 m4 translate --singles
 python -c "from u6 import m4; m4.stage_fallback('<singles batch id>')"   # italics-dropped fallback, no spend
 python -m u6 m4 topics && python -m u6 m4 check     # M4 ≈ $16 in all
+python -m u6 m5 clean && python -m u6 m5 dataset && python -m u6 m5 pdf   # PDFs in out/release/
 python -m pytest -q
 ```
 LLM stages need `ANTHROPIC_API_KEY` in the environment (never commit it).

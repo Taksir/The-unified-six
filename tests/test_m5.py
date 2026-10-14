@@ -41,3 +41,10 @@ def test_commentary_from_only_at_segment_start_in_tirmidhi():
     assert commentary_from({"representative": "bukhari:1", "segments": segs}) is None
     inside = [segs[0], {"ar": "وَالْبَذَاءُ مِنَ الْجَفَاءِ قَالَ هَذَا حَدِيثٌ حَسَنٌ"}]
     assert commentary_from({"representative": "tirmidhi:1", "segments": inside}) is None
+
+
+def test_volumes_fold_tiny_tail_into_previous():
+    groups = [("★", "", [h(f"x{k}", 10) for k in range(21)])]
+    vols = volumes(groups, lambda x: 10, per_vol=100.01)   # 10 + 10 + a 1-entry tail (10 % of a volume)
+    assert [sum(len(hs) for _, _, hs in v) for v in vols] == [10, 11]
+    assert [t for t, _, _ in vols[-1]] == ["★ (continued)"]

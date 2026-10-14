@@ -259,7 +259,16 @@ def volumes(groups, weight, per_vol: float) -> list[list[tuple[str, str, list[di
             w += weight(h)
         if chunk:
             cur.append((title, note, chunk))
-    return vols + ([cur] if cur else [])
+    vols += [cur] if cur else []
+    if len(vols) > 1 and sum(weight(h) for _, _, hs in vols[-1] for h in hs) < 0.15 * per_vol:
+        tail = vols.pop()   # a few overshooting entries: fold them into the previous volume
+        t, n, hs = tail[0]
+        if t.endswith("(continued)") and vols[-1][-1][0].removesuffix(" (continued)") == t.removesuffix(" (continued)"):
+            pt, pn, phs = vols[-1][-1]
+            vols[-1][-1] = (pt, pn, phs + hs)
+            tail = tail[1:]
+        vols[-1] += tail
+    return vols
 
 
 def _urls() -> dict:
@@ -292,7 +301,9 @@ def stage_pdf(editions=("A", "B"), langs=("enar", "en")) -> None:
     narr, urls, hadith = load_narrations(), _urls(), load_release()
     OUT.mkdir(parents=True, exist_ok=True)
     total = sum(1 for h in hadith if not h.get("no_text"))
-    manifest = []
+    mpath = REL / "pdf-manifest.json"
+    manifest = [r for r in (json.loads(mpath.read_text()) if mpath.exists() else [])
+                if not (r["edition"] in editions and r["lang"] in langs)]
     for ed in editions:
         ordered = order(hadith, ed, narr)
         num = {h["id"]: i + 1 for i, h in enumerate(ordered)}
@@ -333,7 +344,8 @@ def stage_pdf(editions=("A", "B"), langs=("enar", "en")) -> None:
                              "volume": None, "range": "all", "pages": pages,
                              "mb": round((OUT / f"{name}.pdf").stat().st_size / 1e6, 1)})
             print(f"{name}: {pages} pages", flush=True)
-    (REL / "pdf-manifest.json").write_text(json.dumps(manifest, indent=1) + "\n")
+    manifest.sort(key=lambda r: (r["edition"], r["lang"] != "enar", r["part"], r["volume"] or 0))
+    mpath.write_text(json.dumps(manifest, indent=1) + "\n")
 
 
 # ---------------------------------------------------------------- dataset
