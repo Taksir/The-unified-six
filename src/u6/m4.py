@@ -538,3 +538,163 @@ def stage_fallback(batch_id: str) -> None:
                          "label": "machine translation", "italics_dropped": True})
     _append(rows)
     print(f"fallback: {len(rows)} of {len(left)}; translated {len(tr) + len(rows)}/{len(reps)}")
+
+
+# ---------------------------------------------------------------- review pass (v1.1)
+# Sonnet re-reads each translation against the Arabic (with tashkeel this time: one M4
+# spot-check error came from stripped diacritics) and corrects meaning errors only.
+
+REVIEW = M4 / "review.jsonl"
+REVIEW_MODEL, REVIEW_EFFORT = llm.SONNET, "medium"
+REVIEW_PACK_WORDS = 500
+
+REVIEW_SYSTEM = f"""You check machine translations of hadith from classical Arabic into English. \
+Each <hadith> gives the Arabic (with diacritics) and the English, both in numbered segments \
+that correspond one to one.
+
+Report ONLY errors that change the meaning: a clause omitted or added, a wrong subject or \
+object (who said or did what to whom), a negation or tense that reverses the sense, a \
+mistranslated word that changes a ruling or fact, a statement attributed to the wrong person. \
+Do NOT report style, word choice, transliteration, punctuation, or anything a careful reader \
+would still understand correctly. Most translations are correct; return nothing for them.
+
+For each hadith with a real error, return its id, the complete corrected English segments \
+(same number of segments as the Arabic, changing as little as possible), and a short note \
+naming the error. Keep the house style: {GLOSSARY}"""
+
+REVIEW_SCHEMA = {
+    "type": "object",
+    "properties": {"fixes": {"type": "array", "items": {
+        "type": "object",
+        "properties": {"id": {"type": "string"},
+                       "segments": {"type": "array", "items": {"type": "string"}},
+                       "error": {"type": "string"}},
+        "required": ["id", "segments", "error"], "additionalProperties": False}}},
+    "required": ["fixes"], "additionalProperties": False,
+}
+
+
+def review_params(hs: list[dict], tr: dict) -> dict:
+    parts = []
+    for h in hs:
+        en = tr[h["id"]]["segments_en"]
+        rows = "\n".join(f"[{i + 1}] AR: {s['ar']}\n[{i + 1}] EN: {e}" for i, (s, e) in enumerate(zip(h["segments"], en)))
+        parts.append(f"<hadith id=\"{h['id']}\">\n{rows}\n</hadith>")
+    return {
+        "model": REVIEW_MODEL, "max_tokens": 8000 + 4 * sum(words(h) for h in hs),
+        "system": [{"type": "text", "text": REVIEW_SYSTEM, "cache_control": {"type": "ephemeral"}}],
+        "output_config": {"effort": REVIEW_EFFORT, "format": {"type": "json_schema", "schema": REVIEW_SCHEMA}},
+        "messages": [{"role": "user", "content": "\n".join(parts)}],
+    }
+
+
+def parse_review(msg, hs: list[dict]) -> dict | None:
+    """{id: fix} for this pack (empty dict = reviewed, nothing wrong); None = unusable reply."""
+    if msg.stop_reason != "end_turn":
+        return None
+    text = next((b.text for b in msg.content if b.type == "text"), "")
+    try:
+        fixes = json.loads(text)["fixes"]
+    except (json.JSONDecodeError, KeyError, TypeError):
+        return None
+    n = {h["id"]: len(h["segments"]) for h in hs}
+    return {f["id"]: f for f in fixes if f["id"] in n and len(f["segments"]) == n[f["id"]]
+            and all(s.strip() for s in f["segments"])}
+
+
+def review_live(hs: list[dict], tr: dict, stage: str, cap_usd: float) -> tuple[dict, set]:
+    client = llm._client()
+    total, fixes, done = 0.0, {}, set()
+
+    def run(p):
+        return p, client.messages.create(**review_params(p, tr))
+
+    with ThreadPoolExecutor(8) as ex:
+        for p, msg in ex.map(run, pack(hs, REVIEW_PACK_WORDS)):
+            total += llm.cost(REVIEW_MODEL, msg.usage, batch=False)
+            got = parse_review(msg, p)
+            if got is not None:
+                fixes.update(got)
+                done |= {h["id"] for h in p}
+    llm.log_spend(stage, REVIEW_MODEL, total, len(pack(hs, REVIEW_PACK_WORDS)))
+    if total > cap_usd:
+        raise SystemExit(f"{stage}: ${total:.2f} over cap")
+    return fixes, done
+
+
+REVIEW_CAP_USD = 13.5   # owner: spend the remaining credit on quality; keep a margin
+
+
+def _review_collect(batch_id: str, by_id: dict, tr: dict) -> float:
+    client = llm._client()
+    while client.messages.batches.retrieve(batch_id).processing_status != "ended":
+        time.sleep(60)
+    rows = json.loads(llm.BATCHES.read_text())
+    meta = next(r for r in rows if r["id"] == batch_id)
+    manifest = json.loads((M4 / f"batch-{batch_id}.json").read_text())
+    usd, out = 0.0, []
+    for res in client.messages.batches.results(batch_id):
+        if res.result.type != "succeeded":
+            continue
+        msg = res.result.message
+        usd += llm.cost(REVIEW_MODEL, msg.usage, batch=True)
+        hs = [by_id[i] for i in manifest[res.custom_id]]
+        got = parse_review(msg, hs)
+        if got is None:
+            continue
+        for h in hs:
+            f = got.get(h["id"])
+            changed = bool(f) and f["segments"] != tr[h["id"]]["segments_en"]
+            out.append({"id": h["id"], "changed": changed, **({"segments_en": f["segments"], "error": f["error"]}
+                                                              if changed else {})})
+    if not meta["collected"]:
+        with REVIEW.open("a", encoding="utf-8") as fh:
+            for r in out:
+                fh.write(json.dumps(r, ensure_ascii=False) + "\n")
+        llm.log_spend(meta["stage"], REVIEW_MODEL, usd, meta["requests"])
+        meta["collected"] = True
+        llm.BATCHES.write_text(json.dumps(rows, indent=1) + "\n")
+    return usd
+
+
+def stage_review(pilot: int = 100, cap_usd: float = REVIEW_CAP_USD) -> None:
+    from anthropic.types.message_create_params import MessageCreateParamsNonStreaming
+    from anthropic.types.messages.batch_create_params import Request
+    llm.require_key()
+    global REVIEW_EFFORT
+    REVIEW_EFFORT = "high"   # pilot on the 50 spot-checked hadith: same cost as medium, fewer stray edits
+    tr, reps = load_translations(), representatives()
+    by_id = {h["id"]: h for h in reps}
+    spent = lambda: sum(llm.spent(r["stage"]) for r in
+                        {r["stage"]: r for r in json.loads(llm.BATCHES.read_text()) if r["stage"].startswith("m4-rv")}.values())
+    for r in json.loads(llm.BATCHES.read_text()):
+        if r["stage"].startswith("m4-rv") and not r["collected"]:
+            _review_collect(r["id"], by_id, tr)
+    done = {json.loads(l)["id"] for l in REVIEW.open()} if REVIEW.exists() else set()
+    packs = pack([h for h in reps if h["id"] not in done], REVIEW_PACK_WORDS)
+    random.Random(6).shuffle(packs)
+    wave_no = len({r["stage"] for r in json.loads(llm.BATCHES.read_text()) if r["stage"].startswith("m4-rv")})
+    first = pilot if not done else WAVE
+    while packs:
+        wave, packs = packs[:first], packs[first:]
+        first = WAVE
+        stage = f"m4-rv-w{wave_no}"
+        reqs = [Request(custom_id=f"{stage}-{k}", params=MessageCreateParamsNonStreaming(**review_params(p, tr)))
+                for k, p in enumerate(wave)]
+        batch = llm._client().messages.batches.create(requests=reqs)
+        llm._record_batch(batch.id, stage, REVIEW_MODEL, len(reqs))
+        (M4 / f"batch-{batch.id}.json").write_text(json.dumps({f"{stage}-{k}": [h["id"] for h in p]
+                                                               for k, p in enumerate(wave)}))
+        print(f"{stage}: {len(reqs)} requests, batch {batch.id}", flush=True)
+        usd = _review_collect(batch.id, by_id, tr)
+        wave_no += 1
+        rows = [json.loads(l) for l in REVIEW.open()]
+        done_ids = {r["id"] for r in rows}
+        w_done = sum(words(by_id[i]) for i in done_ids)
+        w_left = sum(words(h) for h in reps if h["id"] not in done_ids)
+        projected = spent() + spent() / max(w_done, 1) * w_left
+        print(f"  wave ${usd:.2f}; stage ${spent():.2f}; reviewed {len(done_ids)}/{len(reps)}; "
+              f"changed {sum(r['changed'] for r in rows)}; projected ${projected:.2f}", flush=True)
+        if packs and projected > cap_usd:
+            raise SystemExit(f"projected ${projected:.2f} exceeds ${cap_usd}: stop (owner's budget)")
+    print("review done")
