@@ -1,0 +1,33 @@
+# Build the v1.0 release (dataset + 12 PDF builds) from the committed data and attach it to a
+# GitHub Release. No API key needed: every LLM output is already in data/.
+# Trigger: push a tag such as v1.0 (`git tag v1.0 && git push origin v1.0`).
+name: release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: pip install -e '.[dev]' typst==0.15.0 pypdf numpy networkx scikit-learn datasketch
+      - run: python -m pytest -q
+      - run: python -m u6 m5 clean
+      - run: python -m u6 m5 dataset
+      - run: python -m u6 m5 pdf
+      - uses: softprops/action-gh-release@v2
+        with:
+          name: The Unified Six ${{ github.ref_name }}
+          body_path: CHANGELOG.md
+          files: |
+            out/release/*.pdf
+            out/release/*.zip

@@ -27,6 +27,8 @@ def main() -> None:
     q.add_argument("stage", choices=["bakeoff", "translate", "topics", "check"])
     q.add_argument("--pilot", type=int, default=100)
     q.add_argument("--singles", action="store_true")
+    r = sub.add_parser("m5", help="M5 stage (release v1.0)")
+    r.add_argument("stage", choices=["clean", "dataset", "pdf"])
     a = p.parse_args()
 
     if a.cmd == "fetch":
@@ -50,6 +52,9 @@ def main() -> None:
             m4.stage_translate(pilot=a.pilot, singles=a.singles)
         else:
             getattr(m4, "stage_" + a.stage)()
+    elif a.cmd == "m5":
+        from . import m5
+        getattr(m5, "stage_" + a.stage)()
     elif a.cmd == "eval-split":
         from .evalsplit import evaluate, write_report
         r = evaluate(a.lk, a.data / "raw" / "ara-bukhari.json", a.misses)

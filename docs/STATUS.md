@@ -58,6 +58,9 @@ Spend log: `data/m1/spend.jsonl`. Batch IDs: `data/batches.json`.
 - M2 + M3 Sonnet labelling at medium effort to save cost, accepting 96.3 % vs the 97 % gate (small sample).
 - Translation with Sonnet, if it fits the budget (it did: $14.40). Haiku high was tried and rejected on quality.
 - Topic taxonomy: 33 top-level topics (`m4.TOPICS`).
+- Arabic source: keep the current edition for the public release; no permission request (owner: the Sunnah belongs to the whole ummah).
+- Dataset license: **CC BY 4.0** (improvements by others welcome). Code: MIT.
+- API key: owner rotates it after the work is finished.
 
 ## How to rebuild
 

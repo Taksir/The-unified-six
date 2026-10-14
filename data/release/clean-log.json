@@ -1,0 +1,360 @@
+[
+ {
+  "id": "U6-05382",
+  "action": "ref-merged",
+  "into": "U6-05381",
+  "narrations": [
+   "bukhari:402.2"
+  ]
+ },
+ {
+  "id": "U6-06190",
+  "action": "ref-merged",
+  "into": "U6-06189",
+  "narrations": [
+   "bukhari:5257"
+  ]
+ },
+ {
+  "id": "U6-06898",
+  "action": "ref-merged",
+  "into": "U6-02096",
+  "narrations": [
+   "muslim:3671"
+  ]
+ },
+ {
+  "id": "U6-07010",
+  "action": "ref-merged",
+  "into": "U6-07009",
+  "narrations": [
+   "muslim:4524"
+  ]
+ },
+ {
+  "id": "U6-07322",
+  "action": "ref-merged",
+  "into": "U6-07321",
+  "narrations": [
+   "muslim:6374"
+  ]
+ },
+ {
+  "id": "U6-07728",
+  "action": "ref-merged",
+  "into": "U6-07727",
+  "narrations": [
+   "abudawud:546"
+  ]
+ },
+ {
+  "id": "U6-07948",
+  "action": "ref-merged",
+  "into": "U6-04156",
+  "narrations": [
+   "abudawud:1213"
+  ]
+ },
+ {
+  "id": "U6-08749",
+  "action": "ref-merged",
+  "into": "U6-02734",
+  "narrations": [
+   "abudawud:3385"
+  ]
+ },
+ {
+  "id": "U6-08988",
+  "action": "ref-merged",
+  "into": "U6-01987",
+  "narrations": [
+   "abudawud:4046"
+  ]
+ },
+ {
+  "id": "U6-09149",
+  "action": "ref-merged",
+  "into": "U6-09148",
+  "narrations": [
+   "abudawud:4454"
+  ]
+ },
+ {
+  "id": "U6-09292",
+  "action": "ref-merged",
+  "into": "U6-09291",
+  "narrations": [
+   "abudawud:4824"
+  ]
+ },
+ {
+  "id": "U6-09519",
+  "action": "ref-merged",
+  "into": "U6-04066",
+  "narrations": [
+   "tirmidhi:148"
+  ]
+ },
+ {
+  "id": "U6-09607",
+  "action": "ref-merged",
+  "into": "U6-04627",
+  "narrations": [
+   "tirmidhi:615"
+  ]
+ },
+ {
+  "id": "U6-10704",
+  "action": "ref-merged",
+  "into": "U6-01388",
+  "narrations": [
+   "nasai:278"
+  ]
+ },
+ {
+  "id": "U6-10755",
+  "action": "ref-merged",
+  "into": "U6-10754",
+  "narrations": [
+   "nasai:651"
+  ]
+ },
+ {
+  "id": "U6-10974",
+  "action": "ref-merged",
+  "into": "U6-10973",
+  "narrations": [
+   "nasai:1990"
+  ]
+ },
+ {
+  "id": "U6-05511",
+  "action": "extended",
+  "words": 175
+ },
+ {
+  "id": "U6-05512",
+  "action": "extend-merged",
+  "into": "U6-05511"
+ },
+ {
+  "id": "U6-05517",
+  "action": "extended",
+  "words": 25
+ },
+ {
+  "id": "U6-05543",
+  "action": "extended",
+  "words": 51
+ },
+ {
+  "id": "U6-05551",
+  "action": "extended",
+  "words": 43
+ },
+ {
+  "id": "U6-05553",
+  "action": "extended",
+  "words": 44
+ },
+ {
+  "id": "U6-05684",
+  "action": "extended",
+  "words": 15
+ },
+ {
+  "id": "U6-05720",
+  "action": "extended",
+  "words": 201
+ },
+ {
+  "id": "U6-05721",
+  "action": "extend-merged",
+  "into": "U6-05720"
+ },
+ {
+  "id": "U6-05887",
+  "action": "extended",
+  "words": 16
+ },
+ {
+  "id": "U6-06029",
+  "action": "extended",
+  "words": 78
+ },
+ {
+  "id": "U6-06067",
+  "action": "extended",
+  "words": 52
+ },
+ {
+  "id": "U6-06075",
+  "action": "extended",
+  "words": 9
+ },
+ {
+  "id": "U6-06218",
+  "action": "extended",
+  "words": 23
+ },
+ {
+  "id": "U6-06275",
+  "action": "extended",
+  "words": 14
+ },
+ {
+  "id": "U6-06281",
+  "action": "extended",
+  "words": 102
+ },
+ {
+  "id": "U6-06340",
+  "action": "extended",
+  "words": 40
+ },
+ {
+  "id": "U6-06347",
+  "action": "extended",
+  "words": 73
+ },
+ {
+  "id": "U6-06398",
+  "action": "extended",
+  "words": 144
+ },
+ {
+  "id": "U6-06401",
+  "action": "extended",
+  "words": 71
+ },
+ {
+  "id": "U6-06408",
+  "action": "extended",
+  "words": 114
+ },
+ {
+  "id": "U6-06605",
+  "action": "extended",
+  "words": 8
+ },
+ {
+  "id": "U6-06714",
+  "action": "extended",
+  "words": 45
+ },
+ {
+  "id": "U6-06748",
+  "action": "extended",
+  "words": 39
+ },
+ {
+  "id": "U6-06752",
+  "action": "extended",
+  "words": 43
+ },
+ {
+  "id": "U6-06761",
+  "action": "extended",
+  "words": 46
+ },
+ {
+  "id": "U6-06777",
+  "action": "extended",
+  "words": 67
+ },
+ {
+  "id": "U6-06781",
+  "action": "extended",
+  "words": 15
+ },
+ {
+  "id": "U6-06830",
+  "action": "extended",
+  "words": 44
+ },
+ {
+  "id": "U6-07008",
+  "action": "extended",
+  "words": 298
+ },
+ {
+  "id": "U6-07053",
+  "action": "extended",
+  "words": 31
+ },
+ {
+  "id": "U6-07598",
+  "action": "extended",
+  "words": 46
+ },
+ {
+  "id": "U6-07714",
+  "action": "extended",
+  "words": 11
+ },
+ {
+  "id": "U6-08068",
+  "action": "extended",
+  "words": 42
+ },
+ {
+  "id": "U6-08334",
+  "action": "extended",
+  "words": 33
+ },
+ {
+  "id": "U6-08337",
+  "action": "extended",
+  "words": 17
+ },
+ {
+  "id": "U6-08425",
+  "action": "extended",
+  "words": 20
+ },
+ {
+  "id": "U6-08813",
+  "action": "extended",
+  "words": 19
+ },
+ {
+  "id": "U6-09031",
+  "action": "extended",
+  "words": 24
+ },
+ {
+  "id": "U6-09190",
+  "action": "extended",
+  "words": 11
+ },
+ {
+  "id": "U6-09193",
+  "action": "extended",
+  "words": 12
+ },
+ {
+  "id": "U6-09288",
+  "action": "extended",
+  "words": 17
+ },
+ {
+  "id": "U6-09654",
+  "action": "extended",
+  "words": 13
+ },
+ {
+  "id": "U6-09870",
+  "action": "extended",
+  "words": 46
+ },
+ {
+  "id": "U6-10512",
+  "action": "extended",
+  "words": 41
+ },
+ {
+  "id": "U6-11628",
+  "action": "extended",
+  "words": 25
+ }
+]

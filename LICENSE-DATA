@@ -1,0 +1,12 @@
+The Unified Six — text, translations, and data (everything outside src/, tests/ and typeset/*.typ)
+
+Licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+Full legal text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+You are free to share and adapt this material for any purpose, including commercially,
+as long as you give appropriate credit ("The Unified Six, github.com/Taksir/The-unified-six"),
+indicate if changes were made, and do not imply endorsement.
+
+The underlying classical Arabic texts of the six books are in the public domain. The Arabic
+edition used is the one published on sunnah.com. The fonts in typeset/fonts are under the
+SIL Open Font License (see the OFL-*.txt files there).

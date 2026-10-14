@@ -1,0 +1,422 @@
+[
+ {
+  "file": "the-unified-six-v1.0-A-enar-hadith-vol1.pdf",
+  "edition": "A",
+  "lang": "enar",
+  "part": "hadith",
+  "volume": 1,
+  "range": "Nos. 1\u20131417",
+  "pages": 476,
+  "mb": 9.1
+ },
+ {
+  "file": "the-unified-six-v1.0-A-enar-hadith-vol2.pdf",
+  "edition": "A",
+  "lang": "enar",
+  "part": "hadith",
+  "volume": 2,
+  "range": "Nos. 1418\u20132791",
+  "pages": 469,
+  "mb": 9.0
+ },
+ {
+  "file": "the-unified-six-v1.0-A-enar-hadith-vol3.pdf",
+  "edition": "A",
+  "lang": "enar",
+  "part": "hadith",
+  "volume": 3,
+  "range": "Nos. 2792\u20134408",
+  "pages": 490,
+  "mb": 9.2
+ },
+ {
+  "file": "the-unified-six-v1.0-A-enar-hadith-vol4.pdf",
+  "edition": "A",
+  "lang": "enar",
+  "part": "hadith",
+  "volume": 4,
+  "range": "Nos. 4409\u20135673",
+  "pages": 461,
+  "mb": 9.0
+ },
+ {
+  "file": "the-unified-six-v1.0-A-enar-hadith-vol5.pdf",
+  "edition": "A",
+  "lang": "enar",
+  "part": "hadith",
+  "volume": 5,
+  "range": "Nos. 5674\u20137841",
+  "pages": 539,
+  "mb": 9.5
+ },
+ {
+  "file": "the-unified-six-v1.0-A-enar-hadith-vol6.pdf",
+  "edition": "A",
+  "lang": "enar",
+  "part": "hadith",
+  "volume": 6,
+  "range": "Nos. 7842\u201310078",
+  "pages": 544,
+  "mb": 9.7
+ },
+ {
+  "file": "the-unified-six-v1.0-A-enar-hadith-vol7.pdf",
+  "edition": "A",
+  "lang": "enar",
+  "part": "hadith",
+  "volume": 7,
+  "range": "Nos. 10079\u201311835",
+  "pages": 503,
+  "mb": 9.2
+ },
+ {
+  "file": "the-unified-six-v1.0-A-enar-hadith-vol8.pdf",
+  "edition": "A",
+  "lang": "enar",
+  "part": "hadith",
+  "volume": 8,
+  "range": "Nos. 11836\u201313003",
+  "pages": 403,
+  "mb": 7.7
+ },
+ {
+  "file": "the-unified-six-v1.0-A-enar-appendix-vol1.pdf",
+  "edition": "A",
+  "lang": "enar",
+  "part": "appendix",
+  "volume": 1,
+  "range": "Nos. 1\u20134400",
+  "pages": 730,
+  "mb": 21.1
+ },
+ {
+  "file": "the-unified-six-v1.0-A-enar-appendix-vol2.pdf",
+  "edition": "A",
+  "lang": "enar",
+  "part": "appendix",
+  "volume": 2,
+  "range": "Nos. 4401\u20138800",
+  "pages": 350,
+  "mb": 8.9
+ },
+ {
+  "file": "the-unified-six-v1.0-A-enar-appendix-vol3.pdf",
+  "edition": "A",
+  "lang": "enar",
+  "part": "appendix",
+  "volume": 3,
+  "range": "Nos. 8801\u201313003",
+  "pages": 278,
+  "mb": 7.0
+ },
+ {
+  "file": "the-unified-six-v1.0-A-enar-combined.pdf",
+  "edition": "A",
+  "lang": "enar",
+  "part": "combined",
+  "volume": null,
+  "range": "all",
+  "pages": 5243,
+  "mb": 73.2
+ },
+ {
+  "file": "the-unified-six-v1.0-A-en-hadith-vol1.pdf",
+  "edition": "A",
+  "lang": "en",
+  "part": "hadith",
+  "volume": 1,
+  "range": "Nos. 1\u20132569",
+  "pages": 471,
+  "mb": 5.0
+ },
+ {
+  "file": "the-unified-six-v1.0-A-en-hadith-vol2.pdf",
+  "edition": "A",
+  "lang": "en",
+  "part": "hadith",
+  "volume": 2,
+  "range": "Nos. 2570\u20135090",
+  "pages": 467,
+  "mb": 5.0
+ },
+ {
+  "file": "the-unified-six-v1.0-A-en-hadith-vol3.pdf",
+  "edition": "A",
+  "lang": "en",
+  "part": "hadith",
+  "volume": 3,
+  "range": "Nos. 5091\u20138652",
+  "pages": 522,
+  "mb": 5.6
+ },
+ {
+  "file": "the-unified-six-v1.0-A-en-hadith-vol4.pdf",
+  "edition": "A",
+  "lang": "en",
+  "part": "hadith",
+  "volume": 4,
+  "range": "Nos. 8653\u201311944",
+  "pages": 508,
+  "mb": 5.4
+ },
+ {
+  "file": "the-unified-six-v1.0-A-en-hadith-vol5.pdf",
+  "edition": "A",
+  "lang": "en",
+  "part": "hadith",
+  "volume": 5,
+  "range": "Nos. 11945\u201313003",
+  "pages": 189,
+  "mb": 1.9
+ },
+ {
+  "file": "the-unified-six-v1.0-A-en-appendix-vol1.pdf",
+  "edition": "A",
+  "lang": "en",
+  "part": "appendix",
+  "volume": 1,
+  "range": "Nos. 1\u20134400",
+  "pages": 730,
+  "mb": 19.4
+ },
+ {
+  "file": "the-unified-six-v1.0-A-en-appendix-vol2.pdf",
+  "edition": "A",
+  "lang": "en",
+  "part": "appendix",
+  "volume": 2,
+  "range": "Nos. 4401\u20138800",
+  "pages": 350,
+  "mb": 8.2
+ },
+ {
+  "file": "the-unified-six-v1.0-A-en-appendix-vol3.pdf",
+  "edition": "A",
+  "lang": "en",
+  "part": "appendix",
+  "volume": 3,
+  "range": "Nos. 8801\u201313003",
+  "pages": 278,
+  "mb": 6.5
+ },
+ {
+  "file": "the-unified-six-v1.0-A-en-combined.pdf",
+  "edition": "A",
+  "lang": "en",
+  "part": "combined",
+  "volume": null,
+  "range": "all",
+  "pages": 3515,
+  "mb": 33.2
+ },
+ {
+  "file": "the-unified-six-v1.0-B-enar-hadith-vol1.pdf",
+  "edition": "B",
+  "lang": "enar",
+  "part": "hadith",
+  "volume": 1,
+  "range": "Nos. 1\u20131669",
+  "pages": 500,
+  "mb": 9.4
+ },
+ {
+  "file": "the-unified-six-v1.0-B-enar-hadith-vol2.pdf",
+  "edition": "B",
+  "lang": "enar",
+  "part": "hadith",
+  "volume": 2,
+  "range": "Nos. 1670\u20133512",
+  "pages": 510,
+  "mb": 9.4
+ },
+ {
+  "file": "the-unified-six-v1.0-B-enar-hadith-vol3.pdf",
+  "edition": "B",
+  "lang": "enar",
+  "part": "hadith",
+  "volume": 3,
+  "range": "Nos. 3513\u20135273",
+  "pages": 501,
+  "mb": 9.1
+ },
+ {
+  "file": "the-unified-six-v1.0-B-enar-hadith-vol4.pdf",
+  "edition": "B",
+  "lang": "enar",
+  "part": "hadith",
+  "volume": 4,
+  "range": "Nos. 5274\u20137085",
+  "pages": 510,
+  "mb": 9.4
+ },
+ {
+  "file": "the-unified-six-v1.0-B-enar-hadith-vol5.pdf",
+  "edition": "B",
+  "lang": "enar",
+  "part": "hadith",
+  "volume": 5,
+  "range": "Nos. 7086\u20139148",
+  "pages": 526,
+  "mb": 9.5
+ },
+ {
+  "file": "the-unified-six-v1.0-B-enar-hadith-vol6.pdf",
+  "edition": "B",
+  "lang": "enar",
+  "part": "hadith",
+  "volume": 6,
+  "range": "Nos. 9149\u201310675",
+  "pages": 487,
+  "mb": 9.0
+ },
+ {
+  "file": "the-unified-six-v1.0-B-enar-hadith-vol7.pdf",
+  "edition": "B",
+  "lang": "enar",
+  "part": "hadith",
+  "volume": 7,
+  "range": "Nos. 10676\u201311804",
+  "pages": 450,
+  "mb": 8.9
+ },
+ {
+  "file": "the-unified-six-v1.0-B-enar-hadith-vol8.pdf",
+  "edition": "B",
+  "lang": "enar",
+  "part": "hadith",
+  "volume": 8,
+  "range": "Nos. 11805\u201313003",
+  "pages": 407,
+  "mb": 7.7
+ },
+ {
+  "file": "the-unified-six-v1.0-B-enar-appendix-vol1.pdf",
+  "edition": "B",
+  "lang": "enar",
+  "part": "appendix",
+  "volume": 1,
+  "range": "Nos. 1\u20134400",
+  "pages": 478,
+  "mb": 12.8
+ },
+ {
+  "file": "the-unified-six-v1.0-B-enar-appendix-vol2.pdf",
+  "edition": "B",
+  "lang": "enar",
+  "part": "appendix",
+  "volume": 2,
+  "range": "Nos. 4401\u20138800",
+  "pages": 468,
+  "mb": 12.6
+ },
+ {
+  "file": "the-unified-six-v1.0-B-enar-appendix-vol3.pdf",
+  "edition": "B",
+  "lang": "enar",
+  "part": "appendix",
+  "volume": 3,
+  "range": "Nos. 8801\u201313003",
+  "pages": 427,
+  "mb": 11.5
+ },
+ {
+  "file": "the-unified-six-v1.0-B-enar-combined.pdf",
+  "edition": "B",
+  "lang": "enar",
+  "part": "combined",
+  "volume": null,
+  "range": "all",
+  "pages": 5264,
+  "mb": 73.1
+ },
+ {
+  "file": "the-unified-six-v1.0-B-en-hadith-vol1.pdf",
+  "edition": "B",
+  "lang": "en",
+  "part": "hadith",
+  "volume": 1,
+  "range": "Nos. 1\u20133050",
+  "pages": 499,
+  "mb": 5.3
+ },
+ {
+  "file": "the-unified-six-v1.0-B-en-hadith-vol2.pdf",
+  "edition": "B",
+  "lang": "en",
+  "part": "hadith",
+  "volume": 2,
+  "range": "Nos. 3051\u20136389",
+  "pages": 513,
+  "mb": 5.6
+ },
+ {
+  "file": "the-unified-six-v1.0-B-en-hadith-vol3.pdf",
+  "edition": "B",
+  "lang": "en",
+  "part": "hadith",
+  "volume": 3,
+  "range": "Nos. 6390\u20139808",
+  "pages": 515,
+  "mb": 5.6
+ },
+ {
+  "file": "the-unified-six-v1.0-B-en-hadith-vol4.pdf",
+  "edition": "B",
+  "lang": "en",
+  "part": "hadith",
+  "volume": 4,
+  "range": "Nos. 9809\u201312079",
+  "pages": 463,
+  "mb": 4.6
+ },
+ {
+  "file": "the-unified-six-v1.0-B-en-hadith-vol5.pdf",
+  "edition": "B",
+  "lang": "en",
+  "part": "hadith",
+  "volume": 5,
+  "range": "Nos. 12080\u201313003",
+  "pages": 182,
+  "mb": 1.8
+ },
+ {
+  "file": "the-unified-six-v1.0-B-en-appendix-vol1.pdf",
+  "edition": "B",
+  "lang": "en",
+  "part": "appendix",
+  "volume": 1,
+  "range": "Nos. 1\u20134400",
+  "pages": 478,
+  "mb": 11.9
+ },
+ {
+  "file": "the-unified-six-v1.0-B-en-appendix-vol2.pdf",
+  "edition": "B",
+  "lang": "en",
+  "part": "appendix",
+  "volume": 2,
+  "range": "Nos. 4401\u20138800",
+  "pages": 468,
+  "mb": 11.7
+ },
+ {
+  "file": "the-unified-six-v1.0-B-en-appendix-vol3.pdf",
+  "edition": "B",
+  "lang": "en",
+  "part": "appendix",
+  "volume": 3,
+  "range": "Nos. 8801\u201313003",
+  "pages": 427,
+  "mb": 10.6
+ },
+ {
+  "file": "the-unified-six-v1.0-B-en-combined.pdf",
+  "edition": "B",
+  "lang": "en",
+  "part": "combined",
+  "volume": null,
+  "range": "all",
+  "pages": 3545,
+  "mb": 33.2
+ }
+]

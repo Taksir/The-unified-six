@@ -9,3 +9,5 @@ data/external/
 # Model downloads and embedding caches (recomputable)
 data/cache/
 out/
+typeset/build/
+data/release/hadith.work.jsonl
