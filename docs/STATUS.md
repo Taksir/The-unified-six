@@ -2,7 +2,7 @@
 
 *Pickup file for any session. Update at the end of every stage.*
 
-**Last updated:** 2026-10-13 · **Current milestone:** M5 built → publish (owner pushes tag `v1.0`) → M6 · **Branch:** `claude/blissful-franklin-z0z0m6`
+**Last updated:** 2026-10-13 · **Current milestone:** M5 built → publish v1.0 → M6 · **Branch:** `main` (= `claude/blissful-franklin-z0z0m6`)
 
 ## Budget
 
@@ -55,7 +55,9 @@ Spend log: `data/m1/spend.jsonl`. Batch IDs: `data/batches.json`.
 
 ## Next
 
-1. **Publish v1.0:** push tag `v1.0` (owner's go); enable Zenodo for the repo for a DOI.
+1. **Publish v1.0** (owner approved): set `main` as the default branch, then run the `release` workflow
+   on `main` with tag `v1.0` (Actions tab → release → Run workflow; build sessions cannot push tags).
+   Zenodo is enabled by the owner, so the release gets a DOI.
 2. **M6 — website** (GitHub Pages + Pagefind), from `data/release/`.
 
 ## Owner decisions on record
